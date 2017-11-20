@@ -75,12 +75,9 @@ body > section,
 ==========================================*/
 
 #navigation {
-  background-color: rgba(16, 22, 54, 0.2);
+  background-color: rgba(16, 22, 16, 1);
   border: 0 none;
   margin: 0;
-  
-
-			transition: background-color 800ms linear;
 }
 
 .navbar-toggle i {
@@ -97,55 +94,45 @@ body > section,
 	color: rgb(255, 255, 255);
 }
 
-
-
-
-/*=========================================
-	Slider
-==========================================*/
-
-#slider {
-	padding: 0;
+.heslodne {
+  color: white;
+  text-align: center;
 }
 
-#slider .carousel-inner .item {
-  background-size: cover;
-}
-
-.carousel-caption {
-  top: 50%;
-}
-
-.carousel-caption h2 {
+.heslodne h2 {
   font-size: 62px;
   font-weight: 300;
 }
 
-.carousel-caption h2 span {
+.heslodne h2 span {
   font-weight: 400;
 }
 
-.carousel-caption p {
-  color: #fff;
+.heslodne p {
   font-size: 18px;
   font-weight: 300;
+  margin-left: 2rem;
+  margin-right: 2rem;
 }
 
-.carousel-caption p:before,
-.carousel-caption p:after {
+.heslodne p:before,
+.heslodne p:after {
 color: #8C2318;
 content: "___";
 position: relative;
 top: -8px;
 }
 
-.carousel-caption p:before {
+.heslodne p:before {
   right: 20px;
 }
 
-.carousel-caption p:after {
+.heslodne p:after {
   left: 20px;
 }
+
+
+
 
 
 
@@ -155,6 +142,8 @@ top: -8px;
 
 .features {
   background-color: #f4f7f9;
+  display:flex;
+  min-height: 100vh;
 }
 
 .service-icon {
@@ -177,3 +166,135 @@ top: -8px;
   margin-top: 10px;
   margin-bottom: 25px;
 }
+
+
+
+/*=========================================
+	media-queries
+==========================================*/
+
+/*============================================================
+	Tablet (Portrait) Design for a width of 768px
+==============================================================*/
+
+@media (min-width: 768px) and (max-width: 979px) {
+  
+  
+  /* slider */
+  
+  .heslodne h2 {
+    font-size: 55px;
+  }
+  
+  /* services */
+  
+  .service-item {
+    margin: 0 auto 30px;
+    text-align: center;
+    width: 325px;
+  }
+  
+  .service-icon {
+    float: none;
+    margin: 0 auto 15px;
+    text-align: center;
+    width: 50px;
+  }
+  
+  .service-desc {
+    margin-left: 0;
+    position: relative;
+    top: 0;
+  }
+  }
+  
+  
+  /*============================================================
+    Mobile (Portrait) Design for a width of 320px
+  ==============================================================*/
+  
+  @media only screen and (max-width: 767px) {
+  
+  .sec-sub-title p {
+    font-size: 14px;
+  }
+  
+  /* slider */
+  .heslodne h2 {
+    font-size: 35px;
+  }
+  
+  .heslodne p {
+    font-size: 14px;
+  }
+  
+  
+  
+  /* services */
+  
+  .service-item {
+    margin: 0 auto 30px;
+    text-align: center;
+    width: 280px;
+  }
+  
+  .service-icon {
+    float: none;
+    margin: 0 auto 15px;
+    text-align: center;
+    width: 50px;
+  }
+  
+  .service-desc {
+    margin-left: 0;
+    position: relative;
+    top: 0;
+  }
+  
+  }
+  
+  
+  /*============================================================
+    Mobile (Landscape) Design for a width of 480px
+  ==============================================================*/
+  
+  @media only screen and (min-width: 480px) and (max-width: 767px) {
+  
+  
+  /* services */
+  
+  .service-item {
+    margin: 0 auto 30px;
+    text-align: center;
+    width: 325px;
+  }
+  
+  .service-icon {
+    float: none;
+    margin: 0 auto 15px;
+    text-align: center;
+    width: 50px;
+  }
+  
+  .service-desc {
+    margin-left: 0;
+    position: relative;
+    top: 0;
+  }
+  }
+  
+  
+  @media (max-width: 767px) {
+  
+    .centerKontakt {
+      width: 160px;
+    }
+    
+    }
+  
+    @media (min-width: 768px) {
+      .centerKontakt {
+        width: 250px;
+      }
+    }
+  
