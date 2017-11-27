@@ -39,8 +39,8 @@
             color: black;
         }
 
-        #navigation {
-            background-color: rgba(16, 22, 16, 1);
+         #navigation {
+            background-color: rgba(16, 22, 16, .9);
             border: 0 none;
             margin: 0;
         }
@@ -77,6 +77,27 @@
         p {
             margin-top: 50px;
         }
+
+   
+.navbar-header {
+  float: none;
+}
+.navbar-toggle {
+  display: block;
+}
+.navbar-collapse.collapse {
+  display: none!important;
+}
+.navbar-nav {
+  float: none!important;
+}
+.navbar-nav>li {
+  float: none;
+}
+.navbar-collapse.collapse.in{
+  display:block !important;
+}
+    
     </style>
 </head>
 
@@ -94,7 +115,7 @@
             </div>
 
             <!-- main nav -->
-            <nav class="collapse navbar-collapse navbar-right">
+            <nav class="collapse navbar-collapse navbar-left">
                 <ul id="nav" class="nav navbar-nav">
                     <li>
                         <a class="external" href="./index.html#Farnosti">Farnosti</a>
@@ -180,13 +201,9 @@
                 <span class="MysDatum">ne 17.6.</span><span class="MysCas">9:30h</span><span>mše sv. v Seči</span>
             </p>
 
-
-
-
-
         </div>
     </div>
-    <script async type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <script async type="text/javascript" src="js/jquery.singlePageNav.min.js"></script>
     <script async type="text/javascript" src="js/bootstrap.min.js"></script>
     <script async type="text/javascript" src="https://www.googletagmanager.com/gtag/js?id=UA-34344041-1"></script>

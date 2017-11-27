@@ -75,7 +75,7 @@ body > section,
 ==========================================*/
 
 #navigation {
-  background-color: rgba(16, 22, 16, 1);
+  background-color: rgba(16, 22, 16, .9);
   border: 0 none;
   margin: 0;
 }
