@@ -1,4 +1,45 @@
-body {
-  background: url('http://placehold.it/1920x1080') no-repeat center center fixed;
-  background-size: cover;
+
+
+
+.heslodne {
+  color: white;
+  text-align: center;
+}
+
+.heslodne h2 {
+  font-size: 62px;
+  font-weight: 300;
+}
+
+.heslodne h2 span {
+  font-weight: 400;
+}
+
+.heslodne p {
+  font-size: 18px;
+  font-weight: 300;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+.heslodne p:before,
+.heslodne p:after {
+color: #8C2318;
+content: "___";
+position: relative;
+top: -8px;
+}
+
+.heslodne p:before {
+  right: 20px;
+}
+
+.heslodne p:after {
+  left: 20px;
+}
+
+.features {
+  background-color: #f4f7f9;
+  display:flex;
+  min-height: 100vh;
 }
