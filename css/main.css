@@ -115,13 +115,13 @@ body > section,
   margin-right: 2rem;
 }
 
-.heslodne p:before,
+/*.heslodne p:before,
 .heslodne p:after {
 color: #8C2318;
 content: "___";
 position: relative;
 top: -8px;
-}
+}*/
 
 .heslodne p:before {
   right: 20px;
