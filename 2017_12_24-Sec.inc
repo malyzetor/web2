@@ -8,8 +8,8 @@
 			</h2>
 			<br />
             <br />
-            <a href="./2017_12_24-Sec-betlem3.pdf" class="btn btn-danger btn-lg" role="button"><i class="fas fa-child fa-fw"></i>Setkání u betléma</a>
-            <a href="./2017-vanoce.pdf" class="btn btn-info btn-lg" role="button"><i class="fas fa-tree fa-fw"></i>Vánoční bohoslužby</a>
+            <a href="./pdf/2017_12_24-Sec-betlem3.pdf" class="btn btn-danger btn-lg" role="button"><i class="fas fa-child fa-fw"></i>Setkání u betléma</a>
+            <a href="./pdf/2017-vanoce.pdf" class="btn btn-info btn-lg" role="button"><i class="fas fa-tree fa-fw"></i>Vánoční bohoslužby</a>
 		</div>
 	</div>
 </section>
