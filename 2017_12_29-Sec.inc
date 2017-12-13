@@ -1,4 +1,4 @@
-<section id="Vanoce2017" class="features" style=" background-image: url(img/2017-becket.jpg); background-repeat:no-repeat; background-size: cover; background-position:center center;">
+<section id="Becket2017" class="features" style=" background-image: url(img/2017-becket.jpg); background-repeat:no-repeat; background-size: cover; background-position:center center;">
 	<div class="container" style="margin-top: auto; margin-bottom: auto;">
 		<div class="heslodne" style="color:black;">
 			<img src="img/mec.svg" style="width: 3em; transform: rotate(240deg);" class="rounded float-right" alt="Hvězda"><br />

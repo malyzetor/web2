@@ -22,8 +22,8 @@ figure, p {
 }
 
 a {
-    color: rgb(242,196,90);
-            transition: all .3s ease-in 0s;
+  color: rgb(242,196,90);
+  transition: all .3s ease-in 0s;
 }
 
 a, a:focus, a:hover {
@@ -94,6 +94,20 @@ body > section,
 	color: rgb(255, 255, 255);
 }
 
+.dropdown-menu {
+  background-color: rgba(16, 22, 16, .9);
+  font-size: 15px;
+}
+
+.dropdown li a {
+  color: rgb(242,196,90);
+}
+
+.nav .open>a, .nav .open>a:focus, .nav .open>a:hover {
+  background-color: black;
+}
+
+
 .heslodne {
   color: white;
   text-align: center;
@@ -114,14 +128,6 @@ body > section,
   margin-left: 2rem;
   margin-right: 2rem;
 }
-
-/*.heslodne p:before,
-.heslodne p:after {
-color: #8C2318;
-content: "___";
-position: relative;
-top: -8px;
-}*/
 
 .heslodne p:before {
   right: 20px;
