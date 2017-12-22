@@ -1,23 +1,23 @@
-<section id="heslodne" class="features" style=" background-image: url(img/advent.jpg); background-repeat:no-repeat; background-size: cover; background-position:center center;">
+<section id="heslodne" class="features" style=" background-image: url(img/2017-vanoce.jpg); background-repeat:no-repeat; background-size: cover; background-position:center center;">
 	<div class="container" style="margin-top: auto; margin-bottom: auto;">
-		<div class="heslodne">
+		<div class="heslodne" style="color:black;">
 			<h2>
-				Advent.
+				Zrození Krista.
 			</h2>
 			<br />
 			<p>
 				<br />
-				V den šestý člověk stvořen byl,<br />
-				a kdyby si byl zachoval<br />
-				podobu, již mu vtiskl Bůh,<br />
-				byl by moh’ vždy žít blaženě.<br />
+				Vy, kteří Krista hledáte,<br />
+				do výše oči zdvihněte:<br />
+				Tam bude možné uvidět<br />
+				znamená slávy pro náš svět.<br />
 				<br />
-				Však k lidstva spáse Stvořitel<br />
-				sám na svět musil sestoupit<br />
-				v takovém těle, v jakém kdys<br />
-				v den šestý člověk stvořen byl.<br />
+				To je ten vládce národů<br />
+				a židovského lidu král,<br />
+				Abrahamovi přiřčený<br />
+				a jeho rodu navěky.<br />
 				<br />
-				<em>Beda Ctihodný: Prima creator sæculi…</em>
+				<em>Prudentius: Quicumque Christum quæritis…</em>
 				<br />
 			</p>
 		</div>
