@@ -10,7 +10,7 @@
 				Vy, kteří Krista hledáte,<br />
 				do výše oči zdvihněte:<br />
 				Tam bude možné uvidět<br />
-				znamená slávy pro náš svět.<br />
+				znamení slávy pro náš svět.<br />
 				<br />
 				To je ten vládce národů<br />
 				a židovského lidu král,<br />
