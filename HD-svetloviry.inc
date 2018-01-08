@@ -6,9 +6,9 @@
 			</h2>
 			<br />
 		    <br />
-			<p>Každý křesťan a&nbsp;každé společenství budou rozlišovat, jakou cestu od nich Pán žádá, nicméně všichni jsme pozváni
-				přijmout toto povolání – vykročit z&nbsp;vlastního pohodlí a&nbsp;mít odvahu vydat se do všech periferií, které potřebují
-				světlo evangelia.
+			<p>Každý křesťan a&nbsp;každé společenství budou rozlišovat, jakou cestu od nich Pán žádá, <br />
+				nicméně všichni jsme pozváni přijmout toto povolání: <br />
+				vykročit z&nbsp;vlastního pohodlí a&nbsp;mít odvahu vydat se do všech periferií, které potřebují světlo evangelia.
 				<em>(Evangelii gaudium, čl.&nbsp;20)</em>
             </p>
 		</div>
