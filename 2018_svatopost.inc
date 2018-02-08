@@ -1,6 +1,9 @@
 <section id="Svatopost2018" class="features">
 	<div class="container" style="margin-top: auto; margin-bottom: auto;">
-        <img src="img/2018-svatopost.jpg" style="width:100%;">
+		<img src="img/2018-svatopost.jpg" style="width:100%;">
+		<div style="width:52.4%; background-color:red;height: 100px;">
+			nvim
+		</div>
 		<div class="heslodne" style="color:black;">
 			<img src="img/mec.svg" style="width: 3em; transform: rotate(240deg);" class="rounded float-right" alt="Hvězda"><br />
 			<h2>
