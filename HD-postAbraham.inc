@@ -2,7 +2,7 @@
 	<div class="container" style="margin-top: auto; margin-bottom: auto;">
 		<div class="heslodne" style="color:black;">
 			<h2>
-				Abrahám a Sára.
+				Svatopostní doba.
 			</h2>
 			<br />
 			<p>
