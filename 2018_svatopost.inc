@@ -1,19 +1,14 @@
-<section id="Svatopost2018" class="features">
+<section id="Svatopost2018" class="features" style="background-color:white;">
 	<div class="container" style="margin-top: auto; margin-bottom: auto;">
-		<img src="img/2018-svatopost.jpg" style="width:100%;">
-		<div style="width:52.4%; background-color:#7C7270;font-size:55px; font-weight:300; color:white; line-height:100%; text-align:center">
-			večerní<br />četba<br />žalmů<br />
+
+		
+		<div style="text-align:center;color:white;position: relative;">
+			<img src="img/2018-svatopost.jpg" style="width: 100%;">
+			<div style="top:50%;left:50%;transform: translate(-50%, -50%);position: absolute;font-size:13vw;font-weight:300;text-shadow: 2px 2px black;line-height:1em">Abrahám<br />a Sára.</div>
 		</div>
-		<div class="heslodne" style="color:black;">
-			<img src="img/mec.svg" style="width: 3em; transform: rotate(240deg);" class="rounded float-right" alt="Hvězda"><br />
-			<h2>
-                29. 12.<br />
-                Nedokončené nešpory
-			</h2>
-			<br />
-            <br />
-            <a href="./pdf/2017_12_29-Sec-Becket.pdf" class="btn btn-danger btn-lg" role="button"><i class="fas fa-heartbeat fa-fw"></i>Nedokončené nešpory</a>
-            <a href="./pdf/2017-vanoce.pdf" class="btn btn-info btn-lg" role="button"><i class="fas fa-tree fa-fw"></i>Vánoční bohoslužby</a>
-		</div>
+		<div style="background-color:black; color:gold; font-size:1.5em; padding:1em 0; text-align:center">
+				biblické žalmy a&nbsp;příběh Abrahámovy životní cesty
+			</div>	
+		<div style="font-size:1.5em;color:black;text-align:center;line-height:120%;margin:1em 0;">každý pátek od 18.00 hod. v&nbsp;kostele sv.&nbsp;Vavřince v&nbsp;Seči<a href="./ohlasky.pdf" style="color:#8C2318;margin-left:1em;" title="Aktuální ohlášky"><i class="far fa-file-pdf"></i></a></div>
 	</div>
 </section>
