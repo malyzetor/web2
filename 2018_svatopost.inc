@@ -10,7 +10,7 @@
 
 		<div style="font-size:.6em;color:black;margin:1em 0; line-height:120%">
 			každý pátek od 18.00 hod. v&nbsp;kostele sv.&nbsp;Vavřince v&nbsp;Seči
-			<a href="./pdf/2018-svatopost_web.pdf" style="color:#8C2318;margin-left:.2em;" title="Aktuální ohlášky">
+			<a href="./pdf/2018-svatopost_web.pdf" style="color:#8C2318;margin-left:.2em;" title="Svatopostní doba 2018">
 				<i class="far fa-file-pdf"></i>
 			</a>
 		</div>
