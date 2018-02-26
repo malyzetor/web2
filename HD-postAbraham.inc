@@ -1,4 +1,4 @@
-<section id="heslodne" class="features" style=" background-image: url(img/HD-postAbraham.jpg); background-repeat:no-repeat; background-size: cover; background-position:center center;">
+<section id="heslodne" class="features" style="background-image: url(img/HD-postAbraham.jpg); background-repeat:no-repeat; background-size: cover; background-position:center center;">
 	<div class="container" style="margin-top: auto; margin-bottom: auto;">
 		<div class="heslodne" style="color:black;">
 			<h2>

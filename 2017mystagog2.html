@@ -110,8 +110,21 @@
             float: none;
         }
         
-        .navbar-collapse.collapse.in{
+        .navbar-collapse.collapse.in {
             display:block !important;
+        }
+
+        .Skrt {
+            position: relative;
+            display: inline-block;
+        }
+        .Skrt::before {
+            content: '';
+            border-bottom: 2px double red;
+            width: 100%;
+            position: absolute;
+            right: 0;
+            top: 50%;
         }
     </style>
 </head>
@@ -196,7 +209,7 @@
 
             <p>
                 <span class="MysMesic">březen 2018</span><br />
-                <span style="text-decoration: line-through double red;"><span class="MysDatum" style="text-decoration:inherit;">so 3.3.</span><span class="MysCas" style="text-decoration:inherit;">17h</span><span>svatopostní setkání v Oáze</span></span><br />
+                <span class="Skrt"><span class="MysDatum">so 3.3.</span><span class="MysCas">17h</span><span>svatopostní setkání v Oáze</span></span><br />
                 <span class="MysDatum">so 17.3.</span><span class="MysCas">17h</span><span>svatopostní setkání v Oáze</span><br />
                 <span class="MysDatum">ne 18.3.</span><span class="MysCas">9:30h</span><span>mše sv. v Seči</span>
             </p>

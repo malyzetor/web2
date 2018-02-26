@@ -48,10 +48,23 @@ body {
   src: url('../fonts/barlow/Barlow-Bold.woff2') format('woff2');
 }
 @font-face {
-  font-family: 'Barlow Condensed';
+  font-family: 'Barlow';
   font-style: normal;
   font-weight: 800;
   src: url('../fonts/barlow/Barlow-ExtraBold.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Barlow Condensed';
+  font-style: normal;
+  font-weight: 300;
+  src: url('../fonts/barlow/BarlowCondensed-Light.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Barlow Condensed';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/barlow/BarlowCondensed-Regular.woff2') format('woff2');
 }
 
 ol, ul {
@@ -179,7 +192,29 @@ body > section,
   left: 20px;
 }
 
+.veliDen {
+  font-size: 2em;
+  font-weight: 300;
+  padding-top: 1em;
+  padding-bottom: 0.2em;
+}
 
+.veliMisto {
+  padding-left: 10px;
+  padding-bottom: 0.4em;
+  padding-top: 0.4em;
+  color: #8C2318;
+}
+
+.veliCas {
+  padding-left: 10px;
+  padding-bottom:0.5em;
+}
+
+.veliTime {
+  display: inline-block;
+  width: 85px;
+}
 
 
 
