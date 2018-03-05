@@ -24,9 +24,9 @@
         </div>
     </div>
 </section>
-<section id="Velikonoce20183" class="features" style="background-image: url(img/2018-Ecce_Abraham_et_Sara.jpg); background-repeat:no-repeat; background-size: cover; background-position:center center;">
+<section id="Velikonoce20183" class="features" style="background-image: url(img/2018-ecce.jpg); background-repeat:no-repeat; background-size: cover; background-position:right center;">
 	<div class="container" style="margin-top: auto; margin-bottom: auto;text-align:center;font-size:3.5em;">
-		<div style="color:black; margin:1em 0; line-height:120%;text-shadow: 1px 1px 2px #ddc1b9;">
+		<div style="color:white; margin:1em 0; line-height:120%;text-shadow: 1px 1px 2px black;">
             Velikonoce na Míčově<br />
             „Ecce Abraham et Sara“<br />
         </div>
