@@ -1,4 +1,4 @@
-<section id="heslodne" class="features" style="background-color:#660319;">
+<section id="heslodne" class="features" style="background-color:#940322;">
 	<div class="container" style="margin-top: auto; margin-bottom: auto;">
 		<div class="heslodne" style="color:black;">
 			<h2 style="text-transform: uppercase; font-size:8em;">
