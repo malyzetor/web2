@@ -27,19 +27,8 @@
 			</div>
 			<nav class="collapse navbar-collapse navbar-right">
 				<ul id="nav" class="nav navbar-nav">
-					<li class="dropdown">
-						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Velikonoce<span class="caret"></span></a>
-						<ul class="dropdown-menu">
-							<li><a href="#Velikonoce2018">Velikonoce na Míčově</a></li>
-							<li><a href="#Velikonoce20184">Žalmy na Seči</a></li>
-							<li><a class="external" href="./pdf/2018_02_28-Velikonoce-prehled.pdf">Rozpis&nbsp;&nbsp;(PDF)</a></li>
-						</ul>
-					</li>
 					<li>
-						<a href="#Svatopost2018">Svatopostní program</a>
-					</li>
-					<li>
-							<a href="#Bohosluzby">Pořad bohoslužeb</a>
+						<a href="#Bohosluzby">Pořad bohoslužeb</a>
 					</li>
 					<li class="dropdown">
 						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Farnosti<span class="caret"></span></a>
@@ -139,8 +128,6 @@
 		</div>
 	</section>
 
-	<div id="jSvatopost"></div>
-
 	<section id="Bohosluzby" class="features">
 		<div class="container" style="margin-top: auto; margin-bottom: auto;">
 			<div class="row">
@@ -177,26 +164,9 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-md-6">
-					<div class="service-item">
-						<div class="service-icon" style="width: 100px;">
-							<a href="./pdf/2018_02_28-Velikonoce-prehled.pdf" style="color:rgb(107, 45, 38);" title="Velikonoce 2018">
-								<i class="fas fa-tint fa-5x fa-fw"></i>
-							</a>
-						</div>
-						<div class="service-desc">
-							<h3>Velikonoce 2018</h3>
-							<p>Rozpis bohoslužeb ve Svatém týdnu.<b><span id="jDatumOhlasek2"></span></b><a href="./pdf/2018_02_28-Velikonoce-prehled.pdf" style="color:#8C2318;" title="Velikonoce 2018"><i class="far fa-file-pdf"></i></a>
-							</p>
-						</div>
-					</div>
-				</div>
 			</div>
 		</div>
 	</section>
-
-	<div id="jVelikonoce"></div>
-	<div id="jVelikonoce2"></div>
 
 	<section id="Kontakt" class="features"  style="background-color:white;">
 		<div class="container" style="margin-top: auto; margin-bottom: auto;">
@@ -241,10 +211,7 @@
 			});
 		});
 
-		$( "#jHD" ).load( "./HD-svatytyden2018.inc" );
-		$( "#jSvatopost" ).load( "./2018_svatopost.inc" );
-		$( "#jVelikonoce" ).load( "./2018_velikonoce.inc" );
-		$( "#jVelikonoce2" ).load( "./2018_velikonoce2.inc" );
+		$( "#jHD" ).load( "./HD-velikonoce2018.inc" );
 		$( "#jDatumOhlasek" ).load( "./datum_ohlasek.inc" );
 	</script>
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-34344041-1"></script>
