@@ -2,7 +2,7 @@
 	<div class="container" style="margin-top: auto; margin-bottom: auto;">
 		<div class="heslodne" style="color:black; background-color: rgba(255,255, 255, .6)">
 			<h2>
-        		<span>Osobité cesti svatosti.</span>
+        		<span>Osobité cesty svatosti.</span>
 			</h2>
 			<br />
 		    <br />
