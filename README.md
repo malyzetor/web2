@@ -1,2 +1,3 @@
-# Římskokatolická farnost Seč a okolí
-úprava responzivních stránek farnosti a programu mystagogické katecheze
+# Římskokatolická farnost - Děkanství Světlá nad Sázavou
+# Římskokatolická farnost Číhošť
+úprava responzivních stránek farnosti
