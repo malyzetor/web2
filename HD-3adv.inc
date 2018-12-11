@@ -2,7 +2,7 @@
 	<div class="container" style="margin-top: auto; margin-bottom: auto;">
 		<div class="heslodne" style="color:black; background-color: rgba(255,255, 255, .6)">
 			<h2>
-        		<span>3.&nbsp;neděle advetní v Číhošti</span>
+        		<span>3.&nbsp;neděle advetní v&nbsp;Číhošti</span>
 			</h2>
 			<br />
 		    <br />
