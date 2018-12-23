@@ -52,8 +52,7 @@
 		</div>
 	</header>
 
-<!-- dynamicky generované heslo dne; dole je skript jQuery -->
-	<div id="jHD"></div>
+	<div id="jHD"><?php include('./HD-advent.inc'); ?></div>
 
 	<section id="Farnosti" class="features"  style="display:flex; min-height: 100vh;">
 		<div class="container" style="margin-top: auto; margin-bottom: auto;">
@@ -163,7 +162,20 @@
 				<div class="sec-title text-center mb50">
 					<h2>Pořad bohoslužeb</h2>
 				</div>
-				<div class="col-md-3"></div>
+				<!-- <div class="col-md-3"></div> -->
+				<div class="col-md-6">
+					<div class="service-item">
+						<div class="service-icon" style="width: 100px;">
+							<a href="./pdf/2018_Vanoce.pdf" style="color:#8C2318;" title="Aktuální ohlášky"><img src="img/star-christmas.svg" style="width: 5em;" class="rounded float-right" alt="Josef Toufar (✝1950)" /></a>
+						</div>
+						<div class="service-desc">
+							<h3>Vánoční svátky</h3>
+							<p>Rozpis bohoslužeb ve dnech 23. 12. 2018 až 1. 1. 2019.&nbsp;&nbsp;<a href="./pdf/2018_Vanoce.pdf" style="color:#8C2318;" title="Vanoce 2018"><i class="far fa-file-pdf"></i></a>
+							</p>
+						</div>
+					</div>
+				</div>
+
 				<div class="col-md-6">
 					<div class="service-item">
 						<div class="service-icon" style="width: 100px;">
@@ -174,7 +186,7 @@
 						<div class="service-desc">
 							<h3>Aktuální ohlášky</h3>
 							<p>Rozpis bohoslužeb a dalších sdělení pro aktuální týden.<br/>
-								<b><span id="jDatumOhlasek"></span></b><a href="./ohlasky.pdf" style="color:#8C2318;" title="Aktuální ohlášky"><i class="far fa-file-pdf"></i></a>
+								<b><span id="jDatumOhlasek"><?php include('./datum_ohlasek.inc'); ?></span></b><a href="./ohlasky.pdf" style="color:#8C2318;" title="Aktuální ohlášky"><i class="far fa-file-pdf"></i></a>
 							</p>
 						</div>
 					</div>
@@ -205,11 +217,12 @@
 	<!-- Essential jQuery Plugins
 		================================================== -->
 	<script src="js/jquery-3.2.1.min.js"></script>
-	<script async src="js/jquery.singlePageNav.min.js"></script>
-	<script async src="js/bootstrap.min.js"></script>
-	<script async src="js/jquery.easing.min.js"></script>	
-	<script defer src="./js/jag-fontawesome.min.js"></script>
-	<script>
+	<!-- <script async src="js/jquery.singlePageNav.min.js"></script>
+	<script async src="js/jquery.easing.min.js"></script>	-->
+    <script async src="js/smooth.js"></script>
+    <script async src="js/bootstrap.min.js"></script>
+    <script defer src="./js/jag-fontawesome.min.js"></script>
+	<!-- <script>
 		$(document).ready(function () {
 		/* scroling */
 			jQuery('#nav').singlePageNav({
@@ -227,9 +240,7 @@
 			}
 			});
 		});
-		$( "#jHD" ).load( "./HD-advent.inc" );
-		$( "#jDatumOhlasek" ).load( "./datum_ohlasek.inc" );
-	</script>
+	</script> -->
 </body>
 
 </html>
