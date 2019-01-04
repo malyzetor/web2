@@ -11,6 +11,7 @@
   		gtag('config', 'UA-123153363-1');
 	</script>
 
+
 	<meta charset="utf-8">
 	<title>Římskokatolické farnosti Světlá nad Sázavou a Číhošť</title>
 	<meta name="description" content="Římskokatolické farnosti Světlá nad Sázavou a Číhošť">
@@ -34,7 +35,7 @@
 			<nav class="collapse navbar-collapse navbar-right">
 				<ul id="nav" class="nav navbar-nav">
 					<li>
-						<a href="#Bohosluzby">Pořad bohoslužeb</a>
+						<a data-scroll href="#Bohosluzby">Pořad bohoslužeb</a>
 					</li>
 					<li class="dropdown">
 						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Farnosti<span class="caret"></span></a>
@@ -45,14 +46,14 @@
 						</ul>
 					</li>
 					<li>
-						<a href="#Toufar">Toufar—Číhošť</a>
+						<a data-scroll href="#Toufar">Toufar—Číhošť</a>
 					</li>
 				</ul>
 			</nav>
 		</div>
 	</header>
 
-	<div id="jHD"><?php include('./HD-advent.inc'); ?></div>
+	<div id="jHD"><?php include('./HD-vanoce2018.inc'); ?></div>
 
 	<section id="Farnosti" class="features"  style="display:flex; min-height: 100vh;">
 		<div class="container" style="margin-top: auto; margin-bottom: auto;">
@@ -162,20 +163,7 @@
 				<div class="sec-title text-center mb50">
 					<h2>Pořad bohoslužeb</h2>
 				</div>
-				<!-- <div class="col-md-3"></div> -->
-				<div class="col-md-6">
-					<div class="service-item">
-						<div class="service-icon" style="width: 100px;">
-							<a href="./pdf/2018_Vanoce.pdf" style="color:#8C2318;" title="Aktuální ohlášky"><img src="img/star-christmas.svg" style="width: 5em;" class="rounded float-right" alt="Josef Toufar (✝1950)" /></a>
-						</div>
-						<div class="service-desc">
-							<h3>Vánoční svátky</h3>
-							<p>Rozpis bohoslužeb ve dnech 23. 12. 2018 až 1. 1. 2019.&nbsp;&nbsp;<a href="./pdf/2018_Vanoce.pdf" style="color:#8C2318;" title="Vanoce 2018"><i class="far fa-file-pdf"></i></a>
-							</p>
-						</div>
-					</div>
-				</div>
-
+				<div class="col-md-3"></div>
 				<div class="col-md-6">
 					<div class="service-item">
 						<div class="service-icon" style="width: 100px;">
@@ -216,10 +204,10 @@
 
 	<!-- Essential jQuery Plugins
 		================================================== -->
-	<script src="js/jquery-3.2.1.min.js"></script>
+	<!-- <script src="js/jquery-3.2.1.min.js"></script> -->
 	<!-- <script async src="js/jquery.singlePageNav.min.js"></script>
 	<script async src="js/jquery.easing.min.js"></script>	-->
-    <script async src="js/smooth.js"></script>
+	<script async src="js/smooth.js"></script>
     <script async src="js/bootstrap.min.js"></script>
     <script defer src="./js/jag-fontawesome.min.js"></script>
 	<!-- <script>
@@ -241,6 +229,9 @@
 			});
 		});
 	</script> -->
+	<script>
+		var scroll = new SmoothScroll('a[href*="#"]');
+	</script>
 </body>
 
 </html>
