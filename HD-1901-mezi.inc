@@ -8,7 +8,7 @@
 		    <br />
             <p> Věrohodnost se rodí z&nbsp;důvěry,<br />
                 a&nbsp;důvěra se rodí z&nbsp;velkorysé služby každému člověku:<br />
-                služby, jenž nevede k získání společenského uznání a&nbsp;prestiže,<br />
+                služby, jež nevede k získání společenského uznání a&nbsp;prestiže,<br />
                 ale dotýká se „tepajícího srdce evangelia“.<br />
                 <br />
                <em style="font-size:.8em;text-align: right">podle František: Dopis biskupů USA (1.&nbsp;1.&nbsp;2019)</em><br />
