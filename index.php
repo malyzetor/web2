@@ -11,7 +11,6 @@
   		gtag('config', 'UA-123153363-1');
 	</script>
 
-
 	<meta charset="utf-8">
 	<title>Římskokatolické farnosti Světlá nad Sázavou a Číhošť</title>
 	<meta name="description" content="Římskokatolické farnosti Světlá nad Sázavou a Číhošť">
@@ -19,7 +18,9 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
 	<link rel="stylesheet" href="css/bootstrap.min.css">
-	<link rel="stylesheet" href="css/main.css">
+	<style>
+		<?php include('css/main.min.css'); ?>
+	</style>
 </head>
 
 <body id="body">
@@ -35,7 +36,7 @@
 			<nav class="collapse navbar-collapse navbar-right">
 				<ul id="nav" class="nav navbar-nav">
 					<li>
-						<a data-scroll href="#Bohosluzby">Pořad bohoslužeb</a>
+						<a href="#Bohosluzby">Pořad bohoslužeb</a>
 					</li>
 					<li class="dropdown">
 						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Farnosti<span class="caret"></span></a>
@@ -46,14 +47,15 @@
 						</ul>
 					</li>
 					<li>
-						<a data-scroll href="#Toufar">Toufar—Číhošť</a>
+						<a href="#Toufar">Toufar—Číhošť</a>
 					</li>
 				</ul>
 			</nav>
 		</div>
 	</header>
 
-	<div id="jHD"><?php include('./HD-vanoce2018.inc'); ?></div>
+<!-- dynamicky generované heslo dne; dole je skript jQuery -->
+	<div id="jHD"><?php include('./HD-1901-mezi.inc'); ?></div>
 
 	<section id="Farnosti" class="features"  style="display:flex; min-height: 100vh;">
 		<div class="container" style="margin-top: auto; margin-bottom: auto;">
@@ -122,7 +124,7 @@
 				<div class="sec-sub-title">
 					<p>Kostel Nanebevzetí Panny Marie v&nbsp;Číhošti je otevřený v&nbsp;době bohoslužeb nebo po předchozí domluvě.<br />Za podobných podmínek je přístupná i&nbsp;výstava o&nbsp;životě P.&nbsp;Josefa Toufara v&nbsp;budově místní fary.<br/>
 						<br />
-					Každou <abbr title="8. září 2018; 13. říjen; 10. listopad; 8. prosinec">druhou sobotu</abbr> v&nbsp;měsíci je <b>smírná pobožnost</b>.<br />
+					Každou <abbr title="12. leden 2019; 9. únor; 9. březen">druhou sobotu</abbr> v&nbsp;měsíci je <b>smírná pobožnost</b>.<br />
 					<span style="margin-left: 2em; display: inline-block; width: 5em;">8.45 hod.</span>— modlitba růžence<br />
 					<span style="margin-left: 2em; display: inline-block; width: 5em;">9.30 hod.</span>— mše svatá<br />
 					<span style="margin-left: 2em; display: inline-block; width: 5em;"></span>— eucharistická adorace<br />
@@ -204,13 +206,12 @@
 
 	<!-- Essential jQuery Plugins
 		================================================== -->
-	<!-- <script src="js/jquery-3.2.1.min.js"></script> -->
-	<!-- <script async src="js/jquery.singlePageNav.min.js"></script>
-	<script async src="js/jquery.easing.min.js"></script>	-->
-	<script async src="js/smooth.js"></script>
-    <script async src="js/bootstrap.min.js"></script>
-    <script defer src="./js/jag-fontawesome.min.js"></script>
-	<!-- <script>
+	<script src="js/jquery-3.2.1.min.js"></script>
+	<script async src="js/jquery.singlePageNav.min.js"></script>
+	<script async src="js/bootstrap.min.js"></script>
+	<script async src="js/jquery.easing.min.js"></script>	
+	<script defer src="./js/jag-fontawesome.min.js"></script>
+	<script>
 		$(document).ready(function () {
 		/* scroling */
 			jQuery('#nav').singlePageNav({
@@ -228,9 +229,6 @@
 			}
 			});
 		});
-	</script> -->
-	<script>
-		var scroll = new SmoothScroll('a[href*="#"]');
 	</script>
 </body>
 
