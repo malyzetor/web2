@@ -54,7 +54,7 @@
 		</div>
 	</header>
 
-<!-- dynamicky generované heslo dne; dole je skript jQuery -->
+<!-- dynamicky generované heslo dne -->
 	<div id="jHD"><?php include('./HD-1901-mezi.inc'); ?></div>
 
 	<section id="Farnosti" class="features"  style="display:flex; min-height: 100vh;">
@@ -204,13 +204,7 @@
 		</div>
 	</section>
 
-	<!-- Essential jQuery Plugins
-		================================================== -->
-	<script src="js/jquery-3.2.1.min.js"></script>
-	<script async src="js/jquery.singlePageNav.min.js"></script>
-	<script async src="js/bootstrap.min.js"></script>
-	<script async src="js/jquery.easing.min.js"></script>	
-	<script defer src="./js/jag-fontawesome.min.js"></script>
+	<script src="js/jag.min.js"></script>
 	<script>
 		$(document).ready(function () {
 		/* scroling */
