@@ -17,9 +17,10 @@
 	<meta name="keywords" content="parish, christian, catholic, church">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/jag-bootstrap.min.css">
 	<style>
 		<?php include('css/main.min.css'); ?>
+		/* @import url('https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed:300,400|Barlow:300,300i,400,500,600,700,800&subset=latin-ext'); */
 	</style>
 </head>
 
@@ -205,6 +206,8 @@
 	</section>
 
 	<script src="js/jag.min.js"></script>
+	<!-- 	"js/jquery-3.2.1.min.js"; async "js/jquery.singlePageNav.min.js"; async "js/bootstrap.min.js"; async "js/jquery.easing.min.js"; defer "js/jag-fontawesome.min.js" 	-->
+
 	<script>
 		$(document).ready(function () {
 		/* scroling */

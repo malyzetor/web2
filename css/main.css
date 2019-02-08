@@ -74,7 +74,7 @@ body {
   font-weight: 400;
   src: url('../fonts/barlow/BarlowCondensed-Regular.woff2') format('woff2');
   font-display: fallback;
-}
+} 
 
 ol, ul {
     margin: 0;
