@@ -20,7 +20,6 @@
 	<link rel="stylesheet" href="css/jag-bootstrap.min.css">
 	<style>
 		<?php include('css/main.min.css'); ?>
-		/* @import url('https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed:300,400|Barlow:300,300i,400,500,600,700,800&subset=latin-ext'); */
 	</style>
 </head>
 
@@ -56,7 +55,7 @@
 	</header>
 
 <!-- dynamicky generované heslo dne -->
-	<div id="jHD"><?php include('./HD-1901-mezi.inc'); ?></div>
+	<div id="jHD"><?php include('./HD-1902-toufar.inc'); ?></div>
 
 	<section id="Farnosti" class="features"  style="display:flex; min-height: 100vh;">
 		<div class="container" style="margin-top: auto; margin-bottom: auto;">
