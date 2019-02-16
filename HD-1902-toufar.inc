@@ -2,7 +2,7 @@
 	<div class="container" style="margin-top: auto; margin-bottom: auto;">
 		<div class="heslodne" style="color:black; background-color: rgba(255,255, 255, .6)">
 			<h2>
-        		<span>P. Josef Toufar v Číhošti</span>
+        		<span>P.&nbsp;Josef Toufar v&nbsp;Číhošti</span>
 			</h2>
 			<br />
 		    
