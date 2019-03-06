@@ -8,7 +8,7 @@
 		    <br />
             <p> Pokud se lidské životy nechávají<br />
                 proměňovat láskou ke Kristu, je tím vzdávána chvála Bohu.<br /><br />
-                <b>Modlitba</b>, <b>rozjímání</b> a&nbsp;<b>cit pro umění</b> do ní zahrnuje všechno stvoření.<br />
+                <b>Modlitbou</b>, <b>rozjímáním</b> a&nbsp;<b>citem pro umění</b> se k ní připojuje veškeré stvoření.<br />
                 <br />
                <em style="font-size:.8em;text-align: right">podle František: Svatopostní poselství (2019); Yara Said: Prayer (2017).</em><br /><br />
             </p>
