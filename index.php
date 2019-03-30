@@ -165,7 +165,22 @@
 				<div class="sec-title text-center mb50">
 					<h2>Pořad bohoslužeb</h2>
 				</div>
-				<div class="col-md-3"></div>
+				<!-- <div class="col-md-3"></div> -->
+				<div class="col-md-6">
+					<div class="service-item">
+						<div class="service-icon" style="width: 100px;">
+							<a href="./pdf/2019_04_00-velikonoce.pdf" style="color:#8C2318;" title="Velikonoce 2019">
+								<img src="img/voda.svg" style="width: 5em;" class="rounded float-right" alt="Velikonoce 2019" />
+							</a>
+						</div>
+						<div class="service-desc">
+							<h3>Velikonoce</h3>
+							<p>Rozpis bohoslužeb ve Svatém týdnu.&nbsp;&nbsp;<a href="./pdf/2019_04_00-velikonoce.pdf" style="color:#8C2318;" title="Velikonoce 2019"><i class="far fa-file-pdf"></i></a>					
+							</p>
+						</div>
+					</div>
+				</div>
+				
 				<div class="col-md-6">
 					<div class="service-item">
 						<div class="service-icon" style="width: 100px;">
