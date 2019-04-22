@@ -2,12 +2,12 @@
 	<div class="container" style="margin-top: auto; margin-bottom: auto;">
 		<div class="heslodne" style="color:black; background-color: rgba(255,255, 255, .6)">
 			<h2>
-                <span>Velikonoční avantgarda.</span>
+                <span style="text-shadow: -2px 0 1px rgb(30,242,241) , 2px 0 1px rgb(246,5,10);">Velikonoční avantgarda.</span>
             </h2>
 			<br />
 		    <br />
-            <p>Evangelium není jen pouhým sdělením čehosi, co je možné se dozvědět,<br />
-                ale jde o performativní sdělení, které účinně působí, vytváří skutečnosti a&nbsp;mění život.<br />
+            <p>Evangelium není pouhým sdělením čehosi, co je možné se dozvědět.<br />
+                Jde o performativní sdělení, které účinně působí, vytváří skutečnosti a&nbsp;mění život.<br />
                 Temná vrata času, budoucnosti, byla otevřena dokořán.<br />
                 Kdo má naději, žije jinak; byl mu darován nový život.<br />
                 <br />
