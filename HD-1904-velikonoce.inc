@@ -2,7 +2,7 @@
 	<div class="container" style="margin-top: auto; margin-bottom: auto;">
 		<div class="heslodne" style="color:black; background-color: rgba(255,255, 255, .6)">
 			<h2>
-                <span style="text-shadow: -2px 0 1px rgb(30,242,241) , 2px 0 1px rgb(246,5,10);">Velikonoční avantgarda.</span>
+                <span style="text-shadow: -2px 0 1px rgb(30,242,241) , 2px 0 1px rgb(246,5,10), 1px 1px 1px yellow;">Velikonoční avantgarda.</span>
             </h2>
 			<br />
 		    <br />
