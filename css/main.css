@@ -392,87 +392,87 @@ body > section,
 
     @keyframes color {
       0% {
-        background-color: #ffffff;
+        background-color: hsl(0, 100%, 100%);
       }
       1% {
-        background-color: #ffffff;
+        background-color: hsl(0, 100%, 100%);
       }
       2% {
-        background-color: #fafafa;
+        background-color: hsl(0, 100%, 99%);
       }
       3% {
-        background-color: #f5f5f5;
+        background-color: hsl(0, 100%, 98%);
       }
       4% {
-        background-color: #f0f0f0;
+        background-color: hsl(0, 100%, 97%);
       }
       5% {
-        background-color: #ebebeb;
+        background-color: hsl(0, 100%, 96%);
       }
       6% {
-        background-color: #f0f0f0;
+        background-color: hsl(0, 100%, 97%);
       }
       7% {
-        background-color: #f5f5f5;
+        background-color: hsl(0, 100%, 98%);
       }
       8% {
-        background-color: #fafafa;
+        background-color: hsl(0, 100%, 99%);
       }
       9% {
-        background-color: #ffffff;
+        background-color: hsl(0, 100%, 100%);
       }
       31% {
-        background-color: #ffffff;
+        background-color: hsl(0, 100%, 100%);
       }
       32% {
-        background-color: #fafafa;
+        background-color: hsl(0, 100%, 99%);
       }
       33% {
-        background-color: #f5f5f5;
+        background-color: hsl(0, 100%, 98%);
       }
       34% {
-        background-color: #f0f0f0;
+        background-color: hsl(0, 100%, 97%);
       }
       35% {
-        background-color: #ebebeb;
+        background-color: hsl(0, 100%, 96%);
       }
       36% {
-        background-color: #f0f0f0;
+        background-color: hsl(0, 100%, 97%);
       }
       37% {
-        background-color: #f5f5f5;
+        background-color: hsl(0, 100%, 98%);
       }
       38% {
-        background-color: #fafafa;
+        background-color: hsl(0, 100%, 99%);
       }
       39% {
-        background-color: #ffffff;
+        background-color: hsl(0, 100%, 100%);
       }
       51% {
-        background-color: #ffffff;
+        background-color: hsl(0, 100%, 100%);
       }
       52% {
-        background-color: #fafafa;
+        background-color: hsl(0, 100%, 99%);
       }
       53% {
-        background-color: #f5f5f5;
+        background-color: hsl(0, 100%, 98%);
       }
       54% {
-        background-color: #f0f0f0;
+        background-color: hsl(0, 100%, 97%);
       }
       55% {
-        background-color: #ebebeb;
+        background-color: hsl(0, 100%, 96%);
       }
       56% {
-        background-color: #f0f0f0;
+        background-color: hsl(0, 100%, 97%);
       }
       57% {
-        background-color: #f5f5f5;
+        background-color: hsl(0, 100%, 98%);
       }
       58% {
-        background-color: #fafafa;
+        background-color: hsl(0, 100%, 99%);
       }
       59% {
-        background-color: #ffffff;
+        background-color: hsl(0, 100%, 100%);
       }
     }

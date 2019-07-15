@@ -1,4 +1,4 @@
-<section id="heslodne" class="features" style="background-color: #ffffff; animation-name: color; animation-duration: 5s; animation-iteration-count: infinite;">
+<section id="heslodne" class="features" style="background-color: #ffffff; animation-name: color; animation-duration: 8s; animation-iteration-count: infinite;">
 	<div class="container" style="margin-top: auto; margin-bottom: auto;">
 		<div class="heslodne" style="color:black;">
 			<h2>
