@@ -389,4 +389,90 @@ body > section,
         width: 250px;
       }
     }
-  
+
+    @keyframes color {
+      0% {
+        background-color: #ffffff;
+      }
+      1% {
+        background-color: #ffffff;
+      }
+      2% {
+        background-color: #fafafa;
+      }
+      3% {
+        background-color: #f5f5f5;
+      }
+      4% {
+        background-color: #f0f0f0;
+      }
+      5% {
+        background-color: #ebebeb;
+      }
+      6% {
+        background-color: #f0f0f0;
+      }
+      7% {
+        background-color: #f5f5f5;
+      }
+      8% {
+        background-color: #fafafa;
+      }
+      9% {
+        background-color: #ffffff;
+      }
+      31% {
+        background-color: #ffffff;
+      }
+      32% {
+        background-color: #fafafa;
+      }
+      33% {
+        background-color: #f5f5f5;
+      }
+      34% {
+        background-color: #f0f0f0;
+      }
+      35% {
+        background-color: #ebebeb;
+      }
+      36% {
+        background-color: #f0f0f0;
+      }
+      37% {
+        background-color: #f5f5f5;
+      }
+      38% {
+        background-color: #fafafa;
+      }
+      39% {
+        background-color: #ffffff;
+      }
+      51% {
+        background-color: #ffffff;
+      }
+      52% {
+        background-color: #fafafa;
+      }
+      53% {
+        background-color: #f5f5f5;
+      }
+      54% {
+        background-color: #f0f0f0;
+      }
+      55% {
+        background-color: #ebebeb;
+      }
+      56% {
+        background-color: #f0f0f0;
+      }
+      57% {
+        background-color: #f5f5f5;
+      }
+      58% {
+        background-color: #fafafa;
+      }
+      59% {
+        background-color: #ffffff;
+      }
+    }
