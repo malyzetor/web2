@@ -2,7 +2,7 @@
 	<div class="container" style="margin-top: auto; margin-bottom: auto;">
 		<div class="heslodne" style="color:black;">
 			<h2>
-                <span>Otče náš, jenž jsi na nebesích.</span>
+                <span>Otče náš, jenž jsi na nebesích…</span>
             </h2>
 			<br />
 		    <br />
