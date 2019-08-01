@@ -392,87 +392,87 @@ body > section,
 
     @keyframes color {
       0% {
-        background-color: hsl(0, 100%, 100%);
+        background-color:rgba(255,255, 255, .6);
       }
       1% {
-        background-color: hsl(0, 100%, 100%);
+        background-color:rgba(255,255, 255, .6);
       }
       2% {
-        background-color: hsl(0, 100%, 99%);
+        background-color: rgba(255,255, 255, .45);
       }
       3% {
-        background-color: hsl(0, 100%, 98%);
+        background-color: rgba(255,255, 255, .3);
       }
       4% {
-        background-color: hsl(0, 100%, 97%);
+        background-color: rgba(255,255, 255, .15);
       }
       5% {
-        background-color: hsl(0, 100%, 96%);
+        background-color: rgba(255,255, 255, .0);
       }
       6% {
-        background-color: hsl(0, 100%, 97%);
+        background-color: rgba(255,255, 255, .15);
       }
       7% {
-        background-color: hsl(0, 100%, 98%);
+        background-color: rgba(255,255, 255, .3);
       }
       8% {
-        background-color: hsl(0, 100%, 99%);
+        background-color: rgba(255,255, 255, .45);
       }
       9% {
-        background-color: hsl(0, 100%, 100%);
+        background-color:rgba(255,255, 255, .6);
       }
       31% {
-        background-color: hsl(0, 100%, 100%);
+        background-color:rgba(255,255, 255, .6);
       }
       32% {
-        background-color: hsl(0, 100%, 99%);
+        background-color: rgba(255,255, 255, .45);
       }
       33% {
-        background-color: hsl(0, 100%, 98%);
+        background-color: rgba(255,255, 255, .3);
       }
       34% {
-        background-color: hsl(0, 100%, 97%);
+        background-color: rgba(255,255, 255, .15);
       }
       35% {
-        background-color: hsl(0, 100%, 96%);
+        background-color: rgba(255,255, 255, .0);
       }
       36% {
-        background-color: hsl(0, 100%, 97%);
+        background-color: rgba(255,255, 255, .15);
       }
       37% {
-        background-color: hsl(0, 100%, 98%);
+        background-color: rgba(255,255, 255, .3);
       }
       38% {
-        background-color: hsl(0, 100%, 99%);
+        background-color: rgba(255,255, 255, .45);
       }
       39% {
-        background-color: hsl(0, 100%, 100%);
+        background-color:rgba(255,255, 255, .6);
       }
       51% {
-        background-color: hsl(0, 100%, 100%);
+        background-color:rgba(255,255, 255, .6);
       }
       52% {
-        background-color: hsl(0, 100%, 99%);
+        background-color: rgba(255,255, 255, .45);
       }
       53% {
-        background-color: hsl(0, 100%, 98%);
+        background-color: rgba(255,255, 255, .3);
       }
       54% {
-        background-color: hsl(0, 100%, 97%);
+        background-color: rgba(255,255, 255, .15);
       }
       55% {
-        background-color: hsl(0, 100%, 96%);
+        background-color: rgba(255,255, 255, .0);
       }
       56% {
-        background-color: hsl(0, 100%, 97%);
+        background-color: rgba(255,255, 255, .15);
       }
       57% {
-        background-color: hsl(0, 100%, 98%);
+        background-color: rgba(255,255, 255, .3);
       }
       58% {
-        background-color: hsl(0, 100%, 99%);
+        background-color: rgba(255,255, 255, .45);
       }
       59% {
-        background-color: hsl(0, 100%, 100%);
+        background-color:rgba(255,255, 255, .6);
       }
     }
