@@ -42,6 +42,7 @@ fi
 
 echo "72"
 echo "# Web: Odesílání na server"
+#anonymizovany pristup
 lftp -e "set ssl:verify-certificate no; ls; put /tmp/${tmp%.odt}.pdf -o ./www_root/ohlasky.pdf; put /tmp/datum_ohlasek.inc -o ./www_root/datum_ohlasek.inc; bye" -u XYZ -p 990 ABC
 
 echo "84"
