@@ -14,7 +14,7 @@
 	<meta charset="utf-8">
 	<title>Římskokatolické farnosti Světlá nad Sázavou a Číhošť</title>
 	<meta name="description" content="Římskokatolické farnosti Světlá nad Sázavou a Číhošť">
-	<meta name="keywords" content="parish, christian, catholic, church">
+	<meta name="keywords" content="parish, christian, catholic, church, misijní, měsíc, říjen 2019">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
 	<link rel="stylesheet" href="css/jag-bootstrap.min.css">
