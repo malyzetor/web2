@@ -43,7 +43,7 @@
 			<nav class="collapse navbar-collapse navbar-right">
 				<ul id="nav" class="nav navbar-nav">
 				<li>
-						<a href="#Misie">Misijní měsíc</a>
+						<a href="#70Toufar">70✝Toufar</a>
 					</li>
 				<li>
 						<a href="#Bohosluzby">Pořad bohoslužeb</a>
@@ -64,7 +64,7 @@
 		</div>
 	</header>
 
-<!-- dynamicky generované heslo dne -->
+<!-- dynamicky generované heslo dne .-->
 	<div id="jHD"><?php include('./HD-1907b-mezidobi.inc'); ?></div>
 
 	<section id="Farnosti" class="features"  style="display:flex; min-height: 100vh;">
@@ -216,48 +216,35 @@
 		</div>
     </section>
     
-	<section id="Misie" class="features" style="background-color:white;">
+	<section id="70Toufar" class="features" style="background-color:#fafaf2;">
 		<div class="container" style="margin-top: auto; margin-bottom: auto;">
 			<div class="row">
 				<div class="sec-title text-center">
-					<h2>Misijní měsíc: říjen 2019</h2>
+					<h2>70. VÝROČÍ</h2>
 				</div>
-                <div class="col-md-2"></div>
-				<div class="col-md-8">
-                <div class="sec-sub-title">
-                        <p class="misie-polozka">út 1. říjen 2019<a href="https://www.radiovaticana.cz/clanek.php?id=18915">„Síla evangelia je silou pokory“</a> <abbr title="Ranní rozjímání z kaple Domu sv. Marty.">(1.&nbsp;10.&nbsp;2013)</abbr></p>
-						<p class="misie-polozka">st 2. říjen 2019<a href="https://www.radiovaticana.cz/clanek.php?id=22475">„Anděl a dítě“</a> <abbr title="Ranní rozjímání z kaple Domu sv. Marty.">(2.&nbsp;10.&nbsp;2015)</abbr></p>
-						<p class="misie-polozka">čt 3. říjen 2019<a href="https://www.radiovaticana.cz/clanek.php?id=18920">„Radost blízké paměti“</a> <abbr title="Ranní rozjímání z kaple Domu sv. Marty.">(3.&nbsp;10.&nbsp;2013)</abbr></p>
-						<p class="misie-polozka">pá 4. říjen 2019<a href="https://www.radiovaticana.cz/clanek.php?id=26477">„Milost zahanbení“</a> <abbr title="Ranní rozjímání z kaple Domu sv. Marty.">(6.&nbsp;10.&nbsp;2017)</abbr></p>
-						<p class="misie-polozka">so 5. říjen 2019<a href="https://www.radiovaticana.cz/clanek.php?id=24805">„Síla maličkých“</a> <abbr title="Ranní rozjímání z kaple Domu sv. Marty.">(29.&nbsp;11.&nbsp;2016)</abbr></p>
-						<p class="misie-polozka">ne 6. říjen 2019<a href="https://www.radiovaticana.cz/clanek.php?id=24467">Homilie</a> <abbr title="Apoštolská cesta do Gruzie a Ázerbájdžánu">(2.&nbsp;10.&nbsp;2016)</abbr></p>
-						<p class="misie-polozka">po 7. říjen 2019<a href="https://www.radiovaticana.cz/clanek.php?id=26496">„Ti, kteří jsou obcházeni“</a> <abbr title="Ranní rozjímání z kaple Domu sv. Marty.">(9.&nbsp;10.&nbsp;2017)</abbr></p>
-						<p class="misie-polozka">út 8. říjen 2019<a href="https://www.radiovaticana.cz/clanek.php?id=22492">„Na prvním místě milosrdenství“</a> <abbr title="Ranní rozjímání z kaple Domu sv. Marty.">(6.&nbsp;10.&nbsp;2015)</abbr></p>
-						<p class="misie-polozka">st 9. říjen 2019<a href="https://www.radiovaticana.cz/clanek.php?id=18944">Generální audience</a> (9.&nbsp;10.&nbsp;2013)</p>
-						<p class="misie-polozka">čt 10. říjen 2019<a href="https://www.radiovaticana.cz/clanek.php?id=18948">„Kvalita modlitby“</a> <abbr title="Ranní rozjímání z kaple Domu sv. Marty.">(10.&nbsp;10.&nbsp;2013)</abbr></p>
-						<p class="misie-polozka">pá 11. říjen 2019<a href="https://www.radiovaticana.cz/clanek.php?id=26519">„Bdělostí proti vychytralosti“</a> <abbr title="Ranní rozjímání z kaple Domu sv. Marty.">(13.&nbsp;10.&nbsp;2017)</abbr></p>
-						<p class="misie-polozka">so 12. říjen 2019<a href="https://issuu.com/papezskamisijnidila/docs/maximum_illud_cesky_preklad_pmd_2019">Benedikt XV.: Maximum Illud</a> (30.&nbsp;11.&nbsp;1919)</p>
-						<p class="misie-polozka">ne 13. říjen 2019<a href="https://www.radiovaticana.cz/clanek.php?id=18963">Homilie</a> (13.&nbsp;10.&nbsp;2013)</p>
-						<p class="misie-polozka">po 14. říjen 2019<a href="https://www.radiovaticana.cz/clanek.php?id=18966">„Jonášův syndrom“</a> <abbr title="Ranní rozjímání z kaple Domu sv. Marty.">(14.&nbsp;10.&nbsp;2013)</abbr></p>
-						<p class="misie-polozka">út 15. říjen 2019<a href="https://www.radiovaticana.cz/clanek.php?id=18972">„Modloslužba má dnes jiné formy a způsoby“</a> <abbr title="Ranní rozjímání z kaple Domu sv. Marty.">(15.&nbsp;10.&nbsp;2013)</abbr></p>
-						<p class="misie-polozka">st 16. říjen 2019<a href="https://www.radiovaticana.cz/clanek.php?id=18978">Generální audience</a> (16.&nbsp;10.&nbsp;2013)</p>
-						<p class="misie-polozka">čt 17. říjen 2019<a href="https://www.radiovaticana.cz/clanek.php?id=18982">„Učedník ideologie ztrácí víru“</a> <abbr title="Ranní rozjímání z kaple Domu sv. Marty.">(17.&nbsp;10.&nbsp;2013)</abbr></p>
-						<p class="misie-polozka">pá 18. říjen 2019<a href="https://www.radiovaticana.cz/clanek.php?id=18989">„Soumrak Apoštolova života“</a> <abbr title="Ranní rozjímání z kaple Domu sv. Marty.">(18.&nbsp;10.&nbsp;2013)</abbr></p>
-						<p class="misie-polozka">so 19. říjen 2019<a href="https://www.radiovaticana.cz/clanek.php?id=24972">Generální audience</a> (28.&nbsp;12.&nbsp;2016)</p>
-						<p class="misie-polozka">ne 20. říjen 2019<a href="https://www.radiovaticana.cz/clanek.php?id=24555">Homilie</a> (16.&nbsp;10.&nbsp;2016)</p>
-						<p class="misie-polozka">po 21. říjen 2019<a href="https://www.radiovaticana.cz/clanek.php?id=22580">„Jak a kolik“</a> <abbr title="Ranní rozjímání z kaple Domu sv. Marty.">(19.&nbsp;10.&nbsp;2015)</abbr></p>
-						<p class="misie-polozka">út 22. říjen 2019<a href="https://www.radiovaticana.cz/clanek.php?id=19006">„Kontemplace, přiblížení a přebytek“</a> <abbr title="Ranní rozjímání z kaple Domu sv. Marty.">(22.&nbsp;10.&nbsp;2013)</abbr></p>
-						<p class="misie-polozka">st 23. říjen 2019<a href="https://www.radiovaticana.cz/clanek.php?id=18688">Anděl Páně</a> (11.&nbsp;8.&nbsp;2013)</p>
-						<p class="misie-polozka">čt 24. říjen 2019<a href="https://www.radiovaticana.cz/clanek.php?id=19015">„Logika <i>předtím</i> a <i>potom</i>“</a> <abbr title="Ranní rozjímání z kaple Domu sv. Marty.">(24.&nbsp;10.&nbsp;2013)</abbr></p>
-						<p class="misie-polozka">pá 25. říjen 2019<a href="https://www.radiovaticana.cz/clanek.php?id=19019">„V Boží přítomnosti zakušíme milost zahanbení“</a> <abbr title="Ranní rozjímání z kaple Domu sv. Marty.">(25.&nbsp;10.&nbsp;2013)</abbr></p>
-						<p class="misie-polozka">so 26. říjen 2019<a href="https://www.paulinky.cz/_d/01/struct/Radost-evangelia.pdf">František: Evangelii Gaudium, čl. 14–19</a> (24.&nbsp;11.&nbsp;2013)</p>
-						<p class="misie-polozka">ne 27. říjen 2019<a href="https://www.radiovaticana.cz/clanek.php?id=19029">Homilie</a> (27.&nbsp;10.&nbsp;2013)</p>
-						<p class="misie-polozka">po 28. říjen 2019<a href="https://www.radiovaticana.cz/clanek.php?id=19031">„Zvláštní den“</a> <abbr title="Ranní rozjímání z kaple Domu sv. Marty.">(28.&nbsp;10.&nbsp;2013)</abbr></p>
-						<p class="misie-polozka">út 29. říjen 2019<a href="https://www.radiovaticana.cz/clanek.php?id=26612">„Růst Božího království potřebuje odvahu“</a> <abbr title="Ranní rozjímání z kaple Domu sv. Marty.">(31.&nbsp;10.&nbsp;2017)</abbr></p>
-						<p class="misie-polozka">st 30. říjen 2019<a href="https://www.radiovaticana.cz/clanek.php?id=18755">Anděl Páně</a> (25.&nbsp;8.&nbsp;2013)</p>
-						<p class="misie-polozka">čt 31. říjen 2019<a href="https://www.radiovaticana.cz/clanek.php?id=22655">„Jako kvočna“</a> <abbr title="Ranní rozjímání z kaple Domu sv. Marty.">(29.&nbsp;10.&nbsp;2015)</abbr></p>
-                </div>
-</div>
+                <div class="sec-sub-title text-center">
+				
+						<p>15. prosinec 2019<br />
+						<a href="img/2019_12_15-Cihost.jpg"><b style="color:black; font-size:120%">Číhošť</b></a></p><br />
+				
+				
+						<p>28. leden 2020<br />	
+						<b style="color:black; font-size:120%">Valdická kartouza</b></p><br />
+				
+				
+						<p>21.–22. únor<br />	
+						<b style="color:black; font-size:120%">Želiv</b></p><br />
+				
+						<p>24. únor<br />	
+						<b style="color:black; font-size:120%">Knihovna Václava Havla</b><br />
+						(Praha)</p><br />
+				
+						<p>25. únor<br />	
+						<b style="color:black; font-size:120%">Borůvkovo sanatorium</b><br />
+						(Legerova ulice, Praha)</p>
+				
+
+				</div>
 			</div>
 		</div>
 	</section>
