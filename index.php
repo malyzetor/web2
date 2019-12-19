@@ -260,8 +260,10 @@
 	</section>
 
 
-	<script src="js/jag2.min.js"></script>
+	<script defer src="js/jag-fontawesome.min.js"></script>
 	
+
+
 	
 	<!-- 	"js/jquery-3.2.1.min.js"; async "js/jquery.singlePageNav.min.js"; async "js/bootstrap.min.js"; async "js/jquery.easing.min.js"; defer "js/jag-fontawesome.min.js" 	-->
 
