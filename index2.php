@@ -19,14 +19,12 @@
 
 	<link rel="stylesheet" href="css/jag-bootstrap.min.css">
 	<style>
+		html {
+  			scroll-behavior: smooth;
+		}
+
 		<?php include('css/main.min.css'); ?>
-    
-        .misie-polozka {
-            margin-bottom: 1em; 
-        }
-        .misie-polozka a {
-            color: #8C2318; margin-left: 3em; font-weight: bold;
-        }
+
     </style>
 </head>
 
@@ -43,7 +41,7 @@
 			<nav class="collapse navbar-collapse navbar-right">
 				<ul id="nav" class="nav navbar-nav">
 				<li>
-						<a href="#70Toufar">70 || Toufar</a>
+						<a href="#70Toufar">70✝Toufar</a>
 					</li>
 				<li>
 						<a href="#Bohosluzby">Pořad bohoslužeb</a>
@@ -65,7 +63,7 @@
 	</header>
 
 <!-- dynamicky generované heslo dne .-->
-	<div id="jHD"><?php include('./HD-2019redwednesday.inc'); ?></div>
+	<div id="jHD"><?php include('./HD-1912-advent.inc'); ?></div>
 
 	<section id="Farnosti" class="features"  style="display:flex; min-height: 100vh;">
 		<div class="container" style="margin-top: auto; margin-bottom: auto;">
@@ -175,9 +173,21 @@
 				<div class="sec-title text-center mb50">
 					<h2>Pořad bohoslužeb</h2>
 				</div>
-				<div class="col-md-3"></div>
+				<!-- <div class="col-md-3"></div> -->
 
-				
+				<div class="col-md-6">
+					<div class="service-item">
+						<div class="service-icon" style="width: 100px;">
+							<a href="./pdf/2019_Vanoce.pdf" style="color:#8C2318;" title="Vánoce 2019"><img src="img/star-christmas.svg" style="width: 5em;" class="rounded float-right" alt="Vánoce" /></a>
+						</div>
+						<div class="service-desc">
+							<h3>Vánoční svátky</h3>
+							<p>Rozpis bohoslužeb ve dnech 22. 12. 2019 až 1. 1. 2020.&nbsp;&nbsp;<a href="./pdf/2019_Vanoce.pdf" style="color:#8C2318;" title="Vanoce 2019"><i class="far fa-file-pdf"></i></a>
+							</p>
+						</div>
+					</div>
+				</div>
+
 				<div class="col-md-6">
 					<div class="service-item">
 						<div class="service-icon" style="width: 100px;">
@@ -220,7 +230,7 @@
 		<div class="container" style="margin-top: auto; margin-bottom: auto;">
 			<div class="row">
 				<div class="sec-title text-center">
-					<h2>P. Josef Toufar  ||  70. VÝROČÍ</h2>
+					<h2>70. VÝROČÍ</h2>
 				</div>
                 <div class="sec-sub-title text-center">
 				
@@ -250,28 +260,12 @@
 	</section>
 
 
-	<script src="js/jag.min.js"></script>
+	<script src="js/jag2.min.js"></script>
+	
+	
 	<!-- 	"js/jquery-3.2.1.min.js"; async "js/jquery.singlePageNav.min.js"; async "js/bootstrap.min.js"; async "js/jquery.easing.min.js"; defer "js/jag-fontawesome.min.js" 	-->
 
-	<script>
-		$(document).ready(function () {
-		/* scroling */
-			jQuery('#nav').singlePageNav({
-			offset: jQuery('#nav').outerHeight(),
-			filter: ':not(.external)',
-			speed: 1200,
-			currentClass: 'current',
-			easing: 'easeInOutExpo',
-			updateHash: true,
-			beforeStart: function () {
-				console.log('begin scrolling');
-			},
-			onComplete: function () {
-				console.log('done scrolling');
-			}
-			});
-		});
-	</script>
+
 </body>
 
 </html>

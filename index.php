@@ -19,14 +19,12 @@
 
 	<link rel="stylesheet" href="css/jag-bootstrap.min.css">
 	<style>
+		html {
+  			scroll-behavior: smooth;
+		}
+
 		<?php include('css/main.min.css'); ?>
-    
-        .misie-polozka {
-            margin-bottom: 1em; 
-        }
-        .misie-polozka a {
-            color: #8C2318; margin-left: 3em; font-weight: bold;
-        }
+
     </style>
 </head>
 
@@ -262,28 +260,12 @@
 	</section>
 
 
-	<script src="js/jag.min.js"></script>
+	<script src="js/jag2.min.js"></script>
+	
+	
 	<!-- 	"js/jquery-3.2.1.min.js"; async "js/jquery.singlePageNav.min.js"; async "js/bootstrap.min.js"; async "js/jquery.easing.min.js"; defer "js/jag-fontawesome.min.js" 	-->
 
-	<script>
-		$(document).ready(function () {
-		/* scroling */
-			jQuery('#nav').singlePageNav({
-			offset: jQuery('#nav').outerHeight(),
-			filter: ':not(.external)',
-			speed: 1200,
-			currentClass: 'current',
-			easing: 'easeInOutExpo',
-			updateHash: true,
-			beforeStart: function () {
-				console.log('begin scrolling');
-			},
-			onComplete: function () {
-				console.log('done scrolling');
-			}
-			});
-		});
-	</script>
+
 </body>
 
 </html>
