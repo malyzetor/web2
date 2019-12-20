@@ -260,8 +260,7 @@
 	</section>
 
 
-	<script defer src="js/jag-fontawesome.min.js"></script>
-	
+	<script defer src="js/jag.min.js"></script>
 
 
 	
