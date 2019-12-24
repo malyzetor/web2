@@ -63,7 +63,7 @@
 	</header>
 
 <!-- dynamicky generované heslo dne .-->
-	<div id="jHD"><?php include('./HD-1912-advent.inc'); ?></div>
+	<div id="jHD"><?php include('./HD-1912-vanoce.inc'); ?></div>
 
 	<section id="Farnosti" class="features"  style="display:flex; min-height: 100vh;">
 		<div class="container" style="margin-top: auto; margin-bottom: auto;">
@@ -260,8 +260,7 @@
 	</section>
 
 
-	<script defer src="js/jag-fontawesome.min.js"></script>
-	
+	<script defer src="js/jag.min.js"></script>
 
 
 	
