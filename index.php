@@ -229,7 +229,7 @@
 				
 				
 						<p>21.–22. únor<br />	
-						<b style="color:black; font-size:120%">Želiv</b></p><br />
+						<a href="pdf/Zeliv-2020-plakat--27012020--tisk.pdf"><b style="color:black; font-size:120%">Želiv</b></a></p><br />
 				
 						<p>24. únor<br />	
 						<b style="color:black; font-size:120%">Knihovna Václava Havla</b><br />
