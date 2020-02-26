@@ -2,7 +2,7 @@
 	<div class="container" style="margin-top: auto; margin-bottom: auto;">
 		<div class="heslodne" style="color:black; background-color: rgba(255,255, 255, .7); ">
 			<h2>
-                <span>Touha žít v přítomnosti</span>
+                <span>Touha žít v&nbsp;přítomnosti</span>
             </h2>
 			<br />
 		    <br />
