@@ -63,7 +63,7 @@
 	</header>
 
 <!-- dynamicky generované heslo dne .-->
-	<div id="jHD"><?php include('./HD-2001-mezi.inc'); ?></div>
+	<div id="jHD"><?php include('./HD-2002-svatopost.inc'); ?></div>
 
 	<section id="Farnosti" class="features"  style="display:flex; min-height: 100vh;">
 		<div class="container" style="margin-top: auto; margin-bottom: auto;">
