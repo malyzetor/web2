@@ -41,7 +41,7 @@
 			<nav class="collapse navbar-collapse navbar-right">
 				<ul id="nav" class="nav navbar-nav">
 				<li>
-						<a href="#70Toufar">70✝Toufar</a>
+						<a href="#karantena">☣ Hygienická opatření</a>
 					</li>
 				<li>
 						<a href="#Bohosluzby">Pořad bohoslužeb</a>
@@ -212,34 +212,30 @@
 		</div>
     </section>
     
-	<section id="70Toufar" class="features" style="background-color:#fafaf2;">
+	<section id="karantena" class="features" style="background-color:#fafaf2;">
 		<div class="container" style="margin-top: auto; margin-bottom: auto;">
 			<div class="row">
 				<div class="sec-title text-center">
-					<h2>70. VÝROČÍ</h2>
+					<h2>Opatření proti šíření viru</h2>
 				</div>
-                <div class="sec-sub-title text-center">
+				<div class="col-md-2"></div>
+				<div class="col-md-8">
 				
-						<p>15. prosinec 2019<br />
-						<a href="img/2019_12_15-Cihost.jpg"><b style="color:black; font-size:120%">Číhošť</b></a></p><br />
+				<div class="sec-sub-title">
 				
+						<p>Diecézní biskup uděluje <b>dispenz od účasti na nedělích bohoslužbách</b> všem věřícím, kteří dosáhli <b>věku 70&nbsp;let</b>, a&nbsp;dále <b>chronicky nemocným</b> a&nbsp;<b>osobám se sníženou imunitou</b>.</p>
+						<br />
+						<p>Limit stanovený vládou ČR pro <i>všechny kulturní, sportovní a&nbsp;společenské akce</i> je 100&nbsp;osob. Protože účast na nedělních bohoslužbách ve Světlé nad Sázavou se blíží 200 účastníků, doporučuji výrazným způsobem zohlednit vlastní zdravotní stav, oslabenou imunitu a&nbsp;nedělní slavnost prožít jako <b>bohoslužbu u&nbsp;rodinného stolu</b>.</p>
+						<p>V omezeném počtu lze slavit nedělní bohoslužby ve farnosti Číhošť.</p>
+						<br />
+						<p>Toto opatření trvá do odvolání.</p>
+						<br />
+						<br />
+						<p>K tématu <b>sociální a&nbsp;náboženské izolace od Boha</b> doporučuji k samostudiu:<br />
+						Lv&nbsp;13–14; Nm&nbsp;19; Jonáš; Mt&nbsp;8; Mt&nbsp;9; Lk&nbsp;10; Lk&nbsp;17; Lk&nbsp;24; Jan&nbsp;13</p>
+						<p>Letošním liturgickým rokem nás provází evangelista <a href="pdf/Matous_a_infekce.pdf">Matouš</a>.</p>
 				
-						<p>28. leden 2020<br />	
-						<b style="color:black; font-size:120%">Valdická kartouza</b></p><br />
-				
-				
-						<p>21.–22. únor<br />	
-						<a href="pdf/Zeliv-2020-plakat--27012020--tisk.pdf"><b style="color:black; font-size:120%">Želiv</b></a></p><br />
-				
-						<p>24. únor<br />	
-						<b style="color:black; font-size:120%">Knihovna Václava Havla</b><br />
-						(Praha)</p><br />
-				
-						<p>25. únor<br />	
-						<b style="color:black; font-size:120%">Borůvkovo sanatorium</b><br />
-						(Legerova ulice, Praha)</p>
-				
-
+				</div>
 				</div>
 			</div>
 		</div>
