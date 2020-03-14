@@ -41,7 +41,7 @@
 			<nav class="collapse navbar-collapse navbar-right">
 				<ul id="nav" class="nav navbar-nav">
 				<li>
-						<a href="#karantena">☣ Hygienická opatření</a>
+						<a href="#karantena">☣ Zrušení bohoslužeb</a>
 					</li>
 				<li>
 						<a href="#Bohosluzby">Pořad bohoslužeb</a>
@@ -223,10 +223,9 @@
 				
 				<div class="sec-sub-title">
 				
-						<p>Diecézní biskup uděluje <b>dispenz od účasti na nedělích bohoslužbách</b> všem věřícím, kteří dosáhli <b>věku 70&nbsp;let</b>, a&nbsp;dále <b>chronicky nemocným</b> a&nbsp;<b>osobám se sníženou imunitou</b>.</p>
-						<br />
-						<p>Limit stanovený vládou ČR pro <i>všechny kulturní, sportovní a&nbsp;společenské akce</i> je 100&nbsp;osob. Protože účast na nedělních bohoslužbách ve Světlé nad Sázavou se blíží 200 účastníků, doporučuji výrazným způsobem zohlednit vlastní zdravotní stav, oslabenou imunitu a&nbsp;nedělní slavnost prožít jako <b>bohoslužbu u&nbsp;rodinného stolu</b>.</p>
-						<p>V omezeném počtu lze slavit nedělní bohoslužby ve farnosti Číhošť.</p>
+						<p><a href="http://www.bihk.cz/aktuality/zpravy/5684-stav-nouze%3A-bohosluzby-jen-bez-ucasti-lidu.html">Rozhodnutím</a> diecézního biskupa z 12. března 2020 jsou <b>všechny veřejné bohoslužby</b> zrušeny.<br />
+						Toto opatření se netýká pohřbů.<br />
+						Individuální setkání s knězem jsou možná.</p>
 						<br />
 						<p>Toto opatření trvá do odvolání.</p>
 						<br />
@@ -234,6 +233,9 @@
 						<p>K tématu <b>sociální a&nbsp;náboženské izolace od Boha</b> doporučuji k samostudiu:<br />
 						Lv&nbsp;13–14; Nm&nbsp;19; Jonáš; Mt&nbsp;8; Mt&nbsp;9; Lk&nbsp;10; Lk&nbsp;17; Lk&nbsp;24; Jan&nbsp;13</p>
 						<p>Letošním liturgickým rokem nás provází evangelista <a href="pdf/Matous_a_infekce.pdf">Matouš</a>.</p>
+						<br />
+						<br />
+						<p>„S cizími lidmi v cizím pokoji“ – <b>3. svatopostní neděle</b> (<a href="http://m.liturgie.cz/misal/03pust/03_00.htm">texty</a>, <a href="pdf/2020_03_15-slovo.pdf">průvodce</a>)</p>
 				
 				</div>
 				</div>
