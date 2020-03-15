@@ -235,7 +235,10 @@
 						<p>Letošním liturgickým rokem nás provází evangelista <a href="pdf/Matous_a_infekce.pdf">Matouš</a>.</p>
 						<br />
 						<br />
-						<p>„S cizími lidmi v cizím pokoji“ – <b>3. svatopostní neděle</b> (<a href="http://m.liturgie.cz/misal/03pust/03_00.htm">texty</a>, <a href="pdf/2020_03_15-slovo.pdf">průvodce</a>)</p>
+						<p><span style="display:inline-block; width: 13em;">„S cizími lidmi v cizím pokoji“</span> – <b>základní teze</b> (<a href="pdf/2020_03_15-zakladni_teze.pdf">text</a>)<br />
+						<span style="display:inline-block; width: 13em;"></span> – <b>3. svatopostní neděle</b> (<a href="http://m.liturgie.cz/misal/03pust/03_00.htm">texty</a>, <a href="pdf/2020_03_15-slovo.pdf">průvodce</a>)
+						
+						</p>
 				
 				</div>
 				</div>
