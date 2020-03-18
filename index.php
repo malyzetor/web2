@@ -41,7 +41,7 @@
 			<nav class="collapse navbar-collapse navbar-right">
 				<ul id="nav" class="nav navbar-nav">
 				<li>
-						<a href="#karantena">☣ Zrušení bohoslužeb</a>
+						<a href="#karantena">☣ Rodinné bohoslužby</a>
 					</li>
 				<li>
 						<a href="#Bohosluzby">Pořad bohoslužeb</a>
