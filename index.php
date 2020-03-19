@@ -216,7 +216,7 @@
 		<div class="container" style="margin-top: auto; margin-bottom: auto;">
 			<div class="row">
 				<div class="sec-title text-center">
-					<h2>Opatření proti šíření viru</h2>
+					<h2>☣ Rodinné bohoslužby</h2>
 				</div>
 				<div class="col-md-2"></div>
 				<div class="col-md-8">
