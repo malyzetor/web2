@@ -236,9 +236,9 @@
 						<br />
 						<br />
 						<p><span style="display:inline-block; width: 13em;">„S cizími lidmi v cizím pokoji“</span> – <b>základní teze</b> (<a href="pdf/2020_03_15-zakladni_teze.pdf">text</a>)<br />
-						<span style="display:inline-block; width: 13em;"></span> – <b>3. svatopostní neděle</b> (<a href="http://m.liturgie.cz/misal/03pust/03_00.htm">texty</a>, <a href="pdf/2020_03_15-slovo.pdf">průvodce</a>)
-						<span style="display:inline-block; width: 13em;"></span> – <b>slavnost sv. Josefa</b> (<a href="http://m.liturgie.cz/misal/08sanctoral/03_19.htm">texty</a>, <a href="pdf/2020_03_19-slovo.pdf">průvodce</a>)
-						<span style="display:inline-block; width: 13em;"></span> – <b>4. svatopostní neděle</b> (<a href="http://m.liturgie.cz/misal/03pust/04_00.htm">texty</a>, <a href="pdf/2020_03_22-slovo.pdf">průvodce</a>)
+						<span style="display:inline-block; width: 13em;"></span> – <b>3. svatopostní neděle</b> (<a href="http://m.liturgie.cz/misal/03pust/03_00.htm">texty</a>, <a href="pdf/2020_03_15-slovo.pdf">průvodce</a>)<br />
+						<span style="display:inline-block; width: 13em;"></span> – <b>slavnost sv. Josefa</b> (<a href="http://m.liturgie.cz/misal/08sanctoral/03_19.htm">texty</a>, <a href="pdf/2020_03_19-slovo.pdf">průvodce</a>)<br />
+						<span style="display:inline-block; width: 13em;"></span> – <b>4. svatopostní neděle</b> (<a href="http://m.liturgie.cz/misal/03pust/04_00.htm">texty</a>, <a href="pdf/2020_03_22-slovo.pdf">průvodce</a>)<br />
 						</p>
 				
 				</div>
