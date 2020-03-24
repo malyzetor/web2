@@ -239,7 +239,17 @@
 						<span style="display:inline-block; width: 13em;"></span> – <b>3. svatopostní neděle</b> (<a href="http://m.liturgie.cz/misal/03pust/03_00.htm">texty</a>, <a href="pdf/2020_03_15-slovo.pdf">průvodce</a>)<br />
 						<span style="display:inline-block; width: 13em;"></span> – <b>slavnost sv. Josefa</b> (<a href="http://m.liturgie.cz/misal/08sanctoral/03_19.htm">texty</a>, <a href="pdf/2020_03_19-slovo.pdf">průvodce</a>)<br />
 						<span style="display:inline-block; width: 13em;"></span> – <b>4. svatopostní neděle</b> (<a href="http://m.liturgie.cz/misal/03pust/04_00.htm">texty</a>, <a href="pdf/2020_03_22-slovo.pdf">průvodce</a>)<br />
+						<span style="display:inline-block; width: 13em;"></span> – <b>slavnost Zvěstování Páně</b> (<a href="http://m.liturgie.cz/misal/08sanctoral/03_25.htm">texty</a>, <a href="pdf/2020_03_25-slovo.pdf">průvodce</a>)<br />
+						<span style="display:inline-block; width: 13em;"></span> – 5. svatopostní neděle (<a href="http://m.liturgie.cz/misal/03pust/05_00.htm">texty</a>, průvodce)<br />
+						</p><br />
+						<p><span style="display:inline-block; width: 13em;">„Svatý týden v cizím pokoji“</span> – základní teze (text)<br />
+						<span style="display:inline-block; width: 13em;"></span> – Květná neděle (<a href="http://m.liturgie.cz/misal/03pust/06_00.htm">texty</a>, průvodce)<br />
+						<span style="display:inline-block; width: 13em;"></span> – Zelený čtvrtek / Památka Večeře Páně (<a href="http://m.liturgie.cz/misal/04triduum/01ctvrtek.htm">texty</a>, průvodce)<br />
+						<span style="display:inline-block; width: 13em;"></span> – Velký pátek / Pašije (<a href="http://m.liturgie.cz/misal/04triduum/02patek.htm">texty</a>, průvodce)<br />
+						<span style="display:inline-block; width: 13em;"></span> – Bílá sobota / Ticho hrobu (<a href="http://m.liturgie.cz/misal/04triduum/03sobota.htm">texty</a>, průvodce)<br />
+						<span style="display:inline-block; width: 13em;"></span> – slavnost Vzkříšení (<a href="http://m.liturgie.cz/misal/04triduum/04vigilie.htm">bdění</a>, <a href="http://m.liturgie.cz/misal/04triduum/05vzkriseni.htm">texty</a>průvodce)<br />
 						</p>
+						
 				
 				</div>
 				</div>
