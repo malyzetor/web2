@@ -240,7 +240,7 @@
 						<span style="display:inline-block; width: 13em;"></span> – <b>slavnost sv. Josefa</b> (<a href="http://m.liturgie.cz/misal/08sanctoral/03_19.htm">texty</a>, <a href="pdf/2020_03_19-slovo.pdf">průvodce</a>)<br />
 						<span style="display:inline-block; width: 13em;"></span> – <b>4. svatopostní neděle</b> (<a href="http://m.liturgie.cz/misal/03pust/04_00.htm">texty</a>, <a href="pdf/2020_03_22-slovo.pdf">průvodce</a>)<br />
 						<span style="display:inline-block; width: 13em;"></span> – <b>slavnost Zvěstování Páně</b> (<a href="http://m.liturgie.cz/misal/08sanctoral/03_25.htm">texty</a>, <a href="pdf/2020_03_25-slovo.pdf">průvodce</a>)<br />
-						<span style="display:inline-block; width: 13em;"></span> – 5. svatopostní neděle (<a href="http://m.liturgie.cz/misal/03pust/05_00.htm">texty</a>, průvodce)<br />
+						<span style="display:inline-block; width: 13em;"></span> – <b>5. svatopostní neděle</b> (<a href="http://m.liturgie.cz/misal/03pust/05_00.htm">texty</a>, <a href="pdf/2020_03_29-slovo.pdf">průvodce</a>)<br />
 						</p><br />
 						<p><span style="display:inline-block; width: 13em;">„Svatý týden v cizím pokoji“</span> – <b>pracovní teze</b> (<a href="pdf/2020_03_25-Velikonoce-zakladni_teze.pdf">text</a>)<br />
 						<span style="display:inline-block; width: 13em;"></span> – Květná neděle (<a href="http://m.liturgie.cz/misal/03pust/06_00.htm">texty</a>, průvodce)<br />
