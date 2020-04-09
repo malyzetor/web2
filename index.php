@@ -252,7 +252,8 @@
 						<span style="display:inline-block; width: 13em;"></span> – <b>Čtvrtek večer / Památka Večeře Páně</b> (<a href="http://m.liturgie.cz/misal/04triduum/01ctvrtek.htm">texty</a>, <a href="pdf/2020_04_09-slovo.pdf">průvodce</a>)<br />
 						<span style="display:inline-block; width: 13em;"></span> – <b>Pátek / Pašije</b> (<a href="http://m.liturgie.cz/misal/04triduum/02patek.htm">texty</a>, <a href="pdf/2020_04_10-slovo.pdf">průvodce</a>)<br />
 						<span style="display:inline-block; width: 13em;"></span> – <b>Sobota / Ticho hrobu</b> (<a href="http://m.liturgie.cz/misal/04triduum/03sobota.htm">texty</a>, <a href="pdf/2020_04_11-slovo.pdf">průvodce</a>)<br />
-						<span style="display:inline-block; width: 13em;"></span> – Vzkříšení (<a href="http://m.liturgie.cz/misal/04triduum/04vigilie.htm">bdění</a>, <a href="http://m.liturgie.cz/misal/04triduum/05vzkriseni.htm">texty</a>, průvodce)<br />
+						<span style="display:inline-block; width: 13em;"></span> – <b>Vzkříšení</b> (<a href="http://m.liturgie.cz/misal/04triduum/04vigilie.htm">bdění</a>, <a href="pdf/2020_04_12-a-vigilie-slovo.pdf">průvodce</a>)<br />
+						<span style="display:inline-block; width: 13em;"></span> – <b>Vzkříšení ve dne</b> (<a href="http://m.liturgie.cz/misal/04triduum/05vzkriseni.htm">texty</a>, <a href="pdf/2020_04_12-b-ve_dne-slovo.pdf">průvodce</a>)<br />
 						</p>
 						
 				
