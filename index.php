@@ -254,8 +254,21 @@
 						<span style="display:inline-block; width: 13em;"></span> – <b>Sobota / Ticho hrobu</b> (<a href="http://m.liturgie.cz/misal/04triduum/03sobota.htm">texty</a>, <a href="pdf/2020_04_11-slovo.pdf">průvodce</a>)<br />
 						<span style="display:inline-block; width: 13em;"></span> – <b>Vzkříšení</b> (<a href="http://m.liturgie.cz/misal/04triduum/04vigilie.htm">bdění</a>, <a href="pdf/2020_04_12-a-vigilie-slovo.pdf">průvodce</a>)<br />
 						<span style="display:inline-block; width: 13em;"></span> – <b>Vzkříšení ve dne</b> (<a href="http://m.liturgie.cz/misal/04triduum/05vzkriseni.htm">texty</a>, <a href="pdf/2020_04_12-b-ve_dne-slovo.pdf">průvodce</a>)<br />
-						</p>
+						</p><br />
+						<p><span style="display:inline-block; width: 13em;">„To nemůže být konec“</span> – <b>8dní a 8neděl</b> (<a href="pdf/2020_04_13-slovo.pdf">strohý průvodce</a>)<br />
+						<span style="display:inline-block; width: 13em;"></span> – 2. velikonoční neděle (texty, průvodce)<br />
+						<span style="display:inline-block; width: 13em;"></span> – 2. velikonoční neděle (texty, průvodce)<br />
+						<span style="display:inline-block; width: 13em;"></span> – 3. velikonoční neděle (texty, průvodce)<br />
+						<span style="display:inline-block; width: 13em;"></span> – 4. velikonoční neděle (texty, průvodce)<br />
+						<span style="display:inline-block; width: 13em;"></span> – 5. velikonoční neděle (texty, průvodce)<br />
+						<span style="display:inline-block; width: 13em;"></span> – 6. velikonoční neděle (texty, průvodce)<br />
+						<span style="display:inline-block; width: 13em;"></span> – Nanebevstoupení Páně (texty, průvodce)<br />
+						<span style="display:inline-block; width: 13em;"></span> – 7. velikonoční neděle (texty, průvodce)<br />
+						<span style="display:inline-block; width: 13em;"></span> – slavnost Darování Ducha (texty, průvodce)<br />
+
 						
+						
+						</p>
 				
 				</div>
 				</div>
