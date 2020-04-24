@@ -229,6 +229,16 @@
 						<br />
 						<p>Toto opatření trvá do odvolání.</p>
 						<br />
+						<hr style="color:#8C2318;">
+						<span style="color:#8c2318;">
+						Světlá nad Sázavou<br />
+						Pravidelné bohoslužby ve <b>všední den</b> budou od pondělí <b>11. 5. 2020</b> (zpočátku limit 30 osob);<br />
+						<b>nedělní</b> bohoslužby od neděle <b>31. 5. 2020</b>.<br />
+						<br />
+						Číhošť<br />
+						<b>Veškeré bohoslužby</b> budou od neděle <b>17. 5. 2020</b> (zpočátku limit 30 osob).<br />
+						</span>
+						<hr style="color:#8C2318;">
 						<br />
 						<p>K tématu <b>sociální a&nbsp;náboženské izolace od Boha</b> doporučuji k samostudiu:<br />
 						Lv&nbsp;13–14; Nm&nbsp;19; Jonáš; Mt&nbsp;8; Mt&nbsp;9; Lk&nbsp;10; Lk&nbsp;17; Lk&nbsp;24; Jan&nbsp;13</p>
@@ -256,8 +266,8 @@
 						<span style="display:inline-block; width: 13em;"></span> – <b>Vzkříšení ve dne</b> (<a href="http://m.liturgie.cz/misal/04triduum/05vzkriseni.htm">texty</a>, <a href="pdf/2020_04_12-b-ve_dne-slovo.pdf">průvodce</a>)<br />
 						</p><br />
 						<p><span style="display:inline-block; width: 13em;">„To nemůže být konec“</span> – <b>8dní a 8neděl /upraveno/</b> (<a href="pdf/2020_04_13-slovo.pdf">průvodce</a>)<br />
-						<span style="display:inline-block; width: 13em;"></span> – 2. velikonoční neděle (<a href="http://m.liturgie.cz/misal/05velikonoce/02_00.htm">texty</a>, <a href="pdf/2020_04_19-slovo.pdf">průvodce</a>)<br />
-						<span style="display:inline-block; width: 13em;"></span> – 3. velikonoční neděle (<a href="http://m.liturgie.cz/misal/05velikonoce/03_00.htm">texty</a>, průvodce)<br />
+						<span style="display:inline-block; width: 13em;"></span> – <b>2. velikonoční neděle</b> (<a href="http://m.liturgie.cz/misal/05velikonoce/02_00.htm">texty</a>, <a href="pdf/2020_04_19-slovo.pdf">průvodce</a>)<br />
+						<span style="display:inline-block; width: 13em;"></span> – <b>3. velikonoční neděle</b> (<a href="http://m.liturgie.cz/misal/05velikonoce/03_00.htm">texty</a>, <a href="pdf/2020_04_26-slovo.pdf">průvodce</a>)<br />
 						<span style="display:inline-block; width: 13em;"></span> – 4. velikonoční neděle (<a href="http://m.liturgie.cz/misal/05velikonoce/04_00.htm">texty</a>, průvodce)<br />
 						<span style="display:inline-block; width: 13em;"></span> – 5. velikonoční neděle (<a href="http://m.liturgie.cz/misal/05velikonoce/05_00.htm">texty</a>, průvodce)<br />
 						<span style="display:inline-block; width: 13em;"></span> – 6. velikonoční neděle (<a href="http://m.liturgie.cz/misal/05velikonoce/06_00.htm">texty</a>, průvodce)<br />
