@@ -231,12 +231,9 @@
 						<br />
 						<hr style="color:#8C2318;">
 						<span style="color:#8c2318;">
-						Světlá nad Sázavou<br />
-						Pravidelné bohoslužby ve <b>všední den</b> budou od pondělí <b>11. 5. 2020</b> (zpočátku limit 30 osob);<br />
-						<b>nedělní</b> bohoslužby od neděle <b>31. 5. 2020</b>.<br />
 						<br />
-						Číhošť<br />
-						<b>Veškeré bohoslužby</b> budou od neděle <b>17. 5. 2020</b> (zpočátku limit 30 osob).<br />
+						<b>Veškeré bohoslužby</b> budou obnoveny od pondělí <b>11. 5. 2020</b>.<br />
+						<br />
 						</span>
 						<hr style="color:#8C2318;">
 						<br />
