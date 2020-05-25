@@ -41,9 +41,6 @@
 			<nav class="collapse navbar-collapse navbar-right">
 				<ul id="nav" class="nav navbar-nav">
 				<li>
-						<a href="#karantena">☣ Rodinné bohoslužby</a>
-					</li>
-				<li>
 						<a href="#Bohosluzby">Pořad bohoslužeb</a>
 					</li>
 					<li class="dropdown">
@@ -229,13 +226,13 @@
 						<br />
 						<p style="text-decoration: line-through; text-decoration-style: double;">Toto opatření trvá do odvolání.</p>
 						<br />
-						<hr style="color:#8C2318;">
+						<hr style="height:2px; border-width:0;color:#8C2318;background-color:#8C2318;">
 						<span style="color:#8c2318; text-decoration: line-through; text-decoration-style: double;">
 						<br />
 						<b>Veškeré bohoslužby</b> budou obnoveny od pondělí <b>11. 5. 2020</b>.<br />
 						<br />
 						</span>
-						<hr style="color:#8C2318;">
+						<hr style="height:2px; border-width:0;color:#8C2318;background-color:#8C2318;">
 						<br />
 						<p>K tématu <b>sociální a&nbsp;náboženské izolace od Boha</b> doporučuji k samostudiu:<br />
 						Lv&nbsp;13–14; Nm&nbsp;19; Jonáš; Mt&nbsp;8; Mt&nbsp;9; Lk&nbsp;10; Lk&nbsp;17; Lk&nbsp;24; Jan&nbsp;13</p>
