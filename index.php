@@ -60,7 +60,7 @@
 	</header>
 
 <!-- dynamicky generované heslo dne .-->
-	<div id="jHD"><?php include('./HD-2003-cetba.inc'); ?></div>
+	<div id="jHD"><?php include('./HD-2006-milada70.inc'); ?></div>
 
 	<section id="Farnosti" class="features"  style="display:flex; min-height: 100vh;">
 		<div class="container" style="margin-top: auto; margin-bottom: auto;">
