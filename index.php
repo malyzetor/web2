@@ -60,7 +60,7 @@
 	</header>
 
 <!-- dynamicky generované heslo dne .-->
-	<div id="jHD"><?php include('./HD-2006-milada70.inc'); ?></div>
+	<div id="jHD"><?php include('./HD-2007-jiri-dekovna.inc'); ?></div>
 
 	<section id="Farnosti" class="features"  style="display:flex; min-height: 100vh;">
 		<div class="container" style="margin-top: auto; margin-bottom: auto;">
@@ -170,7 +170,19 @@
 				<div class="sec-title text-center mb50">
 					<h2>Pořad bohoslužeb</h2>
 				</div>
-				<div class="col-md-3"></div>
+				<!-- <div class="col-md-3"></div> -->
+				<div class="col-md-6">
+					<div class="service-item">
+						<div class="service-icon" style="width: 100px;">
+							<a href="./pdf/2020_07_11-dekovna_pout.pdf" style="color:#8C2318;" title="Děkovná pěší pouť"><img src="img/bota.svg" style="width: 5em;" class="rounded float-right" alt="Pouť" /></a>
+						</div>
+						<div class="service-desc">
+							<h3>Děkovná pěší pouť</h3>
+							<p>Sobota 11. července 2020&nbsp;&nbsp;<a href="./pdf/2020_07_11-dekovna_pout.pdf" style="color:#8C2318;" title="Děkovná pěší pouť"><i class="far fa-file-pdf"></i></a>
+							</p>
+						</div>
+					</div>
+				</div>
 				<div class="col-md-6">
 					<div class="service-item">
 						<div class="service-icon" style="width: 100px;">
@@ -209,79 +221,7 @@
 		</div>
     </section>
     
-	<section id="karantena" class="features" style="background-color:#fafaf2;">
-		<div class="container" style="margin-top: auto; margin-bottom: auto;">
-			<div class="row">
-				<div class="sec-title text-center">
-					<h2>☣ Rodinné bohoslužby</h2>
-				</div>
-				<div class="col-md-2"></div>
-				<div class="col-md-8">
-				
-				<div class="sec-sub-title">
-				
-						<p style="text-decoration: line-through; text-decoration-style: double;"><a href="http://www.bihk.cz/aktuality/zpravy/5684-stav-nouze%3A-bohosluzby-jen-bez-ucasti-lidu.html">Rozhodnutím</a> diecézního biskupa z 12. března 2020 jsou <b>všechny veřejné bohoslužby</b> zrušeny.<br />
-						Toto opatření se netýká pohřbů.<br />
-						Individuální setkání s knězem jsou možná.</p>
-						<br />
-						<p style="text-decoration: line-through; text-decoration-style: double;">Toto opatření trvá do odvolání.</p>
-						<br />
-						<hr style="height:2px; border-width:0;color:#8C2318;background-color:#8C2318;">
-						<span style="color:#8c2318; text-decoration: line-through; text-decoration-style: double;">
-						<br />
-						<b>Veškeré bohoslužby</b> budou obnoveny od pondělí <b>11. 5. 2020</b>.<br />
-						<br />
-						</span>
-						<hr style="height:2px; border-width:0;color:#8C2318;background-color:#8C2318;">
-						<br />
-						<p>K tématu <b>sociální a&nbsp;náboženské izolace od Boha</b> doporučuji k samostudiu:<br />
-						Lv&nbsp;13–14; Nm&nbsp;19; Jonáš; Mt&nbsp;8; Mt&nbsp;9; Lk&nbsp;10; Lk&nbsp;17; Lk&nbsp;24; Jan&nbsp;13</p>
-						<p>Letošním liturgickým rokem nás provází evangelista <a href="pdf/Matous_a_infekce.pdf">Matouš</a>.</p>
-						<br />
-						<br />
-						<p><span style="display:inline-block; width: 13em;">„S cizími lidmi v cizím pokoji“</span> – <b>základní teze</b> (<a href="pdf/2020_03_15-zakladni_teze.pdf">text</a>)<br />
-						<span style="display:inline-block; width: 13em;"></span> – <b>3. svatopostní neděle</b> (<a href="http://m.liturgie.cz/misal/03pust/03_00.htm">texty</a>, <a href="pdf/2020_03_15-slovo.pdf">průvodce</a>)<br />
-						<span style="display:inline-block; width: 13em;"></span> – <b>slavnost sv. Josefa</b> (<a href="http://m.liturgie.cz/misal/08sanctoral/03_19.htm">texty</a>, <a href="pdf/2020_03_19-slovo.pdf">průvodce</a>)<br />
-						<span style="display:inline-block; width: 13em;"></span> – <b>4. svatopostní neděle</b> (<a href="http://m.liturgie.cz/misal/03pust/04_00.htm">texty</a>, <a href="pdf/2020_03_22-slovo.pdf">průvodce</a>)<br />
-						<span style="display:inline-block; width: 13em;"></span> – <b>slavnost Zvěstování Páně</b> (<a href="http://m.liturgie.cz/misal/08sanctoral/03_25.htm">texty</a>, <a href="pdf/2020_03_25-slovo.pdf">průvodce</a>)<br />
-						<span style="display:inline-block; width: 13em;"></span> – <b>5. svatopostní neděle</b> (<a href="http://m.liturgie.cz/misal/03pust/05_00.htm">texty</a>, <a href="pdf/2020_03_29-slovo.pdf">průvodce</a>)<br />
-						</p><br />
-						<p><span style="display:inline-block; width: 13em;">„Svatý týden v cizím pokoji“</span> – <b>pracovní teze</b> (<a href="pdf/2020_03_25-Velikonoce-zakladni_teze.pdf">text</a>, <a href="pdf/2020_04_05-Svaty_tyden.pdf">biblický nástřel</a>)<br />
-						<span style="display:inline-block; width: 13em;"></span> – <b>Denní modlitba žalmů</b> (<a href="https://lh.kbs.sk/cz/default.htm">breviář</a>)<br />
-						<span style="display:inline-block; width: 13em;"></span> – <b>Květná neděle</b> (<a href="http://m.liturgie.cz/misal/03pust/06_00.htm">texty</a>, <a href="pdf/2020_04_05-slovo.pdf">průvodce</a>)<br />
-						<span style="display:inline-block; width: 13em;"></span> – <b>Pondělí</b> (<a href="http://m.liturgie.cz/misal/03pust/06_01.htm">texty</a>, <a href="pdf/2020_04_06-pondeli.pdf">průvodce</a>)<br />
-						<span style="display:inline-block; width: 13em;"></span> – <b>Úterý</b> (<a href="http://m.liturgie.cz/misal/03pust/06_02.htm">texty</a>, <a href="pdf/2020_04_07-utery.pdf">průvodce</a>)<br />
-						<span style="display:inline-block; width: 13em;"></span> – <b>Středa</b> (<a href="http://m.liturgie.cz/misal/03pust/06_03.htm">texty</a>, <a href="pdf/2020_04_08-streda.pdf">průvodce</a>)<br />
-						<span style="display:inline-block; width: 13em;"></span> – <b>Čtvrtek ve dne</b> (<a href="pdf/2020_04_09-ctvrtek.pdf">průvodce</a>)<br />
-						<span style="display:inline-block; width: 13em;"></span> – <b>Čtvrtek večer / Památka Večeře Páně</b> (<a href="http://m.liturgie.cz/misal/04triduum/01ctvrtek.htm">texty</a>, <a href="pdf/2020_04_09-slovo.pdf">průvodce</a>)<br />
-						<span style="display:inline-block; width: 13em;"></span> – <b>Pátek / Pašije</b> (<a href="http://m.liturgie.cz/misal/04triduum/02patek.htm">texty</a>, <a href="pdf/2020_04_10-slovo.pdf">průvodce</a>)<br />
-						<span style="display:inline-block; width: 13em;"></span> – <b>Sobota / Ticho hrobu</b> (<a href="http://m.liturgie.cz/misal/04triduum/03sobota.htm">texty</a>, <a href="pdf/2020_04_11-slovo.pdf">průvodce</a>)<br />
-						<span style="display:inline-block; width: 13em;"></span> – <b>Vzkříšení</b> (<a href="http://m.liturgie.cz/misal/04triduum/04vigilie.htm">bdění</a>, <a href="pdf/2020_04_12-a-vigilie-slovo.pdf">průvodce</a>)<br />
-						<span style="display:inline-block; width: 13em;"></span> – <b>Vzkříšení ve dne</b> (<a href="http://m.liturgie.cz/misal/04triduum/05vzkriseni.htm">texty</a>, <a href="pdf/2020_04_12-b-ve_dne-slovo.pdf">průvodce</a>)<br />
-						</p><br />
-						<p><span style="display:inline-block; width: 13em;">„To nemůže být konec“</span> – <b>8dní a 8neděl /upraveno/</b> (<a href="pdf/2020_04_13-slovo.pdf">průvodce</a>)<br />
-						<span style="display:inline-block; width: 13em;"></span> – <b>2. velikonoční neděle</b> (<a href="http://m.liturgie.cz/misal/05velikonoce/02_00.htm">texty</a>, <a href="pdf/2020_04_19-slovo.pdf">průvodce</a>)<br />
-						<span style="display:inline-block; width: 13em;"></span> – <b>3. velikonoční neděle</b> (<a href="http://m.liturgie.cz/misal/05velikonoce/03_00.htm">texty</a>, <a href="pdf/2020_04_26-slovo.pdf">průvodce</a>)<br />
-						<span style="display:inline-block; width: 13em;"></span> – <b>4. velikonoční neděle</b> (<a href="http://m.liturgie.cz/misal/05velikonoce/04_00.htm">texty</a>, <a href="pdf/2020_05_03-slovo.pdf">průvodce</a>)<br />
-						<span style="display:inline-block; width: 13em;"></span> – <b>5. velikonoční neděle</b> (<a href="http://m.liturgie.cz/misal/05velikonoce/05_00.htm">texty</a>, <a href="pdf/2020_05_10-slovo.pdf">průvodce</a>)<br />
-						<br />
-						<span style="display:inline-block; width: 13em;"></span> – <b>Všechno konec má a jelito dva</b> (<a href="pdf/2020_05_10-nekonec.pdf">poznámky</a>)<br />
-						<br />
-						<span style="font-style: italic;">
-						<span style="display:inline-block; width: 13em;"></span> – 6. velikonoční neděle (<a href="http://m.liturgie.cz/misal/05velikonoce/06_00.htm">texty</a>, průvodce)<br />
-						<span style="display:inline-block; width: 13em;"></span> – Nanebevstoupení Páně (<a href="http://m.liturgie.cz/misal/05velikonoce/06_04.htm">texty</a>, průvodce)<br />
-						<span style="display:inline-block; width: 13em;"></span> – 7. velikonoční neděle (<a href="http://m.liturgie.cz/misal/05velikonoce/07_00.htm">texty</a>, průvodce)<br />
-						<span style="display:inline-block; width: 13em;"></span> – slavnost Darování Ducha (<a href="http://m.liturgie.cz/misal/05velikonoce/07_07a.htm">texty</a>, průvodce)<br />
-						</span>
-						
-						
-						</p>
-				
-				</div>
-				</div>
-			</div>
-		</div>
-	</section>
+	
 
 
 	<script defer src="js/jag.min.js"></script>
