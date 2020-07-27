@@ -170,15 +170,14 @@
 				<div class="sec-title text-center mb50">
 					<h2>Pořad bohoslužeb</h2>
 				</div>
-				<!-- <div class="col-md-3"></div> -->
 				<div class="col-md-6">
 					<div class="service-item">
 						<div class="service-icon" style="width: 100px;">
-							<a href="./pdf/2020_07_11-dekovna_pout.pdf" style="color:#8C2318;" title="Děkovná pěší pouť"><img src="img/bota.svg" style="width: 5em;" class="rounded float-right" alt="Pouť" /></a>
+							<a href="./pdf/2020_08_09-plakat-mse_s_rodinami.pdf" style="color:#8C2318;" title="Pěší pouť do Loukova"><img src="img/bota.svg" style="width: 5em;" class="rounded float-right" alt="Pouť" /></a>
 						</div>
 						<div class="service-desc">
-							<h3>Děkovná pěší pouť</h3>
-							<p>Sobota 11. července 2020&nbsp;&nbsp;<a href="./pdf/2020_07_11-dekovna_pout.pdf" style="color:#8C2318;" title="Děkovná pěší pouť"><i class="far fa-file-pdf"></i></a>
+							<h3>Pěší pouť do Loukova</h3>
+							<p>Neděle 9. srpna 2020&nbsp;&nbsp;<a href="./pdf/2020_08_09-plakat-mse_s_rodinami.pdf" style="color:#8C2318;" title="Pěší pouť do Loukova"><i class="far fa-file-pdf"></i></a>
 							</p>
 						</div>
 					</div>
