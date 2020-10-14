@@ -40,6 +40,7 @@
 			</div>
 			<nav class="collapse navbar-collapse navbar-right">
 				<ul id="nav" class="nav navbar-nav">
+				<li><a href="#karantena">☣ Rodinné bohoslužby</a></li>
 				<li>
 						<a href="#Bohosluzby">Pořad bohoslužeb</a>
 					</li>
@@ -60,7 +61,7 @@
 	</header>
 
 <!-- dynamicky generované heslo dne .-->
-	<div id="jHD"><?php include('./HD-2007-jiri-dekovna.inc'); ?></div>
+	<div id="jHD"><?php include('./HD-2010-obraz.inc'); ?></div>
 
 	<section id="Farnosti" class="features"  style="display:flex; min-height: 100vh;">
 		<div class="container" style="margin-top: auto; margin-bottom: auto;">
@@ -170,19 +171,8 @@
 				<div class="sec-title text-center mb50">
 					<h2>Pořad bohoslužeb</h2>
 				</div>
-				<!-- <div class="col-md-3"></div> -->
-				<div class="col-md-6">
-					<div class="service-item">
-						<div class="service-icon" style="width: 100px;">
-							<a href="./pdf/2020_07_11-dekovna_pout.pdf" style="color:#8C2318;" title="Děkovná pěší pouť"><img src="img/bota.svg" style="width: 5em;" class="rounded float-right" alt="Pouť" /></a>
-						</div>
-						<div class="service-desc">
-							<h3>Děkovná pěší pouť</h3>
-							<p>Sobota 11. července 2020&nbsp;&nbsp;<a href="./pdf/2020_07_11-dekovna_pout.pdf" style="color:#8C2318;" title="Děkovná pěší pouť"><i class="far fa-file-pdf"></i></a>
-							</p>
-						</div>
-					</div>
-				</div>
+				<div class="col-md-3"></div>
+				
 				<div class="col-md-6">
 					<div class="service-item">
 						<div class="service-icon" style="width: 100px;">
@@ -221,7 +211,38 @@
 		</div>
     </section>
     
-	
+	<section id="karantena" class="features" style="background-color:#fafaf2;">
+		<div class="container" style="margin-top: auto; margin-bottom: auto;">
+			<div class="row">
+				<div class="sec-title text-center">
+					<h2>☣ Rodinné bohoslužby</h2>
+				</div>
+				<div class="col-md-2"></div>
+				<div class="col-md-8">
+				
+				<div class="sec-sub-title">
+				
+						<br />
+						<p>K tématu <b>sociální a&nbsp;náboženské izolace od Boha</b> doporučuji k samostudiu:<br />
+						Lv&nbsp;13–14; Nm&nbsp;19; Jonáš; Mt&nbsp;8; Mt&nbsp;9; Lk&nbsp;10; Lk&nbsp;17; Lk&nbsp;24; Jan&nbsp;13</p>
+						<p>Letošním liturgickým rokem nás provází evangelista <a href="pdf/Matous_a_infekce.pdf">Matouš</a>.</p>
+						<br />
+						<br />
+						<p><span style="display:inline-block; width: 13em;">„Životodárný pramen z nitra“</span> – <b>základní teze</b> (text)<br />
+						<span style="display:inline-block; width: 13em;"></span> – <b>29. neděle v mezidobí</b> (<a href="http://m.liturgie.cz/misal/06mezidobi/29_00.htm">texty</a>, průvodce)<br />
+						<span style="display:inline-block; width: 13em;"></span> – <b>30. neděle v mezidobí</b> (<a href="http://m.liturgie.cz/misal/06mezidobi/30_00.htm">texty</a>, průvodce)<br />
+						<span style="display:inline-block; width: 13em;"></span> – <b>Slavnost všech svatých</b> (<a href="http://m.liturgie.cz/misal/08sanctoral/11_01.htm">texty</a>, průvodce)<br />
+						</p><br />
+
+						
+						
+						</p>
+				
+				</div>
+				</div>
+			</div>
+		</div>
+	</section>
 
 
 	<script defer src="js/jag.min.js"></script>
