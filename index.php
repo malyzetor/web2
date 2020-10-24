@@ -228,10 +228,10 @@
 						<p>Letošním liturgickým rokem nás provází evangelista <a href="pdf/Matous_a_infekce.pdf">Matouš</a>.</p>
 						<br />
 						<br />
-						<p><span style="display:inline-block; width: 13em;">„Životodárný pramen z nitra“</span> – <b>základní teze</b> (text)<br />
-						<span style="display:inline-block; width: 13em;"></span> – <b>29. neděle v mezidobí</b> (<a href="http://m.liturgie.cz/misal/06mezidobi/29_00.htm">texty</a>, průvodce)<br />
-						<span style="display:inline-block; width: 13em;"></span> – <b>30. neděle v mezidobí</b> (<a href="http://m.liturgie.cz/misal/06mezidobi/30_00.htm">texty</a>, průvodce)<br />
-						<span style="display:inline-block; width: 13em;"></span> – <b>Slavnost všech svatých</b> (<a href="http://m.liturgie.cz/misal/08sanctoral/11_01.htm">texty</a>, průvodce)<br />
+						<p><span style="display:inline-block; width: 13em;">„Životodárný pramen z nitra“</span> – základní teze (text)<br />
+						<span style="display:inline-block; width: 13em;"></span> – <b>29. neděle v mezidobí</b> (<a href="http://m.liturgie.cz/misal/06mezidobi/29_00.htm">texty</a>, <a href="pdf/2020_10_18-slovo.pdf">průvodce</a>)<br />
+						<span style="display:inline-block; width: 13em;"></span> – <b>30. neděle v mezidobí</b> (<a href="http://m.liturgie.cz/misal/06mezidobi/30_00.htm">texty</a>, <a href="pdf/2020_10_25-slovo.pdf">průvodce</a>)<br />
+						<span style="display:inline-block; width: 13em;"></span> – Slavnost všech svatých (<a href="http://m.liturgie.cz/misal/08sanctoral/11_01.htm">texty</a>, průvodce)<br />
 						</p><br />
 
 						
