@@ -233,7 +233,7 @@
 						<span style="display:inline-block; width: 13em;"></span> – <b>30. neděle v mezidobí</b> (<a href="http://m.liturgie.cz/misal/06mezidobi/30_00.htm">texty</a>, <a href="pdf/2020_10_25-slovo.pdf">průvodce</a>)<br />
 						<span style="display:inline-block; width: 13em;"></span> – <b>Slavnost všech svatých</b> (<a href="http://m.liturgie.cz/misal/08sanctoral/11_01.htm">texty</a>, <a href="pdf/2020_11_01-slovo.pdf">průvodce</a>)<br />
 						<span style="display:inline-block; width: 13em;"></span> – <b>32. neděle v mezidobí</b> (<a href="http://m.liturgie.cz/misal/06mezidobi/32_00.htm">texty</a>, <a href="pdf/2020_11_08-slovo.pdf">průvodce</a>)<br />
-						<span style="display:inline-block; width: 13em;"></span> – 33. neděle v mezidobí (<a href="http://m.liturgie.cz/misal/06mezidobi/33_00.htm">texty</a>, průvodce)<br />
+						<span style="display:inline-block; width: 13em;"></span> – <b>33. neděle v mezidobí</b> (<a href="http://m.liturgie.cz/misal/06mezidobi/33_00.htm">texty</a>, <a href="pdf/2020_11_15-slovo.pdf">průvodce</a>)<br />
 						<span style="display:inline-block; width: 13em;"></span> – Slavnost Ježíše Krista Krále (<a href="http://m.liturgie.cz/misal/06mezidobi/Krista_Krale.htm">texty</a>, průvodce)<br />
 						</p><br />
 
