@@ -228,13 +228,20 @@
 						<p>Letošním liturgickým rokem nás provází evangelista <a href="pdf/Matous_a_infekce.pdf">Matouš</a>.</p>
 						<br />
 						<br />
-						<p><span style="display:inline-block; width: 13em;">„Životodárný pramen z nitra“</span> – základní teze (text)<br />
+						<p><span style="display:inline-block; width: 13em;">„Životodárný pramen z nitra“</span> – <b>základní teze</b> (<a href="pdf/2020_10_14-pramen.pdf">text</a>)<br />
 						<span style="display:inline-block; width: 13em;"></span> – <b>29. neděle v mezidobí</b> (<a href="http://m.liturgie.cz/misal/06mezidobi/29_00.htm">texty</a>, <a href="pdf/2020_10_18-slovo.pdf">průvodce</a>)<br />
 						<span style="display:inline-block; width: 13em;"></span> – <b>30. neděle v mezidobí</b> (<a href="http://m.liturgie.cz/misal/06mezidobi/30_00.htm">texty</a>, <a href="pdf/2020_10_25-slovo.pdf">průvodce</a>)<br />
 						<span style="display:inline-block; width: 13em;"></span> – <b>Slavnost všech svatých</b> (<a href="http://m.liturgie.cz/misal/08sanctoral/11_01.htm">texty</a>, <a href="pdf/2020_11_01-slovo.pdf">průvodce</a>)<br />
 						<span style="display:inline-block; width: 13em;"></span> – <b>32. neděle v mezidobí</b> (<a href="http://m.liturgie.cz/misal/06mezidobi/32_00.htm">texty</a>, <a href="pdf/2020_11_08-slovo.pdf">průvodce</a>)<br />
 						<span style="display:inline-block; width: 13em;"></span> – <b>33. neděle v mezidobí</b> (<a href="http://m.liturgie.cz/misal/06mezidobi/33_00.htm">texty</a>, <a href="pdf/2020_11_15-slovo.pdf">průvodce</a>)<br />
-						<span style="display:inline-block; width: 13em;"></span> – Slavnost Ježíše Krista Krále (<a href="http://m.liturgie.cz/misal/06mezidobi/Krista_Krale.htm">texty</a>, průvodce)<br />
+						<span style="display:inline-block; width: 13em;"></span> – <b>Slavnost Ježíše Krista Krále</b> (<a href="http://m.liturgie.cz/misal/06mezidobi/Krista_Krale.htm">texty</a>, <a href="pdf/2020_11_22-slovo.pdf">průvodce</a>)<br />
+						<br />
+						<p><span style="display:inline-block; width: 13em;">„Od věků nikdo neslyšel“</span> – adventní věnec (text)<br />
+						<span style="display:inline-block; width: 13em;"></span> – 1. adventní neděle (<a href="http://m.liturgie.cz/misal/01advent/01_00.htm">texty</a>, průvodce)<br />
+						<span style="display:inline-block; width: 13em;"></span> – 2. adventní neděle (<a href="http://m.liturgie.cz/misal/01advent/02_00.htm">texty</a>, průvodce)<br />
+						<span style="display:inline-block; width: 13em;"></span> – 3. adventní neděle (<a href="http://m.liturgie.cz/misal/01advent/03_00.htm">texty</a>, průvodce)<br />
+						<span style="display:inline-block; width: 13em;"></span> – 4. adventní neděle (<a href="http://m.liturgie.cz/misal/01advent/04_00.htm">texty</a>, průvodce)<br />
+						
 						</p><br />
 
 						
