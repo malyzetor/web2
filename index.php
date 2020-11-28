@@ -61,7 +61,7 @@
 	</header>
 
 <!-- dynamicky generované heslo dne .-->
-	<div id="jHD"><?php include('./HD-2020-redwednesday.inc'); ?></div>
+	<div id="jHD"><?php include('./HD-2010-obraz.inc'); ?></div>
 
 	<section id="Farnosti" class="features"  style="display:flex; min-height: 100vh;">
 		<div class="container" style="margin-top: auto; margin-bottom: auto;">
@@ -237,7 +237,7 @@
 						<span style="display:inline-block; width: 13em;"></span> – <b>Slavnost Ježíše Krista Krále</b> (<a href="http://m.liturgie.cz/misal/06mezidobi/Krista_Krale.htm">texty</a>, <a href="pdf/2020_11_22-slovo.pdf">průvodce</a>)<br />
 						<br />
 						<p><span style="display:inline-block; width: 13em;">„Od věků nikdo neslyšel“</span> – <b>základní teze (adventní věnec)</b> (<a href="pdf/2020_11_24-venec.pdf">text</a>)<br />
-						<span style="display:inline-block; width: 13em;"></span> – 1. adventní neděle (<a href="http://m.liturgie.cz/misal/01advent/01_00.htm">texty</a>, průvodce)<br />
+						<span style="display:inline-block; width: 13em;"></span> – <b>1. adventní neděle</b> (<a href="http://m.liturgie.cz/misal/01advent/01_00.htm">texty</a>, <a href="pdf/2020_11_29-slovo.pdf">průvodce</a>)<br />
 						<span style="display:inline-block; width: 13em;"></span> – 2. adventní neděle (<a href="http://m.liturgie.cz/misal/01advent/02_00.htm">texty</a>, průvodce)<br />
 						<span style="display:inline-block; width: 13em;"></span> – 3. adventní neděle (<a href="http://m.liturgie.cz/misal/01advent/03_00.htm">texty</a>, průvodce)<br />
 						<span style="display:inline-block; width: 13em;"></span> – 4. adventní neděle (<a href="http://m.liturgie.cz/misal/01advent/04_00.htm">texty</a>, průvodce)<br />
