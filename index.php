@@ -238,7 +238,7 @@
 						<br />
 						<p><span style="display:inline-block; width: 13em;">„Od věků nikdo neslyšel“</span> – <b>základní teze (adventní věnec)</b> (<a href="pdf/2020_11_24-venec.pdf">text</a>)<br />
 						<span style="display:inline-block; width: 13em;"></span> – <b>1. adventní neděle</b> (<a href="http://m.liturgie.cz/misal/01advent/01_00.htm">texty</a>, <a href="pdf/2020_11_29-slovo.pdf">průvodce</a>)<br />
-						<span style="display:inline-block; width: 13em;"></span> – 2. adventní neděle (<a href="http://m.liturgie.cz/misal/01advent/02_00.htm">texty</a>, průvodce)<br />
+						<span style="display:inline-block; width: 13em;"></span> – <b>2. adventní neděle</b> (<a href="http://m.liturgie.cz/misal/01advent/02_00.htm">texty</a>, <a href="pdf/2020_12_06-slovo.pdf">průvodce</a>)<br />
 						<span style="display:inline-block; width: 13em;"></span> – 3. adventní neděle (<a href="http://m.liturgie.cz/misal/01advent/03_00.htm">texty</a>, průvodce)<br />
 						<span style="display:inline-block; width: 13em;"></span> – 4. adventní neděle (<a href="http://m.liturgie.cz/misal/01advent/04_00.htm">texty</a>, průvodce)<br />
 						
