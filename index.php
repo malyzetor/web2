@@ -248,18 +248,25 @@
 						<span style="display:inline-block; width: 13em;"></span> – <b>32. neděle v mezidobí</b> (<a href="http://m.liturgie.cz/misal/06mezidobi/32_00.htm">texty</a>, <a href="pdf/2020_11_08-slovo.pdf">průvodce</a>)<br />
 						<span style="display:inline-block; width: 13em;"></span> – <b>33. neděle v mezidobí</b> (<a href="http://m.liturgie.cz/misal/06mezidobi/33_00.htm">texty</a>, <a href="pdf/2020_11_15-slovo.pdf">průvodce</a>)<br />
 						<span style="display:inline-block; width: 13em;"></span> – <b>Slavnost Ježíše Krista Krále</b> (<a href="http://m.liturgie.cz/misal/06mezidobi/Krista_Krale.htm">texty</a>, <a href="pdf/2020_11_22-slovo.pdf">průvodce</a>)<br />
-						<br />
+						</p><br />
 						<p><span style="display:inline-block; width: 13em;">„Od věků nikdo neslyšel“</span> – <b>základní teze (adventní věnec)</b> (<a href="pdf/2020_11_24-venec.pdf">text</a>)<br />
 						<span style="display:inline-block; width: 13em;"></span> – <b>1. adventní neděle</b> (<a href="http://m.liturgie.cz/misal/01advent/01_00.htm">texty</a>, <a href="pdf/2020_11_29-slovo.pdf">průvodce</a>)<br />
 						<span style="display:inline-block; width: 13em;"></span> – <b>2. adventní neděle</b> (<a href="http://m.liturgie.cz/misal/01advent/02_00.htm">texty</a>, <a href="pdf/2020_12_06-slovo.pdf">průvodce</a>)<br />
-						<span style="display:inline-block; width: 13em;"></span> – 3. adventní neděle (<a href="http://m.liturgie.cz/misal/01advent/03_00.htm">texty</a>, průvodce)<br />
+						<span style="display:inline-block; width: 13em;"></span> – <b>3. adventní neděle</b> (<a href="http://m.liturgie.cz/misal/01advent/03_00.htm">texty</a>, <a href="pdf/2020_12_13-slovo.pdf">průvodce</a>)<br />
 						<span style="display:inline-block; width: 13em;"></span> – 4. adventní neděle (<a href="http://m.liturgie.cz/misal/01advent/04_00.htm">texty</a>, průvodce)<br />
-						
 						</p><br />
-
+						<p><span style="display:inline-block; width: 13em;">„Rovinka“</span> – 7×Ó (17. – 23. prosince) (průvodce)<br />
+							<span style="display:inline-block; width: 13em;"></span> – předvečer Pánova narození (průvodce)<br />
+							<span style="display:inline-block; width: 13em;"></span> – slavnost Narození Páně (<a href="http://m.liturgie.cz/misal/02vanoce/12_25d.htm">texty</a>, <span style="text-decoration: line-through double;">průvodce</span>)<br />
+							<span style="display:inline-block; width: 13em;"></span> – svátek Svaté rodiny (<a href="http://m.liturgie.cz/misal/02vanoce/SvRodina.htm">texty</a>, průvodce)<br />
+							<span style="display:inline-block; width: 13em;"></span> – slavnost Panny Marie, θεοτοκος (<a href="http://m.liturgie.cz/misal/08sanctoral/01_01.htm">texty</a>, průvodce)<br />
+							<span style="display:inline-block; width: 13em;"></span> – 2. vánoční neděle (<a href="http://m.liturgie.cz/misal/02vanoce/02_00.htm">texty</a>, průvodce)<br />
+							<span style="display:inline-block; width: 13em;"></span> – slavnost Zjevení Páně (<a href="http://m.liturgie.cz/misal/02vanoce/01_06.htm">texty</a>, průvodce)<br />
+							<span style="display:inline-block; width: 13em;"></span> – svátek Ježíšovo ponoření v Jordánu (<a href="http://m.liturgie.cz/misal/02vanoce/KrtuPane.htm">texty</a>, průvodce)<br />
+						</p><br />
 						
 						
-						</p>
+						
 				
 				</div>
 				</div>
