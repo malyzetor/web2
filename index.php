@@ -201,6 +201,22 @@
 						</div>
 					</div>
 				</div>
+				
+			</div>
+			<div class="row">
+				<div class="col-md-3"></div>
+				<div class="col-md-6">
+					<div class="service-item">
+						<div class="service-icon" style="width: 100px;">
+							<a href="./pdf/2020_12_00-vanoce.pdf" style="color:#8C2318;" title="Vánoce 2019"><img src="img/star-christmas.svg" style="width: 5em;" class="rounded float-right" alt="Vánoce" /></a>
+						</div>
+						<div class="service-desc">
+							<h3>Vánoční svátky</h3>
+							<p>Rozpis bohoslužeb ve dnech 24. 12. 2020 až 6. 1. 2021.&nbsp;&nbsp;<a href="./pdf/2020_12_00-vanoce.pdf" style="color:#8C2318;" title="Vanoce 2019"><i class="far fa-file-pdf"></i></a>
+							</p>
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
 	</section>
