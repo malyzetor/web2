@@ -180,7 +180,7 @@
 						</div>
 						<div class="service-desc">
 							<h3>Farní PES</h3>
-							<p>Matice opatření podle MZ ČR z&nbsp;29.&nbsp;11.&nbsp;2020 (upr. 7.&nbsp;12.&nbsp;2020).&nbsp;&nbsp;<a href="./pdf/2020_12_03-PES_farnosti.pdf" style="color:#8C2318;" title="Farní PES"><i class="far fa-file-pdf"></i></a>
+							<p>Matice opatření podle MZ ČR z&nbsp;29.&nbsp;11.&nbsp;2020 (upr. 7.&nbsp;12.&nbsp;2020).&nbsp;&nbsp;<a href="./pdf/2020_12_03-PES_farnosti.pdf" style="color:#8C2318;" title="Farní PES"><i class="far fa-file-pdf"></i></a><br /><span><?php include('./downPES.inc'); ?></span>
 							</p>
 						</div>
 					</div>
@@ -269,10 +269,10 @@
 						<span style="display:inline-block; width: 13em;"></span> – <b>1. adventní neděle</b> (<a href="http://m.liturgie.cz/misal/01advent/01_00.htm">texty</a>, <a href="pdf/2020_11_29-slovo.pdf">průvodce</a>)<br />
 						<span style="display:inline-block; width: 13em;"></span> – <b>2. adventní neděle</b> (<a href="http://m.liturgie.cz/misal/01advent/02_00.htm">texty</a>, <a href="pdf/2020_12_06-slovo.pdf">průvodce</a>)<br />
 						<span style="display:inline-block; width: 13em;"></span> – <b>3. adventní neděle</b> (<a href="http://m.liturgie.cz/misal/01advent/03_00.htm">texty</a>, <a href="pdf/2020_12_13-slovo.pdf">průvodce</a>)<br />
-						<span style="display:inline-block; width: 13em;"></span> – 4. adventní neděle (<a href="http://m.liturgie.cz/misal/01advent/04_00.htm">texty</a>, průvodce)<br />
+						<span style="display:inline-block; width: 13em;"></span> – <b>4. adventní neděle</b> (<a href="http://m.liturgie.cz/misal/01advent/04_00.htm">texty</a>, <a href="pdf/2020_12_20-slovo.pdf">průvodce</a>)<br />
 						</p><br />
-						<p><span style="display:inline-block; width: 13em;">„Rovinka“</span> – <b>7×Ó (17. – 23. prosince)</b> (<a href="pdf/2020_12_17-OAntifony.pdf">průvodce</a>)<br />
-							<span style="display:inline-block; width: 13em;"></span> – <b>noc Pánova narození</b> (<a href="pdf/2020_12_24-noc.pdf">průvodce</a>)<br />
+						<p><span style="display:inline-block; width: 13em;">„Vyrovnaná cesta“</span> – <b>7×Ó (17. – 23. prosince)</b> (<a href="pdf/2020_12_17-OAntifony.pdf">průvodce</a>)<br />
+							<span style="display:inline-block; width: 13em;"></span> – <b>Nejtišší noc (24. prosince)</b> (<a href="pdf/2020_12_24-noc.pdf">průvodce</a>)<br />
 							<span style="display:inline-block; width: 13em;"></span> – slavnost Narození Páně (<a href="http://m.liturgie.cz/misal/02vanoce/12_25d.htm">texty</a>, <span style="text-decoration: line-through double;">průvodce</span>)<br />
 							<span style="display:inline-block; width: 13em;"></span> – svátek Svaté rodiny (<a href="http://m.liturgie.cz/misal/02vanoce/SvRodina.htm">texty</a>, průvodce)<br />
 							<span style="display:inline-block; width: 13em;"></span> – slavnost Panny Marie, θεοτοκος (<a href="http://m.liturgie.cz/misal/08sanctoral/01_01.htm">texty</a>, průvodce)<br />
