@@ -275,7 +275,7 @@
 							<span style="display:inline-block; width: 13em;"></span> – <b>Nejtišší noc (24. prosince)</b> (<a href="pdf/2020_12_24-noc.pdf">průvodce</a>)<br />
 							<span style="display:inline-block; width: 13em;"></span> – slavnost Narození Páně (<a href="http://m.liturgie.cz/misal/02vanoce/12_25d.htm">texty</a>, <span style="text-decoration: line-through double;">průvodce</span>)<br />
 							<span style="display:inline-block; width: 13em;"></span> – <b>svátek svaté Rodiny</b> (<a href="http://m.liturgie.cz/misal/02vanoce/SvRodina.htm">texty</a>, <a href="pdf/2020_12_27-slovo.pdf">průvodce</a>)<br />
-							<span style="display:inline-block; width: 13em;"></span> – slavnost Panny Marie, θεοτοκος (<a href="http://m.liturgie.cz/misal/08sanctoral/01_01.htm">texty</a>, průvodce)<br />
+							<span style="display:inline-block; width: 13em;"></span> – <b>slavnost Bohorodičky Marie</b> (<a href="http://m.liturgie.cz/misal/08sanctoral/01_01.htm">texty</a>, <a href="pdf/2021_01_01-slovo.pdf">průvodce</a>)<br />
 							<span style="display:inline-block; width: 13em;"></span> – 2. vánoční neděle (<a href="http://m.liturgie.cz/misal/02vanoce/02_00.htm">texty</a>, průvodce)<br />
 							<span style="display:inline-block; width: 13em;"></span> – slavnost Zjevení Páně (<a href="http://m.liturgie.cz/misal/02vanoce/01_06.htm">texty</a>, průvodce)<br />
 							<span style="display:inline-block; width: 13em;"></span> – svátek Ježíšovo ponoření v Jordánu (<a href="http://m.liturgie.cz/misal/02vanoce/KrtuPane.htm">texty</a>, průvodce)<br />
