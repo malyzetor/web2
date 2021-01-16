@@ -61,7 +61,7 @@
 	</header>
 
 <!-- dynamicky generované heslo dne .-->
-	<div id="jHD"><?php include('./HD-2012-vanoce.inc'); ?></div>
+	<div id="jHD"><?php include('./HD-2021-01-mezi.inc'); ?></div>
 
 	<section id="Farnosti" class="features"  style="display:flex; min-height: 100vh;">
 		<div class="container" style="margin-top: auto; margin-bottom: auto;">
@@ -265,7 +265,14 @@
 							<span style="display:inline-block; width: 13em;"></span> – <b>slavnost Zjevení Páně</b> (<a href="http://m.liturgie.cz/misal/02vanoce/01_06.htm">texty</a>, <a href="pdf/2021_01_06-slovo.pdf">průvodce</a>)<br />
 							<span style="display:inline-block; width: 13em;"></span> – <b>svátek Ježíšova ponoření do vod Jordánu</b> (<a href="http://m.liturgie.cz/misal/02vanoce/KrtuPane.htm">texty</a>, <a href="pdf/2021_01_10-slovo.pdf">průvodce</a>)<br />
 						</p><br />
-						
+						<p><span style="display:inline-block; width: 13em;">„Cesta od rybníka“</span> – <b>2. neděle v mezidobí</b> (<a href="http://m.liturgie.cz/misal/06mezidobi/02_00.htm">texty</a>, <a href="pdf/2021_01_17-slovo.pdf">průvodce</a>)<br />
+							<span style="display:inline-block; width: 13em;"></span> – 3. neděle v mezidobí (<a href="http://m.liturgie.cz/misal/06mezidobi/03_00.htm">texty</a>, průvodce)<br />
+							<span style="display:inline-block; width: 13em;"></span> – 4. neděle v mezidobí (<a href="http://m.liturgie.cz/misal/06mezidobi/04_00.htm">texty</a>, průvodce)<br />
+							<span style="display:inline-block; width: 13em;"></span> – svátek Uvedení do Chrámu (<a href="http://m.liturgie.cz/misal/08sanctoral/02_02.htm">texty</a>, průvodce)<br />
+							<span style="display:inline-block; width: 13em;"></span> – 5. neděle v mezidobí (<a href="http://m.liturgie.cz/misal/06mezidobi/05_00.htm">texty</a>, průvodce)<br />
+							<span style="display:inline-block; width: 13em;"></span> – 6. neděle v mezidobí (<a href="http://m.liturgie.cz/misal/06mezidobi/06_00.htm">texty</a>, průvodce)<br />
+							
+						</p><br />
 						
 						
 				
