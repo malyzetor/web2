@@ -180,7 +180,7 @@
 						</div>
 						<div class="service-desc">
 							<h3>Farní PES</h3>
-							<p>Matice opatření podle MZ ČR z&nbsp;29.&nbsp;11.&nbsp;2020 (upr. 7.&nbsp;12.&nbsp;2020).&nbsp;&nbsp;<a href="./pdf/2020_12_03-PES_farnosti.pdf" style="color:#8C2318;" title="Farní PES"><i class="far fa-file-pdf"></i></a><br /><span><?php include('./downPES.inc'); ?></span>
+							<p>Matice opatření podle MZ ČR z&nbsp;29.&nbsp;11.&nbsp;2020 (upr. 20.&nbsp;1.&nbsp;2021).&nbsp;&nbsp;<a href="./pdf/2020_12_03-PES_farnosti.pdf" style="color:#8C2318;" title="Farní PES"><i class="far fa-file-pdf"></i></a><br /><span><?php include('./downPES.inc'); ?></span>
 							</p>
 						</div>
 					</div>
@@ -266,9 +266,9 @@
 							<span style="display:inline-block; width: 13em;"></span> – <b>svátek Ježíšova ponoření do vod Jordánu</b> (<a href="http://m.liturgie.cz/misal/02vanoce/KrtuPane.htm">texty</a>, <a href="pdf/2021_01_10-slovo.pdf">průvodce</a>)<br />
 						</p><br />
 						<p><span style="display:inline-block; width: 13em;">„Cesta od rybníka“</span> – <b>2. neděle v mezidobí</b> (<a href="http://m.liturgie.cz/misal/06mezidobi/02_00.htm">texty</a>, <a href="pdf/2021_01_17-slovo.pdf">průvodce</a>)<br />
-							<span style="display:inline-block; width: 13em;"></span> – 3. neděle v mezidobí (<a href="http://m.liturgie.cz/misal/06mezidobi/03_00.htm">texty</a>, průvodce)<br />
+							<span style="display:inline-block; width: 13em;"></span> – <b>3. neděle v mezidobí</b> (<a href="http://m.liturgie.cz/misal/06mezidobi/03_00.htm">texty</a>, <a href="pdf/2021_01_23-slovo.pdf">průvodce</a>)<br />
 							<span style="display:inline-block; width: 13em;"></span> – 4. neděle v mezidobí (<a href="http://m.liturgie.cz/misal/06mezidobi/04_00.htm">texty</a>, průvodce)<br />
-							<span style="display:inline-block; width: 13em;"></span> – svátek Uvedení do Chrámu (<a href="http://m.liturgie.cz/misal/08sanctoral/02_02.htm">texty</a>, průvodce)<br />
+							<span style="display:inline-block; width: 13em;"></span> – předvečer Uvedení do Chrámu (1. února) (<a href="http://m.liturgie.cz/misal/08sanctoral/02_02.htm">texty</a>, průvodce)<br />
 							<span style="display:inline-block; width: 13em;"></span> – 5. neděle v mezidobí (<a href="http://m.liturgie.cz/misal/06mezidobi/05_00.htm">texty</a>, průvodce)<br />
 							<span style="display:inline-block; width: 13em;"></span> – 6. neděle v mezidobí (<a href="http://m.liturgie.cz/misal/06mezidobi/06_00.htm">texty</a>, průvodce)<br />
 							
