@@ -269,9 +269,8 @@
 							<span style="display:inline-block; width: 13em;"></span> – <b>3. neděle v mezidobí</b> (<a href="http://m.liturgie.cz/misal/06mezidobi/03_00.htm">texty</a>, <a href="pdf/2021_01_23-slovo.pdf">průvodce</a>)<br />
 							<span style="display:inline-block; width: 13em;"></span> – <b>4. neděle v mezidobí</b> (<a href="http://m.liturgie.cz/misal/06mezidobi/04_00.htm">texty</a>, <a href="pdf/2021_01_31-slovo.pdf">průvodce</a>)<br />
 							<span style="display:inline-block; width: 13em;"></span> – <b>předvečer Uvedení do Chrámu (1. února)</b> (<a href="http://m.liturgie.cz/misal/08sanctoral/02_02.htm">texty</a>, <a href="pdf/2021_02_01-vecer.pdf">průvodce</a>)<br />
-							<span style="display:inline-block; width: 13em;"></span> – 5. neděle v mezidobí (<a href="http://m.liturgie.cz/misal/06mezidobi/05_00.htm">texty</a>, průvodce)<br />
+							<span style="display:inline-block; width: 13em;"></span> – <b>5. neděle v mezidobí</b> (<a href="http://m.liturgie.cz/misal/06mezidobi/05_00.htm">texty</a>, <a href="pdf/2021_02_07-vecer.pdf">průvodce</a>)<br />
 							<span style="display:inline-block; width: 13em;"></span> – 6. neděle v mezidobí (<a href="http://m.liturgie.cz/misal/06mezidobi/06_00.htm">texty</a>, průvodce)<br />
-							
 						</p><br />
 						
 						
