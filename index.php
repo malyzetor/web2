@@ -274,7 +274,7 @@
 						</p><br />
 						<p><span style="display:inline-block; width: 13em;">„Staň se člověkem“</span> – <b>základní teze</b> (<a href="pdf/2021_02_15-popel.pdf">text</a>)<br />
 							<span style="display:inline-block; width: 13em;"></span> – <b>1. svatopostní neděle</b> (<a href="http://m.liturgie.cz/misal/03pust/01_00.htm">texty</a>, <a href="pdf/2021_02_21-slovo.pdf">průvodce</a>)<br />
-							<span style="display:inline-block; width: 13em;"></span> – 2. svatopostní neděle (<a href="http://m.liturgie.cz/misal/03pust/02_00.htm">texty</a>, průvodce)<br />
+							<span style="display:inline-block; width: 13em;"></span> – <b>2. svatopostní neděle</b> (<a href="http://m.liturgie.cz/misal/03pust/02_00.htm">texty</a>, <a href="pdf/2021_02_28-slovo.pdf">průvodce</a>)<br />
 							<span style="display:inline-block; width: 13em;"></span> – 3. svatopostní neděle (<a href="http://m.liturgie.cz/misal/03pust/03_00.htm">texty</a>, průvodce)<br />
 							<span style="display:inline-block; width: 13em;"></span> – 4. svatopostní neděle (<a href="http://m.liturgie.cz/misal/03pust/04_00.htm">texty</a>, průvodce)<br />
 							<span style="display:inline-block; width: 13em;"></span> – 5. svatopostní neděle (<a href="http://m.liturgie.cz/misal/03pust/05_00.htm">texty</a>, průvodce)<br />
