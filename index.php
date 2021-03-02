@@ -242,36 +242,7 @@
 						<p>Letošním liturgickým rokem nás provází evangelista <a href="pdf/Matous_a_infekce.pdf">Matouš</a>.</p>
 						<br />
 						<br />
-						<p><span style="display:inline-block; width: 13em;">„Životodárný pramen z nitra“</span> – <b>základní teze</b> (<a href="pdf/2020_10_14-pramen.pdf">text</a>)<br />
-						<span style="display:inline-block; width: 13em;"></span> – <b>29. neděle v mezidobí</b> (<a href="http://m.liturgie.cz/misal/06mezidobi/29_00.htm">texty</a>, <a href="pdf/2020_10_18-slovo.pdf">průvodce</a>)<br />
-						<span style="display:inline-block; width: 13em;"></span> – <b>30. neděle v mezidobí</b> (<a href="http://m.liturgie.cz/misal/06mezidobi/30_00.htm">texty</a>, <a href="pdf/2020_10_25-slovo.pdf">průvodce</a>)<br />
-						<span style="display:inline-block; width: 13em;"></span> – <b>Slavnost všech svatých</b> (<a href="http://m.liturgie.cz/misal/08sanctoral/11_01.htm">texty</a>, <a href="pdf/2020_11_01-slovo.pdf">průvodce</a>)<br />
-						<span style="display:inline-block; width: 13em;"></span> – <b>32. neděle v mezidobí</b> (<a href="http://m.liturgie.cz/misal/06mezidobi/32_00.htm">texty</a>, <a href="pdf/2020_11_08-slovo.pdf">průvodce</a>)<br />
-						<span style="display:inline-block; width: 13em;"></span> – <b>33. neděle v mezidobí</b> (<a href="http://m.liturgie.cz/misal/06mezidobi/33_00.htm">texty</a>, <a href="pdf/2020_11_15-slovo.pdf">průvodce</a>)<br />
-						<span style="display:inline-block; width: 13em;"></span> – <b>Slavnost Ježíše Krista Krále</b> (<a href="http://m.liturgie.cz/misal/06mezidobi/Krista_Krale.htm">texty</a>, <a href="pdf/2020_11_22-slovo.pdf">průvodce</a>)<br />
-						</p><br />
-						<p><span style="display:inline-block; width: 13em;">„Od věků nikdo neslyšel“</span> – <b>základní teze (adventní věnec)</b> (<a href="pdf/2020_11_24-venec.pdf">text</a>)<br />
-						<span style="display:inline-block; width: 13em;"></span> – <b>1. adventní neděle</b> (<a href="http://m.liturgie.cz/misal/01advent/01_00.htm">texty</a>, <a href="pdf/2020_11_29-slovo.pdf">průvodce</a>)<br />
-						<span style="display:inline-block; width: 13em;"></span> – <b>2. adventní neděle</b> (<a href="http://m.liturgie.cz/misal/01advent/02_00.htm">texty</a>, <a href="pdf/2020_12_06-slovo.pdf">průvodce</a>)<br />
-						<span style="display:inline-block; width: 13em;"></span> – <b>3. adventní neděle</b> (<a href="http://m.liturgie.cz/misal/01advent/03_00.htm">texty</a>, <a href="pdf/2020_12_13-slovo.pdf">průvodce</a>)<br />
-						<span style="display:inline-block; width: 13em;"></span> – <b>4. adventní neděle</b> (<a href="http://m.liturgie.cz/misal/01advent/04_00.htm">texty</a>, <a href="pdf/2020_12_20-slovo.pdf">průvodce</a>)<br />
-						</p><br />
-						<p><span style="display:inline-block; width: 13em;">„Vyrovnaná cesta“</span> – <b>7×Ó (17. – 23. prosince)</b> (<a href="pdf/2020_12_17-OAntifony.pdf">průvodce</a>)<br />
-							<span style="display:inline-block; width: 13em;"></span> – <b>Nejtišší noc (24. prosince)</b> (<a href="pdf/2020_12_24-noc.pdf">průvodce</a>)<br />
-							<span style="display:inline-block; width: 13em;"></span> – slavnost Narození Páně (<a href="http://m.liturgie.cz/misal/02vanoce/12_25d.htm">texty</a>, <span style="text-decoration: line-through double;">průvodce</span>)<br />
-							<span style="display:inline-block; width: 13em;"></span> – <b>svátek svaté Rodiny</b> (<a href="http://m.liturgie.cz/misal/02vanoce/SvRodina.htm">texty</a>, <a href="pdf/2020_12_27-slovo.pdf">průvodce</a>)<br />
-							<span style="display:inline-block; width: 13em;"></span> – <b>slavnost Bohorodičky Marie</b> (<a href="http://m.liturgie.cz/misal/08sanctoral/01_01.htm">texty</a>, <a href="pdf/2021_01_01-slovo.pdf">průvodce</a>)<br />
-							<span style="display:inline-block; width: 13em;"></span> – <b>2. vánoční neděle</b> (<a href="http://m.liturgie.cz/misal/02vanoce/02_00.htm">texty</a>, <a href="pdf/2021_01_03-slovo.pdf">průvodce</a>)<br />
-							<span style="display:inline-block; width: 13em;"></span> – <b>slavnost Zjevení Páně</b> (<a href="http://m.liturgie.cz/misal/02vanoce/01_06.htm">texty</a>, <a href="pdf/2021_01_06-slovo.pdf">průvodce</a>)<br />
-							<span style="display:inline-block; width: 13em;"></span> – <b>svátek Ježíšova ponoření do vod Jordánu</b> (<a href="http://m.liturgie.cz/misal/02vanoce/KrtuPane.htm">texty</a>, <a href="pdf/2021_01_10-slovo.pdf">průvodce</a>)<br />
-						</p><br />
-						<p><span style="display:inline-block; width: 13em;">„Cesta od rybníka“</span> – <b>2. neděle v mezidobí</b> (<a href="http://m.liturgie.cz/misal/06mezidobi/02_00.htm">texty</a>, <a href="pdf/2021_01_17-slovo.pdf">průvodce</a>)<br />
-							<span style="display:inline-block; width: 13em;"></span> – <b>3. neděle v mezidobí</b> (<a href="http://m.liturgie.cz/misal/06mezidobi/03_00.htm">texty</a>, <a href="pdf/2021_01_23-slovo.pdf">průvodce</a>)<br />
-							<span style="display:inline-block; width: 13em;"></span> – <b>4. neděle v mezidobí</b> (<a href="http://m.liturgie.cz/misal/06mezidobi/04_00.htm">texty</a>, <a href="pdf/2021_01_31-slovo.pdf">průvodce</a>)<br />
-							<span style="display:inline-block; width: 13em;"></span> – <b>předvečer Uvedení do Chrámu (1. února)</b> (<a href="http://m.liturgie.cz/misal/08sanctoral/02_02.htm">texty</a>, <a href="pdf/2021_02_01-vecer.pdf">průvodce</a>)<br />
-							<span style="display:inline-block; width: 13em;"></span> – <b>5. neděle v mezidobí</b> (<a href="http://m.liturgie.cz/misal/06mezidobi/05_00.htm">texty</a>, <a href="pdf/2021_02_07-slovo.pdf">průvodce</a>)<br />
-							<span style="display:inline-block; width: 13em;"></span> – <b>6. neděle v mezidobí</b> (<a href="http://m.liturgie.cz/misal/06mezidobi/06_00.htm">texty</a>, <a href="pdf/2021_02_14-slovo.pdf">průvodce</a>)<br />
-						</p><br />
+						<div class="service-desc"><p><h3 style="text-align:right;"><a href="archiv.php" style="color:#8C2318;">Archiv 2020/2021</a><h3></p></div><br />
 						<p><span style="display:inline-block; width: 13em;">„Staň se člověkem“</span> – <b>základní teze</b> (<a href="pdf/2021_02_15-popel.pdf">text</a>)<br />
 							<span style="display:inline-block; width: 13em;"></span> – <b>1. svatopostní neděle</b> (<a href="http://m.liturgie.cz/misal/03pust/01_00.htm">texty</a>, <a href="pdf/2021_02_21-slovo.pdf">průvodce</a>)<br />
 							<span style="display:inline-block; width: 13em;"></span> – <b>2. svatopostní neděle</b> (<a href="http://m.liturgie.cz/misal/03pust/02_00.htm">texty</a>, <a href="pdf/2021_02_28-slovo.pdf">průvodce</a>)<br />
