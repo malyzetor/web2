@@ -201,8 +201,25 @@
 						</div>
 					</div>
 				</div>
-				
+			</div>	
+			<div class="row">
+				<div class="col-md-3"></div>
+				<div class="col-md-6">
+					<div class="service-item">
+						<div class="service-icon" style="width: 100px;">
+							<a href="./pdf/2021_03_00-Svaty_tyden.pdf" style="color:#8C2318;" title="Velikonoce 2021"><img src="img/voda.svg" style="width: 5em;" class="rounded float-right" alt="Velikonoce" /></a>
+						</div>
+						<div class="service-desc">
+							<h3>Svatý týden</h3>
+							<p>Rozpis bohoslužeb ve dnech 28. 3. až 4. 4. 2021.&nbsp;&nbsp;<a href="./pdf/2021_03_00-Svaty_tyden.pdf" style="color:#8C2318;" title="Velikonoce 2021"><i class="far fa-file-pdf"></i></a>
+							</p>
+						</div>
+					</div>
+				</div>
 			</div>
+
+
+			
 		</div>
 	</section>
 
