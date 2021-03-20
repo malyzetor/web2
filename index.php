@@ -265,21 +265,21 @@
 							<span style="display:inline-block; width: 13em;"></span> – <b>2. svatopostní neděle</b> (<a href="http://m.liturgie.cz/misal/03pust/02_00.htm">texty</a>, <a href="pdf/2021_02_28-slovo.pdf">průvodce</a>)<br />
 							<span style="display:inline-block; width: 13em;"></span> – <b>3. svatopostní neděle</b> (<a href="http://m.liturgie.cz/misal/03pust/03_00.htm">texty</a>, <a href="pdf/2021_03_07-slovo.pdf">průvodce</a>)<br />
 							<span style="display:inline-block; width: 13em;"></span> – <b>4. svatopostní neděle</b> (<a href="http://m.liturgie.cz/misal/03pust/04_00.htm">texty</a>, <a href="pdf/2021_03_14-slovo.pdf">průvodce</a>)<br />
-							<span style="display:inline-block; width: 13em;"></span> – 5. svatopostní neděle (<a href="http://m.liturgie.cz/misal/03pust/05_00.htm">texty</a>, průvodce)<br />
+							<span style="display:inline-block; width: 13em;"></span> – <b>5. svatopostní neděle</b> (<a href="http://m.liturgie.cz/misal/03pust/05_00.htm">texty</a>, <a href="pdf/2021_03_21-slovo.pdf">průvodce</a>)<br />
 						</p><br />
                         <p>
                             <span style="display:inline-block; width: 13em;">„Svatý týden v cizím pokoji“</span> – <b>pracovní teze</b> (<a href="pdf/2021_03_13-Velikonoce-zakladni_teze.pdf">upr. 2020</a>, <a href="pdf/2021_03_13-Svaty_tyden.pdf">biblický nástřel</a>)<br />
                             <span style="display:inline-block; width: 13em;"></span> – <em>Liturgie hodina na každý den</em> (<a href="https://lh.kbs.sk/cz/default.htm">breviář</a>)<br />
-                            <span style="display:inline-block; width: 13em;"></span> – <b>Květná neděle</b> (<a href="http://m.liturgie.cz/misal/03pust/06_00.htm">texty</a>, průvodce)<br />
-                            <span style="display:inline-block; width: 13em;"></span> – <b>Pondělí</b> (<a href="http://m.liturgie.cz/misal/03pust/06_01.htm">texty</a>, průvodce)<br />
-                            <span style="display:inline-block; width: 13em;"></span> – <b>Úterý</b> (<a href="http://m.liturgie.cz/misal/03pust/06_02.htm">texty</a>, průvodce)<br />
-                            <span style="display:inline-block; width: 13em;"></span> – <b>Středa</b> (<a href="http://m.liturgie.cz/misal/03pust/06_03.htm">texty</a>, průvodce)<br />
-                            <span style="display:inline-block; width: 13em;"></span> – <b>Čtvrtek ve dne</b> (průvodce)<br />
-                            <span style="display:inline-block; width: 13em;"></span> – <b>Čtvrtek večer / Památka Večeře Páně</b> (<a href="http://m.liturgie.cz/misal/04triduum/01ctvrtek.htm">texty</a>, průvodce)<br />
-                            <span style="display:inline-block; width: 13em;"></span> – <b>Pátek / Pašije</b> (<a href="http://m.liturgie.cz/misal/04triduum/02patek.htm">texty</a>, průvodce)<br />
-                            <span style="display:inline-block; width: 13em;"></span> – <b>Sobota / Ticho hrobu</b> (<a href="http://m.liturgie.cz/misal/04triduum/03sobota.htm">texty</a>, průvodce)<br />
-                            <span style="display:inline-block; width: 13em;"></span> – <b>Vzkříšení</b> (<a href="http://m.liturgie.cz/misal/04triduum/04vigilie.htm">bdění</a>, průvodce)<br />
-                            <span style="display:inline-block; width: 13em;"></span> – <b>Vzkříšení ve dne</b> (<a href="http://m.liturgie.cz/misal/04triduum/05vzkriseni.htm">texty</a>, průvodce)<br />
+                            <span style="display:inline-block; width: 13em;"></span> – Květná neděle (<a href="http://m.liturgie.cz/misal/03pust/06_00.htm">texty</a>, průvodce)<br />
+                            <span style="display:inline-block; width: 13em;"></span> – Pondělí (<a href="http://m.liturgie.cz/misal/03pust/06_01.htm">texty</a>, průvodce)<br />
+                            <span style="display:inline-block; width: 13em;"></span> – Úterý (<a href="http://m.liturgie.cz/misal/03pust/06_02.htm">texty</a>, průvodce)<br />
+                            <span style="display:inline-block; width: 13em;"></span> – Středa (<a href="http://m.liturgie.cz/misal/03pust/06_03.htm">texty</a>, průvodce)<br />
+                            <span style="display:inline-block; width: 13em;"></span> – Čtvrtek ve dne (průvodce)<br />
+                            <span style="display:inline-block; width: 13em;"></span> – Čtvrtek večer / Památka Večeře Páně (<a href="http://m.liturgie.cz/misal/04triduum/01ctvrtek.htm">texty</a>, průvodce)<br />
+                            <span style="display:inline-block; width: 13em;"></span> – Pátek / Pašije (<a href="http://m.liturgie.cz/misal/04triduum/02patek.htm">texty</a>, průvodce)<br />
+                            <span style="display:inline-block; width: 13em;"></span> – Sobota / Ticho hrobu (<a href="http://m.liturgie.cz/misal/04triduum/03sobota.htm">texty</a>, průvodce)<br />
+                            <span style="display:inline-block; width: 13em;"></span> – Vzkříšení (<a href="http://m.liturgie.cz/misal/04triduum/04vigilie.htm">bdění</a>, průvodce)<br />
+                            <span style="display:inline-block; width: 13em;"></span> – Vzkříšení ve dne (<a href="http://m.liturgie.cz/misal/04triduum/05vzkriseni.htm">texty</a>, průvodce)<br />
                         </p><br />
 				
 				</div>
