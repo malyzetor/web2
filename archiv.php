@@ -131,7 +131,13 @@
 							<span style="display:inline-block; width: 13em;"></span> – <b>5. neděle v mezidobí</b> (<a href="http://m.liturgie.cz/misal/06mezidobi/05_00.htm">texty</a>, <a href="pdf/2021_02_07-slovo.pdf">průvodce</a>)<br />
 							<span style="display:inline-block; width: 13em;"></span> – <b>6. neděle v mezidobí</b> (<a href="http://m.liturgie.cz/misal/06mezidobi/06_00.htm">texty</a>, <a href="pdf/2021_02_14-slovo.pdf">průvodce</a>)<br />
 						</p><br />
-						
+						<p><span style="display:inline-block; width: 13em;">„Staň se člověkem“</span> – <b>základní teze</b> (<a href="pdf/2021_02_15-popel.pdf">text</a>)<br />
+							<span style="display:inline-block; width: 13em;"></span> – <b>1. svatopostní neděle</b> (<a href="http://m.liturgie.cz/misal/03pust/01_00.htm">texty</a>, <a href="pdf/2021_02_21-slovo.pdf">průvodce</a>)<br />
+							<span style="display:inline-block; width: 13em;"></span> – <b>2. svatopostní neděle</b> (<a href="http://m.liturgie.cz/misal/03pust/02_00.htm">texty</a>, <a href="pdf/2021_02_28-slovo.pdf">průvodce</a>)<br />
+							<span style="display:inline-block; width: 13em;"></span> – <b>3. svatopostní neděle</b> (<a href="http://m.liturgie.cz/misal/03pust/03_00.htm">texty</a>, <a href="pdf/2021_03_07-slovo.pdf">průvodce</a>)<br />
+							<span style="display:inline-block; width: 13em;"></span> – <b>4. svatopostní neděle</b> (<a href="http://m.liturgie.cz/misal/03pust/04_00.htm">texty</a>, <a href="pdf/2021_03_14-slovo.pdf">průvodce</a>)<br />
+							<span style="display:inline-block; width: 13em;"></span> – <b>5. svatopostní neděle</b> (<a href="http://m.liturgie.cz/misal/03pust/05_00.htm">texty</a>, <a href="pdf/2021_03_21-slovo.pdf">průvodce</a>)<br />
+						</p><br />
 				
 				</div>
 				</div>
