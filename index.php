@@ -262,7 +262,7 @@
                             <span style="display:inline-block; width: 13em;"></span> – <b>Vzkříšení <em>ve dne</em></b> (<a href="http://m.liturgie.cz/misal/04triduum/05vzkriseni.htm">texty</a>, <a href="pdf/2021_04_04-b-ve_dne-slovo.pdf">průvodce</a>)<br />
                         </p><br />
 						<p>
-                            <span style="display:inline-block; width: 13em;">„To nemůže být konec“</span> – 8dní a 8neděl (průvodce)<br />
+                            <span style="display:inline-block; width: 13em;">„To nemůže být konec“</span> – <b>8dní a 8neděl</b> (<a href="pdf/2021_04_05-8dni.pdf">průvodce</a>)<br />
                             <span style="display:inline-block; width: 13em;"></span> – 2. velikonoční neděle (<a href="http://m.liturgie.cz/misal/05velikonoce/02_00.htm">texty</a>, průvodce)<br />
                             <span style="display:inline-block; width: 13em;"></span> – 3. velikonoční neděle (<a href="http://m.liturgie.cz/misal/05velikonoce/03_00.htm">texty</a>, průvodce)<br />
                             <span style="display:inline-block; width: 13em;"></span> – 4. velikonoční neděle (<a href="http://m.liturgie.cz/misal/05velikonoce/04_00.htm">texty</a>, průvodce)<br />
