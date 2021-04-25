@@ -171,20 +171,8 @@
 				<div class="sec-title text-center mb50">
 					<h2>Pořad bohoslužeb</h2>
 				</div>
-				<!-- <div class="col-md-3"></div> -->
+				<div class="col-md-3"></div>
 
-				<div class="col-md-6">
-					<div class="service-item">
-						<div class="service-icon" style="width: 100px;">
-							<a href="./pdf/2020_12_03-PES_farnosti.pdf" style="color:#8C2318;" title="Farní PES"><img src="img/farni_PES.svg" style="width: 5em;" class="rounded float-right" alt="PES" /></a>
-						</div>
-						<div class="service-desc">
-							<h3>Farní PES</h3>
-							<p>Matice opatření podle MZ ČR z&nbsp;29.&nbsp;11.&nbsp;2020 (upr. 20.&nbsp;1.&nbsp;2021).&nbsp;&nbsp;<a href="./pdf/2020_12_03-PES_farnosti.pdf" style="color:#8C2318;" title="Farní PES"><i class="far fa-file-pdf"></i></a><br /><span><?php include('./downPES.inc'); ?></span>
-							</p>
-						</div>
-					</div>
-				</div>
 				
 				<div class="col-md-6">
 					<div class="service-item">
@@ -253,11 +241,15 @@
                             <span style="display:inline-block; width: 13em;"></span> – <b>2. velikonoční neděle</b> (<a href="http://m.liturgie.cz/misal/05velikonoce/02_00.htm">texty</a>, <a href="pdf/2021_04_11-slovo.pdf">průvodce</a>)<br />
                             <span style="display:inline-block; width: 13em;"></span> – <b>3. velikonoční neděle</b> (<a href="http://m.liturgie.cz/misal/05velikonoce/03_00.htm">texty</a>, <a href="pdf/2021_04_18-slovo.pdf">průvodce</a>)<br />
                             <span style="display:inline-block; width: 13em;"></span> – <b>4. velikonoční neděle</b> (<a href="http://m.liturgie.cz/misal/05velikonoce/04_00.htm">texty</a>, <a href="pdf/2021_04_25-slovo.pdf">průvodce</a>)<br />
-                            <span style="display:inline-block; width: 13em;"></span> – 5. velikonoční neděle (<a href="http://m.liturgie.cz/misal/05velikonoce/05_00.htm">texty</a>, průvodce)<br />
+                            <br />
+							<br />
+						<em>
+							<span style="display:inline-block; width: 13em;"></span> – 5. velikonoční neděle (<a href="http://m.liturgie.cz/misal/05velikonoce/05_00.htm">texty</a>, průvodce)<br />
 							<span style="display:inline-block; width: 13em;"></span> – 6. velikonoční neděle (<a href="http://m.liturgie.cz/misal/05velikonoce/06_00.htm">texty</a>, průvodce)<br />
                             <span style="display:inline-block; width: 13em;"></span> – 7. velikonoční neděle (<a href="http://m.liturgie.cz/misal/05velikonoce/07_00.htm">texty</a>, průvodce)<br />
                             <span style="display:inline-block; width: 13em;"></span> – Seslání Ducha Svatého (<a href="http://m.liturgie.cz/misal/05velikonoce/07_07a.htm">texty</a>, průvodce)<br />
-                        </p>
+                        </em>
+						</p>
 				</div>
 				</div>
 			</div>
