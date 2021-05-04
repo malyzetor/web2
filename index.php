@@ -242,7 +242,9 @@
                             <span style="display:inline-block; width: 13em;"></span> – <b>3. velikonoční neděle</b> (<a href="http://m.liturgie.cz/misal/05velikonoce/03_00.htm">texty</a>, <a href="pdf/2021_04_18-slovo.pdf">průvodce</a>)<br />
                             <span style="display:inline-block; width: 13em;"></span> – <b>4. velikonoční neděle</b> (<a href="http://m.liturgie.cz/misal/05velikonoce/04_00.htm">texty</a>, <a href="pdf/2021_04_25-slovo.pdf">průvodce</a>)<br />
                             <br />
+							<span style="display:inline-block; width: 13em;"></span> – <b>Melouny a cibule</b> (<a href="pdf/2021_05_01-melouny.pdf">závěrečný text</a>)<br />
 							<br />
+							
 						<em>
 							<span style="display:inline-block; width: 13em;"></span> – 5. velikonoční neděle (<a href="http://m.liturgie.cz/misal/05velikonoce/05_00.htm">texty</a>, průvodce)<br />
 							<span style="display:inline-block; width: 13em;"></span> – 6. velikonoční neděle (<a href="http://m.liturgie.cz/misal/05velikonoce/06_00.htm">texty</a>, průvodce)<br />
