@@ -40,7 +40,7 @@
 			</div>
 			<nav class="collapse navbar-collapse navbar-right">
 				<ul id="nav" class="nav navbar-nav">
-				<li><a href="#karantena">☣ Rodinné bohoslužby</a></li>
+				<li><a href="vespers/2021_05_23.html"><img src="img/apokalypsa.svg" alt="Hodinová apokalypsa" style="width: 1.5em;"></a></li>
 				<li>
 						<a href="#Bohosluzby">Pořad bohoslužeb</a>
 					</li>
@@ -61,7 +61,7 @@
 	</header>
 
 <!-- dynamicky generované heslo dne .-->
-	<div id="jHD"><?php include('./HD-2021-03-svaty_tyden.inc'); ?></div>
+	<div id="jHD"><?php include('./HD-2021-05-mezi.inc'); ?></div>
 
 	<section id="Farnosti" class="features"  style="display:flex; min-height: 100vh;">
 		<div class="container" style="margin-top: auto; margin-bottom: auto;">
@@ -233,7 +233,13 @@
 						<p>Letošním liturgickým rokem nás provází evangelista <a href="pdf/Matous_a_infekce.pdf">Matouš</a>.</p>
 						<br />
 						<br />
-						<div class="service-desc"><p><h3 style="text-align:right;"><a href="archiv.php" style="color:#8C2318;">Archiv 2020/2021</a><h3></p></div><br />
+						<div class="service-desc">
+							
+								<h3 style="text-align:right;">
+									<a href="archiv.php" style="color:#8C2318;">Archiv 2020/2021</a>
+								</h3>
+							
+						</div><br />
 
   
 						<p>
