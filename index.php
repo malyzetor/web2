@@ -40,7 +40,7 @@
 			</div>
 			<nav class="collapse navbar-collapse navbar-right">
 				<ul id="nav" class="nav navbar-nav">
-				<li><a href="vespers/2021_06_13.html"><img src="img/apokalypsa.svg" alt="Hodinová apokalypsa" style="width: 1.5em;"></a></li>
+				<li><a href="vespers/2021_07_04.html"><img src="img/apokalypsa.svg" alt="Hodinová apokalypsa" style="width: 1.5em;"></a></li>
 				<li>
 						<a href="#Bohosluzby">Pořad bohoslužeb</a>
 					</li>
