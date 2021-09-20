@@ -1,4 +1,3 @@
-upr
 <!DOCTYPE html>
 
 <html lang="cs">
