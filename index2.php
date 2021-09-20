@@ -40,7 +40,7 @@
 			</div>
 			<nav class="collapse navbar-collapse navbar-right">
 				<ul id="nav" class="nav navbar-nav">
-				<li><a href="vespers/2021_05_23.html"><img src="img/apokalypsa.svg" alt="Hodinová apokalypsa" style="width: 1.5em;"></a></li>
+				<li><a href="vespers/php/nespory.php"><img src="img/apokalypsa.svg" alt="Hodinová apokalypsa" style="width: 1.5em;"></a></li>
 				<li>
 						<a href="#Bohosluzby">Pořad bohoslužeb</a>
 					</li>
@@ -61,7 +61,7 @@
 	</header>
 
 <!-- dynamicky generované heslo dne .-->
-	<div id="jHD"><?php include('./HD-2021-05-mezi.inc'); ?></div>
+	<div id="jHD"><?php include('./HD-2021-09-dante.inc'); ?></div>
 
 	<section id="Farnosti" class="features"  style="display:flex; min-height: 100vh;">
 		<div class="container" style="margin-top: auto; margin-bottom: auto;">
@@ -230,7 +230,7 @@
 						<br />
 						<p>K tématu <b>sociální a&nbsp;náboženské izolace od Boha</b> doporučuji k samostudiu:<br />
 						Lv&nbsp;13–14; Nm&nbsp;19; Jonáš; Mt&nbsp;8; Mt&nbsp;9; Lk&nbsp;10; Lk&nbsp;17; Lk&nbsp;24; Jan&nbsp;13</p>
-						<p>Letošním liturgickým rokem nás provází evangelista <a href="pdf/Matous_a_infekce.pdf">Matouš</a>.</p>
+						<p>Letošním liturgickým rokem 2019/2020 nás provází evangelista <a href="pdf/Matous_a_infekce.pdf">Matouš</a>.</p>
 						<br />
 						<br />
 						<div class="service-desc">
@@ -241,23 +241,7 @@
 							
 						</div><br />
 
-  
-						<p>
-                            <span style="display:inline-block; width: 13em;">„To nemůže být konec“</span> – <b>8dní a 8neděl</b> (<a href="pdf/2021_04_05-8dni.pdf">průvodce</a>)<br />
-                            <span style="display:inline-block; width: 13em;"></span> – <b>2. velikonoční neděle</b> (<a href="http://m.liturgie.cz/misal/05velikonoce/02_00.htm">texty</a>, <a href="pdf/2021_04_11-slovo.pdf">průvodce</a>)<br />
-                            <span style="display:inline-block; width: 13em;"></span> – <b>3. velikonoční neděle</b> (<a href="http://m.liturgie.cz/misal/05velikonoce/03_00.htm">texty</a>, <a href="pdf/2021_04_18-slovo.pdf">průvodce</a>)<br />
-                            <span style="display:inline-block; width: 13em;"></span> – <b>4. velikonoční neděle</b> (<a href="http://m.liturgie.cz/misal/05velikonoce/04_00.htm">texty</a>, <a href="pdf/2021_04_25-slovo.pdf">průvodce</a>)<br />
-                            <br />
-							<span style="display:inline-block; width: 13em;"></span> – <b>Melouny a cibule</b> (<a href="pdf/2021_05_01-melouny.pdf">závěrečný text</a>)<br />
-							<br />
-							
-						<em>
-							<span style="display:inline-block; width: 13em;"></span> – 5. velikonoční neděle (<a href="http://m.liturgie.cz/misal/05velikonoce/05_00.htm">texty</a>, průvodce)<br />
-							<span style="display:inline-block; width: 13em;"></span> – 6. velikonoční neděle (<a href="http://m.liturgie.cz/misal/05velikonoce/06_00.htm">texty</a>, průvodce)<br />
-                            <span style="display:inline-block; width: 13em;"></span> – 7. velikonoční neděle (<a href="http://m.liturgie.cz/misal/05velikonoce/07_00.htm">texty</a>, průvodce)<br />
-                            <span style="display:inline-block; width: 13em;"></span> – Seslání Ducha Svatého (<a href="http://m.liturgie.cz/misal/05velikonoce/07_07a.htm">texty</a>, průvodce)<br />
-                        </em>
-						</p>
+
 				</div>
 				</div>
 			</div>
