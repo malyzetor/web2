@@ -14,7 +14,7 @@
 	<meta charset="utf-8">
 	<title>Římskokatolické farnosti Světlá nad Sázavou a Číhošť</title>
 	<meta name="description" content="Římskokatolické farnosti Světlá nad Sázavou a Číhošť">
-	<meta name="keywords" content="parish, christian, catholic, church, misijní, měsíc, říjen 2019">
+	<meta name="keywords" content="parish, christian, catholic, church">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
 	<link rel="stylesheet" href="css/jag-bootstrap.min.css">
@@ -40,7 +40,7 @@
 			</div>
 			<nav class="collapse navbar-collapse navbar-right">
 				<ul id="nav" class="nav navbar-nav">
-				<li><a href="vespers/2021_09_17.html"><img src="img/apokalypsa.svg" alt="Hodinová apokalypsa" style="width: 1.5em;"></a></li>
+				<li><a href="vespers/php/nespory.php"><img src="img/apokalypsa.svg" alt="Hodinová apokalypsa" style="width: 1.5em;"></a></li>
 				<li>
 						<a href="#Bohosluzby">Pořad bohoslužeb</a>
 					</li>
@@ -89,6 +89,7 @@
 						<div class="service-desc">
 							<h3>Římskokatolická farnost Číhošť</h3>
 							<p>IČO: 60127554<br />účet: 1473464379/0800</p>
+							<p>ID: 88dikqn</p>
 						</div>
 					</div>
 				</div>

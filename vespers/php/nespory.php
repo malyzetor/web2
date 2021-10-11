@@ -1,5 +1,5 @@
 <?php 
-include "2021_08_08.inc";
+include "2021_10_10.inc";
 
 $ant1= array("", "Hospodin řekl mému Pánu: Seď po mé pravici, aleluja.", "Kristus je kněz navěky podle Melchizedechova řádu, aleluja.", "Hospodin řekl mému Pánu: Seď po mé pravici, aleluja.", "Ode dne zrození je ti určeno vládnout v&nbsp;posvátném lesku, aleluja.");
 $ant2= array("", "Země se zachvěla před tváří Páně, aleluja.", "Bůh náš je na nebesích, učinil všechno, co chtěl, aleluja.", "Vypravujte mezi všemi národy o&nbsp;Hospodinových divech, aleluja.", "Blahoslavení, kdo lační a&nbsp;žízní po spravedlnosti, neboť oni budou nasyceni.");
