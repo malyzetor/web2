@@ -40,7 +40,8 @@
 			</div>
 			<nav class="collapse navbar-collapse navbar-right">
 				<ul id="nav" class="nav navbar-nav">
-				<li><a href="vespers/php/nespory.php"><img src="img/apokalypsa.svg" alt="Hodinová apokalypsa" style="width: 1.5em;"></a></li>
+				<li><a href="#Synoda">Synoda21-23</a></li>
+				<li><a href="vespers/2021_11_12.html"><img src="img/apokalypsa.svg" alt="Hodinová apokalypsa" style="width: 1.5em;"></a></li>
 				<li>
 						<a href="#Bohosluzby">Pořad bohoslužeb</a>
 					</li>
@@ -239,16 +240,41 @@
 								<h3 style="text-align:right;">
 									<a href="archiv.php" style="color:#8C2318;">Archiv 2020/2021</a>
 								</h3>
-							
 						</div><br />
-
-
 				</div>
 				</div>
 			</div>
 		</div>
 	</section>
 
+	<section id="Synoda" class="features">
+		<div class="container" style="margin-top: auto; margin-bottom: auto;">
+			<div class="row">
+				<div class="sec-title text-center">
+					<h2>Synoda21-23</h2>
+				</div>
+				<div class="col-md-2"></div>
+				<div class="col-md-8">
+				
+				<div class="sec-sub-title">
+				
+						<br />
+						<p>„Boží Duch osvěcuje a&nbsp;oživuje křesťany na společné Cestě. Je totožný s&nbsp;Duchem působícím v&nbsp;Ježíšově poslání. Je to stejný Duch, který byl přislíben apoštolům a&nbsp;generacím učedníků, kteří naslouchají Božímu slovu a&nbsp;uvádějí je ve skutek. Duch Svatý se podle Pánova příslibu neomezuje jen na upevňování kontinuity Ježíšova evangelia. Osvěcuje stále nové hlubiny Pánova zjevení a&nbsp;inspiruje rozhodnutí ve prospěch církevního směřování (srov. Jan 14,&nbsp;25–26; 15,&nbsp;26–27; 16,&nbsp;12–15; srov. Sk&nbsp;10).“ <em style="font-size:.8em">podle Přípravného dokumentu, čl.&nbsp;16</em></p>
+						<br />
+						<p><b>•</b> Oficiální české webové <a href="https://www.cirkev.cz/cs/synoda-2021-2023">stránky</a></p>
+						<p><b>•</b> Přípravný dokument <a href="https://cbk.blob.core.windows.net/cms/ContentItems/32503_32503/pripravny-dokument-synoda-2021-2023.pdf">Za církev synodální. Společenství. Spoluúčast. Poslání.</a></p>
+						<p><b>•</b> Deset tématických <a href="https://www.cirkev.cz/cs/aktuality/211008narodni-synodalni-tym-a-hlavni-temata-synody-2021-2023">okruhů</a></p>
+						<br />
+						<br />
+						<p>První setkání 18. 10. 2021</p>
+						<p>Druhé setkání 1. 11. 2021 - II. Naslouchání</p>
+						<p><b>Třetí setkání 15. 11. 2021 - II. Naslouchání</b> (<a href="synoda/2021_11_07-otazky_web.pdf">otázky</a>)</p>
+						<br />
+				</div>
+				</div>
+			</div>
+		</div>
+	</section>
 
 	<script defer src="js/jag.min.js"></script>
 
