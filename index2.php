@@ -14,7 +14,7 @@
 	<meta charset="utf-8">
 	<title>Římskokatolické farnosti Světlá nad Sázavou a Číhošť</title>
 	<meta name="description" content="Římskokatolické farnosti Světlá nad Sázavou a Číhošť">
-	<meta name="keywords" content="parish, christian, catholic, church, misijní, měsíc, říjen 2019">
+	<meta name="keywords" content="parish, christian, catholic, church">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
 	<link rel="stylesheet" href="css/jag-bootstrap.min.css">
@@ -40,7 +40,8 @@
 			</div>
 			<nav class="collapse navbar-collapse navbar-right">
 				<ul id="nav" class="nav navbar-nav">
-				<li><a href="vespers/php/nespory.php"><img src="img/apokalypsa.svg" alt="Hodinová apokalypsa" style="width: 1.5em;"></a></li>
+				<li><a href="#Synoda">Synoda21-23</a></li>
+				<li><a href="vespers/2021_11_12.html"><img src="img/apokalypsa.svg" alt="Hodinová apokalypsa" style="width: 1.5em;"></a></li>
 				<li>
 						<a href="#Bohosluzby">Pořad bohoslužeb</a>
 					</li>
@@ -61,7 +62,7 @@
 	</header>
 
 <!-- dynamicky generované heslo dne .-->
-	<div id="jHD"><?php include('./HD-2021-09-dante.inc'); ?></div>
+	<div id="jHD"><?php include('./HD-2021-11-redwed.inc'); ?></div>
 
 	<section id="Farnosti" class="features"  style="display:flex; min-height: 100vh;">
 		<div class="container" style="margin-top: auto; margin-bottom: auto;">
@@ -89,6 +90,7 @@
 						<div class="service-desc">
 							<h3>Římskokatolická farnost Číhošť</h3>
 							<p>IČO: 60127554<br />účet: 1473464379/0800</p>
+							<p>ID: 88dikqn</p>
 						</div>
 					</div>
 				</div>
@@ -238,16 +240,42 @@
 								<h3 style="text-align:right;">
 									<a href="archiv.php" style="color:#8C2318;">Archiv 2020/2021</a>
 								</h3>
-							
 						</div><br />
-
-
 				</div>
 				</div>
 			</div>
 		</div>
 	</section>
 
+	<section id="Synoda" class="features">
+		<div class="container" style="margin-top: auto; margin-bottom: auto;">
+			<div class="row">
+				<div class="sec-title text-center">
+					<h2>Synoda21-23</h2>
+				</div>
+				<div class="col-md-2"></div>
+				<div class="col-md-8">
+				
+				<div class="sec-sub-title">
+				
+						<br />
+						<p>„Boží Duch osvěcuje a&nbsp;oživuje křesťany na společné Cestě. Je totožný s&nbsp;Duchem působícím v&nbsp;Ježíšově poslání. Je to stejný Duch, který byl přislíben apoštolům a&nbsp;generacím učedníků, kteří naslouchají Božímu slovu a&nbsp;uvádějí je ve skutek. Duch Svatý se podle Pánova příslibu neomezuje jen na upevňování kontinuity Ježíšova evangelia. Osvěcuje stále nové hlubiny Pánova zjevení a&nbsp;inspiruje rozhodnutí ve prospěch církevního směřování (srov. Jan 14,&nbsp;25–26; 15,&nbsp;26–27; 16,&nbsp;12–15; srov. Sk&nbsp;10).“ <em style="font-size:.8em">podle Přípravného dokumentu, čl.&nbsp;16</em></p>
+						<br />
+						<p><b>•</b> Oficiální české webové <a href="https://www.cirkev.cz/cs/synoda-2021-2023">stránky</a></p>
+						<p><b>•</b> Přípravný dokument <a href="https://cbk.blob.core.windows.net/cms/ContentItems/32503_32503/pripravny-dokument-synoda-2021-2023.pdf">Za církev synodální. Společenství. Spoluúčast. Poslání.</a></p>
+						<p><b>•</b> Deset tématických <a href="https://www.cirkev.cz/cs/aktuality/211008narodni-synodalni-tym-a-hlavni-temata-synody-2021-2023">okruhů</a></p>
+						<br />
+						<br />
+						<p>První setkání 18. 10. 2021</p>
+						<p>Druhé setkání 1. 11. 2021 - II. Naslouchání</p>
+						<p>Třetí setkání 15. 11. 2021 - II. Naslouchání (<a href="synoda/2021_11_07-otazky_web.pdf">otázky</a>)</p>
+						<p><b>Čtvrté setkání 29. 11. 2021 - II. Naslouchání</b> (<a href="synoda/2021_11_07-otazky_web.pdf">otázky</a>)</p>
+						<br />
+				</div>
+				</div>
+			</div>
+		</div>
+	</section>
 
 	<script defer src="js/jag.min.js"></script>
 
