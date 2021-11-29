@@ -269,7 +269,8 @@
 						<p>První setkání 18. 10. 2021</p>
 						<p>Druhé setkání 1. 11. 2021 - II. Naslouchání</p>
 						<p>Třetí setkání 15. 11. 2021 - II. Naslouchání (<a href="synoda/2021_11_07-otazky_web.pdf">otázky</a>)</p>
-						<p><b>Čtvrté setkání 29. 11. 2021 - II. Naslouchání</b> (<a href="synoda/2021_11_07-otazky_web.pdf">otázky</a>)</p>
+						<p>Čtvrté setkání 29. 11. 2021 - II. Naslouchání (<a href="synoda/2021_11_07-otazky_web.pdf">otázky</a>)</p>
+						<p><b>Páté setkání 13. 12. 2021 - II. Naslouchání</b> (<a href="synoda/2021_11_07-otazky_web.pdf">otázky</a>)</p>
 						<br />
 				</div>
 				</div>
