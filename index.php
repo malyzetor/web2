@@ -50,6 +50,7 @@
 						<ul class="dropdown-menu">
 							<li><a href="#Farnosti">Spravované farnosti</a></li>
 							<li><a href="#Kontakt">Kontakt</a></li>
+							<li><a href="prf.php">Pastorační rada farnosti</a></li>
 							<li><a href="#Duchovni">Duchovní program</a></li>	
 						</ul>
 					</li>
