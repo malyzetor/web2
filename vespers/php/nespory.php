@@ -1,5 +1,5 @@
 <?php 
-include "2021_10_10.inc";
+include "2022_01_23.inc";
 
 $ant1= array("", "Hospodin řekl mému Pánu: Seď po mé pravici, aleluja.", "Kristus je kněz navěky podle Melchizedechova řádu, aleluja.", "Hospodin řekl mému Pánu: Seď po mé pravici, aleluja.", "Ode dne zrození je ti určeno vládnout v&nbsp;posvátném lesku, aleluja.");
 $ant2= array("", "Země se zachvěla před tváří Páně, aleluja.", "Bůh náš je na nebesích, učinil všechno, co chtěl, aleluja.", "Vypravujte mezi všemi národy o&nbsp;Hospodinových divech, aleluja.", "Blahoslavení, kdo lační a&nbsp;žízní po spravedlnosti, neboť oni budou nasyceni.");
@@ -26,23 +26,18 @@ $zalm= array("", "114.inc", "115.inc", "111.inc", "112.inc");
 <h2><span class="bold"><span class="redtitle"><?php echo $nedele; ?></span></span> <br />
 <span class="redtitle"><?php echo $tyden; ?>. týden žaltáře</span></h2>
 
-<div class="tts_heading"><!---->
+<div class="tts_heading">
 
 
-<p class="center"><span class="uppercase">Druhé nešpory</span><br />
+<p class="center"><span class="uppercase">Druhé nešpory</span><br /></p>
 
-<!--NADPIS:end--></p>
-
-<!----></div><!---->
 
 <div class="respons">
 <p class="respV">Bože, pospěš mi na pomoc.</p>
 <p class="respO">Slyš naše volání.</p>
 </div>
 
-<!--tts:section:begin-->
-<div class="tts_section"></div>
-<!--tts:section:end-->
+
 
 <div class="respons">
     <p class="respV">Sláva Otci i&nbsp;Synu i&nbsp;Duchu Svatému,</p>
@@ -50,18 +45,13 @@ $zalm= array("", "114.inc", "115.inc", "111.inc", "112.inc");
 </div>
 
 
-<!--tts:section:begin-->
-<div class="tts_section"></div>
-<!--tts:section:end-->
 
 
 <p class="redsmall">HYMNUS</p>
 
 <?php include $hymnus; ?>
 
-<!--tts:section:begin-->
-<div class="tts_section"></div>
-<!--tts:section:end-->
+
 
 <p class="redsmall">ŽALMY</p> 
 
@@ -85,7 +75,7 @@ $zalm= array("", "114.inc", "115.inc", "111.inc", "112.inc");
 
 <p class="verse start"><sup>7</sup>Cestou se napije z&nbsp;potoka,&nbsp;*</p>
 <p class="verse cont">proto povznese hlavu.</p>
-<!----><!---->
+
 <!---->
 <p class="verse start first">Sláva Otci i&nbsp;Synu&nbsp;*</p>
 <p class="verse cont">i&nbsp;Duchu Svatému,</p>
@@ -95,20 +85,11 @@ $zalm= array("", "114.inc", "115.inc", "111.inc", "112.inc");
 </div>
 <p class="strong"><span class="red">Ant.</span> <?php echo $ant1[$tyden]; ?></p>
 
-<!--tts:section:begin-->
-<div class="tts_section"></div>
-<!--tts:section:end-->
-
-
 <p class="strong"><span class="red">2. ant.</span> <?php echo $ant2[$tyden]; ?></p>
 <div class="psalm">
     <?php include $zalm[$tyden]; ?>
 </div>
 <p class="strong"><span class="red">Ant.</span> <?php echo $ant2[$tyden]; ?></p>
-
-<!--tts:section:begin-->
-<div class="tts_section"></div>
-<!--tts:section:end-->
 
 <p class="strong"><span class="red">3. ant.</span> <?php echo $ant3[$tyden]; ?></p>
 <div class="psalm">
@@ -147,17 +128,13 @@ $zalm= array("", "114.inc", "115.inc", "111.inc", "112.inc");
 </div>
 <p class="strong"><span class="red">Ant.</span> <?php echo $ant3[$tyden]; ?></p>
 
-<!--tts:section:begin-->
-<div class="tts_section"></div>
-<!--tts:section:end-->
+
 
 <p class="redsmall">KRÁTKÉ ČTENÍ</p>
 <p class="bibleref"><?php echo $cteni[0]; ?></p>
 <p><i><?php echo $cteni[1]; ?></i></p>
 
-<!--tts:section:begin-->
-<div class="tts_section"></div>
-<!--tts:section:end-->
+
 
 <p class="redsmall">ZPĚV PO KRÁTKÉM ČTENÍ</p>
 
@@ -170,9 +147,7 @@ $zalm= array("", "114.inc", "115.inc", "111.inc", "112.inc");
 
 </div>
 
-<!--tts:section:begin-->
-<div class="tts_section"></div>
-<!--tts:section:end-->
+
 
 
 <p><span class="redsmall">KANTIKUM PANNY MARIE</span></p>
@@ -211,9 +186,7 @@ $zalm= array("", "114.inc", "115.inc", "111.inc", "112.inc");
 </div>
 <p class="strong"><span class="red">Ant.</span> <?php echo $antPM; ?></p>
 
-<!--tts:section:begin-->
-<div class="tts_section"></div>
-<!--tts:section:end-->
+
 
 
 <p class="redsmall">PROSBY</p>
@@ -222,9 +195,7 @@ $zalm= array("", "114.inc", "115.inc", "111.inc", "112.inc");
 pro chvály: <i style="color: #1a1a1a;">Chvála tobě, Pane.</i><br /> 
 pro prosby/přímluvy: <i style="color: #1a1a1a;">Prosíme tě, vyslyš nás.</i></span>
 
-<!--tts:section:begin-->
-<div class="tts_section"></div>
-<!--tts:section:end-->
+
 
 <p class="redsmall">MODLITBA PÁNĚ</p>
 <p class="strong">Otče náš, jenž jsi na nebesích,<br />
@@ -238,34 +209,16 @@ pro prosby/přímluvy: <i style="color: #1a1a1a;">Prosíme tě, vyslyš nás.</i
     ale zbav nás od zlého.<br />
     Neboť tvé je království i&nbsp;moc i&nbsp;sláva navěky.</p>
 
-<!--tts:section:begin-->
-<div class="tts_section"></div>
-<!--tts:section:end-->
+
 
 <p class="redsmall">MODLITBA</p>
 <p class="strong"><?php echo $modlitba; ?></p>
 
 <!----><!---->
 
-<!--tts:section:begin-->
-<div class="tts_section"></div>
-<!--tts:section:end-->
-
-<p class="redsmall">SALVE REGINA</p>
-<p style="font-style:italic; font-weight:400; text-align: right;">Zdrávas, Královno; T:&nbsp;asi Heřman z&nbsp;Reichenau, 11. století; N:&nbsp;chorál (<abbr title="Mešní zpěvy, Praha, 1990">MZ</abbr>&nbsp;1001)</p>
-<img src="salve_regina.webp" alt="Salve Regina" style="width: 100%; padding: 1em 0 1em 0;" />
-<div class="hymn">
-
-<p class="first">Salve, Regína, <span class="red">*</span> mater misericórdiæ,</p>
-<p>vita dulcédo et spes nostra, salve.</p>
-<p>Ad te clamámus, éxules, fílii Hevæ.</p>
-<p>Ad te suspirámus, geméntes et flentes in hac lacrimárum valle.</p>
-<p>Eia ergo, advocáta nostra, illos tuos misericórdes óculos ad nos convérte.</p>
-<p>Et Iesum, benedíctum fructum ventris tui, nobis post hoc exílium osténde.</p>
-<p>O&nbsp;clemens, o&nbsp;pia, o&nbsp;dulcis Virgo María.</p>
+<?php include $antifona; ?>
 
 
-</div>
 
 </div>
 
