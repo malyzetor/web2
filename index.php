@@ -273,7 +273,8 @@
 						<p>Čtvrté setkání 29. 11. 2021 - II. Naslouchání (<a href="synoda/2021_11_07-otazky_web.pdf">otázky</a>)</p>
 						<p>Páté setkání 13. 12. 2021 - <span style="text-decoration: underline;">II. Naslouchání</span> (<a href="synoda/2021_12_13-resume.pdf">některé poznámky a resumé</a>)</p>
 						<p>Šesté setkání 10. 1. 2022 - IV. Slavení (<a href="synoda/2022_01_10-otazky_web.pdf">otázky</a>)</p>
-						<p><b>Sedmé setkání 24. 1. 2022 - IV. Slavení</b> (<a href="synoda/2022_01_10-otazky_web.pdf">otázky</a>)</p>
+						<p>Sedmé setkání 24. 1. 2022 - IV. Slavení (<a href="synoda/2022_01_10-otazky_web.pdf">otázky</a>)</p>
+						<p><b>Osmé setkání 7. 2. 2022 - IV. Slavení</b> (<a href="synoda/2022_01_10-otazky_web.pdf">otázky</a>)</p>
 						<br />
 				</div>
 				</div>
