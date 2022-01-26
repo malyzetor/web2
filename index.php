@@ -41,7 +41,7 @@
 			<nav class="collapse navbar-collapse navbar-right">
 				<ul id="nav" class="nav navbar-nav">
 				<li><a href="#Synoda">Synoda21-23</a></li>
-				<li><a href="vespers/php/nespory.php"><img src="img/apokalypsa.svg" alt="Hodinová apokalypsa" style="width: 1.5em;"></a></li>
+				<li><a href="vespers/2022_01_28.html"><img src="img/apokalypsa.svg" alt="Hodinová apokalypsa" style="width: 1.5em;"></a></li>
 				<li>
 						<a href="#Bohosluzby">Pořad bohoslužeb</a>
 					</li>
