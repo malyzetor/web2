@@ -40,7 +40,7 @@
 			</div>
 			<nav class="collapse navbar-collapse navbar-right">
 				<ul id="nav" class="nav navbar-nav">
-				<li><a href="index.php">• Live</a></li>
+				<li><a href="index.php">• Zpět</a></li>
 				</ul>
 			</nav>
 		</div>
@@ -65,7 +65,8 @@
 						<br />
                         <p style="line-height: 1.8">
                             <span style="display:inline-block; width: 13em;">První setkání 13. 1. 2022</span> – <a href="PRF/2022_01_04-pozvanka.pdf">pozvánka</a>, <a href="PRF/2022_01_04-priloha.pdf"><i>příloha</i></a>, <a href="PRF/2022_01_13-zapis.pdf">zápis</a><br />
-                            <span style="display:inline-block; width: 13em;">Druhé setkání 3. 2. 2022</span> – pozvánka, zápis<br />
+                            <span style="display:inline-block; width: 13em;">Druhé setkání 3. 2. 2022</span> – <a href="PRF/2022_01_26-pozvanka.pdf">pozvánka</a>, <a href="PRF/2022_01_26-kalendar.pdf"><i>příloha</i></a>, <a href="PRF/2022_02_03-zapis.pdf">zápis</a><br />
+							<span style="display:inline-block; width: 13em;">Třetí setkání 3. 3. 2022</span> – pozvánka, <i>příloha</i>, zápis<br />
                         </p>
                         
 
@@ -76,13 +77,7 @@
 		</div>
 	</section>
 
-
 	<script defer src="js/jag.min.js"></script>
-
-
-	
-	<!-- 	"js/jquery-3.2.1.min.js"; async "js/jquery.singlePageNav.min.js"; async "js/bootstrap.min.js"; async "js/jquery.easing.min.js"; defer "js/jag-fontawesome.min.js" 	-->
-
 
 </body>
 
