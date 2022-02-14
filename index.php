@@ -16,7 +16,7 @@
 	<meta name="description" content="Římskokatolické farnosti Světlá nad Sázavou a Číhošť">
 	<meta name="keywords" content="parish, christian, catholic, church">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-
+	<link rel="icon" href="./favicon.ico" sizes="any">
 	<link rel="stylesheet" href="css/jag-bootstrap.min.css">
 	<style>
 		html {
