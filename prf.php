@@ -66,7 +66,7 @@
                         <p style="line-height: 1.8">
                             <span style="display:inline-block; width: 13em;">První setkání 13. 1. 2022</span> – <a href="PRF/2022_01_04-pozvanka.pdf">pozvánka</a>, <a href="PRF/2022_01_04-priloha.pdf"><i>příloha</i></a>, <a href="PRF/2022_01_13-zapis.pdf">zápis</a><br />
                             <span style="display:inline-block; width: 13em;">Druhé setkání 3. 2. 2022</span> – <a href="PRF/2022_01_26-pozvanka.pdf">pozvánka</a>, <a href="PRF/2022_01_26-kalendar.pdf"><i>příloha</i></a>, <a href="PRF/2022_02_03-zapis.pdf">zápis</a><br />
-							<span style="display:inline-block; width: 13em;">Třetí setkání 3. 3. 2022</span> – pozvánka, <i>příloha</i>, zápis<br />
+							<span style="display:inline-block; width: 13em;">Třetí setkání 3. 3. 2022</span> – <a href="PRF/2022_02_23-pozvanka.pdf">pozvánka</a>, <a href="PRF/2022_02_23-kalendar.pdf"><i>příloha</i></a>, zápis<br />
                         </p>
                         
 
