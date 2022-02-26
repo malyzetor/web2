@@ -16,7 +16,7 @@
 	<meta name="description" content="Římskokatolické farnosti Světlá nad Sázavou a Číhošť">
 	<meta name="keywords" content="parish, christian, catholic, church">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-
+	<link rel="icon" href="./favicon.ico" sizes="any">
 	<link rel="stylesheet" href="css/jag-bootstrap.min.css">
 	<style>
 		html {
@@ -41,7 +41,7 @@
 			<nav class="collapse navbar-collapse navbar-right">
 				<ul id="nav" class="nav navbar-nav">
 				<li><a href="#Synoda">Synoda21-23</a></li>
-				<li><a href="vespers/2021_11_12.html"><img src="img/apokalypsa.svg" alt="Hodinová apokalypsa" style="width: 1.5em;"></a></li>
+				<li><a href="vespers/2022_02_25-U.html"><img src="img/apokalypsa.svg" alt="Hodinová apokalypsa" style="width: 1.5em;"></a></li>
 				<li>
 						<a href="#Bohosluzby">Pořad bohoslužeb</a>
 					</li>
@@ -50,6 +50,7 @@
 						<ul class="dropdown-menu">
 							<li><a href="#Farnosti">Spravované farnosti</a></li>
 							<li><a href="#Kontakt">Kontakt</a></li>
+							<li><a href="prf.php">Pastorační rada farnosti</a></li>
 							<li><a href="#Duchovni">Duchovní program</a></li>	
 						</ul>
 					</li>
@@ -62,7 +63,7 @@
 	</header>
 
 <!-- dynamicky generované heslo dne .-->
-	<div id="jHD"><?php include('./HD-2021-11-redwed.inc'); ?></div>
+	<div id="jHD"><?php include('./HD-2022-02-ukrajina.inc'); ?></div>
 
 	<section id="Farnosti" class="features"  style="display:flex; min-height: 100vh;">
 		<div class="container" style="margin-top: auto; margin-bottom: auto;">
@@ -269,7 +270,13 @@
 						<p>První setkání 18. 10. 2021</p>
 						<p>Druhé setkání 1. 11. 2021 - II. Naslouchání</p>
 						<p>Třetí setkání 15. 11. 2021 - II. Naslouchání (<a href="synoda/2021_11_07-otazky_web.pdf">otázky</a>)</p>
-						<p><b>Čtvrté setkání 29. 11. 2021 - II. Naslouchání</b> (<a href="synoda/2021_11_07-otazky_web.pdf">otázky</a>)</p>
+						<p>Čtvrté setkání 29. 11. 2021 - II. Naslouchání (<a href="synoda/2021_11_07-otazky_web.pdf">otázky</a>)</p>
+						<p>Páté setkání 13. 12. 2021 - <span style="text-decoration: underline;">II. Naslouchání</span> (<a href="synoda/2021_12_13-resume.pdf">některé poznámky a resumé</a>)</p>
+						<p>Šesté setkání 10. 1. 2022 - IV. Slavení (<a href="synoda/2022_01_10-otazky_web.pdf">otázky</a>)</p>
+						<p>Sedmé setkání 24. 1. 2022 - IV. Slavení (<a href="synoda/2022_01_10-otazky_web.pdf">otázky</a>)</p>
+						<p>Osmé setkání 7. 2. 2022 - IV. Slavení (<a href="synoda/2022_01_10-otazky_web.pdf">otázky</a>)</p>
+						<p>Deváté setkání 21. 2. 2022 - IV. Slavení (<a href="synoda/2022_01_10-otazky_web.pdf">otázky</a>)</p>
+						<p><b>Desáté setkání 7. 3. 2022 - IV. Slavení</b> (<a href="synoda/2022_01_10-otazky_web.pdf">otázky</a>)</p>
 						<br />
 				</div>
 				</div>
