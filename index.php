@@ -41,7 +41,7 @@
 			<nav class="collapse navbar-collapse navbar-right">
 				<ul id="nav" class="nav navbar-nav">
 				<li><a href="#Synoda">Synoda21-23</a></li>
-				<li><a href="vespers/2022_02_25-U.html"><img src="img/apokalypsa.svg" alt="Hodinová apokalypsa" style="width: 1.5em;"></a></li>
+				<li><a href="vespers/2022_03_11.html"><img src="img/apokalypsa.svg" alt="Hodinová apokalypsa" style="width: 1.5em;"></a></li>
 				<li>
 						<a href="#Bohosluzby">Pořad bohoslužeb</a>
 					</li>
@@ -276,7 +276,8 @@
 						<p>Sedmé setkání 24. 1. 2022 - IV. Slavení (<a href="synoda/2022_01_10-otazky_web.pdf">otázky</a>)</p>
 						<p>Osmé setkání 7. 2. 2022 - IV. Slavení (<a href="synoda/2022_01_10-otazky_web.pdf">otázky</a>)</p>
 						<p>Deváté setkání 21. 2. 2022 - IV. Slavení (<a href="synoda/2022_01_10-otazky_web.pdf">otázky</a>)</p>
-						<p><b>Desáté setkání 7. 3. 2022 - IV. Slavení</b> (<a href="synoda/2022_01_10-otazky_web.pdf">otázky</a>)</p>
+						<p>Desáté setkání 7. 3. 2022 - IV. Slavení (<a href="synoda/2022_01_10-otazky_web.pdf">otázky</a>)</p>
+						<p><b>Jedenácté setkání 21. 3. 2022 - IV. Slavení</b> (<a href="synoda/2022_01_10-otazky_web.pdf">otázky</a>)</p>
 						<br />
 				</div>
 				</div>
