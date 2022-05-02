@@ -279,7 +279,8 @@
 						<p>Desáté setkání 7. 3. 2022 - IV. Slavení (<a href="synoda/2022_01_10-otazky_web.pdf">otázky</a>)</p>
 						<p>Jedenácté setkání 21. 3. 2022 - <span style="text-decoration: underline;">IV. Slavení</span> (<a href="synoda/2022_03_21-resume.pdf">některé poznámky a resumé</a>)</p>
 						<p>Dvanácté setkání 4. 4. 2022 - VIII. Autorita a spoluúčast (<a href="synoda/2022_03_22-otazky_web.pdf">otázky</a>)</p>
-						<p><b>Třinácté setkání 2. 5. 2022 - VIII. Autorita a spoluúčast</b> (<a href="synoda/2022_03_22-otazky_web.pdf">otázky</a>)</p>
+						<p>Třinácté setkání 2. 5. 2022 - VIII. Autorita a spoluúčast (<a href="synoda/2022_03_22-otazky_web.pdf">otázky</a>)</p>
+						<p><b>Čtrnácté setkání 16. 5. 2022 - VIII. Autorita a spoluúčast</b> (<a href="synoda/2022_03_22-otazky_web.pdf">otázky</a>)</p>
 						<br />
 				</div>
 				</div>
