@@ -40,7 +40,6 @@
 			</div>
 			<nav class="collapse navbar-collapse navbar-right">
 				<ul id="nav" class="nav navbar-nav">
-				<li><a href="#Synoda">Synoda21-23</a></li>
 				<li><a href="."><img src="img/apokalypsa.svg" alt="Hodinová apokalypsa" style="width: 1.5em;"></a></li>
 				<li>
 						<a href="#Bohosluzby">Pořad bohoslužeb</a>
@@ -63,7 +62,7 @@
 	</header>
 
 <!-- dynamicky generované heslo dne .-->
-	<div id="jHD"><?php include('./HD-2022-04-veli.inc'); ?></div>
+	<div id="jHD"><?php include('./HD-2022-06-nockostelu.inc'); ?></div>
 
 	<section id="Farnosti" class="features"  style="display:flex; min-height: 100vh;">
 		<div class="container" style="margin-top: auto; margin-bottom: auto;">
@@ -80,6 +79,7 @@
 						<div class="service-desc">
 							<h3>Římskokatolická farnost – děkanství Světlá nad Sázavou</h3>
 							<p>IČO: 15060586<br />účet: 1120630319/0800</p>
+							<p>ID: hamajse</p>
 						</div>
 					</div>
 				</div>
@@ -280,7 +280,8 @@
 						<p>Jedenácté setkání 21. 3. 2022 - <span style="text-decoration: underline;">IV. Slavení</span> (<a href="synoda/2022_03_21-resume.pdf">některé poznámky a resumé</a>)</p>
 						<p>Dvanácté setkání 4. 4. 2022 - VIII. Autorita a&nbsp;spoluúčast (<a href="synoda/2022_03_22-otazky_web.pdf">otázky</a>)</p>
 						<p>Třinácté setkání 2. 5. 2022 - VIII. Autorita a&nbsp;spoluúčast (<a href="synoda/2022_03_22-otazky_web.pdf">otázky</a>)</p>
-						<p><b>Čtrnácté setkání 16. 5. 2022 - VIII. Autorita a&nbsp;spoluúčast</b> (<a href="synoda/2022_03_22-otazky_web.pdf">otázky</a>)</p>
+						<p>Čtrnácté setkání 16. 5. 2022 - VIII. Autorita a&nbsp;spoluúčast (<a href="synoda/2022_03_22-otazky_web.pdf">otázky</a>)</p>
+						<p><b>Patnácté setkání 30. 5. 2022 - VIII. Autorita a&nbsp;spoluúčast</b> (<a href="synoda/2022_03_22-otazky_web.pdf">otázky</a>)</p>
 						<br />
 				</div>
 				</div>
