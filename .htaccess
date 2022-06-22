@@ -1,12 +1,15 @@
 ## EXPIRES CACHING ##
 <IfModule mod_expires.c>
 ExpiresActive On
+ExpiresDefault A2678400
 
 ExpiresByType font/woff2 "access plus 1 year"
+ExpiresByType application/font-woff2 "access plus 1 year"
 ExpiresByType text/css "access plus 1 week"
-ExpiresByType application/pdf A60
 
-ExpiresDefault A2678400
+ExpiresByType application/pdf A1
+ExpiresByType text/html A1
+
 </IfModule>
 ## EXPIRES CACHING ##
 

@@ -62,7 +62,7 @@
 	</header>
 
 <!-- dynamicky generované heslo dne .-->
-	<div id="jHD"><?php include('./HD-2022-06-nockostelu.inc'); ?></div>
+	<div id="jHD"><?php include('./HD-2022-04-veli.inc'); ?></div>
 
 	<section id="Farnosti" class="features"  style="display:flex; min-height: 100vh;">
 		<div class="container" style="margin-top: auto; margin-bottom: auto;">
@@ -180,14 +180,14 @@
 				<div class="col-md-6">
 					<div class="service-item">
 						<div class="service-icon" style="width: 100px;">
-							<a href="./ohlasky.pdf" style="color:#8C2318;" title="Aktuální ohlášky">
+							<a href="./ohlasky.pdf?t=<?php echo time(); ?>" style="color:#8C2318;" title="Aktuální ohlášky">
 								<i class="far fa-calendar-alt fa-5x fa-fw"></i>
 							</a>
 						</div>
 						<div class="service-desc">
 							<h3>Aktuální ohlášky</h3>
 							<p>Rozpis bohoslužeb a dalších sdělení pro aktuální týden.<br/>
-								<b><span id="jDatumOhlasek"><?php include('./datum_ohlasek.inc'); ?></span></b><a href="./ohlasky.pdf" style="color:#8C2318;" title="Aktuální ohlášky"><i class="far fa-file-pdf"></i></a>
+								<b><span id="jDatumOhlasek"><?php include('./datum_ohlasek.inc'); ?></span></b><a href="./ohlasky.pdf?t=<?php echo time(); ?>" style="color:#8C2318;" title="Aktuální ohlášky"><i class="far fa-file-pdf"></i></a>
 							</p>
 						</div>
 					</div>

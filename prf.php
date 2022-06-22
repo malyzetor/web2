@@ -69,7 +69,7 @@
 							<span style="display:inline-block; width: 13em;">Třetí setkání 3. 3. 2022</span> – <a href="PRF/2022_02_23-pozvanka.pdf">pozvánka</a>, <a href="PRF/2022_02_23-kalendar.pdf"><i>příloha</i></a>, <a href="PRF/2022_03_03-zapis.pdf">zápis</a><br />
 							<span style="display:inline-block; width: 13em;">Čtvrté setkání 7. 4. 2022</span> – <a href="PRF/2022_03_30-pozvanka.pdf">pozvánka</a>, <a href="PRF/2022_03_30-kalendar.pdf"><i>příloha</i></a>, <a href="PRF/2022_04_07-zapis.pdf">zápis</a><br />
 							<span style="display:inline-block; width: 13em;">Páté setkání 5. 5. 2022</span> – <a href="PRF/2022_04_26-pozvanka.pdf">pozvánka</a>, <a href="PRF/2022_04_26-kalendar.pdf"><i>příloha</i></a>, <a href="PRF/2022_05_05-zapis.pdf">zápis</a><br />
-							<span style="display:inline-block; width: 13em;">Šesté setkání 2. 6. 2022</span> – <a href="PRF/2022_05_25-pozvanka.pdf">pozvánka</a>, <a href="PRF/2022_05_25-kalendar.pdf"><i>příloha</i></a>, zápis<br />
+							<span style="display:inline-block; width: 13em;">Šesté setkání 2. 6. 2022</span> – <a href="PRF/2022_05_25-pozvanka.pdf">pozvánka</a>, <a href="PRF/2022_05_25-kalendar.pdf"><i>příloha</i></a>, <a href="PRF/2022_06_04-zapis.pdf">zápis</a><br />
 						</p>
                         
 
