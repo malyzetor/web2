@@ -63,6 +63,12 @@
                             
 						<br />
 						<br />
+						<p>Členové PRF: <a href = "mailto: bouchal@sluzatky.cz">Hynek&nbsp;Bouchal</a>, <a href = "mailto: rabouchalova@centrum.cz">Radka&nbsp;Bouchalová</a>, <a href = "mailto: svetla@farnost.cz">Pavel&nbsp;Jäger</a>,
+						<a href = "mailto: kovandovaivana@seznam.cz">Ivana&nbsp;Kovandová</a>, <a href = "mailto: prajan@seznam.cz">Jan&nbsp;Prášek</a>, <a href = "mailto: prasek@pwb.cz">Václav&nbsp;Prášek</a></p>
+
+						<br />
+						<br />
+
                         <p style="line-height: 1.8">
                             <span style="display:inline-block; width: 13em;">První setkání 13. 1. 2022</span> – <a href="PRF/2022_01_04-pozvanka.pdf">pozvánka</a>, <a href="PRF/2022_01_04-priloha.pdf"><i>příloha</i></a>, <a href="PRF/2022_01_13-zapis.pdf">zápis</a><br />
                             <span style="display:inline-block; width: 13em;">Druhé setkání 3. 2. 2022</span> – <a href="PRF/2022_01_26-pozvanka.pdf">pozvánka</a>, <a href="PRF/2022_01_26-kalendar.pdf"><i>příloha</i></a>, <a href="PRF/2022_02_03-zapis.pdf">zápis</a><br />
@@ -70,6 +76,7 @@
 							<span style="display:inline-block; width: 13em;">Čtvrté setkání 7. 4. 2022</span> – <a href="PRF/2022_03_30-pozvanka.pdf">pozvánka</a>, <a href="PRF/2022_03_30-kalendar.pdf"><i>příloha</i></a>, <a href="PRF/2022_04_07-zapis.pdf">zápis</a><br />
 							<span style="display:inline-block; width: 13em;">Páté setkání 5. 5. 2022</span> – <a href="PRF/2022_04_26-pozvanka.pdf">pozvánka</a>, <a href="PRF/2022_04_26-kalendar.pdf"><i>příloha</i></a>, <a href="PRF/2022_05_05-zapis.pdf">zápis</a><br />
 							<span style="display:inline-block; width: 13em;">Šesté setkání 2. 6. 2022</span> – <a href="PRF/2022_05_25-pozvanka.pdf">pozvánka</a>, <a href="PRF/2022_05_25-kalendar.pdf"><i>příloha</i></a>, <a href="PRF/2022_06_04-zapis.pdf">zápis</a><br />
+							<span style="display:inline-block; width: 13em;">Sedmé setkání 8. 9. 2022</span> – <a href="PRF/2022_08_31-pozvanka.pdf">pozvánka</a>, <a href="PRF/2022_08_31-kalendar.pdf"><i>příloha</i></a>, zápis<br />
 						</p>
                         
 

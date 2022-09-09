@@ -40,7 +40,7 @@
 			</div>
 			<nav class="collapse navbar-collapse navbar-right">
 				<ul id="nav" class="nav navbar-nav">
-				<li><a href="."><img src="img/apokalypsa.svg" alt="Hodinová apokalypsa" style="width: 1.5em;"></a></li>
+				<li><a href="vespers/2022_09_16.html"><img src="img/apokalypsa.svg" alt="Hodinová apokalypsa" style="width: 1.5em;"></a></li>
 				<li>
 						<a href="#Bohosluzby">Pořad bohoslužeb</a>
 					</li>
@@ -212,7 +212,7 @@
 						<i style="color:#8C2318;" class="far fa-envelope-open fa-fw"></i>&nbsp;&nbsp;Náměstí Trčků z Lípy 94<br />
 						<span style="float: left; width:1.25em;">&nbsp;</span>&nbsp;&nbsp;582 91 Světlá nad Sázavou<br />
 						<i style="color:#8C2318;" class="fas fa-phone fa-fw"></i>&nbsp;&nbsp;776 215 841<br />
-						<i style="color:#8C2318;" class="far fa-keyboard fa-fw"></i>&nbsp;&nbsp;svetla@farnost.cz
+						<i style="color:#8C2318;" class="far fa-keyboard fa-fw"></i>&nbsp;&nbsp;rkf.svetlanadsazavou@dihk.cz
 					</p>
 				</div>
 			</div>
