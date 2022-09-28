@@ -16,7 +16,7 @@
 	<meta name="description" content="Římskokatolická farnost Světlá nad Sázavou">
 	<meta name="keywords" content="parish, christian, catholic, church">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-
+	<meta name=”robots” content="noindex, nofollow">
 	<link rel="stylesheet" href="css/jag-bootstrap.min.css">
 	<style>
 		html {
@@ -76,7 +76,8 @@
 							<span style="display:inline-block; width: 13em;">Čtvrté setkání 7. 4. 2022</span> – <a href="PRF/2022_03_30-pozvanka.pdf">pozvánka</a>, <a href="PRF/2022_03_30-kalendar.pdf"><i>příloha</i></a>, <a href="PRF/2022_04_07-zapis.pdf">zápis</a><br />
 							<span style="display:inline-block; width: 13em;">Páté setkání 5. 5. 2022</span> – <a href="PRF/2022_04_26-pozvanka.pdf">pozvánka</a>, <a href="PRF/2022_04_26-kalendar.pdf"><i>příloha</i></a>, <a href="PRF/2022_05_05-zapis.pdf">zápis</a><br />
 							<span style="display:inline-block; width: 13em;">Šesté setkání 2. 6. 2022</span> – <a href="PRF/2022_05_25-pozvanka.pdf">pozvánka</a>, <a href="PRF/2022_05_25-kalendar.pdf"><i>příloha</i></a>, <a href="PRF/2022_06_04-zapis.pdf">zápis</a><br />
-							<span style="display:inline-block; width: 13em;">Sedmé setkání 8. 9. 2022</span> – <a href="PRF/2022_08_31-pozvanka.pdf">pozvánka</a>, <a href="PRF/2022_08_31-kalendar.pdf"><i>příloha</i></a>, zápis<br />
+							<span style="display:inline-block; width: 13em;">Sedmé setkání 8. 9. 2022</span> – <a href="PRF/2022_08_31-pozvanka.pdf">pozvánka</a>, <a href="PRF/2022_08_31-kalendar.pdf"><i>příloha</i></a>, <a href="PRF/2022_09_08-zapis.pdf">zápis</a><br />
+							<span style="display:inline-block; width: 13em;">Osmé setkání 6. 10. 2022</span> – <a href="PRF/2022_09_29-pozvanka.pdf">pozvánka</a>, <a href="PRF/2022_09_29-kalendar.pdf"><i>příloha</i></a>, zápis<br />
 						</p>
                         
 
