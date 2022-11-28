@@ -40,8 +40,7 @@
 			</div>
 			<nav class="collapse navbar-collapse navbar-right">
 				<ul id="nav" class="nav navbar-nav">
-				<li><a href="#Synoda">Synoda21-23</a></li>
-				<li><a href="."><img src="img/apokalypsa.svg" alt="Hodinová apokalypsa" style="width: 1.5em;"></a></li>
+				<li><a href="vespers/2022_10_14.html"><img src="img/apokalypsa.svg" alt="Hodinová apokalypsa" style="width: 1.5em;"></a></li>
 				<li>
 						<a href="#Bohosluzby">Pořad bohoslužeb</a>
 					</li>
@@ -63,7 +62,7 @@
 	</header>
 
 <!-- dynamicky generované heslo dne .-->
-	<div id="jHD"><?php include('./HD-2022-06-nockostelu.inc'); ?></div>
+	<div id="jHD"><?php include('./HD-2022-12-advent.inc'); ?></div>
 
 	<section id="Farnosti" class="features"  style="display:flex; min-height: 100vh;">
 		<div class="container" style="margin-top: auto; margin-bottom: auto;">
@@ -79,7 +78,7 @@
 
 						<div class="service-desc">
 							<h3>Římskokatolická farnost – děkanství Světlá nad Sázavou</h3>
-							<p>IČO: 15060586<br />účet: 1120630319/0800</p>
+							<p>IČO: 15060586<br>účet: 1120630319/0800</p>
 							<p>ID: hamajse</p>
 						</div>
 					</div>
@@ -91,7 +90,7 @@
 						</div>
 						<div class="service-desc">
 							<h3>Římskokatolická farnost Číhošť</h3>
-							<p>IČO: 60127554<br />účet: 1473464379/0800</p>
+							<p>IČO: 60127554<br>účet: 1473464379/0800</p>
 							<p>ID: 88dikqn</p>
 						</div>
 					</div>
@@ -109,15 +108,15 @@
 				<div class="sec-sub-title">
 					<p>Věříme, že svátosti jsou projevem zdravého křesťanského života, viditelným gestem a&nbsp;skutečným setkáním s&nbsp;trojjediným
 						Bohem. Pro jejich přijetí je důležité odpovídající docenění i&nbsp;osobní příprava.
-						<br /> Svátosti
+						<br> Svátosti
 						<b>křtu</b>,
 						<b>biřmování</b> a&nbsp;<b>eucharistie</b> uvádějí do plného křesťanského života.
 						<b>Svátosti smíření</b> a&nbsp;<b>pomazání nemocných</b> jsou posilou ve chvílích slabosti a&nbsp;nedostatečnosti, ať už fyzické nebo duchovní.
 						<b>Svátosti manželství</b> a&nbsp;<b>kněžství</b> jsou znamením služby i&nbsp;postavení uprostřed celé společnosti.
-						<br /> Domluvy ohledně doprovázení při přípravě a&nbsp;přijetí těchto svátostí jsou možné po telefonickém nebo osobním setkání
+						<br> Domluvy ohledně doprovázení při přípravě a&nbsp;přijetí těchto svátostí jsou možné po telefonickém nebo osobním setkání
 						v&nbsp;kostele.</p>
 						<p style="text-align:right;">Pavel Jäger
-							<br />správce farnosti</p>
+							<br>správce farnosti</p>
 				</div>
 			</div>
 		</div>
@@ -132,12 +131,12 @@
 				<div class="col-md-2"></div>
 				<div class="col-md-8">
 				<div class="sec-sub-title">
-					<p>Kostel Nanebevzetí Panny Marie v&nbsp;Číhošti je otevřený v&nbsp;době bohoslužeb nebo po předchozí domluvě.<br />Za podobných podmínek je přístupná i&nbsp;výstava o&nbsp;životě P.&nbsp;Josefa Toufara v&nbsp;budově místní fary.<br/>
-						<br />
-					Každou <abbr title="12. leden 2019; 9. únor; 9. březen">druhou sobotu</abbr> v&nbsp;měsíci je <b>smírná pobožnost</b>.<br />
-					<span style="margin-left: 2em; display: inline-block; width: 5em;">8.45 hod.</span>— modlitba růžence<br />
-					<span style="margin-left: 2em; display: inline-block; width: 5em;">9.30 hod.</span>— mše svatá<br />
-					<span style="margin-left: 2em; display: inline-block; width: 5em;"></span>— eucharistická adorace<br />
+					<p>Kostel Nanebevzetí Panny Marie v&nbsp;Číhošti je otevřený v&nbsp;době bohoslužeb nebo po předchozí domluvě.<br>Za podobných podmínek je přístupná i&nbsp;výstava o&nbsp;životě P.&nbsp;Josefa Toufara v&nbsp;budově místní fary.<br/>
+						<br>
+					Každou <abbr title="12. leden 2019; 9. únor; 9. březen">druhou sobotu</abbr> v&nbsp;měsíci je <b>smírná pobožnost</b>.<br>
+					<span style="margin-left: 2em; display: inline-block; width: 5em;">8.45 hod.</span>— modlitba růžence<br>
+					<span style="margin-left: 2em; display: inline-block; width: 5em;">9.30 hod.</span>— mše svatá<br>
+					<span style="margin-left: 2em; display: inline-block; width: 5em;"></span>— eucharistická adorace<br>
 				</div>
 				</div>
 			</div>
@@ -181,14 +180,14 @@
 				<div class="col-md-6">
 					<div class="service-item">
 						<div class="service-icon" style="width: 100px;">
-							<a href="./ohlasky.pdf" style="color:#8C2318;" title="Aktuální ohlášky">
+							<a href="./ohlasky.pdf?t=<?php echo time(); ?>" style="color:#8C2318;" title="Aktuální ohlášky">
 								<i class="far fa-calendar-alt fa-5x fa-fw"></i>
 							</a>
 						</div>
 						<div class="service-desc">
 							<h3>Aktuální ohlášky</h3>
 							<p>Rozpis bohoslužeb a dalších sdělení pro aktuální týden.<br/>
-								<b><span id="jDatumOhlasek"><?php include('./datum_ohlasek.inc'); ?></span></b><a href="./ohlasky.pdf" style="color:#8C2318;" title="Aktuální ohlášky"><i class="far fa-file-pdf"></i></a>
+								<b><span id="jDatumOhlasek"><?php include('./datum_ohlasek.inc'); ?></span></b><a href="./ohlasky.pdf?t=<?php echo time(); ?>" style="color:#8C2318;" title="Aktuální ohlášky"><i class="far fa-file-pdf"></i></a>
 							</p>
 						</div>
 					</div>
@@ -209,11 +208,11 @@
 				</div>
 				<div class="sec-sub-title text-center">
 					<p class="centerKontakt" style="text-align: left; font-weight:500; margin-left: auto; margin-right: auto; width: 14em;">
-						<i style="color:#8C2318;" class="far fa-user fa-fw"></i>&nbsp;&nbsp;Pavel Jäger<br />
-						<i style="color:#8C2318;" class="far fa-envelope-open fa-fw"></i>&nbsp;&nbsp;Náměstí Trčků z Lípy 94<br />
-						<span style="float: left; width:1.25em;">&nbsp;</span>&nbsp;&nbsp;582 91 Světlá nad Sázavou<br />
-						<i style="color:#8C2318;" class="fas fa-phone fa-fw"></i>&nbsp;&nbsp;776 215 841<br />
-						<i style="color:#8C2318;" class="far fa-keyboard fa-fw"></i>&nbsp;&nbsp;svetla@farnost.cz
+						<i style="color:#8C2318;" class="far fa-user fa-fw"></i>&nbsp;&nbsp;Pavel Jäger<br>
+						<i style="color:#8C2318;" class="far fa-envelope-open fa-fw"></i>&nbsp;&nbsp;Náměstí Trčků z Lípy 94<br>
+						<span style="float: left; width:1.25em;">&nbsp;</span>&nbsp;&nbsp;582 91 Světlá nad Sázavou<br>
+						<i style="color:#8C2318;" class="fas fa-phone fa-fw"></i>&nbsp;&nbsp;776 215 841<br>
+						<i style="color:#8C2318;" class="far fa-keyboard fa-fw"></i>&nbsp;&nbsp;rkf.svetlanadsazavou@dihk.cz
 					</p>
 				</div>
 			</div>
@@ -231,18 +230,18 @@
 				
 				<div class="sec-sub-title">
 				
-						<br />
-						<p>K tématu <b>sociální a&nbsp;náboženské izolace od Boha</b> doporučuji k samostudiu:<br />
+						<br>
+						<p>K tématu <b>sociální a&nbsp;náboženské izolace od Boha</b> doporučuji k samostudiu:<br>
 						Lv&nbsp;13–14; Nm&nbsp;19; Jonáš; Mt&nbsp;8; Mt&nbsp;9; Lk&nbsp;10; Lk&nbsp;17; Lk&nbsp;24; Jan&nbsp;13</p>
 						<p>Letošním liturgickým rokem 2019/2020 nás provází evangelista <a href="pdf/Matous_a_infekce.pdf">Matouš</a>.</p>
-						<br />
-						<br />
+						<br>
+						<br>
 						<div class="service-desc">
 							
 								<h3 style="text-align:right;">
 									<a href="archiv.php" style="color:#8C2318;">Archiv 2020/2021</a>
 								</h3>
-						</div><br />
+						</div><br>
 				</div>
 				</div>
 			</div>
@@ -260,14 +259,14 @@
 				
 				<div class="sec-sub-title">
 				
-						<br />
+						<br>
 						<p>„Boží Duch osvěcuje a&nbsp;oživuje křesťany na společné Cestě. Je totožný s&nbsp;Duchem působícím v&nbsp;Ježíšově poslání. Je to stejný Duch, který byl přislíben apoštolům a&nbsp;generacím učedníků, kteří naslouchají Božímu slovu a&nbsp;uvádějí je ve skutek. Duch Svatý se podle Pánova příslibu neomezuje jen na upevňování kontinuity Ježíšova evangelia. Osvěcuje stále nové hlubiny Pánova zjevení a&nbsp;inspiruje rozhodnutí ve prospěch církevního směřování (srov. Jan 14,&nbsp;25–26; 15,&nbsp;26–27; 16,&nbsp;12–15; srov. Sk&nbsp;10).“ <em style="font-size:.8em">podle Přípravného dokumentu, čl.&nbsp;16</em></p>
-						<br />
+						<br>
 						<p><b>•</b> Oficiální české webové <a href="https://www.cirkev.cz/cs/synoda-2021-2023">stránky</a></p>
 						<p><b>•</b> Přípravný dokument <a href="https://cbk.blob.core.windows.net/cms/ContentItems/32503_32503/pripravny-dokument-synoda-2021-2023.pdf">Za církev synodální. Společenství. Spoluúčast. Poslání.</a></p>
 						<p><b>•</b> Deset tématických <a href="https://www.cirkev.cz/cs/aktuality/211008narodni-synodalni-tym-a-hlavni-temata-synody-2021-2023">okruhů</a></p>
-						<br />
-						<br />
+						<br>
+						<br>
 						<p>První setkání 18. 10. 2021</p>
 						<p>Druhé setkání 1. 11. 2021 - II. Naslouchání</p>
 						<p>Třetí setkání 15. 11. 2021 - II. Naslouchání (<a href="synoda/2021_11_07-otazky_web.pdf">otázky</a>)</p>
@@ -283,7 +282,7 @@
 						<p>Třinácté setkání 2. 5. 2022 - VIII. Autorita a&nbsp;spoluúčast (<a href="synoda/2022_03_22-otazky_web.pdf">otázky</a>)</p>
 						<p>Čtrnácté setkání 16. 5. 2022 - VIII. Autorita a&nbsp;spoluúčast (<a href="synoda/2022_03_22-otazky_web.pdf">otázky</a>)</p>
 						<p><b>Patnácté setkání 30. 5. 2022 - VIII. Autorita a&nbsp;spoluúčast</b> (<a href="synoda/2022_03_22-otazky_web.pdf">otázky</a>)</p>
-						<br />
+						<br>
 				</div>
 				</div>
 			</div>
