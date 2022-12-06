@@ -79,7 +79,7 @@
 							<span style="display:inline-block; width: 13em;">Sedmé setkání 8. 9. 2022</span> – <a href="PRF/2022_08_31-pozvanka.pdf">pozvánka</a>, <a href="PRF/2022_08_31-kalendar.pdf"><i>příloha</i></a>, <a href="PRF/2022_09_08-zapis.pdf">zápis</a><br />
 							<span style="display:inline-block; width: 13em;">Osmé setkání 6. 10. 2022</span> – <a href="PRF/2022_09_29-pozvanka.pdf">pozvánka</a>, <a href="PRF/2022_09_29-kalendar.pdf"><i>příloha</i></a>, <a href="PRF/2022_10_06-zapis.pdf">zápis</a><br />
 							<span style="display:inline-block; width: 13em;">Deváté setkání 3. 11. 2022</span> – <a href="PRF/2022_10_27-pozvanka.pdf">pozvánka</a>, <a href="PRF/2022_10_27-kalendar.pdf"><i>příloha</i></a>, <a href="PRF/2022_11_03-zapis.pdf">zápis</a><br />
-							<span style="display:inline-block; width: 13em;">Desáté setkání 1. 12. 2022</span> – <a href="PRF/2022_11_23-pozvanka.pdf">pozvánka</a>, <a href="PRF/2022_11_23-prilohy.pdf"><i>příloha</i></a>, zápis<br />
+							<span style="display:inline-block; width: 13em;">Desáté setkání 1. 12. 2022</span> – <a href="PRF/2022_11_23-pozvanka.pdf">pozvánka</a>, <a href="PRF/2022_11_23-prilohy.pdf"><i>příloha</i></a>, <a href="PRF/2022_12_01-zapis.pdf">zápis</a><br />
 						</p>
                         
 
