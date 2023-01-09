@@ -62,7 +62,7 @@
 	</header>
 
 <!-- dynamicky generované heslo dne .-->
-	<div id="jHD"><?php include('./HD-2022-12-advent.inc'); ?></div>
+	<div id="jHD"><?php include('./HD-2023-01-mezi.inc'); ?></div>
 
 	<section id="Farnosti" class="features"  style="display:flex; min-height: 100vh;">
 		<div class="container" style="margin-top: auto; margin-bottom: auto;">
@@ -131,7 +131,7 @@
 				<div class="col-md-2"></div>
 				<div class="col-md-8">
 				<div class="sec-sub-title">
-					<p>Kostel Nanebevzetí Panny Marie v&nbsp;Číhošti je otevřený v&nbsp;době bohoslužeb nebo po předchozí domluvě.<br>Za podobných podmínek je přístupná i&nbsp;výstava o&nbsp;životě P.&nbsp;Josefa Toufara v&nbsp;budově místní fary.<br/>
+					<p>Kostel Nanebevzetí Panny Marie v&nbsp;Číhošti je otevřený v&nbsp;době bohoslužeb nebo po předchozí domluvě.<br>Za podobných podmínek je přístupná i&nbsp;výstava o&nbsp;životě P.&nbsp;Josefa Toufara v&nbsp;budově místní fary.<br>
 						<br>
 					Každou <abbr title="12. leden 2019; 9. únor; 9. březen">druhou sobotu</abbr> v&nbsp;měsíci je <b>smírná pobožnost</b>.<br>
 					<span style="margin-left: 2em; display: inline-block; width: 5em;">8.45 hod.</span>— modlitba růžence<br>
@@ -145,7 +145,7 @@
 				<div class="col-md-5">
 					<div class="service-item">
 						<div class="service-icon">
-							<a href="http://www.joseftoufar.cz"><img src="img/toufar-hlava.svg" style="width: 3em;" class="rounded float-right" alt="Josef Toufar (✝1950)" /></a>
+							<a href="http://www.joseftoufar.cz"><img src="img/toufar-hlava.svg" style="width: 3em;" class="rounded float-right" alt="Josef Toufar (✝1950)"></a>
 						</div>
 						<div class="service-desc">
 							<h3>P. Josef Toufar  (✝1950)</h3>
@@ -156,7 +156,7 @@
 				<div class="col-md-5">
 					<div class="service-item">
 						<div class="service-icon">
-							<a href="http://www.nfcihost.cz"><img src="img/nfcihost-krizek.svg" style="width: 3em;" class="rounded float-right" alt="Nadační fond Číhošť" /></a>
+							<a href="http://www.nfcihost.cz"><img src="img/nfcihost-krizek.svg" style="width: 3em;" class="rounded float-right" alt="Nadační fond Číhošť"></a>
 						</div>
 						<div class="service-desc">
 							<h3>Nadační fond</h3>
@@ -186,7 +186,7 @@
 						</div>
 						<div class="service-desc">
 							<h3>Aktuální ohlášky</h3>
-							<p>Rozpis bohoslužeb a dalších sdělení pro aktuální týden.<br/>
+							<p>Rozpis bohoslužeb a dalších sdělení pro aktuální týden.<br>
 								<b><span id="jDatumOhlasek"><?php include('./datum_ohlasek.inc'); ?></span></b><a href="./ohlasky.pdf?t=<?php echo time(); ?>" style="color:#8C2318;" title="Aktuální ohlášky"><i class="far fa-file-pdf"></i></a>
 							</p>
 						</div>
