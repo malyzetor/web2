@@ -62,7 +62,7 @@
 	</header>
 
 <!-- dynamicky generované heslo dne .-->
-	<div id="jHD"><?php include('./HD-2023-02-svatopost.inc'); ?></div>
+	<div id="jHD"><?php include('./HD-2023-04-velikonoce.inc'); ?></div>
 
 	<section id="Farnosti" class="features"  style="display:flex; min-height: 100vh;">
 		<div class="container" style="margin-top: auto; margin-bottom: auto;">
@@ -281,7 +281,28 @@
 						<p>Dvanácté setkání 4. 4. 2022 - VIII. Autorita a&nbsp;spoluúčast (<a href="synoda/2022_03_22-otazky_web.pdf">otázky</a>)</p>
 						<p>Třinácté setkání 2. 5. 2022 - VIII. Autorita a&nbsp;spoluúčast (<a href="synoda/2022_03_22-otazky_web.pdf">otázky</a>)</p>
 						<p>Čtrnácté setkání 16. 5. 2022 - VIII. Autorita a&nbsp;spoluúčast (<a href="synoda/2022_03_22-otazky_web.pdf">otázky</a>)</p>
-						<p><b>Patnácté setkání 30. 5. 2022 - VIII. Autorita a&nbsp;spoluúčast</b> (<a href="synoda/2022_03_22-otazky_web.pdf">otázky</a>)</p>
+						<p>Patnácté setkání 30. 5. 2022 - VIII. Autorita a&nbsp;spoluúčast (<a href="synoda/2022_03_22-otazky_web.pdf">otázky</a>)</p>
+						<br>
+				</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="knihovna" class="features" style="background-color:#fafaf2;">
+		<div class="container" style="margin-top: auto; margin-bottom: auto;">
+			<div class="row">
+				<div class="sec-title text-center">
+					<h2>Knihovna</h2>
+				</div>
+				<div class="col-md-2"></div>
+				<div class="col-md-8">
+				
+				<div class="sec-sub-title">
+				
+						<br>
+						<p>V&nbsp;budově fary ve Světlé nad Sázavou je množství knih s&nbsp;různou tématikou. Jejich <a href="pdf/2014-knihovna.pdf">seznam</a> vznikl v&nbsp;roce 2014.</p>
+						<br>
 						<br>
 				</div>
 				</div>

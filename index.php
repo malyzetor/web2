@@ -62,7 +62,7 @@
 	</header>
 
 <!-- dynamicky generované heslo dne .-->
-	<div id="jHD"><?php include('./HD-2023-02-svatopost.inc'); ?></div>
+	<div id="jHD"><?php include('./HD-2023-04-velikonoce.inc'); ?></div>
 
 	<section id="Farnosti" class="features"  style="display:flex; min-height: 100vh;">
 		<div class="container" style="margin-top: auto; margin-bottom: auto;">
@@ -281,7 +281,7 @@
 						<p>Dvanácté setkání 4. 4. 2022 - VIII. Autorita a&nbsp;spoluúčast (<a href="synoda/2022_03_22-otazky_web.pdf">otázky</a>)</p>
 						<p>Třinácté setkání 2. 5. 2022 - VIII. Autorita a&nbsp;spoluúčast (<a href="synoda/2022_03_22-otazky_web.pdf">otázky</a>)</p>
 						<p>Čtrnácté setkání 16. 5. 2022 - VIII. Autorita a&nbsp;spoluúčast (<a href="synoda/2022_03_22-otazky_web.pdf">otázky</a>)</p>
-						<p><b>Patnácté setkání 30. 5. 2022 - VIII. Autorita a&nbsp;spoluúčast</b> (<a href="synoda/2022_03_22-otazky_web.pdf">otázky</a>)</p>
+						<p>Patnácté setkání 30. 5. 2022 - VIII. Autorita a&nbsp;spoluúčast (<a href="synoda/2022_03_22-otazky_web.pdf">otázky</a>)</p>
 						<br>
 				</div>
 				</div>
