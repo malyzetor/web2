@@ -23,17 +23,6 @@
   			scroll-behavior: smooth;
 		}
 		
-		.ohlaskyPDF { height: 580px; }
-		@media (min-width: 768px) {
-    		.ohlaskyPDF { height: 1080px; }
-  		}
-  		@media (min-width: 992px) {
-    		.ohlaskyPDF { height: 1400px; }
-  		}
-  		@media (min-width: 1200px) {
-    		.ohlaskyPDF { height: 1500px; }
-  		}
-
 		<?php include('css/main.min.css'); ?>
 
     </style>
@@ -185,25 +174,12 @@
 				<div class="sec-title text-center mb50">
 					<h2>Pořad bohoslužeb</h2>
 				</div>
-				<div class="col-md-3"></div>
-
-				
-				<div class="col-md-6">
-					<div class="service-item">
-						<div class="service-icon" style="width: 100px;">
-							<a href="./ohlasky.pdf?t=<?php echo time(); ?>" style="color:#8C2318;" title="Aktuální ohlášky">
-								<i class="far fa-calendar-alt fa-5x fa-fw"></i>
-							</a>
-						</div>
-						<div class="service-desc">
-							<h3>Aktuální ohlášky</h3>
-							<p>Rozpis bohoslužeb a dalších sdělení pro aktuální týden.<br>
-								<b><span id="jDatumOhlasek"><?php include('./datum_ohlasek.inc'); ?></span></b><a href="./ohlasky.pdf?t=<?php echo time(); ?>" style="color:#8C2318;" title="Aktuální ohlášky"><i class="far fa-file-pdf"></i></a>
-							</p>
-						</div>
-					</div>
-				</div>
-			
+				<div class="sec-sub-title text-center">
+                    <p>Rozpis bohoslužeb a dalších sdělení pro aktuální týden vložen <span id="jDatumOhlasek" style="font-weight:bold;"><?php include('./datum_ohlasek.inc'); ?></span>.<br>
+                <a href="./ohlasky.pdf">
+                    <img src="./ohlasky.webp?t=<?php echo time(); ?>" alt="Aktuální ohlášky" style="width: 100%;">
+                </a>
+                </div>
 			</div>	
 		</div>
 	</section>
