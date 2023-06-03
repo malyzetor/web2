@@ -176,7 +176,7 @@
 				</div>
 				<div class="sec-sub-title text-center">
                     <p>Rozpis bohoslužeb a dalších sdělení pro aktuální týden vložen <span id="jDatumOhlasek" style="font-weight:bold;"><?php include('./datum_ohlasek.inc'); ?></span>.<br>
-                <a href="./ohlasky.pdf">
+                <a href="./ohlasky.pdf?t=<?php echo time(); ?>">
                     <img src="./ohlasky.webp?t=<?php echo time(); ?>" alt="Aktuální ohlášky" style="width: 100%;">
                 </a>
                 </div>
