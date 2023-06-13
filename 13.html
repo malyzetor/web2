@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    /* Main menu styles */
+    .menu {
+      background-color: #333;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px;
+    }
+
+    .menu ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+    }
+
+    .menu li {
+      margin-right: 10px;
+      position: relative;
+    }
+
+    .menu a {
+      color: #fff;
+      text-decoration: none;
+      padding: 5px;
+    }
+
+    /* Submenu styles */
+    .submenu {
+      display: none;
+      position: absolute;
+      background-color: #555;
+      padding: 10px;
+      z-index: 1;
+    }
+
+    .menu li:hover .submenu {
+      display: block;
+    }
+
+    /* Responsive styles */
+    @media screen and (max-width: 768px) {
+      .menu {
+        flex-direction: column;
+      }
+
+      .menu ul {
+        flex-direction: column;
+      }
+
+      .menu li {
+        margin-right: 0;
+        margin-bottom: 10px;
+      }
+
+      .submenu {
+        position: static;
+        background-color: initial;
+        padding: initial;
+      }
+
+      .menu li:hover .submenu {
+        display: none;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="menu">
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li>
+        <a href="#">Services</a>
+        <ul class="submenu">
+          <li><a href="#">Service 1</a></li>
+          <li><a href="#">Service 2</a></li>
+          <li><a href="#">Service 3</a></li>
+        </ul>
+      </li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </div>
+</body>
+</html>
