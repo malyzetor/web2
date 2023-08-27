@@ -132,8 +132,10 @@
 				<div class="col-md-8">
 				<div class="sec-sub-title">
 					<p>Kostel Nanebevzetí Panny Marie v&nbsp;Číhošti je otevřený v&nbsp;době bohoslužeb nebo po předchozí domluvě.<br>Za podobných podmínek je přístupná i&nbsp;výstava o&nbsp;životě P.&nbsp;Josefa Toufara v&nbsp;budově místní fary.<br>
-						<br>
-					Každou <abbr title="12. leden 2019; 9. únor; 9. březen">druhou sobotu</abbr> v&nbsp;měsíci je <b>smírná pobožnost</b>.<br>
+					<br>
+					Za&nbsp;příznivého počasí během <b>července a srpna 2023</b> budou kostel i&nbsp;fara přístupné po celý den.<br>
+					<br>
+					Každou druhou sobotu v&nbsp;měsíci je <b>smírná pobožnost</b>.<br>
 					<span style="margin-left: 2em; display: inline-block; width: 5em;">8.45 hod.</span>— modlitba růžence<br>
 					<span style="margin-left: 2em; display: inline-block; width: 5em;">9.30 hod.</span>— mše svatá<br>
 					<span style="margin-left: 2em; display: inline-block; width: 5em;"></span>— eucharistická adorace<br>
