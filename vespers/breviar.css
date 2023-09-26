@@ -7,26 +7,6 @@
 	background: #C39482; /* button middle-dark */
 }
 
-.comment, p.comment { 
-	font-size: 80%; 
-	font-weight: normal; 
-	padding-left: 1.2em !important;
-	padding-bottom: 1em; 
-	padding-top: 1em; 
-}
-
-.hymn p.comment { 
-	font-size: 80%; 
-	font-weight: normal; 
-	padding-left: -1.2em; 
-	text-indent: 0; 
-}
-
-.textnote, p.textnote, .hymn p.textnote { 
-	font-size: 80%; 
-	font-weight: normal; 
-}
-
 /* for HU/CZ first/second/third-ant is used; for SK ant-first/second/third is used */
 .antiphon.first-ant:before {
     color: #ff0000;
@@ -206,11 +186,6 @@ div.navm p {
 	-webkit-margin-before: 0em; 
 }
 
-.preces p.partR.comment, .preces p.partV.comment, .preces p.intro.comment { 
-	font-weight: normal; 
-	text-indent: 0em; 
-}
-
 .preces p.partR { 
 	padding-top: 0.3em; 
 }
@@ -255,8 +230,6 @@ div.navm p {
 	font-weight: normal;
 }
 
-/*---------------------------------------------------------------------------------------------------------------------------------------------------------------*/
-
 .reading p { 
 	font-weight: bold; 
 	margin: 0; 
@@ -299,17 +272,6 @@ div.navm p {
 .reading p.respR, .reading p.respS, .reading p.respV, .reading p.respO, .reading p.respF { 
 	padding-left: 0em; 
 	text-indent: 0em; 
-}
-
-.reading .comment, .reading p.comment { 
-	font-weight: normal; 
-	padding-left: 0em !important;
-	text-indent: 0em; 
-}
-
-.reading p.respR.comment, .reading p.respS.comment, .reading p.respV.comment, .reading p.respO.comment , .reading p.respF.comment { 
-	font-weight: normal; 
-	padding-left: 0em !important;
 }
 
 .reading p.heading { 
@@ -426,8 +388,6 @@ div.navm p {
 	-webkit-margin-after: 0em; 
 	-webkit-margin-before: 0em; 
 }
-
-.psalm p.start { }
 
 .psalm p.solo { 
 	padding-bottom: 1em; 
