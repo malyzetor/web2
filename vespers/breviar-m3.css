@@ -2,33 +2,27 @@
 	background: #C39482;
 }
 
-.respons p { 
-	font-weight: normal; 
+.pisne {
+	font-weight: normal;
+	font-style: italic;
+	text-align: right;
 }
 
 .respons p.respV, .respons p.respO, p.respV, p.respO, .respV, .respO { 
-	font-weight: bold; 
 	margin: 0; 
 }
 
 .respons p.respV:before, .respV:before { 
-	color: #ff0000; 
+	color: #B30000; 
 	content: 'V. '; 
-	font-weight: bold; 
 }
 
 .respons p.respO:before, .respO:before { 
-	color: #ff0000; 
+	color: #B30000; 
 	content: 'O. '; 
-	font-weight: bold; 
-}
-
-div.hymn {
-	font-weight: bold;
 }
 
 .hymn p { 
-	font-weight: bold; 
 	margin: 0; 
 	padding-left: 2.4em; 
 	text-indent: -2.4em; 
@@ -43,27 +37,24 @@ div.hymn {
 }
 
 .psalm .psalm-name { 
-	color: #ff0000; 
-	font-weight: bold; 
+	color: #B30000; 
 	padding-top: 1em; 
 	text-align: center; 
 }
 
 .psalm .psalm-idea { 
-	color: #1a1a1a; 
 	font-weight: normal; 
 	padding-top: 1em; 
 	text-align: left; 
 }
 
 .psalm .psalm-subtitle { 
-	color: #ff0000; 
+	color: #B30000; 
 	font-weight: normal; 
 	text-align: center; 
 }
 
 .psalm p.verse { 
-	font-weight: bold; 
 	margin: 0; 
 	padding-left: 2.4em; 
 	text-indent: -2.4em; 
@@ -82,59 +73,44 @@ div.hymn {
 }
 
 .psalm p.last:after {
-	color: #ff0000; 
+	color: #B30000; 
 	content: '\00a0\2014'; 
 	font-weight: normal; 
 }
 
 p.bibleref {
-	color: #ff0000;
+	color: #B30000;
 	font-weight: normal;
 	text-align: right;
 }
 
-.center {
+.castmodlitby {
 	text-align: center;
-}
-
-.red, .redtitle { 
-	color: #ff0000; 
-}
-
-.redsmall { 
-	color: #ff0000; 
-	font-size: 80%; 
-}
-
-.bold, .strong { 
-	font-weight: bold; 
-}
-
-.uppercase {
 	text-transform: uppercase;
 }
 
-body, html { 
-	font-family: inherit; 
-	font-size: 100%; 
-	background-color: #FFFFFF;
-	color: #1a1a1a;
-	font-family: Cambria, Constantia, Georgia, Lido STF, "DejaVu Serif", Liberation, GentiumPlus, Gentium, Garamond, serif;
-	font-weight: normal; 
-	line-height: 1.3;
+.red { 
+	color: #B30000; 
 }
 
-p { 
-	color: #1a1a1a; 
-	font-family: inherit; 
-	font-style: normal; 
+.redsmall { 
+	color: #B30000; 
+	font-size: 85%; 
+	font-weight: normal; 
+}
+
+body, html { 
+	font-size: 100%; 
+	background-color: white;
+	color: #000000;
+	font-family: Cambria, Constantia, Georgia, Lido STF, "DejaVu Serif", Liberation, GentiumPlus, Gentium, Garamond, serif;
+	font-weight: bold; 
+	line-height: 1.3;
 }
 
 a { 
 	border-bottom: 1px dotted; 
-	color: #1a1a1a; 
-	font-family: inherit; 
-	font-size: inherit; 
+	color: #000000; 
 	text-decoration: none; 
 }
 
@@ -156,14 +132,10 @@ h2 {
 }
 
 sup { 
-	color: #ff0000; 
+	color: #B30000; 
 	font-size: 0.5em; 
 	font-weight: normal; 
 	position: relative; 
 	top: -0.8em; 
 	vertical-align: baseline; 
-}
-
-#contentRoot {
-  z-index: 0;
 }
