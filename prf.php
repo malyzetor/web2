@@ -87,7 +87,7 @@
 							<span style="display:inline-block; width: 13em;">Patnácté setkání 5. 5. 2023</span> – <a href="PRF/2023_05_05-pozvanka.pdf">pozvánka</a>, <a href="PRF/2023_05_05-kalendar.pdf"><i>příloha</i></a>, <a href="PRF/2023_05_05-zapis.pdf">zápis</a><br />
 							<span style="display:inline-block; width: 13em;">Šestnácté setkání 1. 6. 2023</span> – <a href="PRF/2023_06_01-pozvanka.pdf">pozvánka</a>, <i>příloha</i>, <a href="PRF/2023_06_01-zapis.pdf">zápis</a><br />
 							<span style="display:inline-block; width: 13em;">Sedmnácté setkání 7. 9. 2023</span> – <a href="PRF/2023_09_07-pozvanka.pdf">pozvánka</a>, <i>příloha</i>, <a href="PRF/2023_09_07-zapis.pdf">zápis</a><br />
-							<span style="display:inline-block; width: 13em;">Osmnáctné setkání 5. 10. 2023</span> – <a href="PRF/2023_10_05-pozvanka.pdf">pozvánka</a>, <i>příloha</i>, zápis<br />
+							<span style="display:inline-block; width: 13em;">Osmnáctné setkání 5. 10. 2023</span> – <a href="PRF/2023_10_05-pozvanka.pdf">pozvánka</a>, <i>příloha</i>, <a href="PRF/2023_10_05-zapis.pdf">zápis</a><br />
 						</p>
                         
 

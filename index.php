@@ -279,28 +279,6 @@
 		</div>
 	</section>
 
-	<section id="knihovna" class="features" style="background-color:#fafaf2;">
-		<div class="container" style="margin-top: auto; margin-bottom: auto;">
-			<div class="row">
-				<div class="sec-title text-center">
-					<h2>Knihovna</h2>
-				</div>
-				<div class="col-md-2"></div>
-				<div class="col-md-8">
-				
-				<div class="sec-sub-title">
-				
-						<br>
-						<p>V&nbsp;budově fary ve Světlé nad Sázavou je množství knih s&nbsp;různou tématikou. Jejich <a href="pdf/2014-knihovna.pdf">seznam</a> vznikl v&nbsp;roce 2014.</p>
-						<br>
-						<br>
-				</div>
-				</div>
-			</div>
-		</div>
-	</section>
-
-
 	<script defer src="js/jag.min.js"></script>
 </body>
 
