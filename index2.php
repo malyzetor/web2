@@ -23,17 +23,6 @@
   			scroll-behavior: smooth;
 		}
 		
-		.ohlaskyPDF { height: 580px; }
-		@media (min-width: 768px) {
-    		.ohlaskyPDF { height: 1080px; }
-  		}
-  		@media (min-width: 992px) {
-    		.ohlaskyPDF { height: 1400px; }
-  		}
-  		@media (min-width: 1200px) {
-    		.ohlaskyPDF { height: 1500px; }
-  		}
-
 		<?php include('css/main.min.css'); ?>
 
     </style>
@@ -51,7 +40,7 @@
 			</div>
 			<nav class="collapse navbar-collapse navbar-right">
 				<ul id="nav" class="nav navbar-nav">
-					<li><a href="vespers/2023_04_14.html"><img src="img/apokalypsa.svg" alt="Hodinová apokalypsa" style="width: 1.5em;"></a></li>
+					<li><a href="vespers/2023_09_29-2.html"><img src="img/apokalypsa.svg" alt="Hodinová apokalypsa" style="width: 1.5em;"></a></li>
 					<li>
 						<a href="#Bohosluzby">Pořad bohoslužeb</a>
 					</li>
@@ -73,7 +62,7 @@
 	</header>
 
 <!-- dynamicky generované heslo dne .-->
-	<div id="jHD"><?php include('./HD-2023-04-velikonoce.inc'); ?></div>
+	<div id="jHD"><?php include('./HD-2023-12-advent.inc'); ?></div>
 
 	<section id="Farnosti" class="features"  style="display:flex; min-height: 100vh;">
 		<div class="container" style="margin-top: auto; margin-bottom: auto;">
@@ -143,8 +132,10 @@
 				<div class="col-md-8">
 				<div class="sec-sub-title">
 					<p>Kostel Nanebevzetí Panny Marie v&nbsp;Číhošti je otevřený v&nbsp;době bohoslužeb nebo po předchozí domluvě.<br>Za podobných podmínek je přístupná i&nbsp;výstava o&nbsp;životě P.&nbsp;Josefa Toufara v&nbsp;budově místní fary.<br>
-						<br>
-					Každou <abbr title="12. leden 2019; 9. únor; 9. březen">druhou sobotu</abbr> v&nbsp;měsíci je <b>smírná pobožnost</b>.<br>
+					<br>
+					Za&nbsp;příznivého počasí během <b>července a srpna 2023</b> budou kostel i&nbsp;fara přístupné po celý den.<br>
+					<br>
+					Každou druhou sobotu v&nbsp;měsíci je <b>smírná pobožnost</b>.<br>
 					<span style="margin-left: 2em; display: inline-block; width: 5em;">8.45 hod.</span>— modlitba růžence<br>
 					<span style="margin-left: 2em; display: inline-block; width: 5em;">9.30 hod.</span>— mše svatá<br>
 					<span style="margin-left: 2em; display: inline-block; width: 5em;"></span>— eucharistická adorace<br>
@@ -185,8 +176,13 @@
 				<div class="sec-title text-center mb50">
 					<h2>Pořad bohoslužeb</h2>
 				</div>
-				<object class="ohlaskyPDF" style="width:100%;" type="application/pdf" data="./ohlasky.pdf?t=<?php echo time(); ?>"></object>
-			</div>
+				<div class="sec-sub-title text-center">
+                    <p>Rozpis bohoslužeb a dalších sdělení pro aktuální týden vložen <span id="jDatumOhlasek" style="font-weight:bold;"><?php include('./datum_ohlasek.inc'); ?></span>.<br>
+                <a href="./ohlasky.pdf?t=<?php echo time(); ?>">
+                    <img src="./ohlasky.webp?t=<?php echo time(); ?>" alt="Aktuální ohlášky" style="width: 100%;">
+                </a>
+                </div>
+			</div>	
 		</div>
 	</section>
 
@@ -282,28 +278,6 @@
 			</div>
 		</div>
 	</section>
-
-	<section id="knihovna" class="features" style="background-color:#fafaf2;">
-		<div class="container" style="margin-top: auto; margin-bottom: auto;">
-			<div class="row">
-				<div class="sec-title text-center">
-					<h2>Knihovna</h2>
-				</div>
-				<div class="col-md-2"></div>
-				<div class="col-md-8">
-				
-				<div class="sec-sub-title">
-				
-						<br>
-						<p>V&nbsp;budově fary ve Světlé nad Sázavou je množství knih s&nbsp;různou tématikou. Jejich <a href="pdf/2014-knihovna.pdf">seznam</a> vznikl v&nbsp;roce 2014.</p>
-						<br>
-						<br>
-				</div>
-				</div>
-			</div>
-		</div>
-	</section>
-
 
 	<script defer src="js/jag.min.js"></script>
 </body>
