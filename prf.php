@@ -89,7 +89,7 @@
 							<span style="display:inline-block; width: 14em;">Sedmnácté setkání 7. 9. 2023</span> – <a href="PRF/2023_09_07-pozvanka.pdf">pozvánka</a>, <i>příloha</i>, <a href="PRF/2023_09_07-zapis.pdf">zápis</a><br />
 							<span style="display:inline-block; width: 14em;">Osmnáctné setkání 5. 10. 2023</span> – <a href="PRF/2023_10_05-pozvanka.pdf">pozvánka</a>, <i>příloha</i>, <a href="PRF/2023_10_05-zapis.pdf">zápis</a><br />
 							<span style="display:inline-block; width: 14em;">Devatenácté setkání 2. 11. 2023</span> – <a href="PRF/2023_11_02-pozvanka.pdf">pozvánka</a>, <i>příloha</i>, <a href="PRF/2023_11_02-zapis.pdf">zápis</a><br />
-							<span style="display:inline-block; width: 14em;">Dvacáté setkání 7. 12. 2023</span> – <a href="PRF/2023_12_07-pozvanka.pdf">pozvánka</a>, <a href="PRF/2023_12_07-prilohy.pdf"><i>příloha</i></a>, zápis<br />
+							<span style="display:inline-block; width: 14em;">Dvacáté setkání 7. 12. 2023</span> – <a href="PRF/2023_12_07-pozvanka.pdf">pozvánka</a>, <a href="PRF/2023_12_07-prilohy.pdf"><i>příloha</i></a>, <a href="PRF/2023_12_07-zapis.pdf">zápis</a><br />
 						</p>
                         
 
