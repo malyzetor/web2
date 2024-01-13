@@ -63,8 +63,8 @@
                             
 						<br />
 						<br />
-						<p>Členové PRF: <a href = "mailto: bouchal@sluzatky.cz">Hynek&nbsp;Bouchal</a>, <a href = "mailto: rabouchalova@centrum.cz">Radka&nbsp;Bouchalová</a>, <a href = "mailto: svetla@farnost.cz">Pavel&nbsp;Jäger</a>,
-						<a href = "mailto: kovandovaivana@seznam.cz">Ivana&nbsp;Kovandová</a>, <a href = "mailto: prajan@seznam.cz">Jan&nbsp;Prášek</a>, <a href = "mailto: prasek@pwb.cz">Václav&nbsp;Prášek</a></p>
+						<p>Členové PRF: <a href = "mailto: svetla@farnost.cz">Pavel&nbsp;Jäger</a>, <a href = "mailto: subela@seznam.cz">Květoslava&nbsp;Mühlfaitová</a>,
+						<a href = "mailto: prajan@seznam.cz">Jan&nbsp;Prášek</a>, <a href = "mailto: praskovamarie@gmail.com">Marie&nbsp;Prášková&nbsp;(DB)</a>, <a href = "mailto: praskovm@seznam.cz">Marie&nbsp;Prášková&nbsp;(SnS)</a>, <a href = "mailto: prasek@pwb.cz">Václav&nbsp;Prášek</a></p>
 
 						<br />
 						<br />
@@ -90,6 +90,7 @@
 							<span style="display:inline-block; width: 14em;">Osmnáctné setkání 5. 10. 2023</span> – <a href="PRF/2023_10_05-pozvanka.pdf">pozvánka</a>, <i>příloha</i>, <a href="PRF/2023_10_05-zapis.pdf">zápis</a><br />
 							<span style="display:inline-block; width: 14em;">Devatenácté setkání 2. 11. 2023</span> – <a href="PRF/2023_11_02-pozvanka.pdf">pozvánka</a>, <i>příloha</i>, <a href="PRF/2023_11_02-zapis.pdf">zápis</a><br />
 							<span style="display:inline-block; width: 14em;">Dvacáté setkání 7. 12. 2023</span> – <a href="PRF/2023_12_07-pozvanka.pdf">pozvánka</a>, <a href="PRF/2023_12_07-prilohy.pdf"><i>příloha</i></a>, <a href="PRF/2023_12_07-zapis.pdf">zápis</a><br />
+							<span style="display:inline-block; width: 14em;">První setkání 11. 1. 2024</span> – <a href="PRF/2024_01_11-pozvanka.pdf">pozvánka</a>, <a href="PRF/2022_01_04-prilohy.pdf"><i>příloha</i></a>, <a href="PRF/2024_01_11-zapis.pdf">zápis</a><br />
 						</p>
                         
 

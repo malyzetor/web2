@@ -45,7 +45,7 @@
 						<a href="#Bohosluzby">Pořad bohoslužeb</a>
 					</li>
 					<li class="dropdown">
-						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Farnosti<span class="caret"></span></a>
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Farnosti</a>
 						<ul class="dropdown-menu">
 							<li><a href="#Farnosti">Spravované farnosti</a></li>
 							<li><a href="#Kontakt">Kontakt</a></li>
@@ -138,7 +138,7 @@
 					Každou druhou sobotu v&nbsp;měsíci je <b>smírná pobožnost</b>.<br>
 					<span style="margin-left: 2em; display: inline-block; width: 5em;">8.45 hod.</span>— modlitba růžence<br>
 					<span style="margin-left: 2em; display: inline-block; width: 5em;">9.30 hod.</span>— mše svatá<br>
-					<span style="margin-left: 2em; display: inline-block; width: 5em;"></span>— eucharistická adorace<br>
+					<span style="margin-left: 2em; display: inline-block; width: 5em;">10.00 hod.</span>— eucharistická adorace<br>
 				</div>
 				</div>
 			</div>
