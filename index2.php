@@ -176,8 +176,10 @@
 				<div class="sec-title text-center mb50">
 					<h2>Pořad bohoslužeb</h2>
 				</div>
+
 				<div class="sec-sub-title text-center">
-                    <p>Rozpis bohoslužeb a dalších sdělení pro aktuální týden vložen <span id="jDatumOhlasek" style="font-weight:bold;"><?php include('./datum_ohlasek.inc'); ?></span>.<br>
+					<p><img src="img/slon.svg" style="width: 3em;">&nbsp;&nbsp;&nbsp;<span style="font-weight:bold;">Velikonoční příprava</span> ve stručném <a href="img/2024-velikonocni_priprava.webp">přehledu</a>.</p><br>
+				<p>Rozpis bohoslužeb a dalších sdělení pro aktuální týden vložen <span id="jDatumOhlasek" style="font-weight:bold;"><?php include('./datum_ohlasek.inc'); ?></span>.<br>
                 <a href="./ohlasky.pdf?t=<?php echo time(); ?>">
                     <img src="./ohlasky.webp?t=<?php echo time(); ?>" alt="Aktuální ohlášky" style="width: 100%;">
                 </a>
