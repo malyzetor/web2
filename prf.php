@@ -92,6 +92,7 @@
 							<span style="display:inline-block; width: 14em;">Dvacáté setkání 7. 12. 2023</span> – <a href="PRF/2023_12_07-pozvanka.pdf">pozvánka</a>, <a href="PRF/2023_12_07-prilohy.pdf"><i>příloha</i></a>, <a href="PRF/2023_12_07-zapis.pdf">zápis</a><br />
 							<span style="display:inline-block; width: 14em;">První setkání 11. 1. 2024</span> – <a href="PRF/2024_01_11-pozvanka.pdf">pozvánka</a>, <a href="PRF/2022_01_04-prilohy.pdf"><i>příloha</i></a>, <a href="PRF/2024_01_11-zapis.pdf">zápis</a><br />
 							<span style="display:inline-block; width: 14em;">Druhé setkání 1. 2. 2024</span> – <a href="PRF/2024_02_01-pozvanka.pdf">pozvánka</a>, <i>příloha</i>, <a href="PRF/2024_02_01-zapis.pdf">zápis</a><br />
+							<span style="display:inline-block; width: 14em;">Třetí setkání 7. 3. 2024</span> – <a href="PRF/2024_03_07-pozvanka.pdf">pozvánka</a>, <a href="PRF/2024_02_29-priloha.pdf"><i>příloha</i></a>, zápis<br />
 						</p>
                         
 
