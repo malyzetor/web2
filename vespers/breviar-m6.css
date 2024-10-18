@@ -8,12 +8,12 @@
 }
 
 [data-theme="dark"] {
-	--zvyrazneni: #B30000;
+	--zvyrazneni: #E32B2B;
 	--pozadi: black;
-	--text: white;
+	--text: #E0E0E0;
 	--hover-back: #C39482;
 	--hover-akt: gray;
-	--inv: 100%;
+	--inv: 88%;
 }
 
 
