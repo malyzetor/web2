@@ -1,0 +1,168 @@
+:root {
+	--zvyrazneni: #B30000;
+	--pozadi: white;
+	--text: black;
+	--hover-back: #C39482;
+	--hover-akt: gray;
+}
+
+[data-theme="dark"] {
+	--zvyrazneni: #E32B2B;
+	--pozadi: black;
+	--text: #E0E0E0;
+	--hover-back: #C39482;
+	--hover-akt: gray;
+}
+
+.svg-container {
+	width: 100%;
+	height: auto;
+	padding: 1em 0 1em 0;
+	font-weight: lighter;
+}
+
+::selection {
+	background: var(--hover-back);
+}
+
+.pisne {
+	font-weight: normal;
+	font-style: italic;
+	text-align: right;
+}
+
+.respons p.respV, .respons p.respO, p.respV, p.respO, .respV, .respO { 
+	margin: 0; 
+}
+
+.respons p.respV:before, .respV:before { 
+	color: var(--zvyrazneni); 
+	content: 'V. '; 
+}
+
+.respons p.respO:before, .respO:before { 
+	color: var(--zvyrazneni); 
+	content: 'O. '; 
+}
+
+.hymn p { 
+	margin: 0; 
+	padding-left: 2.4em; 
+	text-indent: -2.4em; 
+}
+
+.hymn p.last {
+	padding-bottom: 1em; 
+}
+
+.hymn p.first { 
+	padding-top: 1em; 
+}
+
+.psalm .psalm-name { 
+	color: var(--zvyrazneni);
+	padding-top: 1em; 
+	text-align: center; 
+}
+
+.psalm .psalm-idea { 
+	font-weight: normal; 
+	padding-top: 1em; 
+	text-align: left; 
+}
+
+.psalm .psalm-subtitle { 
+	color: var(--zvyrazneni);
+	font-weight: normal; 
+	text-align: center; 
+}
+
+.psalm p.verse { 
+	margin: 0; 
+	padding-left: 2.4em; 
+	text-indent: -2.4em; 
+}
+
+.psalm p.cont { 
+	text-indent: -1.2em; 
+}
+
+.psalm p.last {
+	padding-bottom: 1em; 
+}
+
+.psalm p.first { 
+	padding-top: 1em; 
+}
+
+.psalm p.last:after {
+	color: var(--zvyrazneni);
+	content: '\00a0\2014'; 
+	font-weight: normal; 
+}
+
+p.bibleref {
+	color: var(--zvyrazneni);
+	font-weight: normal;
+	text-align: right;
+}
+
+.castmodlitby {
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.red { 
+	color: var(--zvyrazneni);
+}
+
+.redsmall { 
+	color: var(--zvyrazneni);
+	font-size: 85%; 
+	font-weight: normal; 
+}
+
+body, html { 
+	font-size: 100%; 
+	background-color: var(--pozadi);
+	color: var(--text);
+	font-family: 'Noto Serif', serif;
+	font-weight: bold; 
+	line-height: 1.4;
+}
+
+a { 
+	border-bottom: 1px dotted; 
+	color: var(--text); 
+	text-decoration: none; 
+}
+
+a:hover { 
+	background-color: var(--hover-back);
+	border: none; 
+	color: var(--pozadi); 
+	text-decoration: none; 
+}
+
+a:active { 
+	color: var(--hover-akt); 
+	text-decoration: underline; 
+}
+
+h2 { 
+	font-size: 150%; 
+	text-align: center;
+}
+
+sup { 
+	color: var(--zvyrazneni);
+	font-size: 0.5em; 
+	font-weight: normal; 
+	position: relative; 
+	top: -0.8em; 
+	vertical-align: baseline; 
+}
+
+img {
+	filter: invert(var(--inv));
+}

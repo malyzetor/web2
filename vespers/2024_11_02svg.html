@@ -4,7 +4,7 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" >
 	<meta name="Author" content="Juraj Videky; Pavel Jäger" >
 	<meta name="description" content="Večerní modlitba žalmů se zpěvy a bez tanců." >
-	<link rel="stylesheet" type="text/css" href="breviar-m6.css" >
+	<link rel="stylesheet" type="text/css" href="breviar-m7.css" >
 	<meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1.0" >
 	<title>Liturgie hodin | 2. listopad 2024 – nešpory</title>
 	<link rel="preconnect" href="https://fonts.googleapis.com">
@@ -20,6 +20,24 @@
     			container.setAttribute('data-theme', 'dark');
   				}
 			}
+		
+		const svgFiles = {
+                'K425-Ty_Bozi_lasko.svg': 'svg-container-1',
+                'resp-O_Boze.svg': 'svg-container-2',
+				'Magnificat.svg': 'svg-container-3',
+				'Hospodin_je_me_svetlo.svg': 'svg-container-4',
+                'Svetlo_Kristovo.svg': 'svg-container-5',
+				'Salve_Regina.svg': 'svg-container-6'
+            };
+		function loadSVG(file, containerId) {
+                return fetch(file)
+                    .then(response => { if (!response.ok) { throw new Error(`Chyba při načítání ${file}: ${response.statusText}`); } return response.text(); })
+                    .then(svgContent => { document.getElementById(containerId).innerHTML = svgContent; });
+            }
+		const loadPromises = Object.entries(svgFiles).map(([file, containerId]) => loadSVG(file, containerId));
+		Promise.all(loadPromises)
+                .then(() => { console.log('Všechny SVG soubory byly úspěšně načteny.'); })
+                .catch(error => { console.error('Chyba při načítání SVG souborů:', error); });
 	</script>
 </head>
 
@@ -44,7 +62,7 @@
 
 <p class="redsmall">HYMNUS</p>
 <p class="pisne">T: <a href="https://cs.wikipedia.org/wiki/V%C3%A1clav_Ren%C4%8D">Václav Renč</a> (1967); N: <a href="https://cs.wikipedia.org/wiki/Jan_Nov%C3%A1k_(skladatel)">Jan Novák</a> (1967) (<abbr title="Kancionál">K</abbr>&nbsp;425)</p>
-<img src="2024_11_02-hymnus-K425-Ty_Bozi_lasko.webp" alt="Hymnus" style="width: 100%; height: auto; padding: 1em 0 1em 0;" >
+<div id="svg-container-1" class="svg-container"></div>
 
 <div class="hymn">
 	<p class="first"><span class="red">1.</span> Ty Boží lásko, která vaneš</p>
@@ -81,7 +99,7 @@
 	
 	<p class="verse start"><sup>3</sup>Nedopustí, aby se tvá noha zvrtla,&nbsp;*</p>
 	<p class="verse cont">tvůj strážce nedříme.</p>
-	<p class="verse start"><sup>4</sup>Ano, ten, kdo stráží Izraele&nbsp;*</p>
+	<p class="verse start"><sup>4</sup>Ano, ten, kdo stráží Izraele,&nbsp;*</p>
 	<p class="verse cont last">nedříme a&nbsp;nespí.</p>
 	
 	<p class="verse start"><sup>5</sup>Hospodin tě střeží,&nbsp;*</p>
@@ -172,12 +190,12 @@
 
 <p class="redsmall">KRÁTKÉ ČTENÍ</p>
 <p class="bibleref">1 Kor 15,54-58</p>
-<p style="font-weight: normal;"><i>Až toto tělo porušitelné vezme na sebe neporušitelnost, a&nbsp;toto tělo smrtelné vezme na sebe nesmrtelnost, potom se vyplní to, co stojí v&nbsp;Písmu: »Vítězně je smrt navždy zničena! Smrti, kdepak je tvoje vítězství? Smrti, kdepak je tvůj bodec?« Ten bodec smrti je hřích, a&nbsp;hřích zase čerpal svou moc ze Zákona. Ale Bohu díky! On nám popřává vítězství skrze našeho Pána Ježíše Krista. Proto buďte pevní, moji milí bratři, nedejte se zviklat a&nbsp;vždy vynikejte v&nbsp;díle Páně. Víte přece, že vaše námaha není marná, když ji konáte ve spojení s&nbsp;Pánem.</i></p>
+<p style="font-weight: normal;"><i>Až toto tělo porušitelné vezme na sebe neporušitelnost, a&nbsp;toto tělo smrtelné vezme na sebe nesmrtelnost, potom se vyplní to, co stojí v&nbsp;Písmu: »Vítězně je smrt navždy zničena! Smrti, kdepak je tvoje vítězství? Smrti, kdepak je tvůj bodec?« Ten bodec Smrti je hřích, a&nbsp;hřích zase čerpal svou moc ze Zákona. Ale Bohu díky! On nám popřává vítězství skrze našeho Pána Ježíše Krista. Proto buďte pevní, moji milí bratři, nedejte se zviklat a&nbsp;vždy vynikejte v&nbsp;díle Páně. Víte přece, že vaše námaha není marná, když ji konáte ve spojení s&nbsp;Pánem.</i></p>
 
 
 <p class="redsmall">ZPĚV PO KRÁTKÉM ČTENÍ</p>
 <p class="pisne">N: J. Gałuszka OP; T: Bodnár OP (<abbr title="Koinonia, 2016">Koi</abbr>&nbsp;90a)</p>
-<img src="2023_09_29-serif-resp-O_Boze.webp" alt="Responsorium" style="width: 100%; height: auto; padding: 1em 0 1em 0;" >
+<div id="svg-container-2" class="svg-container"></div>
 <p>Ó, Bože, světlo naše, je důstojné Tě chválit, Otce, Syna i&nbsp;Ducha Svatého.<br >
 	Ó, Bože, světlo naše, celý vesmír se Ti klaní, Otci, Synu i&nbsp;Duchu Svatému.</p>
 
@@ -186,7 +204,7 @@
 <p><span class="red">Antifona ke kantiku Panny Marie:</span> Každý, koho mi Otec dává, přijde ke mně, a&nbsp;kdo ke mně přijde, toho jistě neodmítnu.</p>
 
 <p class="pisne">T: paraf. Magnificat; N:&nbsp;roráty, 16. století (<abbr title="Kancionál">K</abbr>&nbsp;813B)</p>
-<img src="2023_09_29-serif-813B-jag.webp" alt="Velebí má duše" style="width: 100%; height: auto; padding: 1em 0 1em 0;" >
+<div id="svg-container-3" class="svg-container"></div>
 
 <div class="hymn">
 	<p class="first"><span class="red">1.</span> Velebí má duše s&nbsp;jásotem, radostí</p>
@@ -220,7 +238,7 @@
 <p class="redsmall">PROSBY</p>
 Jestliže v&nbsp;nás skutečně přebývá Duch Boží, pak Ten, který z&nbsp;mrtvých vzkřísil Krista Ježíše, oživí i&nbsp;naše smrtelná těla svým Duchem. A&nbsp;proto s&nbsp;důvěrou volejme:
 <p class="pisne">T: Žalm 27, 1; N:&nbsp;<a href="https://cs.wikipedia.org/wiki/Bohuslav_Korejs">Bohumil Korejs</a></p>
-	<img src="Hospodin_je_me_svetlo.webp" alt="Hospodin je mé světlo a má spása." style="width: 100%; height: auto; padding: 1em 0 1em 0;">
+	<div id="svg-container-4" class="svg-container"></div>
 	<p><span class="redsmall">Odp.:</span> Hospodin je mé světlo a&nbsp;má spása.</p> 
 	
 	<p><p class="first"><span class="red">—</span> Kristus pouta smrti rozlomil a&nbsp;jako vítěz z&nbsp;hrobu vystoupil; děkujme Bohu za lásku, kterou projevuje živým i&nbsp;zemřelým.</p>
@@ -233,11 +251,11 @@ Jestliže v&nbsp;nás skutečně přebývá Duch Boží, pak Ten, který z&nbsp;
 	
 	<p class="first"><span class="red">—</span> Ve křtu se spojila země s&nbsp;nebesy, člověk s&nbsp;Bohem; prosme Boha, abychom žili přesvědčivě podle důstojnosti, kterou nám daroval.</p>
 	
-	<p class="first"><span class="red">—</span> V něm nám zazářila naděje, že vstaneme z&nbsp;mrtvých; prosme Boha, ať světlo naší víry svítí neslábnoucím jasem a&nbsp;rozhání temnotu smrti a&nbsp;zapomnění.</p>
+	<p class="first"><span class="red">—</span> V Kristu nám zazářila naděje, že vstaneme z&nbsp;mrtvých; prosme Boha, ať světlo naší víry svítí neslábnoucím jasem a&nbsp;rozhání temnotu smrti a&nbsp;zapomnění.</p>
 
 	<p class="first"><span class="red">—</span> Boží Syn se vrátil z&nbsp;říše zemřelých a&nbsp;jasně zazářil lidskému rodu; přimlouvejme se u&nbsp;Boha za naše bratry a&nbsp;sestry, zesnulé v&nbsp;naději ve vzkříšení.</p>
 		
-	<p class="last"><span class="red">—</span> Přišel Vykupitel, veliký a&nbsp;vznešený; přimlouvejme se u&nbsp;Boha i&nbsp;za všechny zemřelé, vždyť on zná jejich víru.</p>
+	<p class="last"><span class="red">—</span> Přišel Vykupitel, veliký a&nbsp;vznešený; přimlouvejme se u&nbsp;Boha i&nbsp;za všechny zemřelé, vždyť On zná jejich víru.</p>
 
 <p class="redsmall">MODLITBA PÁNĚ</p>
 <p>Otče náš, jenž jsi na nebesích,<br>
@@ -253,7 +271,7 @@ Jestliže v&nbsp;nás skutečně přebývá Duch Boží, pak Ten, který z&nbsp;
 
 <p class="redsmall">MODLITBA</p>
 <p>Bože, tys svého Syna,<br>
-	vítěze nad hříchem a přemožitele smrti,<br>
+	Vítěze nad hříchem a Přemožitele Smrti,<br>
 	vyzdvihl nad nebesa a on usedl po tvé pravici;<br>
 	vysvoboď z&nbsp;područí smrti také všechny naše zemřelé,<br>
 	ať vidí tvou slávu a&nbsp;jsou navěky spojeni s&nbsp;tebou,<br>
@@ -266,7 +284,7 @@ Jestliže v&nbsp;nás skutečně přebývá Duch Boží, pak Ten, který z&nbsp;
 
 <p class="redsmall">ROZSVĚCENÍ SVIC</p>
 	<p class="pisne">T: liturgie; N:&nbsp;chorál</p>
-	<img src="svetlo_kristovo.webp" alt="Světlo Kristovo" style="width: 100%; height: auto; padding: 1em 0 1em 0;">
+	<div id="svg-container-5" class="svg-container"></div>
 	<p class="respV">Světlo Kristovo.</p> 
 	<p class="respO">Sláva tobě, Pane.</p>
 	<p class="redsmall">Všichni stojí s&nbsp;rozsvícenými svícemi v&nbsp;rukou.</p>
@@ -275,7 +293,7 @@ Jestliže v&nbsp;nás skutečně přebývá Duch Boží, pak Ten, který z&nbsp;
 	<p class="pisne">1&nbsp;Petr&nbsp;2,&nbsp;9; Zj&nbsp;21,&nbsp;23</p>
 	<p>Bůh, který nás povolal ze tmy do svého podivuhodného světla,<br >
 		ať zavede naše sestry a&nbsp;bratry do Svatého města.<br >
-		To město nepotřebuje ani slunce, ani měsíce,<br >
+		To město nepotřebuje ani slunce, ani měsíc,<br >
 		protože ho ozařuje Boží sláva.<br >
 		Jeho světlem je Beránek.</p>
 	<p class="redsmall">Celebrant kropí ostatky vodou a&nbsp;okuřuje kadidlem.</p>
@@ -288,7 +306,7 @@ Jestliže v&nbsp;nás skutečně přebývá Duch Boží, pak Ten, který z&nbsp;
 <p class="redsmall">PRŮVOD</p>
 <p class="redsmall">Během průvodu se zpívají žalmy, např. Žl 114 (113A); 118 (117); 42 (41).</p>
 <p class="redsmall">UKLÁDÁNÍ OSTATKŮ</p>
-<p>Nebeský Otce,<br >
+<p>Nebeský Otče,<br >
 ty nejsi Bohem mrtvých, ale živých.<br >
 Tvůj Syn svou smrtí naši smrt zrušil<br >
 a&nbsp;vzkříšením obnovil život.<br >
@@ -298,7 +316,7 @@ za všechny, kteří zde odpočívají.<br >
 Za ty, kdo zemřeli s&nbsp;tvým Kristem,<br >
 byli s&nbsp;ním pohřbeni a&nbsp;nyní očekávají své vzkříšení.<br >
 Ve smutku i&nbsp;úzkosti, v&nbsp;radosti i&nbsp;naději, tě poznávali skrze svou víru,<br >
-dej, ať tě nyní hledí na tvou tvář<br >
+dej, ať nyní hledí na tvou tvář<br >
 a na věky tě chválí ve společenství všech spravedlivých.<br >
 Skrze Krista, našeho Pána.</p>
 
@@ -313,7 +331,7 @@ Skrze Krista, našeho Pána.</p>
 
 <p class="redsmall">SALVE REGINA</p>
 <p class="pisne">Zdrávas, Královno; T:&nbsp;asi Heřman z&nbsp;Reichenau, 11. století; N:&nbsp;chorál (<abbr title="Mešní zpěvy, Praha, 1990">MZ</abbr>&nbsp;1001)</p>
-<img src="salve_regina-jag5.webp" alt="Salve Regina" style="width: 100%; height: auto; padding: 1em 0 1em 0;">
+<div id="svg-container-6" class="svg-container"></div>
 	<p>Salve, Regina, <span class="red">*</span> mater misericordiæ,<br>
 	vita dulcedo et spes nostra, salve.<br>
 	Ad te clamamus, exules, filii Hevæ.<br>
