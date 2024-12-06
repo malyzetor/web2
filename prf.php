@@ -98,6 +98,7 @@
 							<span style="display:inline-block; width: 14em;">Šesté setkání 5. 9. 2024</span> – <a href="PRF/2024_09_05-pozvanka.pdf">pozvánka</a>, <i>příloha</i>, <a href="PRF/2024_09_05-zapis.pdf">zápis</a><br />
 							<span style="display:inline-block; width: 14em;">Sedmé setkání 3. 10. 2024</span> – <a href="PRF/2024_10_03-pozvanka.pdf">pozvánka</a>, <i>příloha</i>, <a href="PRF/2024_10_03-zapis.pdf">zápis</a><br />
 							<span style="display:inline-block; width: 14em;">Osmé setkání 7. 11. 2024</span> – <a href="PRF/2024_11_07-pozvanka.pdf">pozvánka</a>, <i>příloha</i>, <a href="PRF/2024_11_07-zapis.pdf">zápis</a><br />
+							<span style="display:inline-block; width: 14em;">Deváté setkání 12. 12. 2024</span> – <a href="PRF/2024_12_12-pozvanka.pdf">pozvánka</a>, <i>příloha</i>, zápis<br />
 						</p>
                         
 

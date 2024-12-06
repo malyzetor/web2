@@ -62,7 +62,7 @@
 	</header>
 
 <!-- dynamicky generované heslo dne .-->
-	<div id="jHD"><?php include('./HD-2024-04-veli.inc'); ?></div>
+	<div id="jHD"><?php include('./HD-2024-12-advent.inc'); ?></div>
 
 	<section id="Farnosti" class="features"  style="display:flex; min-height: 100vh;">
 		<div class="container" style="margin-top: auto; margin-bottom: auto;">

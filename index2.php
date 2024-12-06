@@ -40,7 +40,7 @@
 			</div>
 			<nav class="collapse navbar-collapse navbar-right">
 				<ul id="nav" class="nav navbar-nav">
-					<li><a href="vespers/2024_02_02.html"><img src="img/apokalypsa.svg" alt="Hodinová apokalypsa" style="width: 1.5em;"></a></li>
+					<li><a href="vespers/2024_11_02.html"><img src="img/apokalypsa.svg" alt="Hodinová apokalypsa" style="width: 1.5em;"></a></li>
 					<li>
 						<a href="#Bohosluzby">Pořad bohoslužeb</a>
 					</li>
@@ -62,7 +62,7 @@
 	</header>
 
 <!-- dynamicky generované heslo dne .-->
-	<div id="jHD"><?php include('./HD-2024-02-svatopost.inc'); ?></div>
+	<div id="jHD"><?php include('./HD-2024-12-advent.inc'); ?></div>
 
 	<section id="Farnosti" class="features"  style="display:flex; min-height: 100vh;">
 		<div class="container" style="margin-top: auto; margin-bottom: auto;">
@@ -178,7 +178,6 @@
 				</div>
 
 				<div class="sec-sub-title text-center">
-					<p><img src="img/slon.svg" style="width: 3em;">&nbsp;&nbsp;&nbsp;<span style="font-weight:bold;">Velikonoční příprava</span> ve stručném <a href="img/2024-velikonocni_priprava.webp">přehledu</a>.</p><br>
 				<p>Rozpis bohoslužeb a dalších sdělení pro aktuální týden vložen <span id="jDatumOhlasek" style="font-weight:bold;"><?php include('./datum_ohlasek.inc'); ?></span>.<br>
                 <a href="./ohlasky.pdf?t=<?php echo time(); ?>">
                     <img src="./ohlasky.webp?t=<?php echo time(); ?>" alt="Aktuální ohlášky" style="width: 100%;">
