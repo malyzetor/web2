@@ -40,7 +40,7 @@
 			</div>
 			<nav class="collapse navbar-collapse navbar-right">
 				<ul id="nav" class="nav navbar-nav">
-					<li><a href="vespers/2024_11_02.html"><img src="img/apokalypsa.svg" alt="Hodinová apokalypsa" style="width: 1.5em;"></a></li>
+					<li><a href="vespers/2025_01_10.html"><img src="img/apokalypsa.svg" alt="Hodinová apokalypsa" style="width: 1.5em;"></a></li>
 					<li>
 						<a href="#Bohosluzby">Pořad bohoslužeb</a>
 					</li>
@@ -62,7 +62,7 @@
 	</header>
 
 <!-- dynamicky generované heslo dne .-->
-	<div id="jHD"><?php include('./HD-2024-12-advent.inc'); ?></div>
+	<div id="jHD"><?php include('./HD-2024-12-vanoce.inc'); ?></div>
 
 	<section id="Farnosti" class="features"  style="display:flex; min-height: 100vh;">
 		<div class="container" style="margin-top: auto; margin-bottom: auto;">

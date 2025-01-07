@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="cs"  id="simulateDarkMode" data-theme="light">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" >
+	<meta name="Author" content="Juraj Videky; Pavel Jäger" >
+	<meta name="description" content="Večerní modlitba žalmů se zpěvy a bez tanců." >
+	<link rel="stylesheet" type="text/css" href="breviar-m7.css" >
+	<meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1.0" >
+	<title>Liturgie hodin | 10. leden 2025 – nešpory</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+	<script>
+		function toggleDarkMode() { 
+			const container = document.getElementById('simulateDarkMode');
+  			const dataTheme = container.getAttribute('data-theme');
+  			if(dataTheme === 'dark') {
+    			container.setAttribute('data-theme', 'light');
+  				} else {
+    			container.setAttribute('data-theme', 'dark');
+  				}
+			}
+		
+		const svgFiles = {
+                '2025_01_10-hymnus-Bimbam.svg': 'svg-container-1',
+                'resp-O_Boze.svg': 'svg-container-2',
+				'Magnificat.svg': 'svg-container-3',
+				'alma_redemptoris_mater.svg': 'svg-container-4'
+            };
+		function loadSVG(file, containerId) {
+                return fetch(file)
+                    .then(response => { if (!response.ok) { throw new Error(`Chyba při načítání ${file}: ${response.statusText}`); } return response.text(); })
+                    .then(svgContent => { document.getElementById(containerId).innerHTML = svgContent; });
+            }
+		const loadPromises = Object.entries(svgFiles).map(([file, containerId]) => loadSVG(file, containerId));
+		Promise.all(loadPromises)
+                .then(() => { console.log('Všechny SVG soubory byly úspěšně načteny.'); })
+                .catch(error => { console.error('Chyba při načítání SVG souborů:', error); });
+	</script>
+</head>
+
+<body>
+<div id="toggleDarkMode" ondblclick="toggleDarkMode()" style="float: right;">
+	<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-moon"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+</div>
+
+<h2>10. leden 2025</h2>
+<h2 class="red">Pátek 2. vánočního týdne</h2>
+<p class="castmodlitby">Nešpory</p>
+
+<div class="respons">
+<p class="respV">Bože, pospěš mi na pomoc.</p>
+<p class="respO">Slyš naše volání.</p>
+</div>
+
+<div class="respons">
+    <p class="respV">Sláva Otci i&nbsp;Synu i&nbsp;Duchu Svatému,</p>
+    <p class="respO">jako byla na počátku, i&nbsp;nyní i&nbsp;vždycky a&nbsp;na věky věků. Amen. Aleluja.</p>
+</div>
+
+<p class="redsmall">HYMNUS</p>
+<p class="pisne">TN: <a href="https://en.wikipedia.org/wiki/Edric_Connor">Edric Connor</a> (<a href="http://compvid101.blogspot.com/2011/01/edric-connor-and-virgin-mary-had-baby.html">1942</a>); N: <a href="https://cs.wikipedia.org/wiki/Franti%C5%A1ek_Nedv%C4%9Bd">František Nedvěd; </a>T: <a href="https://cs.wikipedia.org/wiki/Du%C5%A1an_Van%C4%8Dura">Dušan Vančura</a> (<a href="https://zpevnik.proscholy.cz/pisen/2408/bim-bam">Spirituál Kvintet</a>)</p>
+<div id="svg-container-1" class="svg-container"></div>
+
+<div class="hymn">
+	<p class="first"><span class="red">1.</span> [: Hvězda zářila a vzduch se chvěl, :] 3×</p>
+	<p class="last">jasná noc nad Betlémem stála.</p>
+	
+	<p class="first"><span class="red">R.</span> Tichounce tam hráli, na zvonky si zvonili bim bam,</p>
+	<p>přišli lidé z dáli, povídali a chodili sem tam.</p>
+	<p>Ó, jak se máte? Ó, proč se ptáte?</p>
+	<p class="last">Tichnouce tam hráli, na zvonky si zvonili bim bam.</p>
+
+	<p class="first"><span class="red">2.</span> [: V chlévě dítě jako z růže květ, :] 3×</p>
+	<p class="last">králové vzdávají mu díky.</p>
+	
+	<p class="first"><span class="red">3.</span> [: Látky, šperky, radost pohledět, :] 3×</p>
+	<p class="last">k tomu datle a čerstvé fíky.</p>
+
+	<p class="first"><span class="red">R.</span> Tichounce tam hráli, na zvonky si zvonili bim bam,</p>
+	<p>přišli lidé z dáli, povídali a chodili sem tam.</p>
+	<p>Ó, jak se máte? Ó, proč se ptáte?</p>
+	<p class="last">Tichnouce tam hráli, na zvonky si zvonili bim bam.</p>
+
+	<p class="first"><span class="red">4.</span> [: K ránu všichni tiše usnuli, :] 3×</p>
+	<p class="last">k jejich štěstí či k jejich smůle.</p>
+
+	<p class="first"><span class="red">5.</span> [: Hvězda zářila a vzduch se chvěl, :] 3×</p>
+	<p class="last">pokoj všem lidem dobré vůle.</p>
+
+	<p class="first"><span class="red">R.</span> Tichounce tam hráli, na zvonky si zvonili bim bam,</p>
+	<p>přišli lidé z dáli, povídali a chodili sem tam.</p>
+	<p>Ó, jak se máte? Ó, proč se ptáte?</p>
+	<p class="last">Tichnouce tam hráli, na zvonky si zvonili bim bam.</p>
+</div>
+
+<p class="redsmall">ŽALMY</p>
+
+<p><span class="red">1. ant.</span> Hospodine, zachraň mi život ze smrti, mé nohy z&nbsp;pádu.</p>
+<div class="psalm">
+	<div class="psalm-name">Žalm 116 (114), 1-9</div>
+	<div class="psalm-subtitle">Poděkování</div>
+	<div class="psalm-idea"><i>Do Božího království vejdeme jen tehdy, když hodně vytrpíme.</i> (Sk&nbsp;14,22)</div>
+
+	<p class="verse start first"><sup>1</sup>Miluji Hospodina, neboť slyšel&nbsp;*</p>
+	<p class="verse cont">můj prosebný hlas,</p>
+	<p class="verse start"><sup>2</sup>neboť naklonil ke mně svůj sluch&nbsp;*</p>
+	<p class="verse cont last">v&nbsp;den, kdy jsem ho vzýval.</p>
+	
+	<p class="verse start"><sup>3</sup>Obepjaly mě provazy smrti,&nbsp;†</p>
+	<p class="verse cont">dostihly mě smyčky podsvětí,&nbsp;*</p>
+	<p class="verse cont">uvízl jsem v&nbsp;tísni a trýzni.</p>
+	<p class="verse start"><sup>4</sup>Hospodinovo jméno jsem vzýval:&nbsp;*</p>
+	<p class="verse cont last">„Ach, Hospodine, zachraň mi život!“</p>
+	
+	<p class="verse start"><sup>5</sup>Hospodin je milostivý a spravedlivý,&nbsp;*</p>
+	<p class="verse cont">Bůh náš je milosrdný.</p>
+	<p class="verse start"><sup>6</sup>Hospodin chrání prosté lidi;&nbsp;*</p>
+	<p class="verse cont last">pomohl mi, když jsem byl v&nbsp;bídě.</p>
+	
+	<p class="verse start"><sup>7</sup>Uklidni se opět, má duše,&nbsp;*</p>
+	<p class="verse cont">neboť Hospodin ti prokázal dobro,</p>
+	<p class="verse start"><sup>8</sup>vždyť vysvobodil můj život ze smrti,&nbsp;*</p>
+	<p class="verse cont">mé oči ze slz, mé nohy z&nbsp;pádu.</p>
+	<p class="verse start"><sup>9</sup>Budu kráčet před Hospodinem&nbsp;*</p>
+	<p class="verse cont">v&nbsp;zemi živých.</p>
+
+	<p class="verse start first">Sláva Otci i&nbsp;Synu&nbsp;*</p>
+	<p class="verse cont">i&nbsp;Duchu Svatému,</p>
+	<p class="verse start">jako byla na počátku, i&nbsp;nyní i&nbsp;vždycky&nbsp;*</p>
+	<p class="verse cont">a na věky věků. Amen.</p>
+</div>
+<p><span class="red">Ant.</span> Hospodine, zachraň mi život ze smrti, mé nohy z&nbsp;pádu.</p>
+
+
+<p><span class="red">2. ant.</span> Pomoc mi přijde od Hospodina, který učinil nebesa i&nbsp;zemi.</p>
+<div class="psalm">
+	<div class="psalm-name">Žalm 121 (120)</div>
+	<div class="psalm-subtitle">Strážce národa</div>
+	<div class="psalm-idea"><i>Už nikdy nebudou mít hlad ani žízeň, nebude už do nich pražit slunce ani jakýkoli jiný žár.</i> (Zj&nbsp;7,16)</div>
+
+	<p class="verse start first"><sup>1</sup>Zvedám své oči k&nbsp;horám.&nbsp;*</p>
+	<p class="verse cont">Odkud mi přijde pomoc?</p>
+	<p class="verse start"><sup>2</sup>Pomoc mi přijde od Hospodina,&nbsp;*</p>
+	<p class="verse cont last">který učinil nebesa i&nbsp;zemi.</p>
+	
+	<p class="verse start"><sup>3</sup>Nedopustí, aby se tvá noha zvrtla,&nbsp;*</p>
+	<p class="verse cont">nebude dřímat tvůj strážce.</p>
+	<p class="verse start"><sup>4</sup>Ano, nebude dřímat a spát&nbsp;*</p>
+	<p class="verse cont last">Izraelův strážce.</p>
+	
+	<p class="verse start"><sup>5</sup>Hospodin tě střeží,&nbsp;*</p>
+	<p class="verse cont">Hospodin je tvým ochráncem po tvé pravici.</p>
+	<p class="verse start"><sup>6</sup>Za dne ti slunce neublíží,&nbsp;*</p>
+	<p class="verse cont last">ani měsíc v&nbsp;noci.</p>
+	
+	<p class="verse start"><sup>7</sup>Hospodin tě bude střežit ode všeho zlého,&nbsp;*</p>
+	<p class="verse cont">střežit bude tvou duši.</p>
+	<p class="verse start"><sup>8</sup>Hospodin bude střežit tvůj odchod i&nbsp;příchod&nbsp;*</p>
+	<p class="verse cont">nyní i&nbsp;navěky.</p>
+
+	<p class="verse start first">Sláva Otci i&nbsp;Synu&nbsp;*</p>
+	<p class="verse cont">i&nbsp;Duchu Svatému,</p>
+	<p class="verse start">jako byla na počátku, i&nbsp;nyní i&nbsp;vždycky&nbsp;*</p>
+	<p class="verse cont">a na věky věků. Amen.</p>
+</div>
+<p><span class="red">Ant.</span> Pomoc mi přijde od Hospodina, který učinil nebesa i&nbsp;zemi.</p>
+
+
+
+<p><span class="red">3. ant.</span> Spravedlivé a spolehlivé jsou tvé cesty, Králi národů.</p>
+<div class="psalm">
+	<div class="psalm-name">Kantikum</div>
+	<div class="psalm-subtitle">Projev úcty a klanění</div>
+	<p class="bibleref">Zj 15,3-4</p>
+	
+	<p class="verse start first"><sup>3</sup>Veliké a podivuhodné jsou tvé skutky,&nbsp;*</p>
+	<p class="verse cont">Pane, Bože vševládný!</p>
+	<p class="verse start">Spravedlivé a spolehlivé jsou tvé cesty,&nbsp;*</p>
+	<p class="verse cont last">Králi národů!</p>
+	
+	<p class="verse start"><sup>4</sup>Kdo by nevzdával, Pane, úctu a slávu tvému jménu?&nbsp;*</p>
+	<p class="verse cont">Vždyť ty jediný jsi svatý!</p>
+	<p class="verse start">Všechny národy přijdou a budou se před tebou klanět,&nbsp;*</p>
+	<p class="verse cont">neboť se ukázalo, že tvá rozhodnutí jsou spravedlivá.</p>
+	
+	<p class="verse start first">Sláva Otci i&nbsp;Synu&nbsp;*</p>
+	<p class="verse cont">i&nbsp;Duchu Svatému,</p>
+	<p class="verse start">jako byla na počátku, i&nbsp;nyní i&nbsp;vždycky&nbsp;*</p>
+	<p class="verse cont">a na věky věků. Amen.</p>
+</div>
+<p><span class="red">Ant.</span> Spravedlivé a spolehlivé jsou tvé cesty, Králi národů.</p>
+
+
+<p class="redsmall">KRÁTKÉ ČTENÍ</p>
+<p class="bibleref">1 Jan 1, 1-5b.7</p>
+<p style="font-weight: normal;"><i>O&nbsp;tom, co bylo od počátku, co jsme slyšeli, vlastníma očima viděli, bedlivě pozorovali a&nbsp;čeho jsme se svýma rukama dotýkali, o Slovu života svědčíme a&nbsp;zvěstujeme vám. Život se zjevil, a&nbsp;my jsme ho viděli, Život věčný, který byl u&nbsp;Otce a&nbsp;zjevil se nám. Co jsme tedy viděli a&nbsp;slyšeli, zvěstujeme i&nbsp;vám, abyste i&nbsp;vy měli s&nbsp;námi společenství. Naše společenství je totiž s&nbsp;Otcem a&nbsp;jeho Synem Ježíšem Kristem. Toto píšeme, aby naše radost byla úplná. To je poselství, které jsme od něho slyšeli a&nbsp;vám zvěstujeme: Bůh je světlo a&nbsp;tma v&nbsp;něm vůbec není. Když žijeme ve světle, jako on je ve světle, máme společenství mezi sebou a&nbsp;krev jeho Syna Ježíše nás očišťuje od každého hříchu.</i></p>
+
+
+<p class="redsmall">ZPĚV PO KRÁTKÉM ČTENÍ</p>
+<p class="pisne">N: J. Gałuszka OP; T: Bodnár OP (<abbr title="Koinonia, 2016">Koi</abbr>&nbsp;90a)</p>
+<div id="svg-container-2" class="svg-container"></div>
+<p>Ó, Bože, světlo naše, je důstojné Tě chválit, Otce, Syna i&nbsp;Ducha Svatého.<br >
+	Ó, Bože, světlo naše, celý vesmír se Ti klaní, Otci, Synu i&nbsp;Duchu Svatému.</p>
+
+
+<p class="redsmall">KANTIKUM PANNY MARIE</p>
+<p><span class="red">Antifona ke kantiku Panny Marie:</span> Přijdou všichni ze Sáby a&nbsp;přinesou zlato a&nbsp;kadidlo, aleluja.</p>
+
+<p class="pisne">T: paraf. Magnificat; N:&nbsp;roráty, 16. století (<abbr title="Kancionál">K</abbr>&nbsp;813B)</p>
+<div id="svg-container-3" class="svg-container"></div>
+
+<div class="hymn">
+	<p class="first"><span class="red">1.</span> Velebí má duše s&nbsp;jásotem, radostí</p>
+	<p>Pána věčné spásy, který dnes z výsosti</p>
+	<p>pohlédl k&nbsp;své dívce</p>
+	<p class="last">pokorného srdce v&nbsp;lásce a&nbsp;milosti.</p>
+
+	<p><span class="red">2.</span> Již od této chvíle zástupy národů</p>
+	<p>v neustálé chvále po světa obvodu</p>
+	<p>slaviti mě budou,</p>
+	<p class="last">dívku Páně chudou, v&nbsp;radostném závodu.</p>
+
+	<p><span class="red">3.</span> Veliké mi věci Hospodin učinil,</p>
+	<p>Pán můj nejvýš svatý ve mně si zalíbil.</p>
+	<p>Duši bohabojné</p>
+	<p class="last">dary nebes hojné od věků připravil.</p>
+
+	<p><span class="red">4.</span> Ramenem své moci on pyšné rozptýlil,</p>
+	<p>sesadil i mocné, pokorné povýšil.</p>
+	<p>Sytí všechny lačné,</p>
+	<p class="last">bohaté a pyšné s prázdnou pryč propustil.</p>
+
+	<p><span class="red">5.</span> V lásce své se ujal národa svatého,</p>
+	<p>pamětliv je slibu praotcům daného,</p>
+	<p>že z Judova rodu</p>
+	<p class="last">přijde spása lidu od Boha věčného.</p>
+</div>
+<p><span class="red">Ant.</span> Přijdou všichni ze Sáby a&nbsp;přinesou zlato a&nbsp;kadidlo, aleluja.</p>
+
+
+<p class="redsmall">PROSBY</p>
+<span class="redsmall">
+	pro díky: <i style="color: var(--text);">Díky tobě, Pane.</i><br >
+	pro chvály: <i style="color: var(--text);">Chvála tobě, Pane.</i><br > 
+	pro prosby/přímluvy: <i style="color: var(--text);">Prosíme tě, vyslyš nás.</i>
+</span>
+
+<p class="redsmall">MODLITBA PÁNĚ</p>
+<p>Otče náš, jenž jsi na nebesích,<br >
+    posvěť se jméno tvé.<br >
+    Přijď království tvé.<br >
+    Buď vůle tvá jako v&nbsp;nebi, tak i&nbsp;na zemi.<br >
+    Chléb náš vezdejší dej nám dnes.<br >
+    A&nbsp;odpusť nám naše viny,<br >
+    jako i&nbsp;my odpouštíme našim viníkům.<br >
+    A&nbsp;neuveď nás v&nbsp;pokušení,<br >
+    ale zbav nás od zlého.<br >
+    Neboť tvé je království i&nbsp;moc i&nbsp;sláva navěky.</p>
+
+<p class="redsmall">MODLITBA</p>
+<p>Bože, tys poslal světu svého Syna, abychom nežili ve tmě; dej, ať v&nbsp;našem nitru svítí světlo, které zazářilo našim otcům, a&nbsp;uveď všechny národy na cestu pokoje. Prosíme o&nbsp;to skrze tvého Syna Ježíše Krista, našeho Pána, neboť on s&nbsp;tebou v&nbsp;jednotě Ducha Svatého žije a&nbsp;kraluje po všechny věky věků.</p>
+
+
+<p class="redsmall">ALMA REDEMPTORIS MATER</p>
+<p class="pisne"><a href="https://cs.wikipedia.org/wiki/Alma_Redemptoris_Mater">Slavná Matko Spasitele</a>; T:&nbsp;asi Heřman z&nbsp;Reichenau, 11. století; N:&nbsp;<a href="https://zpevnik.proscholy.cz/pisen/3736/alma-redemptoris-mater">chorál</a></p>
+<div id="svg-container-4" class="svg-container"></div>
+	<p>Alma <span class="red">*</span> Redemptoris Mater,<br>
+	quæ pervia cæli porta manes, et stella maris,<br>
+	succurre cadenti, surgere, qui curat populo:<br>
+	Tu, quæ genuisti, natura mirante, tuum sanctum Genitorem:<br>
+	Virgo prius ac posterius,<br>
+	Gabrielis ab ore sumens illud Ave,<br>
+	peccatorum miserere.</p>
+
+	<p style="margin-top: 2em; font-style: italic;">Překlad (M. Koronthályová: Vexilla regis, 2013):<br>
+    	Matko, která jsi živila Vykupitele,<br>
+    	ty zůstáváš branou, kterou lze jít do nebe,<br>
+    	jsi hvězdou na moři.<br>
+    	Přispěchej na pomoc lidu, který se snaží opět vstát:<br>
+    	Porodila jsi toho, jenž dal život i&nbsp;tobě,<br>
+    	a&nbsp;příroda nad tím žasne.<br>
+    	Pannou jsi zůstala předtím i potom.<br>
+    	Ty, která jsi z&nbsp;úst Gabriela přijala ono Ave,<br>
+    	smiluj se nad hříšníky.</p>
+</body></html>
