@@ -6,12 +6,12 @@
 			</h2>
 			<br>
             <p>
-                S&nbsp;Pánu Ježíši nám obraz kotvy pomáhá pochopit<br>
+                S&nbsp;důvěrou Pánu Ježíši nám obraz kotvy pomáhá pochopit<br>
 				stabilitu a&nbsp;jistotu, kterou máme uprostřed rozbouřených vod života.<br>
 				Životní bouře námi zmítají, ale my jsme pevně zakotveni v&nbsp;naději.<br>
 				Ona nám umožňuje žít v&nbsp;Kristu a překonat hřích, strach a&nbsp;smrt.<br>
 				<br>
-                <em style="font-size:.8em;text-align: right">František: Naděje neklame, čl. 25; Franz Stoedtner: Großer Schiffsanker</em><br><br> 
+                <em style="font-size:.8em;text-align: right">František: Naděje neklame, čl.&nbsp;25; Franz Stoedtner: Großer Schiffsanker</em><br><br> 
             </p>
 		</div>
 	</div>

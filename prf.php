@@ -99,7 +99,8 @@
 							<span style="display:inline-block; width: 14em;">Sedmé setkání 3. 10. 2024</span> – <a href="PRF/2024_10_03-pozvanka.pdf">pozvánka</a>, <i>příloha</i>, <a href="PRF/2024_10_03-zapis.pdf">zápis</a><br />
 							<span style="display:inline-block; width: 14em;">Osmé setkání 7. 11. 2024</span> – <a href="PRF/2024_11_07-pozvanka.pdf">pozvánka</a>, <i>příloha</i>, <a href="PRF/2024_11_07-zapis.pdf">zápis</a><br />
 							<span style="display:inline-block; width: 14em;">Deváté setkání 12. 12. 2024</span> – <a href="PRF/2024_12_12-pozvanka.pdf">pozvánka</a>, <i>příloha</i>, <a href="PRF/2024_12_12-zapis.pdf">zápis</a><br />
-							<span style="display:inline-block; width: 14em;">Desáté setkání 9. 1. 2025</span> – <a href="PRF/2025_01_09-pozvanka.pdf">pozvánka</a>, <i>příloha</i>, zápis<br />
+							<span style="display:inline-block; width: 14em;">Desáté setkání 9. 1. 2025</span> – <a href="PRF/2025_01_09-pozvanka.pdf">pozvánka</a>, <a href="pdf/57719_240509-spes-non-confundit-bula-k-jubilejnimu-roku-2025-cz-kor.pdf">příloha</a>, <a href="PRF/2025_01_09-zapis.pdf">zápis</a><br />
+							<span style="display:inline-block; width: 14em;">Jedenácté setkání 6. 2. 2024</span> – <a href="PRF/2025_02_06-pozvanka.pdf">pozvánka</a>, <i>příloha</i>, <a href="PRF/2025_02_06-zapis.pdf">zápis</a><br />
 						</p>
                         
 

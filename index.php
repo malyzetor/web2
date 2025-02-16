@@ -17,8 +17,15 @@
 	<meta name="keywords" content="parish, christian, catholic, church">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="icon" href="./favicon.ico" sizes="any">
+	<link rel="preload" href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;1,300&display=swap" as="font" crossorigin="anonymous">
 	<link rel="stylesheet" href="css/jag-bootstrap.min.css">
 	<style>
+		.open-sans-jag {
+  			font-family: "Open Sans", serif;
+  			font-weight: 300;
+  			font-style: normal;
+		}
+
 		html {
   			scroll-behavior: smooth;
 		}
@@ -35,11 +42,12 @@
 			<div class="navbar-header">
 				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
 					<span class="sr-only">Toggle navigation</span>
-					<span style="font-size: 20px; color:rgb(242, 196, 90);">&#9776;</span>
+					<span style="font-size: 20px; color:rgb(242, 196, 90);"><img src="img/kotva-BW-min.svg" alt="&#9776;" style="height:20px; width:15px;" loading="lazy"></span>
 				</button>
 			</div>
 			<nav class="collapse navbar-collapse navbar-right">
 				<ul id="nav" class="nav navbar-nav">
+					<li><a href="#Svatyrok"><img src="img/svaty_rok-BW.svg" alt="Poutníci naděje" style="width: 1.5em;"></a></li>	
 					<li><a href="vespers/2025_01_10.html"><img src="img/apokalypsa.svg" alt="Hodinová apokalypsa" style="width: 1.5em;"></a></li>
 					<li>
 						<a href="#Bohosluzby">Pořad bohoslužeb</a>
@@ -62,7 +70,7 @@
 	</header>
 
 <!-- dynamicky generované heslo dne .-->
-	<div id="jHD"><?php include('./HD-2024-12-vanoce.inc'); ?></div>
+	<div id="jHD"><?php include('./HD-2025-02-kotva_nadeje.inc'); ?></div>
 
 	<section id="Farnosti" class="features"  style="display:flex; min-height: 100vh;">
 		<div class="container" style="margin-top: auto; margin-bottom: auto;">
@@ -105,18 +113,14 @@
 				<div class="sec-title text-center">
 					<h2>Duchovní program</h2>
 				</div>
+				<div class="col-md-1"></div>
+				<div class="col-md-10">
 				<div class="sec-sub-title">
-					<p>Věříme, že svátosti jsou projevem zdravého křesťanského života, viditelným gestem a&nbsp;skutečným setkáním s&nbsp;trojjediným
-						Bohem. Pro jejich přijetí je důležité odpovídající docenění i&nbsp;osobní příprava.
-						<br> Svátosti
-						<b>křtu</b>,
-						<b>biřmování</b> a&nbsp;<b>eucharistie</b> uvádějí do plného křesťanského života.
-						<b>Svátosti smíření</b> a&nbsp;<b>pomazání nemocných</b> jsou posilou ve chvílích slabosti a&nbsp;nedostatečnosti, ať už fyzické nebo duchovní.
-						<b>Svátosti manželství</b> a&nbsp;<b>kněžství</b> jsou znamením služby i&nbsp;postavení uprostřed celé společnosti.
-						<br> Domluvy ohledně doprovázení při přípravě a&nbsp;přijetí těchto svátostí jsou možné po telefonickém nebo osobním setkání
-						v&nbsp;kostele.</p>
-						<p style="text-align:right;">Pavel Jäger
-							<br>správce farnosti</p>
+						<p>Věříme, že svátosti jsou projevem zdravého křesťanského života, viditelným gestem a&nbsp;skutečným setkáním s&nbsp;trojjediným Bohem. Pro jejich přijetí je důležité odpovídající docenění i&nbsp;osobní příprava. <br>
+							Svátosti <b>křtu</b>, <b>biřmování</b> a&nbsp;<b>eucharistie</b> uvádějí do plného křesťanského života. <b>Svátosti smíření</b> a&nbsp;<b>pomazání nemocných</b> jsou posilou ve chvílích slabosti a&nbsp;nedostatečnosti, ať už fyzické nebo duchovní. <b>Svátosti manželství</b> a&nbsp;<b>kněžství</b> jsou znamením služby i&nbsp;postavení uprostřed celé společnosti. <br>
+							Domluvy ohledně doprovázení při přípravě a&nbsp;přijetí těchto svátostí jsou možné po telefonickém nebo osobním setkání v&nbsp;kostele.</p>
+							<p style="text-align:right;">Pavel Jäger<br>správce farnosti</p>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -133,7 +137,7 @@
 				<div class="sec-sub-title">
 					<p>Kostel Nanebevzetí Panny Marie v&nbsp;Číhošti je otevřený v&nbsp;době bohoslužeb nebo po předchozí domluvě.<br>Za podobných podmínek je přístupná i&nbsp;výstava o&nbsp;životě P.&nbsp;Josefa Toufara v&nbsp;budově místní fary.<br>
 					<br>
-					Za&nbsp;příznivého počasí během <b>července a srpna 2023</b> budou kostel i&nbsp;fara přístupné po celý den.<br>
+					Za&nbsp;příznivého počasí během <b>července a srpna 2025</b> budou kostel i&nbsp;fara přístupné po celý den.<br>
 					<br>
 					Každou druhou sobotu v&nbsp;měsíci je <b>smírná pobožnost</b>.<br>
 					<span style="margin-left: 2em; display: inline-block; width: 5em;">8.45 hod.</span>— modlitba růžence<br>
@@ -210,75 +214,49 @@
 		</div>
     </section>
     
-	<section id="karantena" class="features" style="background-color:#fafaf2;">
+	<div id="Svatyrok" class="features" style="background-color:white;">
 		<div class="container" style="margin-top: auto; margin-bottom: auto;">
 			<div class="row">
-				<div class="sec-title text-center">
-					<h2>☣ Rodinné bohoslužby</h2>
-				</div>
 				<div class="col-md-2"></div>
 				<div class="col-md-8">
-				
-				<div class="sec-sub-title">
-				
-						<br>
-						<p>K tématu <b>sociální a&nbsp;náboženské izolace od Boha</b> doporučuji k samostudiu:<br>
-						Lv&nbsp;13–14; Nm&nbsp;19; Jonáš; Mt&nbsp;8; Mt&nbsp;9; Lk&nbsp;10; Lk&nbsp;17; Lk&nbsp;24; Jan&nbsp;13</p>
-						<p>Letošním liturgickým rokem 2019/2020 nás provází evangelista <a href="pdf/Matous_a_infekce.pdf">Matouš</a>.</p>
-						<br>
-						<br>
-						<div class="service-desc">
-							
-								<h3 style="text-align:right;">
-									<a href="archiv.php" style="color:#8C2318;">Archiv 2020/2021</a>
-								</h3>
-						</div><br>
-				</div>
+					<img src="img/svaty_rok-text.svg" style="width: 100%; margin-bottom: 1em; margin-top: 7em;" alt="Svatý rok 2025">
 				</div>
 			</div>
-		</div>
-	</section>
-
-	<section id="Synoda" class="features">
-		<div class="container" style="margin-top: auto; margin-bottom: auto;">
 			<div class="row">
-				<div class="sec-title text-center">
-					<h2>Synoda21-23</h2>
-				</div>
-				<div class="col-md-2"></div>
-				<div class="col-md-8">
-				
-				<div class="sec-sub-title">
-				
-						<br>
-						<p>„Boží Duch osvěcuje a&nbsp;oživuje křesťany na společné Cestě. Je totožný s&nbsp;Duchem působícím v&nbsp;Ježíšově poslání. Je to stejný Duch, který byl přislíben apoštolům a&nbsp;generacím učedníků, kteří naslouchají Božímu slovu a&nbsp;uvádějí je ve skutek. Duch Svatý se podle Pánova příslibu neomezuje jen na upevňování kontinuity Ježíšova evangelia. Osvěcuje stále nové hlubiny Pánova zjevení a&nbsp;inspiruje rozhodnutí ve prospěch církevního směřování (srov. Jan 14,&nbsp;25–26; 15,&nbsp;26–27; 16,&nbsp;12–15; srov. Sk&nbsp;10).“ <em style="font-size:.8em">podle Přípravného dokumentu, čl.&nbsp;16</em></p>
-						<br>
-						<p><b>•</b> Oficiální české webové <a href="https://www.cirkev.cz/cs/synoda-2021-2023">stránky</a></p>
-						<p><b>•</b> Přípravný dokument <a href="https://cbk.blob.core.windows.net/cms/ContentItems/32503_32503/pripravny-dokument-synoda-2021-2023.pdf">Za církev synodální. Společenství. Spoluúčast. Poslání.</a></p>
-						<p><b>•</b> Deset tématických <a href="https://www.cirkev.cz/cs/aktuality/211008narodni-synodalni-tym-a-hlavni-temata-synody-2021-2023">okruhů</a></p>
-						<br>
-						<br>
-						<p>První setkání 18. 10. 2021</p>
-						<p>Druhé setkání 1. 11. 2021 - II. Naslouchání</p>
-						<p>Třetí setkání 15. 11. 2021 - II. Naslouchání (<a href="synoda/2021_11_07-otazky_web.pdf">otázky</a>)</p>
-						<p>Čtvrté setkání 29. 11. 2021 - II. Naslouchání (<a href="synoda/2021_11_07-otazky_web.pdf">otázky</a>)</p>
-						<p>Páté setkání 13. 12. 2021 - <span style="text-decoration: underline;">II. Naslouchání</span> (<a href="synoda/2021_12_13-resume.pdf">některé poznámky a resumé</a>)</p>
-						<p>Šesté setkání 10. 1. 2022 - IV. Slavení (<a href="synoda/2022_01_10-otazky_web.pdf">otázky</a>)</p>
-						<p>Sedmé setkání 24. 1. 2022 - IV. Slavení (<a href="synoda/2022_01_10-otazky_web.pdf">otázky</a>)</p>
-						<p>Osmé setkání 7. 2. 2022 - IV. Slavení (<a href="synoda/2022_01_10-otazky_web.pdf">otázky</a>)</p>
-						<p>Deváté setkání 21. 2. 2022 - IV. Slavení (<a href="synoda/2022_01_10-otazky_web.pdf">otázky</a>)</p>
-						<p>Desáté setkání 7. 3. 2022 - IV. Slavení (<a href="synoda/2022_01_10-otazky_web.pdf">otázky</a>)</p>
-						<p>Jedenácté setkání 21. 3. 2022 - <span style="text-decoration: underline;">IV. Slavení</span> (<a href="synoda/2022_03_21-resume.pdf">některé poznámky a resumé</a>)</p>
-						<p>Dvanácté setkání 4. 4. 2022 - VIII. Autorita a&nbsp;spoluúčast (<a href="synoda/2022_03_22-otazky_web.pdf">otázky</a>)</p>
-						<p>Třinácté setkání 2. 5. 2022 - VIII. Autorita a&nbsp;spoluúčast (<a href="synoda/2022_03_22-otazky_web.pdf">otázky</a>)</p>
-						<p>Čtrnácté setkání 16. 5. 2022 - VIII. Autorita a&nbsp;spoluúčast (<a href="synoda/2022_03_22-otazky_web.pdf">otázky</a>)</p>
-						<p>Patnácté setkání 30. 5. 2022 - VIII. Autorita a&nbsp;spoluúčast (<a href="synoda/2022_03_22-otazky_web.pdf">otázky</a>)</p>
-						<br>
-				</div>
+				<div class="col-md-1"></div>
+				<div class="col-md-10" style="font-family: 'Open Sans'; font-weight: 300; line-height: normal; color: #5b646e;">
+					bula papeže Františka: <a href="pdf/2024_05_09-nadeje_neklame.pdf" style="color: black;">Naděje neklame</a> (Svatý rok 2025)
+					<p style="font-size: 3em; margin-top: 1em;">slovo naděje</p>
+					<p style="font-style: italic; margin-bottom: 1em; text-align: justify;"><b>čl. 1</b> Všichni doufáme. V&nbsp;srdci každého člověka se skrývá naděje jako touha po dobru a&nbsp; dobra, ač nevíme, co přinese druhý den. Nepředvídatelnost budoucnosti přece jen dává vzejít někdy protikladným pocitům: od důvěry po obavy, od vyrovnanosti po bezútěšnost, od jistoty po pochybnosti. Často se setkáváme s&nbsp;lidmi, kteří jsou skleslí, kteří do budoucnosti hledí skepticky a&nbsp;pesimisticky, jako kdyby jim nic nemohlo přinést štěstí. Kéž je Svatý rok pro všechny příležitostí k&nbsp;oživení naděje. <span style="color: #5E8C6A; font-weight: bolder;">Slovo Boží</span> nám pomáhá nalézt pro to odůvodnění. Nechme se vést tím, co apoštol Pavel píše právě křesťanům v&nbsp;Římě.</p>
+					<p>so 15. 3.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;setkání nad Písmem (Naděje)</p>
+					<p>so 29. 3.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;setkání nad Písmem (Pokání)</p>
+					<p>so 12. 4.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;bohoslužba pokání a&nbsp;naděje</p>
+					
+					<p style="font-size: 3em; margin-top: 1em;">cesta naděje</p>
+					<p style="font-style: italic; margin-bottom: 1em; text-align: justify;"><b>čl. 5</b> Není náhodou, že zásadním prvkem každého Svatého roku je pouť… <span style="color: #5E8C6A; font-weight: bolder;">Pěší pouť</span> velmi napomáhá ke znovuobjevení hodnoty ticha, námahy a&nbsp;toho, co je podstatné… Tím, že se poutníci budou přesouvat… od města k&nbsp;městu, a&nbsp;přitom budou rozjímat nad stvořením a&nbsp;uměleckými díly, uloží si do srdce poklad sestávající z&nbsp;nejrůznějších zkušeností a&nbsp;zážitků ze setkání s&nbsp;jinými kulturami… Kostely zapojené do oslav Svatého roku… budou duchovními oázami, kde se poutníci budou moci posílit na své cestě víry a&nbsp;napojit se u&nbsp;pramenů naděje, především když přistoupí ke svátosti smíření, která je nenahraditelným výchozím bodem na opravdové cestě obrácení.</p>
+					<p>so 17. 5.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;pouť na <a href="http://www.hradek.speaker.cz/" style="color: black;">Hrádek u&nbsp;Vlašimi</a></p>
+					
+					<p style="font-size: 3em; margin-top: 1em;">výzva k&nbsp;naději</p>
+					<p style="font-style: italic; margin-bottom: 1em; text-align: justify;"><b>čl. 17</b> (Letos to bude) 1700 let od okamžiku, kdy se slavil první velký ekumenický koncil, a&nbsp;to <span style="color: #5E8C6A; font-weight: bolder;">koncil Nicejský</span>… Měl za úkol uchovat jednotu, která byla vážně ohrožena popíráním božství Ježíše Krista a&nbsp;jeho rovnosti s&nbsp;Bohem Otcem… Nicejský koncil je milníkem v&nbsp;dějinách církve… Je také výzvou pro všechny církve a&nbsp;církevní společenství, aby pokračovaly na cestě k&nbsp;viditelné jednotě, aby neúnavně hledaly cesty vhodné k&nbsp;dosažení stavu, který bude plně odpovídat Ježíšově modlitbě: „Ať všichni jsou jedno. Jako ty, Otče, ve mně a&nbsp;já v&nbsp;tobě, tak i&nbsp;oni ať jsou v&nbsp;nás, aby svět uvěřil, že ty jsi mě poslal“ ( Jan 17, 21).</p>
+					<p>pá 20. 6.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;setkání nad 1700. výročím ekumenického <a href="https://cs.wikipedia.org/wiki/Nicejsk%C3%A9_vyzn%C3%A1n%C3%AD" style="color: black;">vyznání víry</a> v&nbsp;Nicei</p>
+					<p>so 21. 6.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;slavnostní vyznání víry</p>
+					
+					<p style="font-size: 3em; margin-top: 1em;">znamení naděje</p>
+					<p style="font-style: italic; margin-bottom: 1em; text-align: justify;"><b>čl. 7.11</b> Kromě toho, že čerpáme svou naději z milosti Boží, jsme vybízeni také k&nbsp;tomu, abychom ji odkrývali ve <span style="color: #5E8C6A; font-weight: bolder;">znameních doby</span>, která nám Pán dává… Kéž nechybí všestranná pozornost vůči těm, kteří čelí zvlášť obtížným životním podmínkám, když zakoušejí vlastní slabost, zejména pokud jsou stiženi takovými nemocemi nebo hendikepy, které velmi omezují jejich osobní nezávislost. Péče o&nbsp;ně je hymnem oslavujícím lidskou důstojnost, zpěvem naděje, který si žádá, aby se k&nbsp;němu jako sbor připojila celá společnost.</p>
+					<p>září/říjen&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;návštěva v&nbsp;sociálně-terapeutické dílně ve Světlé n.&nbsp;S.</p>
+					<p>so 18. 10.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;návštěva u&nbsp;SDH Světlá n.&nbsp;S.</p>
+					
+					<p style="font-size: 3em; margin-top: 1em;">kotva naděje</p>
+					<p style="font-style: italic; margin-bottom: 1em; text-align: justify;"><b>čl. 22</b> Pokud je správné, že jsme si velice dobře a&nbsp;s&nbsp;vážností vědomi okamžiku, při kterém bude sečten a&nbsp;podtržen náš život, je zároveň třeba to vždy činit v&nbsp;kontextu naděje, božské ctnosti, která je oporou životu a&nbsp;umožňuje nám, abychom nepropadli strachu. <span style="color: #5E8C6A; font-weight: bolder;">Soud Bohem</span>, který je láska (srov. 1&nbsp;Jan 4,&nbsp;8.16), nemůže nevycházet z&nbsp;lásky, zvláštním způsobem pak na tom, jak jsme ji více či méně uskutečňovali vůči nejpotřebnějším, ve kterých je přítomen Kristus, Soudce sám (srov. Mt 25,&nbsp;31–46).</p>
+					<p>pátek 14. 11.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;komponovaný program <a href="https://cs.wikipedia.org/wiki/Dies_irae" style="color: black; font-style: italic;">Boží soud</a></p>
 				</div>
 			</div>
+			<div class="row">
+				<div class="col-md-1"></div>
+				<img src="img/svaty_rok-col.svg" style="width: 7em; margin-top: 4em; margin-bottom: 4em;" alt="Poutníci naděje">
+			</div>
 		</div>
-	</section>
+	</div>
 
 	<script defer src="js/jag.min.js"></script>
 </body>
