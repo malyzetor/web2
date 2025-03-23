@@ -174,6 +174,21 @@
 		</div>
 	</section>
 
+	<section id="Plakat-obnova" class="features" style="background-color:AliceBlue;">
+		<div class="container" style="margin-top: auto; margin-bottom: auto;">
+			<div class="row">
+				<div class="sec-title text-center mb50">
+					<h2>Koncert</h2>
+				</div>
+				<div class="sec-sub-title text-center">
+					<a href="./pdf/2025-biblicke-tance-plakat.pdf">
+                    <img src="./img/2025_biblicke-tance-plakat.png" alt="Biblické tance" style="width: 100%;">
+                </a>
+                </div>
+			</div>	
+		</div>
+	</section>
+
 	<section id="Bohosluzby" class="features" style="background-color:white;">
 		<div class="container" style="margin-top: auto; margin-bottom: auto;">
 			<div class="row">
@@ -207,7 +222,7 @@
 							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" style="fill: #8C2318; width: 1em"><path d="M347.1 24.6c7.7-18.6 28-28.5 47.4-23.2l88 24C499.9 30.2 512 46 512 64c0 247.4-200.6 448-448 448c-18 0-33.8-12.1-38.6-29.5l-24-88c-5.3-19.4 4.6-39.7 23.2-47.4l96-40c16.3-6.8 35.2-2.1 46.3 11.6L207.3 368c70.4-33.3 127.4-90.3 160.7-160.7L318.7 167c-13.7-11.2-18.4-30-11.6-46.3l40-96z"/></svg>
 								&nbsp;&nbsp;776 215 841<br>
 							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" style="fill: #8C2318; width: 1em"><path d="M528 64H48C21.49 64 0 85.49 0 112v288c0 26.51 21.49 48 48 48h480c26.51 0 48-21.49 48-48V112c0-26.51-21.49-48-48-48zm8 336c0 4.411-3.589 8-8 8H48c-4.411 0-8-3.589-8-8V112c0-4.411 3.589-8 8-8h480c4.411 0 8 3.589 8 8v288zM170 270v-28c0-6.627-5.373-12-12-12h-28c-6.627 0-12 5.373-12 12v28c0 6.627 5.373 12 12 12h28c6.627 0 12-5.373 12-12zm96 0v-28c0-6.627-5.373-12-12-12h-28c-6.627 0-12 5.373-12 12v28c0 6.627 5.373 12 12 12h28c6.627 0 12-5.373 12-12zm96 0v-28c0-6.627-5.373-12-12-12h-28c-6.627 0-12 5.373-12 12v28c0 6.627 5.373 12 12 12h28c6.627 0 12-5.373 12-12zm96 0v-28c0-6.627-5.373-12-12-12h-28c-6.627 0-12 5.373-12 12v28c0 6.627 5.373 12 12 12h28c6.627 0 12-5.373 12-12zm-336 82v-28c0-6.627-5.373-12-12-12H82c-6.627 0-12 5.373-12 12v28c0 6.627 5.373 12 12 12h28c6.627 0 12-5.373 12-12zm384 0v-28c0-6.627-5.373-12-12-12h-28c-6.627 0-12 5.373-12 12v28c0 6.627 5.373 12 12 12h28c6.627 0 12-5.373 12-12zM122 188v-28c0-6.627-5.373-12-12-12H82c-6.627 0-12 5.373-12 12v28c0 6.627 5.373 12 12 12h28c6.627 0 12-5.373 12-12zm96 0v-28c0-6.627-5.373-12-12-12h-28c-6.627 0-12 5.373-12 12v28c0 6.627 5.373 12 12 12h28c6.627 0 12-5.373 12-12zm96 0v-28c0-6.627-5.373-12-12-12h-28c-6.627 0-12 5.373-12 12v28c0 6.627 5.373 12 12 12h28c6.627 0 12-5.373 12-12zm96 0v-28c0-6.627-5.373-12-12-12h-28c-6.627 0-12 5.373-12 12v28c0 6.627 5.373 12 12 12h28c6.627 0 12-5.373 12-12zm96 0v-28c0-6.627-5.373-12-12-12h-28c-6.627 0-12 5.373-12 12v28c0 6.627 5.373 12 12 12h28c6.627 0 12-5.373 12-12zm-98 158v-16c0-6.627-5.373-12-12-12H180c-6.627 0-12 5.373-12 12v16c0 6.627 5.373 12 12 12h216c6.627 0 12-5.373 12-12z"></path></svg>
-								&nbsp;&nbsp;rkf.svetlanadsazavou@dihk.cz
+								&nbsp;&nbsp;rkf.svetlanadsazavou&commat;dihk.cz
 					</p>
 				</div>
 			</div>
@@ -227,7 +242,7 @@
 				<div class="col-md-10" style="font-family: 'Open Sans'; font-weight: 300; line-height: normal; color: #5b646e;">
 					bula papeže Františka: <a href="pdf/2024_05_09-nadeje_neklame.pdf" style="color: black;">Naděje neklame</a> (Svatý rok 2025)
 					<p style="font-size: 3em; margin-top: 1em;">slovo naděje</p>
-					<p style="font-style: italic; margin-bottom: 1em; text-align: justify;"><b>čl. 1</b> Všichni doufáme. V&nbsp;srdci každého člověka se skrývá naděje jako touha po dobru a&nbsp; dobra, ač nevíme, co přinese druhý den. Nepředvídatelnost budoucnosti přece jen dává vzejít někdy protikladným pocitům: od důvěry po obavy, od vyrovnanosti po bezútěšnost, od jistoty po pochybnosti. Často se setkáváme s&nbsp;lidmi, kteří jsou skleslí, kteří do budoucnosti hledí skepticky a&nbsp;pesimisticky, jako kdyby jim nic nemohlo přinést štěstí. Kéž je Svatý rok pro všechny příležitostí k&nbsp;oživení naděje. <span style="color: #5E8C6A; font-weight: bolder;">Slovo Boží</span> nám pomáhá nalézt pro to odůvodnění. Nechme se vést tím, co apoštol Pavel píše právě křesťanům v&nbsp;Římě.</p>
+					<p style="font-style: italic; margin-bottom: 1em; text-align: justify;"><b>čl. 1</b> Všichni doufáme. V&nbsp;srdci každého člověka se skrývá naděje jako touha po dobru a&nbsp;očekávání dobra, ač nevíme, co přinese druhý den. Nepředvídatelnost budoucnosti přece jen dává vzejít někdy protikladným pocitům: od důvěry po obavy, od vyrovnanosti po bezútěšnost, od jistoty po pochybnosti. Často se setkáváme s&nbsp;lidmi, kteří jsou skleslí, kteří do budoucnosti hledí skepticky a&nbsp;pesimisticky, jako kdyby jim nic nemohlo přinést štěstí. Kéž je Svatý rok pro všechny příležitostí k&nbsp;oživení naděje. <span style="color: #5E8C6A; font-weight: bolder;">Slovo Boží</span> nám pomáhá nalézt pro to odůvodnění. Nechme se vést tím, co apoštol Pavel píše právě křesťanům v&nbsp;Římě.</p>
 					<p>so 15. 3.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;setkání nad Písmem (Naděje)</p>
 					<p>so 29. 3.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;setkání nad Písmem (Pokání)</p>
 					<p>so 12. 4.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;bohoslužba pokání a&nbsp;naděje</p>
