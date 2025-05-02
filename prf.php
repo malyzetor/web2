@@ -102,6 +102,8 @@
 							<span style="display:inline-block; width: 14em;">Desáté setkání 9. 1. 2025</span> – <a href="PRF/2025_01_09-pozvanka.pdf">pozvánka</a>, <a href="pdf/57719_240509-spes-non-confundit-bula-k-jubilejnimu-roku-2025-cz-kor.pdf">příloha</a>, <a href="PRF/2025_01_09-zapis.pdf">zápis</a><br />
 							<span style="display:inline-block; width: 14em;">Jedenácté setkání 6. 2. 2025</span> – <a href="PRF/2025_02_06-pozvanka.pdf">pozvánka</a>, <i>příloha</i>, <a href="PRF/2025_02_06-zapis.pdf">zápis</a><br />
 							<span style="display:inline-block; width: 14em;">Dvanácté setkání 6. 3. 2025</span> – <a href="PRF/2025_03_06-pozvanka.pdf">pozvánka</a>, <a href="PRF/2025_03_06-prilohy.pdf"><i>příloha</i></a>, <a href="PRF/2025_03_06-zapis.pdf">zápis</a><br />
+							<span style="display:inline-block; width: 14em;">Třinácté setkání 3. 4. 2025</span> – <a href="PRF/2025_04_03-pozvanka.pdf">pozvánka</a>, <i>příloha</i>, <a href="PRF/2025_04_03-zapis.pdf">zápis</a><br />
+							<span style="display:inline-block; width: 14em;">Čtrnácté setkání 7. 5. 2025</span> – <a href="PRF/2025_05_07-pozvanka.pdf">pozvánka</a>, <i>příloha</i>, zápis<br />
 						</p>
                         
 

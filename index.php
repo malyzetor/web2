@@ -48,7 +48,7 @@
 			<nav class="collapse navbar-collapse navbar-right">
 				<ul id="nav" class="nav navbar-nav">
 					<li><a href="#Svatyrok"><img src="img/svaty_rok-BW.svg" alt="Poutníci naděje" style="width: 1.5em;"></a></li>	
-					<li><a href="vespers/2025_01_10.html"><img src="img/apokalypsa.svg" alt="Hodinová apokalypsa" style="width: 1.5em;"></a></li>
+					<li><a href="vespers/pesach-2025/2025-feminnejsi_hagada-2.html"><img src="img/apokalypsa.svg" alt="Hodinová apokalypsa" style="width: 1.5em;"></a></li>
 					<li>
 						<a href="#Bohosluzby">Pořad bohoslužeb</a>
 					</li>
@@ -173,7 +173,7 @@
 			</div>
 		</div>
 	</section>
-
+<!--
 	<section id="Plakat-obnova" class="features" style="background-color:AliceBlue;">
 		<div class="container" style="margin-top: auto; margin-bottom: auto;">
 			<div class="row">
@@ -188,7 +188,7 @@
 			</div>	
 		</div>
 	</section>
-
+	-->
 	<section id="Bohosluzby" class="features" style="background-color:white;">
 		<div class="container" style="margin-top: auto; margin-bottom: auto;">
 			<div class="row">
@@ -205,7 +205,7 @@
 			</div>	
 		</div>
 	</section>
-
+	
 	<section id="Kontakt" class="features">
 		<div class="container" style="margin-top: auto; margin-bottom: auto;">
 			<div class="row">

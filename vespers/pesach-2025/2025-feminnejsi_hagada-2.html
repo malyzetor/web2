@@ -1,0 +1,851 @@
+<!DOCTYPE html>
+<html lang="cs"  id="simulateDarkMode" data-theme="light">
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Feminnější hagada</title>
+	<style>
+		@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display&family=Source+Serif+Pro:wght@300;400&display=swap');
+
+		:root {
+			--zvyrazneni: #B30000;
+			--pozadi: white;
+			--text: black;
+		}
+
+		[data-theme="dark"] {
+			--zvyrazneni: #E32B2B;
+			--pozadi: black;
+			--text: #E0E0E0;
+		}
+		
+		body, html { background-color: var(--pozadi); color: var(--text);}
+		p { font-family: 'Source Serif Pro', serif; line-height: 130%; margin-bottom: .9em; font-size: 110%;}
+		p.lektor { margin-left: 1.2em; text-indent: -1.2em;}
+		h1 { font-family: 'Big Shoulders Display', cursive; font-size: 400%; font-style: normal; font-weight: normal; line-height: 115%; text-align: center; margin-top: 1em; }
+		h1.f20 {font-size: 237.5%;}
+		h2 { font-family: 'Source Serif Pro', serif; font-size: 160%; font-weight: bold; margin-top: 1em; margin-bottom: .5em; }
+		img {margin-top: 3em; margin-bottom: 3em;}
+		.svg-container {
+			width: 100%;
+			height: auto;
+			padding: 1em 0 1em 0;
+		}
+		p.rubrika { color: var(--zvyrazneni); font-size: 100%; }
+		
+		
+		
+	</style>
+	<script>
+		function toggleDarkMode() { 
+			const container = document.getElementById('simulateDarkMode');
+  			const dataTheme = container.getAttribute('data-theme');
+  			if(dataTheme === 'dark') {
+    			container.setAttribute('data-theme', 'light');
+  				} else {
+    			container.setAttribute('data-theme', 'dark');
+  				}
+			}
+		
+		const svgFiles = {
+                'jag-Kades_urchac.ly.svg': 'svg-container-1',
+                'jag-Ma_mistana.ly.svg': 'svg-container-2',
+				'jag-Mojzis.ly.svg': 'svg-container-3',
+				'jag-Dajejnu-upr.ly.svg': 'svg-container-4',
+				'jag-Elijahu.ly.svg': 'svg-container-5'
+            };
+		function loadSVG(file, containerId) {
+                return fetch(file)
+                    .then(response => { if (!response.ok) { throw new Error(`Chyba při načítání ${file}: ${response.statusText}`); } return response.text(); })
+                    .then(svgContent => { document.getElementById(containerId).innerHTML = svgContent; });
+            }
+		const loadPromises = Object.entries(svgFiles).map(([file, containerId]) => loadSVG(file, containerId));
+		Promise.all(loadPromises)
+                .then(() => { console.log('Všechny SVG soubory byly úspěšně načteny.'); })
+                .catch(error => { console.error('Chyba při načítání SVG souborů:', error); });
+	</script>
+</head>
+<body lang="cs-CZ" style="text-align: justify;">
+	<div id="toggleDarkMode" ondblclick="toggleDarkMode()" style="float: right; margin-right: 2vh;">
+		<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-moon"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+	</div>
+	
+	<p style="font-family: 'Big Shoulders Display', cursive; text-align: center; letter-spacing:0.3em; line-height: 150%; margin-top: 35vh; margin-bottom: 10vh; font-size: 8vh">
+		FEMINNĚJŠÍ HAGADA
+	</p>
+	<img src="jag-pomeranc.svg" alt="Pomeranč" style="width: 25vh; margin-left: auto; margin-right: auto; display: block; margin-bottom: 30vh">
+	
+
+<h1 class="f20">Prolegomena</h1>
+<p class="rubrika">Lektorka <b>#1</b>:</p>
+	<p>Annika Tetzner, rodačka z&nbsp;Prahy, vzpomíná na své dětství v&nbsp;terezínském ghettu:<br>
+»Večer se nemůžu dočkat, až se maminka a&nbsp;všichni ostatní sejdou u&nbsp;stolu. Jsou po těžké práci tak unaveni, že mi nedovolí mluvit, alespoň dokud mě všichni nepolíbí a&nbsp;neobejmou na uvítanou. Chvíli stojím bez hnutí, než teta Kamila rozhodne:</p>
+<p class="lektor"><b style="color: var(--zvyrazneni);">M</b>	„Už jí to musíme říct.“</p>
+<p class="lektor"><b style="color: var(--zvyrazneni);">#1</b>	Všechny se na sebe dívají, trochu v&nbsp;rozpacích. Teta Kamila začne vyprávět:</p>
+<p class="lektor"><b style="color: var(--zvyrazneni);">M</b>	„Před mnoha a&nbsp;mnoha lety jsme byli otroci a&nbsp;žili jsme v&nbsp;zemi zvané Egypt.“</p>
+<p class="lektor"><b style="color: var(--zvyrazneni);">#1</b>	„Tak jako dnes?“ ptám se. Ostatní přikyvují.</p>
+<p class="lektor"><b style="color: var(--zvyrazneni);">M</b>	„Byl tam krutý vládce, který nenáviděl Židy…“</p>
+<p class="lektor"><b style="color: var(--zvyrazneni);">#1</b>	„To byl Hitler!“</p>
+<p class="lektor"><b style="color: var(--zvyrazneni);">M</b>	„Ne, byl to faraon a&nbsp;choval se k&nbsp;Židům tak špatně, že jediné, co si všichni přáli, bylo odejít a&nbsp;jít do vlastní země…“</p>
+<p class="lektor"><b style="color: var(--zvyrazneni);">#1</b>	Maminka mě objímá a&nbsp;mně je najednou u&nbsp;ní na klíně tak teplounko, že usínám. Hlas tedy Kamily přichází jakoby z&nbsp;dálky.</p>
+<p class="lektor"><b style="color: var(--zvyrazneni);">M</b>	„A proto slavíme svátek <i>Pesach</i>. Ale nacistům se to nelíbí, a&nbsp;tak ho musíme slavit docela tajně.“«</p>
+
+<h1 class="f20">Zapálení svíce</h1>
+<p class="rubrika">Matka zapaluje svíce.</p>
+<p>Požehnaný jsi, Hospodine, Bože celého světa,<br>
+	za to, že nás posvěcuješ svými příkazy<br>
+	a dal jsi nám příkaz zapálit světla dnešního svátku.</p>
+
+<div id="svg-container-1" class="svg-container"></div>
+
+<p style="margin-left: 7em; text-indent: -4em;">
+<i>Pojďme této noci<br>
+Posvěcovat a&nbsp;Očistit se<br>
+Namáčet, Dělit a&nbsp;Vyprávět<br>
+Očistit se a&nbsp;Požehnat Chléb chudých<br>
+Hořké byliny Skládat a&nbsp;Pojídat večeři<br>
+Dojídat se a&nbsp;Žehnat<br>
+Chválit a&nbsp;Radovat se</i></p>
+
+
+
+<h1>Posvěcení večera<br>
+<i style="font-style: italic; font-size: 60%;">Kadeš</i></h1>
+
+<p class="rubrika">🍷Nalije se první pohár vína a&nbsp;pozdvihne:</p>
+<p>Požehnaný jsi, Hospodine, Bože celého světa,<br>
+z&nbsp;tvé štědrosti přijímáme plody vinné révy.</p>
+<p>Požehnaný jsi, Hospodine, Bože celého světa,<br>
+vyvolil jsi nás ze všech národů a&nbsp;posvětil svými příkazy.<br>
+Z lásky jsi nám, Hospodine, Bože náš,<br>
+daroval různá výročí pro radost a&nbsp;svátky k&nbsp;veselí.<br>
+Dal jsi nám i&nbsp;tento svátek nekvašených chlebů<br>
+– svátek naší svobody, a&nbsp;svatou večeři k&nbsp;připomínce východu z&nbsp;Egypta.<br>
+Ze všech národů jsi nás vyvolil a&nbsp;posvětil<br>
+a&nbsp;svůj svátek jsi nám odkázal, abychom se radovali a&nbsp;veselili.</p>
+<p>Požehnaný jsi, Hospodine, který posvěcuješ Izrael a&nbsp;každou dobu.</p>
+<p class="rubrika">První pohár vína se vypije.</p>
+
+<h1 class="f20">Miriam</h1>
+<p class="rubrika">Účastník <b>#3</b>:</p>
+<p>Už na počátku našeho příběhu známe jeho
+konec. Izrael opustí Egypt a&nbsp;bude putovat čtyřicet let pouští
+než vstoupí do Zaslíbené země. Kamkoli Izraelci vstoupí
+bude je podle vyprávění provázet i&nbsp;studna vody. Tuto zázračnou
+studnu prý zajistila Miriam, Mojžíšova sestra. To ona dohlížela
+na svého bratra, když byl jako dítě vložen do košíku
+z&nbsp;papyru. To ona se k&nbsp;němu později
+připojila, aby provedli izraelský národ vodami Rákosového moře.
+Dnešní večer nám zázračnou studnu živé vody bude připomínat
+pohár prorokyně Miriam.</p>
+
+
+<h1>Mytí rukou<br><i style="font-style: italic; font-size: 60%;">Urchac</i></h1>
+<p class="rubrika">Bez složitého povídání si účastníci umyjí ruce.</p>
+
+
+<h1>Kořenová zelenina<br><i style="font-style: italic; font-size: 60%;">Karpas</i></h1>
+<p class="rubrika">
+Hlava rodiny vezme kousek kořenové zeleniny a&nbsp;ponoří jej do misky se slanou vodou:</p>
+<p>Požehnaný jsi, Hospodine, Bože celého světa,<br>
+z tvé štědrosti přijímáme plody země.</p>
+<p class="rubrika">Sám zeleninu ochutná a&nbsp;nabídne ostatním.</p>
+
+<h1>Rozlomení macesu<br><i style="font-style: italic; font-size: 60%;">Jachac</i></h1>
+
+
+
+<h1>Vyprávění<br><i style="font-style: italic; font-size: 60%;">Magid</i></h1>
+<p class="rubrika">Hlava rodiny pozvedne mísu s&nbsp;macesy:</p>
+<p>Toto je chléb chudých, který jedli naši předkové v&nbsp;egyptské zemi.<br>
+Každý, kdo je hladový, ať přijde a&nbsp;pojí.<br>
+Každý, kdo je v&nbsp;nouzi, ať přijde a&nbsp;slaví Pesach:<br>
+Tento rok zde – příští rok v&nbsp;zemi Izraele!<br>
+Tento rok jako otroci, rok příští jako svobodní lidé!</p>
+<p class="rubrika">🍷Nalije se druhý pohár vína.</p>
+
+<h2>Čtyři otázky <i>Proč?</i></h2>
+
+<div id="svg-container-2" class="svg-container"></div>
+
+
+<p class="rubrika">Nejmladší účastník se zeptá:</p>
+<p>
+V čem je dnešní noc jiná než ty ostatní:<br>
+Proč právě této noci jíme nekvašené chleby?<br>
+Proč právě této noci jíme pouze hořké byliny?<br>
+Proč právě této noci používáme slanou vodu?<br>
+Proč právě této noci s&nbsp;večeří nespěcháme?</p>
+
+<p class="rubrika">Účastník <b>#3</b>:</p>
+<p>Protože když Izraelité utíkali z&nbsp;Egypta, spěchali. Těsto nestačilo vykynout, tak si narychlo připravili
+<i>nekvašené chleby</i>, macesy. <i>Hořké byliny</i> nám
+připomínají utrpení otroků v&nbsp;egyptské zemi. Namáčení
+kořenové zeleniny do <i>slané vody</i> oživuje slzy otroků,
+a&nbsp;namáčení hořkých bylin do sladkého charosetu nás
+utvrzuje v&nbsp;příslibu něčeho mnohem sladšího než jsou naše
+krušné časy. <i>Nespěcháme</i> protože nejsme otroky a&nbsp;můžeme
+si dopřát odpočinek.</p>
+
+<h2>Čtyři požehnání a&nbsp;čtyři dcery</h2>
+<p class="rubrika">Hlava rodiny:</p>
+<p>Buď
+požehnán, kdo přebývá na každém místě světa!<br>
+Buď
+požehnán!<br>
+Buď požehnán, kdo daroval Tóru svému lidu
+Izraeli!<br>
+Buď požehnán!</p>
+<p>Tradice hovoří o&nbsp;čtyřech dcerách, které se obracejí na své rodiče: jedna se snaží poučit z&nbsp;historie, druhá nechce vyčnívat, další neví, že u&nbsp;stolu je připravené místo i&nbsp;pro ni, a&nbsp;čtvrtá se neumí ani zeptat.</p>
+<p class="lektor"><b style="color: var(--zvyrazneni);">#1</b> <b>Ta, která se chce poučit z&nbsp;historie</b> se ptá svých rodičů: „Proč Tóra nepočítá ženy k&nbsp;600&nbsp;000 pěším mužů, kteří odešli z&nbsp;Egypta? A&nbsp;proč Mojžíš na Sinaji promlouval pouze k&nbsp;mužům, aby se připravili na Boží Zjevení?“</p>
+<p class="lektor"><b style="color: var(--zvyrazneni);">M</b> Protože tvá dcera ví, že židovská paměť je základem naší identity, <b>odpověz jí</b>, že historie je tvořena těmi, kdo vyprávějí příběhy. Pokud Tóra nezmiňuje, ani nevypočítává ženy, je to teď na ní, aby zaplnila prázdná místa našich posvátných textů.</p>
+<p class="lektor"><b style="color: var(--zvyrazneni);">#2</b> <b>Dcera, která nechce vyčnívat,</b> se ptá: „Proč musíš do každého textu vkládat ženská témata? a&nbsp;proč jsou všechny ty ženy <i>pro tebe</i> tak důležité?“</p>
+<p class="lektor"><b style="color: var(--zvyrazneni);">M</b> Ptá se „proč jsou <i>pro tebe</i>“, ne „pro mě“. Protože tak snadno zapomíná na úsilí ostatních matek a&nbsp;sester, <b>vyprávěj jí</b> příběh své vlastní cesty k&nbsp;sederovému stolu a&nbsp;přizvi ji, aby se k&nbsp;tobě připojila a&nbsp;děkovala Bohu za požehnání, že je židovskou ženou.</p>
+<p class="lektor"><b style="color: var(--zvyrazneni);">#1</b> <b>Dcera, která neví, že u&nbsp;stolu je připravené místo i&nbsp;pro ni</b>, se ptá: „Proč to všechno děláte?“</p>
+<p class="lektor"><b style="color: var(--zvyrazneni);">M</b> Protože si neuvědomuje, že její otázka je součástí sederových zvyků, <b>odpověz jí</b>, že celý dnešní večer vypráví příběhy o&nbsp;svobodném životě, a&nbsp;řekni jí, že její pochybnosti a&nbsp;otázky jsou na místě.</p>
+<p class="lektor"><b style="color: var(--zvyrazneni);">#2</b> <b>Dceři, která se neumí ani zeptat</b> a&nbsp;neví, co dělat, raději pomoz.</p>
+<p class="lektor"><b style="color: var(--zvyrazneni);">M</b> <b>Odpověz jí</b>: „Tvé otázky, pokud je položíš, tě osvobozují z&nbsp;Egypta. Tak tomu je a&nbsp;tak tomu bylo u&nbsp;všech matek a&nbsp;babiček. Platí to od dob Jokebed, její dcery Miriam a&nbsp;porodních báb, které se dotazovaly na faraonovo rozhodnutí, a&nbsp;platí to i&nbsp;dnes: každá otázka, kterou položíme, nám pomáhá znovu opouštět Egypt a&nbsp;objevovat svobodný život.“</p>
+
+<h2>Příběh vyjití z&nbsp;Egypta</h2>
+<p class="lektor"><b style="color: var(--zvyrazneni);">M</b>	Když byli Izraelité v&nbsp;babylónském vyhnanství, snili o&nbsp;tom, že je Hospodin jednou přivede domů. Neztráceli naději. Vyprávěli si příběhy o&nbsp;svých předcích, jak byli otroky v&nbsp;dalekém Egyptě, a&nbsp;jak také oni toužili po svobodě a&nbsp;domově. Jeden z&nbsp;takových příběhů vypráví v&nbsp;daleké Babylónii i&nbsp;strýček Ben malé Judit:</p>
+<p class="lektor"><b style="color: var(--zvyrazneni);">#3</b>	„Musíte se nachystat k
+odchodu,“ řekl Mojžíš svému lidu. „O&nbsp;půlnoci, tak
+praví Pán, zemřou všichni egyptští prvorození synové, ve
+všech vrstvách, od prvorozeného faraonova syna po nejstaršího
+syna mlynářovy ženy i&nbsp;zloděje ve vězení. Přes Egypt projde
+anděl smrti. Ani prvorozená dobytčí mláďata tuto noc
+nepřežijí.“</p>
+<p class="lektor"><b style="color: var(--zvyrazneni);">#1</b>	„To není moc pěkný
+příběh. Proč musí nevinní lidé, nevinné děti a&nbsp;nevinná
+zvířata trpět kvůli králi, který nemá kouska svědomí?“</p>
+<p class="lektor"><b style="color: var(--zvyrazneni);">#3</b>	„Tak je to vždy. a&nbsp;proto je
+to tak i&nbsp;v tomto příběhu: tyran, který klesá ke dnu, s&nbsp;sebou ve
+svém pádu strhne i&nbsp;svůj lid. Tyranie, která druhému nepřeje
+budoucnost, si nezaslouží budoucnost pro sebe a&nbsp;dříve či později
+padne.“</p>
+<p class="lektor"><b style="color: var(--zvyrazneni);">#1</b>	„Myslím na babylónské
+trhovkyně, které jsou ke mně tak milé. Nechtěla bych, aby se
+jejich dětem něco zlého stalo, až se budeme vracet do Zaslíbené země.“</p>
+<p class="lektor"><b style="color: var(--zvyrazneni);">#3</b>	„Nic se jim nestane. Avšak
+v tomto příběhu se to stalo, protože se to z&nbsp;Božího pohledu
+muselo stát: dobro přemůže zlo a&nbsp;světlo vytlačí tmu.“</p>
+<p class="lektor"><b style="color: var(--zvyrazneni);">#2</b>	„Dnes se to stane, Árone,“ řekl Mojžíš.<br>
+	Každé veřeje a&nbsp;příčný trám nad nimi byly potřeny beránčí
+krví, aby anděl smrti ten dům vynechal. „Vynechat“, „přejít“:
+to se v&nbsp;hebrejštině řekne <i>Pesach</i>. Nastala noc. Nikdo
+nešel spát, všichni byli nachystaní, řemen kolem pasu, na nohou
+boty, v&nbsp;ruce hůl. Tu noc táhl celou zemí anděl smrti. Zemí se
+nesl zoufalý nářek, v&nbsp;každém egyptském domě oplakávali
+mrtvého. Domy Izraelců anděl smrti <i>vynechal</i>.</p>
+
+<div id="svg-container-3" class="svg-container"></div>
+<p style="margin-left: 3em;"><b>2.</b>	Až první krůček bude jednou za námi,<br>
+	tak nikdo nesmí zaváhat, dát na fámy.<br>
+	Mává, mává nám všem svobodná zem.<br>
+	Pak tenhle vandr všem potomkům ukáže.<br>
+	že šanci má jen ten, kdo má dost kuráže.<br>
+	Mává, mává nám všem svobodná zem.</p>
+	
+	<p style="margin-left: 3em;"><b>3.</b>	Ten starý příběh z&nbsp;Bible vám tu vykládám,<br>
+	ať každý ví, že rozhodnout se musí sám.<br>
+	Mává, mává nám všem svobodná zem.</p>
+
+<p class="lektor"><b style="color: var(--zvyrazneni);">#3</b>	Dveře chatrčí, domů a&nbsp;stájí se otevřely a&nbsp;v&nbsp;jasném měsíčním světle jeden po druhém
+vyšli ven, muži, ženy, dětí, zvířata. Vynořilo se té noci i&nbsp;mnoho přimíšeného lidu, tuláků a&nbsp;cizinců, zbloudilců, kteří
+na tom byli stejně bídně a&nbsp;kteří se přišli skrýt pod křídla
+Hospodina Izraele. Byl to pestrý průvod.<br>
+Volní, konečně byli volní!</p>
+
+<p class="lektor"><b style="color: var(--zvyrazneni);">#2</b>	„Neměl
+jsem je nechat odejít,“ řekl si farao zatvrzele a&nbsp;vypravil se –
+jako by se nic nestalo – se svou armádou za izraelským lidem, aby
+jej přivedl zpět.</p>
+<p class="lektor"><b style="color: var(--zvyrazneni);">M</b>	Izraelci u&nbsp;Rákosového moře
+spatřili, jak se zdálky blíží oblak prachu. Věděli, že to
+jsou faraonovi koně a&nbsp;válečné vozy, jezdci a&nbsp;vojáci,
+ozbrojení oštěpy a&nbsp;meči. Sami neměli nic, jen řemen kolem pasu
+a hůl v&nbsp;ruce. Byli v&nbsp;pasti! Za nimi nepřítel, před nimi voda,
+nemohli nikam uhnout. „Neměli jsme v&nbsp;Egyptě dost hrobů, Mojžíši,
+abychom museli zemřít tady v&nbsp;poušti? Však jsme tě varovali:
+raději otrokem v&nbsp;Egyptě než zahynout v&nbsp;poušti!“</p>
+<p class="lektor"><b style="color: var(--zvyrazneni);">#2</b>	Byli otroky, věznění v&nbsp;Egyptě. Na chvilku si mysleli, že jsou svobodní, ale nyní jsou
+znovu uvěznění. Nemohou zpátky a&nbsp;nemohou vpřed. Pro Boha
+živého!</p>
+<p class="lektor"><b style="color: var(--zvyrazneni);">#1</b>	„Mojžíši, řekni
+Izraelcům, aby se vydali vpřed.“</p>
+<p class="lektor"><b style="color: var(--zvyrazneni);">#3</b>	Vydat se vpřed? To si Bůh
+může říkat, jak chce, ale tam je moře! Vydat se vpřed může
+člověk, jen když důvěřuje, že se objeví cesta tam, kde cesta
+není, a&nbsp;že i&nbsp;se smrtí před očima musíš odvážně pokračovat.</p>
+<p class="lektor"><b style="color: var(--zvyrazneni);">#1</b>	„Mojžíši, jdi napřed!
+Pozdvihni hůl a&nbsp;vztáhni ruku nad moře.“</p>
+<p class="lektor"><b style="color: var(--zvyrazneni);">#3</b>	Mojžíš pozvedl hůl, vztáhl
+ruku nad moře, a&nbsp;hle: silný východní vítr – Boží dech –
+odvanul vodu západním směrem. Náhle tu byla cesta, zničeho nic,
+po suchu! Bylo to skoro jako by voda, které se tak báli, vzala nohy
+na ramena. Mohli pohodlně přejít na druhou stranu!</p>
+<p class="lektor"><b style="color: var(--zvyrazneni);">#2</b>	A když tam v&nbsp;pořádku
+dorazili a&nbsp;farao byl ještě na půli cesty mořem i&nbsp;se zbraněmi a&nbsp;koňmi, jezdci a&nbsp;vojáky, vítr se pojednou utišil, voda se vlila
+zpět a&nbsp;celá egyptská armáda se utopila ve vlnách. Nic z&nbsp;ní
+nezůstalo.<br>
+	Mojžíš a&nbsp;Izraelci zpívali píseň svobody. A&nbsp;Mirjam, Mojžíšova
+sestra, bubnovala na tamburínu a&nbsp;ženy s&nbsp;ní tančily v&nbsp;reji:</p>
+<p class="rubrika">Všichni účastníci zvolají:</p>
+<p>
+Chvalte Pána, neboť je vznešený,<br>
+koně i&nbsp;jezdce smetl do moře.</p>
+<p class="rubrika">
+🍷Hlava rodiny pozvedne pohár vína:</p>
+<p>A to je ujištění, které se osvědčilo jak našim otcům, tak nám.<br>
+Protože nejenom Egypt povstal proti nám, aby nás zničil,<br>
+ale v&nbsp;každém pokolení povstávají nepřátelé proti nám, aby nás zničili.<br>
+A&nbsp;Svatý Bůh, buď požehnán,<br>
+nás stále vysvobozuje z&nbsp;jejich rukou.</p>
+<p class="rubrika">Účastníci upijí vína a&nbsp;položí pohár (1/3).</p>
+<p class="rubrika">Hlava rodiny:</p>
+<p>Je tolik stupňů prokázaného dobra za které musíme být Bohu vděčni!</p>
+	<img src="jag-tanecnice.svg" alt="Tanečnice" style="width:30%; margin-left: auto; margin-right: auto; display: block;">
+
+<div id="svg-container-4" class="svg-container"></div>
+
+<p class="lektor"><b>Kdyby nás z&nbsp;Egypta vyvedl<br></b>a nepostavil by je před soud,	nám by to bylo stačilo.</p>
+<p class="lektor">Kdyby je před soud postavil,<br>vynechal však jejich bohy,	nám by to bylo stačilo.</p>
+<p class="lektor">Kdyby jejich bohy soudil,<br>prvorozené však nezabíjel,	nám by to bylo stačilo.</p>
+<p class="lektor">Kdyby jejich prvorozené zabil,<br>nám však nedal jejich jmění,	nám by to bylo stačilo.</p>
+<p class="lektor">Kdyby nám dal jejich jmění,<br>a neroztrhl před námi moře,	nám by to bylo stačilo.</p>
+<p class="lektor">Kdyby před námi moře roztrhl,<br>a neprovedl nás jím po souši,	nám by to bylo stačilo.</p>
+<p class="lektor">Kdyby nám jím po souši provedl,<br>a nepřátele v&nbsp;něm neutopil,	nám by to bylo stačilo.</p>
+<p class="lektor">Kdyby v&nbsp;něm nepřátele utopil,<br>a v&nbsp;poušti se o&nbsp;nás nestaral,	nám by to bylo stačilo.</p>
+<p class="lektor">Kdyby se o&nbsp;nás v&nbsp;poušti staral,<br>ale nekrmil nás manou z&nbsp;nebe,	nám by to bylo stačilo.</p>
+<p class="lektor">Kdyby nás krmíval manou z&nbsp;nebe,<br>ale šabat by nám nedaroval,	nám by to bylo stačilo.</p>
+<p class="lektor"><b>Kdyby nám však šabat daroval,<br></b>a nepřivedl nás k&nbsp;hoře Sinaj,	nám by to bylo stačilo.</p>
+<p class="lektor">Kdyby nás k&nbsp;hoře Sinaj přivedl,<br>a nedal nám však moudrost Tóry,	nám by to bylo stačilo.</p>
+<p class="lektor"><b>Kdyby nám moudrost Tóry dal,<br></b>ale nedovedl nás do Svaté země,	nám by to bylo stačilo.</p>
+<p class="lektor">Kdyby nás do Svaté země dovedl<br>a svůj Příbytek by tam nezvolil,	nám by to bylo stačilo.</p>
+
+
+<h2>Miriam</h2>
+<p class="lektor"><b style="color: var(--zvyrazneni);">M</b>	Z neuveřejněných pamětí prorokyně Miriam.<br>
+Jsem Miriam, žiji v&nbsp;Izraeli a&nbsp;nejsem matka. Možná svým způsobem,
+v&nbsp;přeneseném smyslu matkou přece jen jsem. Byla jsem vůdkyní
+Izraele, jednou z&nbsp;oné trojice, která vyvedla lid z&nbsp;otroctví.
+Dneska jsem odstavená politička, odsunutá a&nbsp;umlčená muži,
+přesněji řečeno svými vlastními bratry. Teď píši vlastní
+paměti a&nbsp;přitom je mi jasné, že za mého života se nedostanou na
+světlo. v&nbsp;oficiálních kronikách doby bude o&nbsp;mně jen to, co
+dnešní mocní nebudou moci úplně zamlčet, protože ve vědomí
+národa je to přítomno příliš silně. Vím také, že moje jméno
+a&nbsp;část mého příběhu dále žijí v&nbsp;ženách mého lidu. Jméno
+Miriam, to jest „Tvrdohlavá“, dávají mnohé ženy svým
+dcerám. A&nbsp;dvě z&nbsp;těchto dcer budou jednou v&nbsp;mém příběhu
+pokračovat – za více než tisíc let. To jméno už bude znít
+řecky: Maria. Jedna, matka Mesiáše, bude prorokyní už před jeho
+narozením; druhá se stane novou náboženskou vůdkyní, průvodkyní
+a&nbsp;později hlasatelkou tohoto Mesiáše. Ale také obraz těchto dvou
+Marií bude přizpůsobován, deformován a&nbsp;částečně vymazáván.</p>
+<p class="lektor"><b style="color: var(--zvyrazneni);">#1</b>	Vím to, protože prorokyní
+jsem zůstala, přestože už nesmím dělat nic jiného než psát
+knihy, které nikdo nečte. Mé jméno možná znají: jsem starší
+sestra Mojžíše a&nbsp;Árona, vůdců Izraele, kteří si pak moc
+rozdělili mezi sebou. Snad si ještě vzpomenete na ten krásný
+příběh o&nbsp;rákosovém košíku a&nbsp;možná i&nbsp;na jistou píseň.</p>
+<p class="lektor"><b style="color: var(--zvyrazneni);">#3</b>	Za to, že se narodili a&nbsp;že
+tehdy zůstali na živu, vděčí tito muži ženám, které o&nbsp;ně
+pečovaly: svým matkám, statečným poradním bábám (jmenovaly se
+Šifra a&nbsp;Púa) a&nbsp;svým sestrám.</p>
+<p class="lektor"><b style="color: var(--zvyrazneni);">M</b>	Přežil nejen Mojžíš –
+jak by mohl později vést celý národ s&nbsp;mnoha válečníky, kdyby
+byl zůstal jediný ze své generace? Na rozdíl od zemědělských
+dělníků a&nbsp;cihlářů dostal ovšem mimořádnou příležitost.
+Ukryla jsem ho brzy po jeho narození v&nbsp;košíku upleteném z&nbsp;trávy
+do rákosí u&nbsp;Nilu, na místě, o&nbsp;němž jsem věděla, že se tam
+často prochází faraonova dcera. Sama jsem zůstala nablízku a&nbsp;zařídila jsem to tak, aby si plovoucí kolébky všimla. Princezna
+poručila služce, aby košík vytáhla na břeh, a&nbsp;rovnou
+prohlásila, že to je určitě jedno z&nbsp;těch izraelských dětí.</p>
+<p class="lektor"><b style="color: var(--zvyrazneni);">#1</b>	Ale tahle Egypťanka věděla
+právě tak jako my, izraelské ženy, že děti se nesmějí
+zabíjet. o&nbsp;malého Mojžíše se chtěla sama starat. Především
+potřebovala kojnou, aby dítě nemělo hlad. Řekla jsem, že
+náhodou o&nbsp;jedné vím, a&nbsp;navrhla jsem svoji matku. Princezna
+pochopila a&nbsp;pobaveně souhlasila. Jeho pozdější výchovu si vzala
+osobně na starost – moji ostatně také.</p>
+<p class="lektor"><b style="color: var(--zvyrazneni);">#2</b>	Mojžíš měl zjevení. Z&nbsp;hořícího keře k&nbsp;němu promluvil Hospodin
+a&nbsp;řekl, že máme požadovat, abychom směli s&nbsp;veškerým svým
+majetkem odtáhnout na východ. Mojžíš se bál přednést tento
+požadavek egyptské vládě, měl strach, že není dost výřečný.
+Zato jeho bratr Áron, pozdější kněz, uměl mluvit mnohem líp.
+(To umějí kněží vždycky moc dobře — nebo si to aspoň o&nbsp;sobě
+myslí!) Tak jsme tam šli všichni tři a&nbsp;žádali jsme, aby bylo
+všemu lidu dovoleno odejít.</p>
+<p class="lektor"><b style="color: var(--zvyrazneni);">#3</b>	Teprve, když mocným začalo
+jít o&nbsp;život, když během jediné noci zemřeli všichni jejich
+prvorození synové (naše vlastní domy jsme na veřejích označili
+krví, aby bylo poznat, že jsou izraelské), teprve pak jsme směli
+odejít. Pro jistotu jsme vyrazili ještě téže noci, protože jsme
+si uměli vypočítat, že nás brzy začnou pronásledovat:
+hospodářský růst je přece důležitější než lidské životy.</p>
+
+<br>
+<br>
+
+<p class="lektor"><b style="color: var(--zvyrazneni);">M</b>	Pobízeli jsme ke spěchu, za
+sebou už jsme slyšeli válečné vazy egyptské armády a&nbsp;pokřik
+vojáků. Ale dokázali jsme to. a&nbsp;nad Egypťany se zavřela voda.
+„Hospodin nám pomohl,“ zpívala
+jsem, „koně a&nbsp;jezdce smetl do moře!“ Moje první velká děkovné
+píseň. Předzpěvovala jsem ji a&nbsp;bubnovala na bubínek a&nbsp;brzy ji se
+mnou zpívali všichni — přinejmenším refrén. Ta píseň a&nbsp;hudební nástroje nám ještě mnohokrát pomohly. Dokázaly lidi
+trochu povzbudit, když už je bolely nohy a&nbsp;všichni měli hlad a&nbsp;žízeň.</p>
+<p class="lektor"><b style="color: var(--zvyrazneni);">#1</b>	Na Sinaji vystoupil Mojžíš
+na horu, aby si s&nbsp;Hospodinem a&nbsp;sám se
+sebou v&nbsp;klidu vyjasnil, co s&nbsp;tím zmateným a&nbsp;reptajícím národem.
+Hospodin nechtěl být nějaký bůh
+na obraze, ale dal nám svoje slova – na kamenných deskách, které
+by nám je připomínaly, a&nbsp;později Knihu knih. Brzy, ještě
+na poušti, z&nbsp;toho vznikl celý zákoník. Mojžíš ho zapsal,
+zákony byly sděleny pouze jemu.</p>
+
+<br>
+<br>
+
+<p class="lektor"><b style="color: var(--zvyrazneni);">M</b>	Někdy se ptám, jestli byly
+skutečně zaměřeny proti ženám,jestli byly skutečně myšleny
+tak, jak tu jsou dodnes — kdyby byly zákony zjeveny mně, kdybych
+je byla zapsala já, asi by vypadaly jinak. Ale svoji výsadu mluvit
+s Hospodinem jako jediný Mojžíš
+žárlivě bránil. Když jsem spolu s&nbsp;Áronem toto právo
+zpochybňovala, když jsme Mojžíše kritizovali, přišel Hospodin
+v&nbsp;oblakovém sloupu a&nbsp;spočítal nám to. Áronovi neudělal nic
+– že by pro kněze platila nějaká imunita? – jenom na mě za
+mou vzpurnost seslal malomocenství. Sice jsem se za sedm dní
+uzdravila, protože Mojžíš o&nbsp;to prosil, a&nbsp;směla jsem se vrátit
+do tábora, kam jsem celou tu dobu neměla přístup (myslím si, že
+lidé by beze mne ani dál nešli — někteří to také naplno
+říkali!), ale pozici vůdkyně jsem tím ztratila. Odteď jsem
+prostě táhla mezi ostatními.</p>
+<p class="lektor"><b style="color: var(--zvyrazneni);">#2</b>	Bylo to pro mě poučení:
+Ženy nemají kritizovat, nemají se míchat do politiky a&nbsp;náboženství — to je teď výhradně mužská věc. Můj případ
+se stal varováním pro ostatní ženy. Od té doby mám proti
+Hospodinu jisté výhrady. Bůh,
+jakého potřebujeme, by neměl být pouze vítězný a&nbsp;žárlivý.
+Jako prorokyně vím, že i&nbsp;tento Bůh se změní. Později se o&nbsp;něm
+bude psát něco jiného než jen to, co je v&nbsp;Zákoně. Jenomže
+dokud budou Boha a&nbsp;jeho slova vykládat muži, budou tyhle vlastnosti
+na Bohu to hlavní, protože tak mohou muži ovládat nás ženy.</p>
+<p class="lektor"><b style="color: var(--zvyrazneni);">#3</b>	Já jsem prorokyně, ale
+budeme potřebovat i&nbsp;kněžky a&nbsp;učitelky, které budou vykládat
+Boha, aby nebylo možno odstrkovat političky a&nbsp;odvolávat se přitom
+na údajné Boží výroky. Aby se s&nbsp;jinými ženami nezacházelo
+jako se mnou. Stejně jako Mojžíš a&nbsp;Áron ani já nedojdu do
+Zaslíbené země. Pochovají mě v&nbsp;Kadeši. A&nbsp;nevyhlásí
+oficiálně třicet dní smutku jako když umřel Áron, můj bratr.
+Ale k&nbsp;mému hrobu budou ještě mnozí putovat a&nbsp;budou mně tam
+oplakávat.</p>
+
+
+<h2>Raban Gamaliel a&nbsp;povinnost vyprávění</h2>
+<p class="rubrika">Hlava rodiny:</p>
+<p>V každé době a&nbsp;v každém pokolení je povinností každého Žida vidět sám sebe, jako by on sám vycházel z&nbsp;Egypta, jak je psáno:</p>
+<p class="rubrika">Lektor Písma:</p>
+<p><b>„V onen den svému potomku oznámíš: Protože tohle mi prokázal Hospodin, když jsem vycházel z&nbsp;Egypta.“</b></p>
+
+<p class="rubrika">Hlava rodiny:</p>
+<p>Svatý Bůh, buď požehnán, nevykoupil pouze naše předky, ale s&nbsp;nimi vykoupil také nás:</p>
+<p class="rubrika">Lektor Písma:</p>
+<p><b>„I nás odtamtud Hospodin vyvedl, aby nás uvedl sem a&nbsp;dal nám zemi, jak přísahal našim otcům.“</b></p>
+
+<p class="rubrika">🍷Hlava rodiny pozvedne pohár s&nbsp;vínem:</p>
+<p>Proto je naší povinností děkovat Hospodinu a&nbsp;opěvovat, oslavovat, vychvalovat,
+vynášet, slavit, žehnat, vyzdvihnout a&nbsp;chválit Toho, kdo udělal
+pro naše předky a&nbsp;pro nás všechny tyto zázraky. Vyvedl nás
+z&nbsp;otroctví ke svobodě, ze zármutku k&nbsp;veselí, ze dnů
+postních ke dni svátečnímu, z&nbsp;nejhlubší temnoty k&nbsp;velikému
+světlu a&nbsp;ze zotročení k&nbsp;vysvobození.
+Dopřál nám těšit se ze svobody v&nbsp;naší zemi a&nbsp;svěřil nám úkol o&nbsp;tuto
+svobodu pečovat, rozvíjet ji, chránit a&nbsp;obhajovat.</p>
+<p>Předstupme před Hospodina s&nbsp;novou písní a&nbsp;opěvujme našeho Boha.</p>
+<p class="rubrika">Účastníci upijí vína a&nbsp;položí pohár (2/3).</p>
+
+<p class="rubrika">Zazpívá se <u>Žalm 113</u>.</p>
+<p style="margin-left: 1.2em;">vzývejte všichni Hospodina<br>
+jeho jméno chvalte<br>
+od nyní navěky<br>
+ať je známé po celé zemi<br>
+od východu slunce až po jeho západ<br>
+sláva Hospodinova<br>
+je nade všemi národy<br>
+vznáší se nad nebesa<br>
+prostupuje vesmír<br>
+jeho trůn je vysoko<br>
+a přece se Hospodin sklání<br>
+k obyčejným lidem<br>
+chudáka pozvedá z&nbsp;prachu<br>
+neplodné činí úrodným<br>
+těm, kdo jsou na dně<br>
+dává úspěch</p>
+
+<p class="rubrika"> 🍷Hlava rodiny pozvedne pohár s&nbsp;vínem:</p>
+<p>
+Požehnaný jsi, Hospodine, Bože celého světa, za to, že jsi nás
+vysvobodil, že jsi vysvobodil naše předky z&nbsp;Egypta, a&nbsp;nám daroval
+tuto sváteční noc, abychom v&nbsp;ní jedli nekvašené chleby a&nbsp;hořké
+byliny. Podobně nám, Hospodine, Bože náš a&nbsp;Bože naší rodiny,
+daruj jiné sváteční dny a&nbsp;svátky. Daruj nám pokoj a&nbsp;mír,
+radost a&nbsp;potěšení z&nbsp;této rodinné bohoslužby.</p>
+<p>Požehnaný jsi, Hospodine, Bože celého světa,
+z tvé štědrosti přijímáme plody vinné révy.</p>
+<p class="rubrika">Vypije se druhý pohár vína (3/3).</p>
+
+
+<h1>Mytí rukou<br><i style="font-style: italic; font-size: 60%;">Rachac</i></h1>
+<p class="rubrika">Následuje rituální mytí rukou během kterého se říká požehnání:</p>
+<p>Požehnaný jsi, Hospodine, Bože celého světa, za to, že nás posvěcuješ svými příkazy a&nbsp;dal jsi nám příkaz o&nbsp;umývání rukou.</p>
+
+
+<h1>Požehnání macesu<br><i style="font-style: italic; font-size: 60%;">Moci maca</i></h1>
+<p class="rubrika">Hlava rodiny pozvedne mísu s&nbsp;macesy:</p>
+<p>Požehnaný jsi, Hospodine, Bože celého světa, z&nbsp;tvé štědrosti přijímáme chléb země.</p>
+<p>Požehnaný jsi, Hospodine, Bože celého světa, za to, že nás posvěcuješ svými příkazy a&nbsp;dal jsi nám příkaz pojídání nekvašeného chleba.</p>
+<p class="rubrika">Hlava rodiny pojí kousek chleba a&nbsp;nabídne ostatním.</p>
+
+
+<h1>Hořké byliny<br><i style="font-style: italic; font-size: 60%;">Maror</i></h1>
+<p class="rubrika">Hlava rodiny ukáže na hořké byliny.</p>
+<p>Požehnaný jsi, Hospodine, Bože celého světa, za to, že nás posvěcuješ svými příkazy a&nbsp;dal jsi nám příkaz pojídání hořkých bylin.</p>
+<p class="rubrika">Ochutná hořké byliny, které krátce ponořil do charosetu a&nbsp;otřásl. Nabídne ostatním.</p>
+
+
+<h1>Pojídání macesu a&nbsp;maroru<br><i style="font-style: italic; font-size: 60%;">Korech</i></h1>
+<p class="rubrika">Hlava rodiny pronese:</p>
+<p>V období před zbořením jeruzalémského Chrámu tehdejší rabín Hilel dělával toto – skládal dohromady nekvašené chleby a&nbsp;hořké byliny namočené ve sladkém charosetu a&nbsp;pojídal je zároveň.</p>
+<p class="rubrika">Pojí maces a&nbsp;hořké byliny s&nbsp;charosetem jako sendvič a&nbsp;ostatní ho následují.</p>
+
+<p style="border-style: double; font-size: smaller; margin-top: 3em;">
+	<b>Proč maces, hořké byliny a&nbsp;sladký charoset?</b><br>
+Právě s&nbsp;Izraelem vycházíme s&nbsp;Egypta. Maces je tvrdý, suchý, bez chuti. Jako náš předchozí život.<br>
+Opouštíme otroctví, kterým nám zhořkl život. Lepivý charoset je znamením vzájemnosti a&nbsp;naděje, která nám pomáhá obstát v&nbsp;budoucnosti.<br>
+Naše všední dny přeci taky občas připomínají hořko-sladké komedie.<br>
+</p>
+
+
+<h1>Vejce a&nbsp;Hlavní jídlo<br><i style="font-style: italic; font-size: 60%;">Šulchan orech</i></h1>
+<p class="rubrika">Nejdříve se pojí vejce namočené do slané vody. Pak teprve přichází <u>hlavní chod</u>.</p>
+<p class="rubrika">🍷Vína se pije dle libosti.</p>
+
+
+<h1>Dojídání macesu<br><i style="font-style: italic; font-size: 60%;">Cafun</i></h1>
+<p class="rubrika">Posledním soustem večera je opět kousek macesu.</p>
+
+
+<h1>Požehnání po jídle<br><i style="font-style: italic; font-size: 60%;">Barech</i></h1>
+<p class="rubrika">🍷Nalije se třetí pohár vína. Všichni se postaví. (H&nbsp;–&nbsp;Hlava rodiny; O&nbsp;–&nbsp;Ostatní)</p>
+
+<p class="lektor"><b style="color: var(--zvyrazneni);">H</b> Poděkujme za dnešní večer.</p>
+<p class="lektor"><b style="color: var(--zvyrazneni);">O</b> Ať je Hospodinovo jméno požehnáno nyní i&nbsp;navěky.</p>
+<p class="lektor"><b style="color: var(--zvyrazneni);">H</b> Ať je Hospodinovo jméno požehnáno nyní i&nbsp;navěky.</p>
+<p class="lektor"><b style="color: var(--zvyrazneni);">H</b> Přátelé, svobodní lidé, dámy a&nbsp;pánové, když dovolíte, poděkujme Bohu na jehož štědrosti jsme měli podíl a&nbsp;díky jeho dobrotě žijeme.</p>
+<p class="lektor"><b style="color: var(--zvyrazneni);">O</b> Požehnaný je Hospodin na jehož štědrosti jsme měli podíl a&nbsp;díky jeho dobrotě žijeme.</p>
+<p class="lektor"><b style="color: var(--zvyrazneni);">H</b> Požehnaný je Hospodin na jehož štědrosti jsme měli podíl a&nbsp;díky jeho dobrotě žijeme.</p>
+<p class="lektor"><b style="color: var(--zvyrazneni);">O</b> Je požehnaný a&nbsp;požehnané je jeho jméno.</p>
+
+<p class="rubrika">Všichni se posadí.</p>
+
+<p class="rubrika">Účastník <b>#1</b>:</p>
+<p>Děkujeme ti,
+Hospodine, Bože náš, že jsi dal našim rodinám do dědictví
+krásnou, dobrou a&nbsp;prostornou zemi. Žehnáme ti, že jsi nás,
+Hospodine, Bože náš, vyvedl z&nbsp;egyptské země, vyhnanství otroků.
+Děkujeme ti za tvou smlouvu, kterou jsi vpečetil do našeho života;
+za slova Písma, kterým nás učíš; za své předpisy, které jsi
+nám dal poznat. Děkujeme ti za život, milost a&nbsp;lásku, kterou
+jsi nás obdaroval; a&nbsp;za jídlo, protože Ty nás živíš a&nbsp;vždycky
+se o&nbsp;nás staráš v&nbsp;každé době, každého dne a&nbsp;každou hodinu.</p>
+
+<p class="rubrika">🍷Účastníci upijí vína (1/3).</p>
+<p class="rubrika">Hlava rodiny:</p>
+<p>Za to všechno, Hospodine, Bože náš, ti děkujeme a&nbsp;žehnáme, vždyť je psáno: <b>„Když se dosyta najíte, nezapomeňte za tuto zemi poděkovat Hospodinu, svému Bohu, který vám ji věnoval. Dávejte
+si dobrý pozor, abyste na Hospodina nezapomněli
+a nepřestali respektovat jeho
+přikázání, výnosy a&nbsp;zákony,
+které vám dnes dává.“</b></p>
+
+<p class="rubrika">Účastník <b>#2</b>:</p>
+<p>Požehnaný jsi, Hospodine, Bože náš, Králi světa, náš Otče, náš Králi,
+náš Mocný, náš Stvořiteli, náš Vykupiteli, náš Tvůrce, náš
+Svatý, svatý Jakubův, náš Pastýři, pastýři Izraele, ty Dobrý
+králi, který všem dopřáváš dobro.<br>
+Požehnaný jsi za to, že jsi k&nbsp;nám byl dobrotivý, že jsi k&nbsp;nám dobrotivý i&nbsp;teď a&nbsp;že k&nbsp;nám budeš dobrotivý!</p>
+<p class="rubrika">🍷Účastníci upijí vína (2/3).</p>
+<p class="rubrika">Účastník <b>#1</b>:</p>
+<p>
+On, Milosrdný, nám bude vládnout na věky a&nbsp;věčně!<br>
+On, Milosrdný, buď požehnán na nebi a&nbsp;na zemi!<br>
+On, Milosrdný, budiž veleben po všechna pokolení<br>
+a kéž jsme navždy jeho největší chloubou a&nbsp;slávou na věky věků.<br>
+Kéž nám, Milosrdný, poskytuje důstojnou obživu,<br>
+kéž zlomí okovy, které nás nutí k&nbsp;otrockým činnostem,<br>
+a kéž nás vzpřímené přivede do naší země!<br>
+On, Milosrdný, ať nám do našeho domu a&nbsp;na tento stůl,<br>
+sešle mnohonásobné požehnání!<br>
+Kéž nám, Milosrdný, pošle proroka Eliáše<br>
+– i&nbsp;jeho je třeba dnes připomenout –<br>
+a&nbsp;ten ať zvěstuje evangelium záchrany a&nbsp;útěchy.<br>
+Kéž, Milosrdný, požehná každému otci a&nbsp;matce;<br>
+jim a&nbsp;jejich domácnosti a&nbsp;jejich dětem a&nbsp;všemu, co jim patří;<br>
+nám a&nbsp;všemu, co nám patří.</p>
+
+<p class="rubrika">Ostatní:</p>
+<p>Amen.</p>
+
+<h2>Eliášův pohár</h2>
+<p class="rubrika">🍷Hlava rodiny pozvedne pohár vína:</p>
+<p>Požehnaný jsi, Hospodine, Bože celého světa,<br>
+z tvé štědrosti přijímáme plody vinné révy.</p>
+<p class="rubrika">Všichni vypijí obsah třetího poháru (3/3).</p>
+
+<p class="rubrika">Eliášův pohár je naplnění vínem, Mirianin pohár vodou.</p>
+<p>Požehnaný jsi, Hospodine, Bože celého světa,<br>
+z tvé štědrosti přijímáme dar životodárné vody.<br>
+Tak jako děti Izraele, když opustili Egypt, chraň i&nbsp;nás,<br>
+vychovávej nás a&nbsp;rozvíjej náš život v&nbsp;poušti tohoto světa.<br>
+A otevři naše oči, ať už samotná cesta<br>
+je pro nás příslibem naše vykoupení.<br>
+Amen.</p>
+
+<p class="rubrika">Někdo otevře dveře. 🚪</p>
+
+<p class="rubrika">Lektor Písma:</p>
+<p>„<b>Pohleďte,<br>
+	pošlu k&nbsp;vám svého proroka Eliáše,<br>
+	dříve než přijde významný, úžas budící Hospodinův den.<br>
+	Díky němu se rodiče sblíží se svými dětmi.<br>
+	Obrátí srdce otců k&nbsp;synům a&nbsp;srdce synů k&nbsp;otcům.<br>
+	[Matky přilnou ke svým dcerám a&nbsp;dcery k&nbsp;matkám.]</b>“
+</p>
+
+
+<div id="svg-container-5" class="svg-container"></div>
+<p style="margin-left: 3em;"><b>2.</b>	Miriam HaNeviá oz v’zimra b’jadá<br>
+Miriam tirkod itanu l’hagdil zimrat olam<br>
+Miriam tirkod itanu l’taken et ha-olam<br>
+Bimherah v’yameynu hi tevi-eynu<br>
+el mey ha-ješua, el mey ha-ješua.</p>
+
+<p style="font-style: italic; margin-left: 7em;">
+Prorok Eliáš, Eliáš Tišbejský, Eliáš Gileádský,<br>
+ať přijde k&nbsp;nám již brzy, za našich dnů,<br>
+a přivede Mesiáše, syna Davidova.</p>
+<p style="font-style: italic; margin-left: 7em;">
+Prorokyně Miriam, síla a&nbsp;píseň v&nbsp;její rukách.<br>
+(Miriam, tancuj s&nbsp;námi, ať se rozšíří tato píseň světa!)<br>
+Miriam, tancuj s&nbsp;námi, ať se obnoví svět.<br>
+Brzy nás přiveď k&nbsp;vodám vykoupení!</p>
+
+
+<p class="rubrika">🚪 Dveře se zavřou.</p>
+
+<h1>Halel</h1>
+<p class="rubrika">Zpívá se <u>Žalm 115</u>.</p>
+<p style="margin-left: 1.2em;">Hospodine<br>
+všechna sláva ať patří tobě<br>
+nikoliv nám<br>
+jsi neviditelný, a&nbsp;přece věrný.<br>
+je naivní, kdo říká:<br>
+kde je ten váš Bůh?<br>
+náš Bůh je na nebesích<br>
+odkud koná divy<br>
+jejich modly jsou jen<br>
+kusy stříbra a&nbsp;zlata<br>
+mají oči, uši, ústa<br>
+roce a&nbsp;nohy<br>
+ale jsou mrtvé<br>
+jako je mrtvá naděje těch<br>
+kdo v&nbsp;ně věří<br>
+Izrael doufá v&nbsp;Hospodina<br>
+on je naším ochráncem<br>
+on žehná ty, kdo ho chválí<br>
+ať jsou velcí nebo malí<br>
+Hospodin stvořil nebesa i&nbsp;zem<br>
+nebe si ponechal, zem dal člověku<br>
+mrtví jsou v&nbsp;říši ticha<br>
+ale my budeme chválit Hospodina<br>
+on nyní navždy<br>
+haleluja</p>
+
+<p class="rubrika">Halel se uzavře <u>Žalmem 136</u> s&nbsp;odpovědí všech zúčastněných.</p>
+<p style="margin-left: 1.2em;">
+chvalte Hospodina za všechno dobro	<span style="color: var(--zvyrazneni); font-size: 90%; font-style: italic;">Odp.:&nbsp;</span><b>jeho láska je věčná</b><br>
+chvalte Boha všech bohů<br>
+chvalte Pána pánů<br>
+chvalte toho, kdo koná zázraky<br>
+chvalte stvořitele nebe i&nbsp;země<br>
+chvalte stvořitele vesmíru<br>
+chvalte stvořitele slunce i&nbsp;měsíce<br>
+on dal slunci vládu ve dne<br>
+a měsíci vládu v&nbsp;noci<br>
+on dal otrokům svobodu<br>
+vyvedl Izrael z&nbsp;Egypta<br>
+rozdělil před ním Rudé moře<br>
+aby tudy jeho lid prošel<br>
+faraona s&nbsp;mocným vojskem zničil<br>
+svůj lid vodil pouští<br>
+všechny nepřátele přemohl<br>
+jejich zem dal Izraeli<br>
+nezapomněl na ponížené<br>
+vytrhl je z&nbsp;rukou škůdce<br>
+Hospodin je pánem života<br>
+chvalte nebeského Boha</p>
+
+<p class="rubrika">Hlava rodiny pokračuje:</p>
+<p>Věčně chváleno buď Tvé jméno, Králi náš, Bože, veliký a&nbsp;svatý králi v&nbsp;nebesích a&nbsp;na zemi.<br>
+Tobě patří, Hospodine, Bože náš a&nbsp;Bože našich rodin, báseň a&nbsp;chvála, opěvování a&nbsp;píseň, moc a&nbsp;vláda, vítězství a&nbsp;velikost, síla, oslava, krása, svatost a&nbsp;království, požehnání a&nbsp;díky, nyní až navěky.<br>
+Tobě žehnáme, Bože, králi, veliký chvályhodnými činy, Bože díkůvzdání, Pane divů, Bože, živý v&nbsp;každém věku.</p>
+
+<p class="rubrika">🍷Nalije se čtvrtý pohár vína. Hlava rodiny pozvedne pohár vína:</p>
+
+<p>Požehnaný jsi, Hospodine, Bože celého světa,<br>
+z tvé štědrosti přijímáme plody vinné révy.</p>
+
+<p class="rubrika">Účastníci upijí vína (1/3).</p>
+
+<p>Požehnaný jsi, Hospodine, Bože náš, za vinnou
+révu a&nbsp;za plody vinné révy, za výtěžek polí a&nbsp;za pěknou,
+dobrou a&nbsp;prostornou zemi. Daroval jsi ji z&nbsp;lásky našim předkům,
+abychom jedli z&nbsp;jejích plodů a&nbsp;sytili se z&nbsp;jejího dobra. Smiluj
+se, Hospodine, Bože náš, nad Izraelem, svým lidem, nad
+Jeruzalémem, svým městem, nad Sionem, příbytkem své slávy, nad
+svým oltářem a&nbsp;nad svým Chrámem! a&nbsp;zbuduj Jeruzalém, město
+svaté, brzy již, za našich dnů!<br>
+Žehnáme Ti, Hospodine, za
+tuto zemi a&nbsp;za plody vinné révy!</p>
+
+
+
+<h1>Sederové písně<br><i style="font-style: italic; font-size: 60%;">Nirca</i></h1>
+<p class="rubrika">Hlava rodiny:</p>
+<p>Dle předpisu jsme dovršili seder pesachový, dle zákonů a&nbsp;ustanovení.<br>
+Jak zasloužili jsme si jeho připravení,<br>
+tak zaslužme si vbrzku jeho provedení.</p>
+<p>Ať Bůh, Průzračný, přebývající na nebesích,<br>
+	pozvedne zástupy Izraele, v&nbsp;neslýchaném počtu!<br>
+Ať shromáždí rozptýlený národ,<br>
+	a Sion se naplní svobodným lidem v&nbsp;jásotu a&nbsp;písních.</p>
+<br>
+
+
+<p class="rubrika">Všichni společně a&nbsp;nahlas:</p>
+<p>
+<b>Nyní zde a&nbsp;na budoucí rok v&nbsp;Jeruzalémě!</b></p>
+
+<p class="rubrika" style="margin-right: 1cm">🍷Účastníci upijí vína (2/3).</p>
+
+<h2>Píseň Chad gadja</h2>
+<p style="margin-left: 1.2em;">
+Pro jedno kůzle, jedno kůzle,<br>
+co táta koupil za dva zlaté,<br>
+pro jedno kůzle, pro jedno kůzle!</p>
+<p style="margin-left: 1.2em;">
+A přišla kočka, sežrala kůzle,<br>
+co táta koupil za dva zlaté,<br>
+pro jedno kůzle, pro jedno kůzle!</p>
+<p style="margin-left: 1.2em;">
+A přišel pes, zakousl kočku,<br>
+co sežrala kůzle,<br>
+co táta koupil za dva zlaté,<br>
+pro jedno kůzle, pro jedno kůzle!</p>
+<p style="margin-left: 1.2em;">
+A přišla hůl, ubila psa,<br>
+co zakousl kočku,<br>
+co sežrala kůzle,<br>
+co táta koupil za dva zlaté,<br>
+pro jedno kůzle, pro jedno kůzle!</p>
+<p style="margin-left: 1.2em;">
+A přišel oheň, spálil tu hůl,<br>
+co ubila psa,<br>
+co zakousl kočku,<br>
+co sežrala kůzle,<br>
+co táta koupil za dva zlaté,<br>
+pro jedno kůzle, pro jedno kůzle!</p>
+<p style="margin-left: 1.2em;">
+A přišla voda, zhasila oheň,<br>
+co spálil tu hůl,<br>
+co ubila psa,<br>
+co zakousl kočku,<br>
+co sežrala kůzle,<br>
+co táta koupil za dva zlaté,<br>
+pro jedno kůzle, pro jedno kůzle!</p>
+<p style="margin-left: 1.2em;">
+A přišel vůl, vypil tu vodu,<br>
+co zhasila oheň,<br>
+co spálil tu hůl,<br>
+co ubila psa,<br>
+co zakousl kočku,<br>
+co sežrala kůzle,<br>
+co táta koupil za dva zlaté,<br>
+pro jedno kůzle, pro jedno kůzle!</p>
+<p style="margin-left: 1.2em;">
+A přišel šochet, zařízl vola,<br>
+co vypil tu vodu<br>
+co zhasila oheň,<br>
+co spálil tu hůl,<br>
+co ubila psa,<br>
+co zakousl kočku,<br>
+co sežrala kůzle,<br>
+co táta koupil za dva zlaté,<br>
+pro jedno kůzle, pro jedno kůzle!</p>
+<p style="margin-left: 1.2em;">
+A přišel anděl smrti a&nbsp;usmrtil šocheta,<br>
+co zařízl vola,<br>
+co vypil tu vodu<br>
+co zhasila oheň,<br>
+co spálil tu hůl,<br>
+co ubila psa,<br>
+co zakousl kočku,<br>
+co sežrala kůzle,<br>
+co táta koupil za dva zlaté,<br>
+pro jedno kůzle, pro jedno kůzle!</p>
+<p style="margin-left: 1.2em;">
+A přišel Bůh požehnaný a&nbsp;zahubil anděla smrti,<br>
+co usmrtil šocheta,<br>
+co zařízl vola,<br>
+co vypil tu vodu<br>
+co zhasila oheň,<br>
+co spálil tu hůl,<br>
+co ubila psa,<br>
+co zakousl kočku,<br>
+co sežrala kůzle,<br>
+co táta koupil za dva zlaté,<br>
+pro jedno kůzle, pro jedno kůzle!</p>
+
+
+<p style="border-style: double; font-size: smaller; margin-top: 3em;">
+<b>Svoboda do posledního dechu</b><br>
+„Kdybych stál na počátku věků… a&nbsp;Bůh Nejvyšší se mě zeptal: ‚Martine Luther Kingu, ve které době bys chtěl žít?‘, rád bych se nechal přenést do Egypta. Sledoval bych Boží děti v&nbsp;jejich nádherné cestě od temné otročiny…, napříč Rudým mořem, skrze suchopárnou poušť, směrem k&nbsp;Zaslíbené zemi…
+To naléhavé volání je vždycky stejné: ‚<b>Chceme být svobodní!</b>‘“<br>
+srov. Martin Luther King, kázání <i>I've Been to the Mountaintop</i>, 3. 4. 1968
+</p>
+
+
+
+<img src="jag-andel.svg" alt="Anděl" style="width:10vh; margin-left: auto; margin-right: auto; display: block;">
+
+
+<hr style="margin-top: 6em; border: 1px solid var(--zvyrazneni);">
+<p style="font-size: smaller;">
+	<b>Použitá literatura</b><br>
+	Rozepsaní účastníci: <b style="color: var(--zvyrazneni)">Miriam</b>, <b style="color: var(--zvyrazneni);">Hlava rodiny</b> (každý cca ¼ textu) , <b style="color: var(--zvyrazneni);">#1</b>, <b style="color: var(--zvyrazneni);">#2</b>, <b style="color: var(--zvyrazneni);">#3</b> (každý cca 1/6 textu), <b style="color: var(--zvyrazneni);">lektor Písma</b> (zanedbatelný rozsah). Celkový rozsah: cca 5 000 slov, orientačně 45 min čtení samotného textu.<br>
+	Annika Tetzner: <i>Červená stuha. Terezínské ghetto očima dítěte</i>, Praha: Portál, 2011.<br>
+	<i>Nová pražská pesachová hagada</i>, Praha: Sefer, 2007.<br>
+	Safran Foer: <i>Haggadah</i>, London: Hamish Hamilton, 2012.<br>
+	Elissa Strauss: <i>The Kveller Haggadah</i>, Middletown, Delaware: Kveller, 2019.<br>
+	Rachel Barenblat: <i>The Velveteen Rabbi‘s Haggadah for Pesach</i>.<br>
+	Nico ter Linden: <i>Země za duhou</i>, Benešov: Eman, 2015.<br>
+	Josef Imbach: <i>Radost z Bible</i>, Praha: Vyšehrad, 2018.<br>
+	Daniel Raus: <i>Žalmy. David a jeho blues</i>, Bratislava: Porta libri, 2015.
+</p>
+
+
+
+
+</body>
+</html>
