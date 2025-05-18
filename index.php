@@ -173,22 +173,19 @@
 			</div>
 		</div>
 	</section>
-<!--
-	<section id="Plakat-obnova" class="features" style="background-color:AliceBlue;">
+
+	<section id="Nockostelu" class="features" style="background-color:#efbebc;">
 		<div class="container" style="margin-top: auto; margin-bottom: auto;">
 			<div class="row">
-				<div class="sec-title text-center mb50">
-					<h2>Koncert</h2>
-				</div>
 				<div class="sec-sub-title text-center">
-					<a href="./pdf/2025-biblicke-tance-plakat.pdf">
-                    <img src="./img/2025_biblicke-tance-plakat.png" alt="Biblické tance" style="width: 100%;">
+					<a href="https://www.nockostelu.cz/kostel/1161/">
+                    <img src="./img/2025_05_23-fSvetla-noc_kostelu.webp" alt="Noc kostelů 2025" style="width: 100%;">
                 </a>
                 </div>
 			</div>	
 		</div>
 	</section>
-	-->
+
 	<section id="Bohosluzby" class="features" style="background-color:white;">
 		<div class="container" style="margin-top: auto; margin-bottom: auto;">
 			<div class="row">
