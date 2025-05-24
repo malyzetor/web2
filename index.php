@@ -70,7 +70,7 @@
 	</header>
 
 <!-- dynamicky generované heslo dne .-->
-	<div id="jHD"><?php include('./HD-2025-02-kotva_nadeje-Noc.inc'); ?></div>
+	<div id="jHD"><?php include('./HD-2025-02-kotva_nadeje.inc'); ?></div>
 
 	<section id="Farnosti" class="features"  style="display:flex; min-height: 100vh;">
 		<div class="container" style="margin-top: auto; margin-bottom: auto;">
@@ -173,7 +173,7 @@
 			</div>
 		</div>
 	</section>
-
+<!--
 	<section id="Nockostelu" class="features" style="background-color:#efbebc;">
 		<div class="container" style="margin-top: auto; margin-bottom: auto;">
 			<div class="row">
@@ -185,7 +185,7 @@
 			</div>	
 		</div>
 	</section>
-
+	-->
 	<section id="Bohosluzby" class="features" style="background-color:white;">
 		<div class="container" style="margin-top: auto; margin-bottom: auto;">
 			<div class="row">
