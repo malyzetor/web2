@@ -5,24 +5,24 @@ tspan { white-space: pre; }
 ]]>
 </style>
 <g transform="translate(0.0000, 6.1075)">
-<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1116" stroke="currentColor" x1="0.0558" y1="0" x2="29.6167" y2="0"/>
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1116" stroke="currentColor" x1="0.0558" y1="0" x2="32.6379" y2="0"/>
 </g>
 <g transform="translate(0.0000, 5.1075)">
-<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1116" stroke="currentColor" x1="0.0558" y1="0" x2="29.6167" y2="0"/>
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1116" stroke="currentColor" x1="0.0558" y1="0" x2="32.6379" y2="0"/>
 </g>
 <g transform="translate(0.0000, 4.1075)">
-<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1116" stroke="currentColor" x1="0.0558" y1="0" x2="29.6167" y2="0"/>
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1116" stroke="currentColor" x1="0.0558" y1="0" x2="32.6379" y2="0"/>
 </g>
 <g transform="translate(0.0000, 3.1075)">
-<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1116" stroke="currentColor" x1="0.0558" y1="0" x2="29.6167" y2="0"/>
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1116" stroke="currentColor" x1="0.0558" y1="0" x2="32.6379" y2="0"/>
 </g>
 <g transform="translate(0.0000, 2.1075)">
-<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1116" stroke="currentColor" x1="0.0558" y1="0" x2="29.6167" y2="0"/>
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1116" stroke="currentColor" x1="0.0558" y1="0" x2="32.6379" y2="0"/>
 </g>
-<g transform="translate(29.4605, 4.1075)">
+<g transform="translate(32.4817, 4.1075)">
 <rect x="0.0000" y="-2.0000" width="0.2120" height="4.0000" ry="0.0000" fill="currentColor"/>
 </g>
-<g transform="translate(28.9137, 4.1075)">
+<g transform="translate(31.9349, 4.1075)">
 <rect x="0.0000" y="-2.0000" width="0.2120" height="4.0000" ry="0.0000" fill="currentColor"/>
 </g>
 <g transform="translate(16.4446, 9.7364)">
@@ -30,7 +30,7 @@ tspan { white-space: pre; }
 <tspan>u</tspan>
 </text>
 </g>
-<g transform="translate(25.4135, 4.1075)">
+<g transform="translate(25.6949, 4.1075)">
 <rect x="-0.0725" y="0.1794" width="0.1451" height="3.1540" ry="0.0471" fill="currentColor"/>
 </g>
 <g transform="translate(23.6224, 12.5364)">
@@ -38,12 +38,22 @@ tspan { white-space: pre; }
 <tspan>nás.</tspan>
 </text>
 </g>
+<g transform="translate(29.9623, 12.5364)">
+<text font-family="Noto Serif" font-size="2.4690" text-anchor="start" fill="currentColor">
+<tspan>2×</tspan>
+</text>
+</g>
 <g transform="translate(23.6224, 9.7364)">
 <text font-family="Noto Serif" font-size="2.4690" text-anchor="start" fill="currentColor">
 <tspan>nás.</tspan>
 </text>
 </g>
-<g transform="translate(25.3409, 4.1075)">
+<g transform="translate(29.9623, 9.7364)">
+<text font-family="Noto Serif" font-size="2.4690" text-anchor="start" fill="currentColor">
+<tspan>2×</tspan>
+</text>
+</g>
+<g transform="translate(25.6224, 4.1075)">
 <path transform="scale(0.0040, -0.0040)" d="M215 137c67 0 111 -37 111 -92c0 -90 -111 -182 -215 -182c-67 0 -111 37 -111 92c0 90 111 182 215 182z" fill="currentColor"/>
 </g>
 <g transform="translate(21.6145, 1.1546)">
