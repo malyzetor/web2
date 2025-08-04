@@ -48,7 +48,7 @@
 			<nav class="collapse navbar-collapse navbar-right">
 				<ul id="nav" class="nav navbar-nav">
 					<li><a href="#Svatyrok"><img src="img/svaty_rok-BW.svg" alt="Poutníci naděje" style="width: 1.5em;"></a></li>	
-					<li><a href="vespers/2025_06_21.html"><img src="img/apokalypsa.svg" alt="Hodinová apokalypsa" style="width: 1.5em;"></a></li>
+					<li><a href="vespers/2025_06_27.html"><img src="img/apokalypsa.svg" alt="Hodinová apokalypsa" style="width: 1.5em;"></a></li>
 					<li>
 						<a href="#Bohosluzby">Pořad bohoslužeb</a>
 					</li>
@@ -174,19 +174,17 @@
 		</div>
 	</section>
 
-	<section id="Nockostelu" class="features" style="background-color: white;">
+<!--	<section id="Nockostelu" class="features" style="background-color: #cfcfcf;">
 		<div class="container" style="margin-top: auto; margin-bottom: auto;">
 			<div class="row">
 				<div class="sec-sub-title text-center">
-					<a href="./pdf/2025_06_20-Nicea.pdf">
-                    <img src="./img/2025_06_20-Nicea.webp" alt="Nicea 325" style="width: 100%;">
-                </a>
+					<img src="./img/2025_08_03-louceni.webp" alt="Loučení 2025" style="width: 100%;">
                 </div>
 			</div>	
 		</div>
 	</section>
-	
-	<section id="Bohosluzby" class="features" style="background-color:white;">
+-->
+	<section id="Bohosluzby" class="features" style="background-color: white;">
 		<div class="container" style="margin-top: auto; margin-bottom: auto;">
 			<div class="row">
 				<div class="sec-title text-center mb50">
