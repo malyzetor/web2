@@ -105,6 +105,9 @@
 							<span style="display:inline-block; width: 14em;">Třinácté setkání 3. 4. 2025</span> – <a href="PRF/2025_04_03-pozvanka.pdf">pozvánka</a>, <i>příloha</i>, <a href="PRF/2025_04_03-zapis.pdf">zápis</a><br />
 							<span style="display:inline-block; width: 14em;">Čtrnácté setkání 7. 5. 2025</span> – <a href="PRF/2025_05_07-pozvanka.pdf">pozvánka</a>, <i>příloha</i>, <a href="PRF/2025_05_07-zapis.pdf">zápis</a><br />
 							<span style="display:inline-block; width: 14em;">Patnácté setkání 5. 6. 2025</span> – <a href="PRF/2025_06_05-pozvanka.pdf">pozvánka</a>, <i>příloha</i>, <a href="PRF/2025_06_05-zapis.pdf">zápis</a><br />
+							<span style="display:inline-block; width: 14em;">Šestnácté setkání 4. 9. 2025</span> – <a href="PRF/2025_09_04-pozvanka.pdf">pozvánka</a>, <i>příloha</i>, <a href="PRF/2025_09_04-zapis.pdf">zápis</a><br />
+							<span style="display:inline-block; width: 14em;">Šestnácté setkání 4. 9. 2025</span> – <a href="PRF/2025_09_04-pozvanka.pdf">pozvánka</a>, <i>příloha</i>, <a href="PRF/2025_09_04-zapis.pdf">zápis</a><br />
+							<span style="display:inline-block; width: 14em;">Sedmnácté setkání 2. 10. 2025</span> – <a href="PRF/2025_10_02-pozvanka.pdf">pozvánka</a>, <a href="PRF/2025_10_02-priloha.pdf"><i>příloha</i></a>, <a href="PRF/2025_10_02-zapis.pdf">zápis</a><br />
 						</p>
                         
 
