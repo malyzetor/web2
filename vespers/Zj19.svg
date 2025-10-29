@@ -96,10 +96,12 @@ c29 20 88 49 185 49z" fill="currentColor"/>
 <g transform="translate(11.9323, 3.6075)">
 <path transform="scale(0.0040, -0.0040)" d="M215 137c67 0 111 -37 111 -92c0 -90 -111 -182 -215 -182c-67 0 -111 37 -111 92c0 90 111 182 215 182z" fill="currentColor"/>
 </g>
+<g color="rgb(50.0000%, 0.0000%, 0.0000%)">
 <g transform="translate(5.6434, 9.6075)">
 <text font-family="serif" font-weight="bold" font-size="2.4690" text-anchor="start" fill="currentColor">
 <tspan>V.</tspan>
 </text>
+</g>
 </g>
 <g transform="translate(8.6920, 9.6075)">
 <text font-family="Noto Serif" font-size="2.4690" text-anchor="start" fill="currentColor">
@@ -218,10 +220,12 @@ c29 20 88 49 185 49z" fill="currentColor"/>
 <g transform="translate(8.6718, 17.1075)">
 <path transform="scale(0.0040, -0.0040)" d="M215 137c67 0 111 -37 111 -92c0 -90 -111 -182 -215 -182c-67 0 -111 37 -111 92c0 90 111 182 215 182z" fill="currentColor"/>
 </g>
+<g color="rgb(50.0000%, 0.0000%, 0.0000%)">
 <g transform="translate(2.2694, 21.6830)">
 <text font-family="serif" font-weight="bold" font-size="2.4690" text-anchor="start" fill="currentColor">
 <tspan>O.</tspan>
 </text>
+</g>
 </g>
 <g transform="translate(5.8000, 21.6830)">
 <text font-family="Noto Serif" font-size="2.4690" text-anchor="start" fill="currentColor">
@@ -242,10 +246,12 @@ c1 19 2 37 2 56c0 30 -2 60 -4 90c-5 -1 -43 -8 -88 -8c-194 0 -333 180 -333 375c0 
 c156 0 257 -129 257 -262zM462 -202c66 24 111 88 111 162c0 89 -65 178 -170 190c28 -135 50 -272 59 -352zM75 26c0 -145 141 -245 263 -245c1 0 46 0 81 6c-7 65 -27 206 -61 363c-79 -8 -124 -61 -124 -119c0 -43 25 -89 80 -121c5 -5 7 -11 7 -16
 c0 -12 -10 -23 -22 -23c-16 0 -127 63 -127 188c0 89 58 175 161 198c-14 58 -29 116 -46 173c-106 -122 -212 -244 -212 -404zM406 1042c-99 -47 -162 -148 -162 -257c0 -49 13 -111 38 -191c79 97 144 199 144 324c0 33 0 63 -20 124z" fill="currentColor"/>
 </g>
+<g color="rgb(50.0000%, 0.0000%, 0.0000%)">
 <g transform="translate(20.2186, 21.6830)">
 <text font-family="serif" font-weight="bold" font-size="2.4690" text-anchor="start" fill="currentColor">
 <tspan>V.</tspan>
 </text>
+</g>
 </g>
 <g transform="translate(23.4833, 16.6075)">
 <path transform="scale(0.0040, -0.0040)" d="M522 -193c-15 0 -27 13 -27 28v330c0 15 12 28 27 28s27 -13 27 -28v-330c0 -15 -12 -28 -27 -28zM-27 -193c-15 0 -27 13 -27 28v330c0 15 12 28 27 28s27 -13 27 -28v-330c0 -15 -12 -28 -27 -28zM215 111c-45 0 -68 -33 -68 -87c0 -101 88 -135 133 -135s68 33 68 87
@@ -364,10 +370,12 @@ c29 20 88 49 185 49z" fill="currentColor"/>
 <g transform="translate(11.3036, 28.1075)">
 <path transform="scale(0.0040, -0.0040)" d="M215 137c67 0 111 -37 111 -92c0 -90 -111 -182 -215 -182c-67 0 -111 37 -111 92c0 90 111 182 215 182z" fill="currentColor"/>
 </g>
+<g color="rgb(50.0000%, 0.0000%, 0.0000%)">
 <g transform="translate(2.2694, 33.8176)">
 <text font-family="serif" font-weight="bold" font-size="2.4690" text-anchor="start" fill="currentColor">
 <tspan>O.</tspan>
 </text>
+</g>
 </g>
 <g transform="translate(5.8000, 33.8176)">
 <text font-family="Noto Serif" font-size="2.4690" text-anchor="start" fill="currentColor">
