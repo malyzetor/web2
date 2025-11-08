@@ -48,7 +48,7 @@
 			<nav class="collapse navbar-collapse navbar-right">
 				<ul id="nav" class="nav navbar-nav">
 					<li><a href="#Svatyrok"><img src="img/svaty_rok-BW.svg" alt="Poutníci naděje" style="width: 1.5em;"></a></li>	
-					<li><a href="vespers/2025_10_31.html"><img src="img/apokalypsa.svg" alt="Hodinová apokalypsa" style="width: 1.5em;"></a></li>
+					<li><a href="vespers/2025_11_02.html"><img src="img/apokalypsa.svg" alt="Hodinová apokalypsa" style="width: 1.5em;"></a></li>
 					<li>
 						<a href="#Bohosluzby">Pořad bohoslužeb</a>
 					</li>

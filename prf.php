@@ -108,6 +108,7 @@
 							<span style="display:inline-block; width: 14em;">Šestnácté setkání 4. 9. 2025</span> – <a href="PRF/2025_09_04-pozvanka.pdf">pozvánka</a>, <i>příloha</i>, <a href="PRF/2025_09_04-zapis.pdf">zápis</a><br />
 							<span style="display:inline-block; width: 14em;">Šestnácté setkání 4. 9. 2025</span> – <a href="PRF/2025_09_04-pozvanka.pdf">pozvánka</a>, <i>příloha</i>, <a href="PRF/2025_09_04-zapis.pdf">zápis</a><br />
 							<span style="display:inline-block; width: 14em;">Sedmnácté setkání 2. 10. 2025</span> – <a href="PRF/2025_10_02-pozvanka.pdf">pozvánka</a>, <a href="PRF/2025_10_02-priloha.pdf"><i>příloha</i></a>, <a href="PRF/2025_10_02-zapis.pdf">zápis</a><br />
+							<span style="display:inline-block; width: 14em;">Osmnácté setkání 6. 11. 2025</span> – <a href="PRF/2025_11_06-pozvanka.pdf">pozvánka</a>, <a href="PRF/2025_11_06-priloha.pdf"><i>příloha</i></a>, <a href="PRF/2025_11_06-zapis.pdf">zápis</a><br />
 						</p>
                         
 
