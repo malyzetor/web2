@@ -64,7 +64,7 @@
 						<br />
 						<br />
 						<p>Členové PRF: <a href = "mailto: svetla@farnost.cz">Pavel&nbsp;Jäger</a>, <a href = "mailto: subela@seznam.cz">Květoslava&nbsp;Mühlfaitová</a>,
-						<a href = "mailto: prajan@seznam.cz">Jan&nbsp;Prášek</a>, <a href = "mailto: praskovamarie@gmail.com">Marie&nbsp;Prášková&nbsp;(DB)</a>, <a href = "mailto: praskovm@seznam.cz">Marie&nbsp;Prášková&nbsp;(SnS)</a>, <a href = "mailto: prasek@pwb.cz">Václav&nbsp;Prášek</a></p>
+						<a href = "mailto: kovandovaivana@seznam.cz">Ivana&nbsp;Kovandová</a>, <a href = "mailto: rabouchalova@centrum.cz">Radka&nbsp;Bouchalová</a>, <a href = "mailto: praskovm@seznam.cz">Marie&nbsp;Prášková&nbsp;(SnS)</a>, <a href = "mailto: prasek@pwb.cz">Václav&nbsp;Prášek</a></p>
 
 						<br />
 						<br />
@@ -109,6 +109,7 @@
 							<span style="display:inline-block; width: 14em;">Šestnácté setkání 4. 9. 2025</span> – <a href="PRF/2025_09_04-pozvanka.pdf">pozvánka</a>, <i>příloha</i>, <a href="PRF/2025_09_04-zapis.pdf">zápis</a><br />
 							<span style="display:inline-block; width: 14em;">Sedmnácté setkání 2. 10. 2025</span> – <a href="PRF/2025_10_02-pozvanka.pdf">pozvánka</a>, <a href="PRF/2025_10_02-priloha.pdf"><i>příloha</i></a>, <a href="PRF/2025_10_02-zapis.pdf">zápis</a><br />
 							<span style="display:inline-block; width: 14em;">Osmnácté setkání 6. 11. 2025</span> – <a href="PRF/2025_11_06-pozvanka.pdf">pozvánka</a>, <a href="PRF/2025_11_06-priloha.pdf"><i>příloha</i></a>, <a href="PRF/2025_11_06-zapis.pdf">zápis</a><br />
+							<span style="display:inline-block; width: 14em;">Devatenácté setkání 4. 12. 2025</span> – <a href="PRF/2025_12_04-pozvanka.pdf">pozvánka</a>, <a href="PRF/2025_12_04-priloha.pdf"><i>příloha</i></a>, <a href="PRF/2025_12_04-zapis-r.pdf">zápis</a><br />
 						</p>
                         
 

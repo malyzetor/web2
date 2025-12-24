@@ -70,7 +70,7 @@
 	</header>
 
 <!-- dynamicky generované heslo dne .-->
-	<div id="jHD"><?php include('./HD-2025-02-kotva_nadeje.inc'); ?></div>
+	<div id="jHD"><?php include('./HD-2025-12-vanoce.inc'); ?></div>
 
 	<section id="Farnosti" class="features"  style="display:flex; min-height: 100vh;">
 		<div class="container" style="margin-top: auto; margin-bottom: auto;">
