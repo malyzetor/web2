@@ -47,7 +47,6 @@
 			</div>
 			<nav class="collapse navbar-collapse navbar-right">
 				<ul id="nav" class="nav navbar-nav">
-					<li><a href="#Svatyrok"><img src="img/svaty_rok-BW.svg" alt="Poutníci naděje" style="width: 1.5em;"></a></li>	
 					<li><a href="vespers/2025_11_02.html"><img src="img/apokalypsa.svg" alt="Hodinová apokalypsa" style="width: 1.5em;"></a></li>
 					<li>
 						<a href="#Bohosluzby">Pořad bohoslužeb</a>
@@ -85,7 +84,7 @@
 						</div>
 
 						<div class="service-desc">
-							<h3>Římskokatolická farnost – děkanství Světlá nad Sázavou</h3>
+							<h3>Římskokatolická farnost Světlá nad Sázavou</h3>
 							<p>IČO: 15060586<br>účet: 1120630319/0800</p>
 							<p>ID: hamajse</p>
 						</div>
@@ -224,49 +223,7 @@
 		</div>
     </section>
     
-	<div id="Svatyrok" class="features" style="background-color:white;">
-		<div class="container" style="margin-top: auto; margin-bottom: auto;">
-			<div class="row">
-				<div class="col-md-2"></div>
-				<div class="col-md-8">
-					<img src="img/svaty_rok-text.svg" style="width: 100%; margin-bottom: 1em; margin-top: 7em;" alt="Svatý rok 2025">
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-md-1"></div>
-				<div class="col-md-10" style="font-family: 'Open Sans'; font-weight: 300; line-height: normal; color: #5b646e;">
-					bula papeže Františka: <a href="pdf/2024_05_09-nadeje_neklame.pdf" style="color: black;">Naděje neklame</a> (Svatý rok 2025)
-					<p style="font-size: 3em; margin-top: 1em;">slovo naděje</p>
-					<p style="font-style: italic; margin-bottom: 1em; text-align: justify;"><b>čl. 1</b> Všichni doufáme. V&nbsp;srdci každého člověka se skrývá naděje jako touha po dobru a&nbsp;očekávání dobra, ač nevíme, co přinese druhý den. Nepředvídatelnost budoucnosti přece jen dává vzejít někdy protikladným pocitům: od důvěry po obavy, od vyrovnanosti po bezútěšnost, od jistoty po pochybnosti. Často se setkáváme s&nbsp;lidmi, kteří jsou skleslí, kteří do budoucnosti hledí skepticky a&nbsp;pesimisticky, jako kdyby jim nic nemohlo přinést štěstí. Kéž je Svatý rok pro všechny příležitostí k&nbsp;oživení naděje. <span style="color: #5E8C6A; font-weight: bolder;">Slovo Boží</span> nám pomáhá nalézt pro to odůvodnění. Nechme se vést tím, co apoštol Pavel píše právě křesťanům v&nbsp;Římě.</p>
-					<p>so 15. 3.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;setkání nad Písmem (Naděje)</p>
-					<p>so 29. 3.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;setkání nad Písmem (Pokání)</p>
-					<p>so 12. 4.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;bohoslužba pokání a&nbsp;naděje</p>
-					
-					<p style="font-size: 3em; margin-top: 1em;">cesta naděje</p>
-					<p style="font-style: italic; margin-bottom: 1em; text-align: justify;"><b>čl. 5</b> Není náhodou, že zásadním prvkem každého Svatého roku je pouť… <span style="color: #5E8C6A; font-weight: bolder;">Pěší pouť</span> velmi napomáhá ke znovuobjevení hodnoty ticha, námahy a&nbsp;toho, co je podstatné… Tím, že se poutníci budou přesouvat… od města k&nbsp;městu, a&nbsp;přitom budou rozjímat nad stvořením a&nbsp;uměleckými díly, uloží si do srdce poklad sestávající z&nbsp;nejrůznějších zkušeností a&nbsp;zážitků ze setkání s&nbsp;jinými kulturami… Kostely zapojené do oslav Svatého roku… budou duchovními oázami, kde se poutníci budou moci posílit na své cestě víry a&nbsp;napojit se u&nbsp;pramenů naděje, především když přistoupí ke svátosti smíření, která je nenahraditelným výchozím bodem na opravdové cestě obrácení.</p>
-					<p>so 17. 5.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;pouť na <a href="http://www.hradek.speaker.cz/" style="color: black;">Hrádek u&nbsp;Vlašimi</a></p>
-					
-					<p style="font-size: 3em; margin-top: 1em;">výzva k&nbsp;naději</p>
-					<p style="font-style: italic; margin-bottom: 1em; text-align: justify;"><b>čl. 17</b> (Letos to bude) 1700 let od okamžiku, kdy se slavil první velký ekumenický koncil, a&nbsp;to <span style="color: #5E8C6A; font-weight: bolder;">koncil Nicejský</span>… Měl za úkol uchovat jednotu, která byla vážně ohrožena popíráním božství Ježíše Krista a&nbsp;jeho rovnosti s&nbsp;Bohem Otcem… Nicejský koncil je milníkem v&nbsp;dějinách církve… Je také výzvou pro všechny církve a&nbsp;církevní společenství, aby pokračovaly na cestě k&nbsp;viditelné jednotě, aby neúnavně hledaly cesty vhodné k&nbsp;dosažení stavu, který bude plně odpovídat Ježíšově modlitbě: „Ať všichni jsou jedno. Jako ty, Otče, ve mně a&nbsp;já v&nbsp;tobě, tak i&nbsp;oni ať jsou v&nbsp;nás, aby svět uvěřil, že ty jsi mě poslal“ ( Jan 17, 21).</p>
-					<p>pá 20. 6.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;setkání nad 1700. výročím ekumenického <a href="https://cs.wikipedia.org/wiki/Nicejsk%C3%A9_vyzn%C3%A1n%C3%AD" style="color: black;">vyznání víry</a> v&nbsp;Nicei</p>
-					<p>so 21. 6.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;slavnostní vyznání víry</p>
-					
-					<p style="font-size: 3em; margin-top: 1em;">znamení naděje</p>
-					<p style="font-style: italic; margin-bottom: 1em; text-align: justify;"><b>čl. 7.11</b> Kromě toho, že čerpáme svou naději z milosti Boží, jsme vybízeni také k&nbsp;tomu, abychom ji odkrývali ve <span style="color: #5E8C6A; font-weight: bolder;">znameních doby</span>, která nám Pán dává… Kéž nechybí všestranná pozornost vůči těm, kteří čelí zvlášť obtížným životním podmínkám, když zakoušejí vlastní slabost, zejména pokud jsou stiženi takovými nemocemi nebo hendikepy, které velmi omezují jejich osobní nezávislost. Péče o&nbsp;ně je hymnem oslavujícím lidskou důstojnost, zpěvem naděje, který si žádá, aby se k&nbsp;němu jako sbor připojila celá společnost.</p>
-					<p>září/říjen&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;návštěva v&nbsp;sociálně-terapeutické dílně ve Světlé n.&nbsp;S.</p>
-					<p>so 18. 10.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;návštěva u&nbsp;SDH Světlá n.&nbsp;S.</p>
-					
-					<p style="font-size: 3em; margin-top: 1em;">kotva naděje</p>
-					<p style="font-style: italic; margin-bottom: 1em; text-align: justify;"><b>čl. 22</b> Pokud je správné, že jsme si velice dobře a&nbsp;s&nbsp;vážností vědomi okamžiku, při kterém bude sečten a&nbsp;podtržen náš život, je zároveň třeba to vždy činit v&nbsp;kontextu naděje, božské ctnosti, která je oporou životu a&nbsp;umožňuje nám, abychom nepropadli strachu. <span style="color: #5E8C6A; font-weight: bolder;">Soud Bohem</span>, který je láska (srov. 1&nbsp;Jan 4,&nbsp;8.16), nemůže nevycházet z&nbsp;lásky, zvláštním způsobem pak na tom, jak jsme ji více či méně uskutečňovali vůči nejpotřebnějším, ve kterých je přítomen Kristus, Soudce sám (srov. Mt 25,&nbsp;31–46).</p>
-					<p>pátek 14. 11.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;komponovaný program <a href="https://cs.wikipedia.org/wiki/Dies_irae" style="color: black; font-style: italic;">Boží soud</a></p>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-md-1"></div>
-				<img src="img/svaty_rok-col.svg" style="width: 7em; margin-top: 4em; margin-bottom: 4em;" alt="Poutníci naděje">
-			</div>
-		</div>
-	</div>
+	
 
 	<script defer src="js/jag.min.js"></script>
 </body>
