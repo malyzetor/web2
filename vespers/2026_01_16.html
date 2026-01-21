@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="cs"  id="simulateDarkMode" data-theme="light">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" >
+	<meta name="Author" content="Juraj Videky; Pavel Jäger" >
+	<meta name="description" content="Večerní modlitba žalmů se zpěvy a bez tanců." >
+	<link rel="stylesheet" type="text/css" href="breviar-m7.css" >
+	<meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1.0" >
+	<title>Liturgie hodin | nešpory</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Gidole&display=swap" rel="stylesheet">
+	<script>
+		let currentFontSize = 100;
+		function changeFontSize(delta) {
+      			currentFontSize += delta;
+      			if (currentFontSize < 50) currentFontSize = 50;   // minimální 50 %
+      			if (currentFontSize > 200) currentFontSize = 200; // maximální 200 %
+				document.documentElement.style.fontSize = currentFontSize + "%";
+			}
+		function toggleDarkMode() { 
+			const container = document.getElementById('simulateDarkMode');
+  			const dataTheme = container.getAttribute('data-theme');
+  			if(dataTheme === 'dark') {
+    			container.setAttribute('data-theme', 'light');
+  				} else {
+    			container.setAttribute('data-theme', 'dark');
+  				}
+			}
+		
+		const svgFiles = {
+                '2026_01_16-hymnus-Zde_jsem.ly.svg': 'svg-container-1',
+                'resp-O_Boze.svg': 'svg-container-2',
+				'Magnificat.svg': 'svg-container-3',
+				'Salve_Regina.svg': 'svg-container-4',
+				'Zj19.svg?': 'svg-container-5',
+				'litanie-uvod.svg': 'svg-container-6',
+				'litanie.svg': 'svg-container-7',
+				'litanie-zaver.svg': 'svg-container-8'
+            };
+
+		function loadSVG(file, containerId) {
+                return fetch(file)
+                    .then(response => { if (!response.ok) { throw new Error(`Chyba při načítání ${file}: ${response.statusText}`); } return response.text(); })
+                    .then(svgContent => { document.getElementById(containerId).innerHTML = svgContent; });
+            }
+		const loadPromises = Object.entries(svgFiles).map(([file, containerId]) => loadSVG(file, containerId));
+		Promise.all(loadPromises)
+                .then(() => { console.log('Všechny SVG soubory byly úspěšně načteny.'); })
+                .catch(error => { console.error('Chyba při načítání SVG souborů:', error); });
+	</script>
+</head>
+
+<body>
+<div style="display: flex; gap: 20px; justify-content: left; align-items:center; padding-top: 20px; padding-left: 20px;">
+    <span onclick="changeFontSize(5)"><svg xmlns="http://www.w3.org/2000/svg" style="width: 30px; height: 30px;" fill="currentColor" stroke="currentColor" viewBox="0 0 448 512"><path d="M256 80c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 144L48 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l144 0 0 144c0 17.7 14.3 32 32 32s32-14.3 32-32l0-144 144 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-144 0 0-144z"/></svg></span>
+    <span onclick="changeFontSize(-5)"><svg xmlns="http://www.w3.org/2000/svg" style="width: 30px; height: 30px;" fill="currentColor" stroke="currentColor" viewBox="0 0 448 512"><path d="M432 256c0 17.7-14.3 32-32 32L48 288c-17.7 0-32-14.3-32-32s14.3-32 32-32l352 0c17.7 0 32 14.3 32 32z"/></svg></span>
+    <span onclick="toggleDarkMode()"><svg xmlns="http://www.w3.org/2000/svg" style="width: 30px; height: 30px;" fill="currentColor" stroke="currentColor" viewBox="0 0 384 512"><path d="M223.5 32C100 32 0 132.3 0 256S100 480 223.5 480c60.6 0 115.5-24.2 155.8-63.4c5-4.9 6.3-12.5 3.1-18.7s-10.1-9.7-17-8.5c-9.8 1.7-19.8 2.6-30.1 2.6c-96.9 0-175.5-78.8-175.5-176c0-65.8 36-123.1 89.3-153.3c6.1-3.5 9.2-10.5 7.7-17.3s-7.3-11.9-14.3-12.5c-6.3-.5-12.6-.8-19-.8z"/></svg></span>
+</div>
+
+<h2>16. listopad 2025</h2>
+<h2 class="red">Pátek 1. týdne v mezidobí</h2>
+<p class="castmodlitby">Nešpory</p>
+
+<div class="respons">
+<p class="respV">Bože, pospěš mi na pomoc.</p>
+<p class="respO">Slyš naše volání.</p>
+</div>
+
+<div class="respons">
+    <p class="respV">Sláva Otci i&nbsp;Synu i&nbsp;Duchu Svatému,</p>
+    <p class="respO">jako byla na počátku, i&nbsp;nyní i&nbsp;vždycky a&nbsp;na věky věků. Amen. Aleluja.</p>
+</div>
+
+<p class="redsmall">HYMNUS</p>
+<p class="pisne">T: Tomáš Coufal, Karel Řežábek; N: <a href="https://en.wikipedia.org/wiki/Here_I_Am_to_Worship_(song)">Tim Hughes</a> (2001) (<a href="https://zpevnik.proscholy.cz/pisen/93">ProScholy 93</a>)</p>
+<div id="svg-container-1" class="svg-container"></div>
+
+<div class="hymn">
+	<p class="first"><span class="red">1.</span> K&nbsp;nám když jsi vstoupil,</p>
+		<p>tvá zář ve tmě vzplála,</p>
+		<p>tvůj čin mi dal zahlédnout</p>
+		<p>krásu, co dává</p>
+		<p>mi touhu tě chválit,</p>
+	<p class="last">v&nbsp;blízkosti tvé navždy žít.</p>
+	
+	<p class="first"><span class="red">R.</span> Zde jsem chci tě chválit,</p>
+		<p>před tebou se sklánět,</p>
+		<p>zde jsem a&nbsp;chci říct,</p>
+		<p>že jsi můj Pán.</p>
+		<p>Jsi nade všechno krásný,</p>
+		<p>hoden chval a&nbsp;úcty,</p>
+		<p>nade všechno nádherný</p>
+	<p class="last">ty sám.</p>
+
+	<p class="first"><span class="red">2.</span> Králi všech dnů,</p>
+	<p>který vládneš ve slávě,</p>
+	<p>byls' v nebesích uctíván.</p>
+	<p>Zem, dílo tvé,</p>
+	<p>byla místem tvé bídy,</p>
+	<p class="last">z&nbsp;lásky když snížil ses k&nbsp;.</p>
+
+	<p class="first last"><span class="red">R.</span></p>
+
+	<p class="first"><span class="red">B.</span> 𝄆 A&nbsp;z&nbsp;lásky k&nbsp;nám<p>
+		<p>jsi snášel kříž,</p>
+		<p>co stál můj hřích,</p>
+	<p class="last">ty sám jen víš. 𝄇</p>
+
+	<p class="first last"><span class="red">R.</span></p>
+
+</div>
+
+<p class="redsmall">ŽALMY</p>
+
+<p><span class="red">1. ant.</span> Uzdrav mě, Hospodine, zhřešil jsem proti tobě.</p>
+<div class="psalm">
+	<div class="psalm-name">Žalm 41 (40)</div>
+	<div class="psalm-subtitle">Prosba v&nbsp;nemoci</div>
+	<div class="psalm-idea"><i>Jeden z&nbsp;vás mě zradí; ten, který se mnou jí.</i> (Mk 14,18)</div>
+	<p class="verse start first"><sup>2</sup>Blaze tomu, kdo si všímá chudáka a ubožáka,&nbsp;*</p>
+	<p class="verse cont">za to ho vysvobodí Hospodin v&nbsp;nouzi.</p>
+	<p class="verse start"><sup>3</sup>Hospodin ho bude chránit, zachová ho naživu,&nbsp;*</p>
+	<p class="verse cont">učiní ho šťastným na zemi, nevydá ho zvůli jeho nepřátel.</p>
+	<p class="verse start"><sup>4</sup>Hospodin mu pomůže na bolestném lůžku,&nbsp;*</p>
+	<p class="verse cont last">v&nbsp;nemoci z&nbsp;něho sejme veškerou slabost.</p>
+
+	<p class="verse start"><sup>5</sup>Volám: Hospodine, smiluj se nade mnou,&nbsp;*</p>
+	<p class="verse cont">uzdrav mě, zhřešil jsem proti tobě.</p>
+	<p class="verse start"><sup>6</sup>Moji nepřátelé zle o&nbsp;mně mluví:&nbsp;*</p>
+	<p class="verse cont">„Kdy už zemře, kdy zanikne jeho jméno?“</p>
+	<p class="verse start"><sup>7</sup>Kdo přijde navštívit, jen naprázdno tlachá,&nbsp;*</p>
+	<p class="verse cont last">v&nbsp;srdci si nasbírá špatnost, pak vyjde ven a pomlouvá.</p>
+
+	<p class="verse start"><sup>8</sup>Všichni, kdo mě nenávidí, si spolu o&nbsp;mně šeptají&nbsp;*</p>
+	<p class="verse cont">a vymýšlejí proti mně špatné věci:</p>
+	<p class="verse start"><sup>9</sup>„Postihla ho nevyléčitelná nákaza!“&nbsp;*</p>
+	<p class="verse cont">nebo: „Kdo tak ulehl, už nevstane!“</p>
+	<p class="verse start"><sup>10</sup>I&nbsp;můj přítel, jemuž jsem důvěřoval,&nbsp;*</p>
+	<p class="verse cont last">který jídal z&nbsp;mého chleba, strojil mi úklady.</p>
+
+	<p class="verse start"><sup>11</sup>Ty však, Hospodine, smiluj se nade mnou,&nbsp;*</p>
+	<p class="verse cont">postav mě na nohy, ať jim to splatím!</p>
+	<p class="verse start"><sup>12</sup>Z&nbsp;toho poznám, že mě máš rád,&nbsp;*</p>
+	<p class="verse cont">když můj sok nade mnou nezajásá.</p>
+	<p class="verse start"><sup>13</sup>Mne však zachováš bez úhony,&nbsp;*</p>
+	<p class="verse cont last">navěky mě postavíš před svou tvář.</p>
+
+	<p class="verse start"><sup>14</sup>Požehnaný Hospodin, Bůh Izraele,&nbsp;*</p>
+	<p class="verse cont">od věků až na věky! Staň se, staň se!</p>
+
+	<p class="verse start first">Sláva Otci i&nbsp;Synu&nbsp;*</p>
+	<p class="verse cont">i&nbsp;Duchu Svatému,</p>
+	<p class="verse start">jako byla na počátku, i&nbsp;nyní i&nbsp;vždycky&nbsp;*</p>
+	<p class="verse cont">a na věky věků. Amen.</p>
+</div>
+<p><span class="red">Ant.</span> Uzdrav mě, Hospodine, zhřešil jsem proti tobě.</p>
+
+<p><span class="red">2. ant.</span> S&nbsp;námi je Hospodin zástupů, Bůh Jakubův je naší tvrzí.</p>
+<div class="psalm">
+	<div class="psalm-name">Žalm 46 (45)</div>
+	<div class="psalm-subtitle">Bůh je naše útočiště a síla</div>
+	<div class="psalm-idea"><i>Dají mu jméno Emanuel, to znamená „Bůh s&nbsp;námi“.</i> (Mt 1,23)</div>
+	<p class="verse start first"><sup>2</sup>Bůh je naše útočiště a síla,&nbsp;*</p>
+	<p class="verse cont">osvědčil se jako nejlepší pomocník v&nbsp;nouzi.</p>
+	<p class="verse start"><sup>3</sup>Proto se nebojíme, i&nbsp;kdyby se kácela země,&nbsp;*</p>
+	<p class="verse cont">i&nbsp;kdyby se hory řítily do hlubin moře.</p>
+	<p class="verse start"><sup>4</sup>Ať se bouří moře, pění jeho vody,&nbsp;*</p>
+	<p class="verse cont">ať se třesou hory, když se moře vzdouvá,</p>
+	<p class="verse start">s&nbsp;námi je Hospodin zástupů,&nbsp;*</p>
+	<p class="verse cont last">Bůh Jakubův je naší tvrzí.</p>
+
+	<p class="verse start"><sup>5</sup>Proudy bystřin jsou k&nbsp;radosti Božímu městu,&nbsp;*</p>
+	<p class="verse cont">přesvatému stánku Nejvyššího,</p>
+	<p class="verse start"><sup>6</sup>Bůh je v&nbsp;jeho středu, nepohne se,&nbsp;*</p>
+	<p class="verse cont">od časného jitra ho Bůh bude chránit.</p>
+	<p class="verse start"><sup>7</sup>Národy se bouřily, říše se bortily;&nbsp;*</p>
+	<p class="verse cont">tu zahřměl svým hlasem, země se rozplynula.</p>
+	<p class="verse start"><sup>8</sup>S&nbsp;námi je Hospodin zástupů,&nbsp;*</p>
+	<p class="verse cont last">Bůh Jakubův je naší tvrzí.</p>
+
+	<p class="verse start"><sup>9</sup>Pojďte, pozorujte Boží skutky,&nbsp;*</p>
+	<p class="verse cont">které učinil k&nbsp;úžasu země.</p>
+	<p class="verse start"><sup>10</sup>Zamezuje války až po samé hranice světa,&nbsp;*</p>
+	<p class="verse cont">láme luky, přeráží oštěpy a štíty pálí ohněm.</p>
+	<p class="verse start"><sup>11</sup>Přestaňte a uznejte, že já jsem Bůh,&nbsp;*</p>
+	<p class="verse cont">převyšuji národy, převyšuji svět.</p>
+	<p class="verse start"><sup>12</sup>S&nbsp;námi je Hospodin zástupů,&nbsp;*</p>
+	<p class="verse cont">Bůh Jakubův je naší tvrzí.</p>
+
+	<p class="verse start first">Sláva Otci i&nbsp;Synu&nbsp;*</p>
+	<p class="verse cont">i&nbsp;Duchu Svatému,</p>
+	<p class="verse start">jako byla na počátku, i&nbsp;nyní i&nbsp;vždycky&nbsp;*</p>
+	<p class="verse cont">a na věky věků. Amen.</p>
+</div>
+<p><span class="red">Ant.</span> S&nbsp;námi je Hospodin zástupů, Bůh Jakubův je naší tvrzí.</p>
+
+<p><span class="red">3. ant.</span> Všechny národy přijdou, Pane, a budou se před tebou klanět.</p>
+	
+<div class="psalm">
+	<div class="psalm-name">Kantikum</div>
+	<div class="psalm-subtitle">Projev úcty a klanění</div>
+	<p class="bibleref">Zj 15,3-4</p>
+
+	<p class="verse start first"><sup>3</sup>Veliké a podivuhodné jsou tvé skutky,&nbsp;*</p>
+	<p class="verse cont">Pane, Bože vševládný!</p>
+	<p class="verse start">Spravedlivé a spolehlivé jsou tvé cesty,&nbsp;*</p>
+	<p class="verse cont last">králi národů!</p>
+
+	<p class="verse start"><sup>4</sup>Kdo by nevzdával, Pane, úctu a slávu tvému jménu?&nbsp;*</p>
+	<p class="verse cont">Vždyť ty jediný jsi svatý!</p>
+	<p class="verse start">Všechny národy přijdou a budou se před tebou klanět,&nbsp;*</p>
+	<p class="verse cont">neboť se ukázalo, že tvá rozhodnutí jsou spravedlivá.</p>
+
+	<p class="verse start first">Sláva Otci i&nbsp;Synu&nbsp;*</p>
+	<p class="verse cont">i&nbsp;Duchu Svatému,</p>
+	<p class="verse start">jako byla na počátku, i&nbsp;nyní i&nbsp;vždycky&nbsp;*</p>
+	<p class="verse cont">a na věky věků. Amen.</p>
+</div>
+<p><span class="red">Ant.</span> Všechny národy přijdou, Pane, a budou se před tebou klanět.</p>
+
+
+
+<p class="redsmall">KRÁTKÉ ČTENÍ</p>
+<p class="bibleref">Řím 15, 1-6</p>
+<p><i>My vyspělejší ve víře jsme povinni snášet nedostatky těch, kdo tak pokročilí nejsou, a&nbsp;nesmíme být na svou úroveň domýšliví. Pamatujte především na bližní a&nbsp;na to, co prospívá jim. Vždyť ani Kristus nehledal svůj prospěch, ale podle prorockých slov ze žalmu snášel výsměch nepřátel: „Urážky těch, kdo tebe, Bože, tupili, snesly se na moji hlavu.“ I&nbsp;toto, jako vše v&nbsp;Písmu, bylo napsáno k&nbsp;našemu naučení, abychom získali vytrvalost a&nbsp;čerpali z&nbsp;toho povzbuzení a&nbsp;naději. Ať vám tedy Bůh, dárce toho všeho, dá žít navzájem v&nbsp;souladu. Tak si to přál Ježíš Kristus, abyste jednomyslně oslavovali Boha, jeho Otce.</i></p>
+
+
+<p class="redsmall">ZPĚV PO KRÁTKÉM ČTENÍ</p>
+<p class="pisne">N: J. Gałuszka OP; T: Bodnár OP (<abbr title="Koinonia, 2016">Koi</abbr>&nbsp;90a)</p>
+<div id="svg-container-2" class="svg-container"></div>
+<p>Ó, Bože, světlo naše, je důstojné Tě chválit, Otce, Syna i&nbsp;Ducha Svatého.<br >
+	Ó, Bože, světlo naše, celý vesmír se Ti klaní, Otci, Synu i&nbsp;Duchu Svatému.</p>
+
+
+<p class="redsmall">KANTIKUM PANNY MARIE</p>
+<p><span class="red">Antifona ke kantiku Panny Marie:</span> Hospodin se ujal svých služebníků, pamatoval na své milosrdenství.</p>
+
+<p class="pisne">T: paraf. Magnificat; N:&nbsp;roráty, 16. století (<abbr title="Kancionál">K</abbr>&nbsp;813B)</p>
+<div id="svg-container-3" class="svg-container"></div>
+
+<div class="hymn">
+	<p class="first"><span class="red">1.</span> Velebí má duše s&nbsp;jásotem, radostí</p>
+	<p>Pána věčné spásy, který dnes z výsosti</p>
+	<p>pohlédl k&nbsp;své dívce</p>
+	<p class="last">pokorného srdce v&nbsp;lásce a&nbsp;milosti.</p>
+
+	<p><span class="red">2.</span> Již od této chvíle zástupy národů</p>
+	<p>v neustálé chvále po světa obvodu</p>
+	<p>slaviti mě budou,</p>
+	<p class="last">dívku Páně chudou, v&nbsp;radostném závodu.</p>
+
+	<p><span class="red">3.</span> Veliké mi věci Hospodin učinil,</p>
+	<p>Pán můj nejvýš svatý ve mně si zalíbil.</p>
+	<p>Duši bohabojné</p>
+	<p class="last">dary nebes hojné od věků připravil.</p>
+
+	<p><span class="red">4.</span> Ramenem své moci on pyšné rozptýlil,</p>
+	<p>sesadil i mocné, pokorné povýšil.</p>
+	<p>Sytí všechny lačné,</p>
+	<p class="last">bohaté a pyšné s prázdnou pryč propustil.</p>
+
+	<p><span class="red">5.</span> V lásce své se ujal národa svatého,</p>
+	<p>pamětliv je slibu praotcům daného,</p>
+	<p>že z Judova rodu</p>
+	<p class="last">přijde spása lidu od Boha věčného.</p>
+</div>
+<p><span class="red">Ant.</span> Hospodin se ujal svých služebníků, pamatoval na své milosrdenství.</p>
+
+
+<p class="redsmall">PROSBY</p>
+<span class="redsmall">
+	pro díky: <i style="color: var(--text);">Díky tobě, Pane.</i><br >
+	pro chvály: <i style="color: var(--text);">Chvála tobě, Pane.</i><br > 
+	pro prosby/přímluvy: <i style="color: var(--text);">Prosíme tě, vyslyš nás.</i>
+</span>
+
+<p class="redsmall">MODLITBA PÁNĚ</p>
+<p>Otče náš, jenž jsi na nebesích,<br >
+    posvěť se jméno tvé.<br >
+    Přijď království tvé.<br >
+    Buď vůle tvá jako v&nbsp;nebi, tak i&nbsp;na zemi.<br >
+    Chléb náš vezdejší dej nám dnes.<br >
+    A&nbsp;odpusť nám naše viny,<br >
+    jako i&nbsp;my odpouštíme našim viníkům.<br >
+    A&nbsp;neuveď nás v&nbsp;pokušení,<br >
+    ale zbav nás od zlého.<br >
+    Neboť tvé je království i&nbsp;moc i&nbsp;sláva navěky.</p>
+
+<p class="redsmall">MODLITBA</p>
+<p>Bože, vyslyš naše modlitby a&nbsp;dej, ať pochopíme smysl utrpení tvého Syna, abychom byli schopni nést jeho jho, které netlačí a&nbsp;netíží. Prosíme o&nbsp;to skrze tvého Syna Ježíše Krista, našeho Pána, neboť on s&nbsp;tebou v&nbsp;jednotě Ducha Svatého žije a&nbsp;kraluje po všechny věky věků.</p>
+
+
+<p class="redsmall">SALVE REGINA</p>
+<p class="pisne">Zdrávas, Královno; T:&nbsp;asi Heřman z&nbsp;Reichenau, 11. století; N:&nbsp;chorál (<abbr title="Mešní zpěvy, Praha, 1990">MZ</abbr>&nbsp;1001)</p>
+<div id="svg-container-4" class="svg-container"></div>
+	<p>Salve, Regina, <span class="red">*</span> mater misericordiæ,<br>
+	vita dulcedo et spes nostra, salve.<br>
+	Ad te clamamus, exules, filii Hevæ.<br>
+	Ad te suspiramus, gementes et flentes in hac lacrimarum valle.<br>
+	Eia ergo, advocata nostra, illos tuos misericordes óculos ad nos converte.<br>
+	Et Iesum, benedictum fructum ventris tui, nobis post hoc exilium ostende.<br>
+	O&nbsp;clemens, o&nbsp;pia, o&nbsp;dulcis Virgo Maria.</p>
+</body></html>
