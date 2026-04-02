@@ -111,7 +111,10 @@
 							<span style="display:inline-block; width: 14em;">Osmnácté setkání 6. 11. 2025</span> – <a href="PRF/2025_11_06-pozvanka.pdf">pozvánka</a>, <a href="PRF/2025_11_06-priloha.pdf"><i>příloha</i></a>, <a href="PRF/2025_11_06-zapis.pdf">zápis</a><br />
 							<span style="display:inline-block; width: 14em;">Devatenácté setkání 4. 12. 2025</span> – <a href="PRF/2025_12_04-pozvanka.pdf">pozvánka</a>, <a href="PRF/2025_12_04-priloha.pdf"><i>příloha</i></a>, <a href="PRF/2025_12_04-zapis-r.pdf">zápis</a><br />
 							<span style="display:inline-block; width: 14em;">První setkání 8. 1. 2026</span> – <a href="PRF/2026_01_08-pozvanka.pdf">pozvánka</a>, <a href="PRF/2026_01_08-prilohy.pdf"><i>příloha</i></a>, <a href="PRF/2026_01_08-zapis.pdf">zápis</a><br />
-							<span style="display:inline-block; width: 14em;">Druhé setkání 5. 2. 2026</span> – <a href="PRF/2026_02_05-pozvanka.pdf">pozvánka</a>, <i>příloha</i>, zápis<br />
+							<span style="display:inline-block; width: 14em;">Druhé setkání 5. 2. 2026</span> – <a href="PRF/2026_02_05-pozvanka.pdf">pozvánka</a>, <i>příloha</i>, <a href="PRF/2026_02_05-zapis.pdf">zápis</a><br />
+							<span style="display:inline-block; width: 14em;">Třetí setkání 5. 3. 2026</span> – <a href="PRF/2026_03_05-pozvanka.pdf">pozvánka</a>, <i>příloha</i>, <a href="PRF/2026_03_05-zapis.pdf">zápis</a><br />
+							<span style="display:inline-block; width: 14em;">Čtvrté setkání 9. 4. 2026</span> – <a href="PRF/2026_04_09-pozvanka.pdf">pozvánka</a>, <i>příloha</i>, zápis<br />
+							
 						</p>
                         
 

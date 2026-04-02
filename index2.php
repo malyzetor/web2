@@ -42,12 +42,12 @@
 			<div class="navbar-header">
 				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
 					<span class="sr-only">Toggle navigation</span>
-					<span style="font-size: 20px; color:rgb(242, 196, 90);"><img src="img/kotva-BW-min.svg" alt="&#9776;" style="height:20px; width:15px;" loading="lazy"></span>
+					<span style="font-size: 20px; color:rgb(242, 196, 90);"><img src="img/zelva-1.svg" alt="&#9776;" style="height:20px; width:15px;" loading="lazy"></span>
 				</button>
 			</div>
 			<nav class="collapse navbar-collapse navbar-right">
 				<ul id="nav" class="nav navbar-nav">
-					<li><a href="vespers/2025_11_02.html"><img src="img/apokalypsa.svg" alt="Hodinová apokalypsa" style="width: 1.5em;"></a></li>
+					<li><a href="vespers/2026_01_16.html"><img src="img/apokalypsa.svg" alt="Hodinová apokalypsa" style="width: 1.5em;"></a></li>
 					<li>
 						<a href="#Bohosluzby">Pořad bohoslužeb</a>
 					</li>
@@ -69,7 +69,7 @@
 	</header>
 
 <!-- dynamicky generované heslo dne .-->
-	<div id="jHD"><?php include('./HD-2026-01-leden.inc'); ?></div>
+	<div id="jHD"><?php include('./HD-2026-04-veli.inc'); ?></div>
 
 	<section id="Farnosti" class="features"  style="display:flex; min-height: 100vh;">
 		<div class="container" style="margin-top: auto; margin-bottom: auto;">
