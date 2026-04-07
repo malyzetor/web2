@@ -1,14 +1,45 @@
 <!DOCTYPE html>
-
 <html lang="cs">
 <head>
-	<!-- Global site tag (gtag.js) - Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-123153363-1"></script>
 	<script>
   		window.dataLayer = window.dataLayer || [];
   		function gtag(){dataLayer.push(arguments);}
   		gtag('js', new Date());
   		gtag('config', 'UA-123153363-1');
+	</script>
+	<script>
+		/**
+		 * Minimalistická náhrada za jag.min.js (Vanilla JS)
+		 * Zajišťuje pouze nezbytnou interaktivitu bez načítání jQuery.
+		 */
+		document.addEventListener('DOMContentLoaded', function() {
+			// 1. Ovládání mobilního menu (hamburger)
+			var menuToggle = document.getElementById('menuToggle');
+			var mainNavbar = document.getElementById('mainNavbar');
+			if (menuToggle && mainNavbar) {
+				menuToggle.addEventListener('click', function() {
+					mainNavbar.classList.toggle('in'); // Bootstrap 3 využívá třídu .in pro zobrazení
+				});
+			}
+
+			// 2. Ovládání Dropdown menu (Farnosti)
+			var dropdown = document.getElementById('dropdownFarnosti');
+			if (dropdown) {
+				dropdown.querySelector('.dropdown-toggle').addEventListener('click', function(e) {
+					e.preventDefault();
+					dropdown.classList.toggle('open');
+				});
+			}
+
+			// 3. Automatické zavření menu po kliknutí na odkaz (pro plynulý posun)
+			var navLinks = document.querySelectorAll('#mainNavbar a:not(.dropdown-toggle)');
+			navLinks.forEach(function(link) {
+				link.addEventListener('click', function() {
+					mainNavbar.classList.remove('in');
+				});
+			});
+		});
 	</script>
 
 	<meta charset="utf-8">
@@ -18,7 +49,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="icon" href="./favicon.ico" sizes="any">
 	<link rel="preload" href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;1,300&display=swap" as="font" crossorigin="anonymous">
-	<link rel="stylesheet" href="css/jag-bootstrap.min.css">
+	<link rel="stylesheet" href="css/jag-bootstrap-2.css?t=<?php echo time(); ?>">
 	<style>
 		.open-sans-jag {
   			font-family: "Open Sans", serif;
@@ -29,165 +60,52 @@
 		html {
   			scroll-behavior: smooth;
 		}
-		
-		<?php include('css/main.min.css'); ?>
-		/* Základní stylování menu */
-/* Pevné umístění navigace */
-/* Pevná navigace */
-nav {
-  position: fixed;
-  top: 0;
-  right: 0;
-  width: 100%;
-  background-color: #333;
-  padding: 10px 0;
-  z-index: 1000;
-}
-
-/* Zarovnání menu doprava */
-.menu {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  justify-content: flex-end;
-  gap: 10px;
-  padding-right: 20px;
-}
-
-/* Položky menu */
-.menu > li {
-  position: relative;
-}
-
-.menu a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 20px;
-  text-decoration: none;
-}
-
-.menu a:hover {
-  background-color: #111;
-}
-
-/* Submenu */
-.submenu {
-  display: none;
-  position: absolute;
-  top: 100%;
-  right: 0;
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  background-color: #333;
-  min-width: 200px;
-}
-
-.submenu li {
-  width: 100%;
-}
-
-.submenu a {
-  padding: 10px;
-}
-
-/* Zobrazení submenu při hover */
-.has-submenu:hover .submenu {
-  display: block;
-}
-
-/* ---- RESPONSIVE ---- */
-#menu-toggle {
-  display: none;
-}
-
-/* Styl pro hamburger ikonku */
-.menu-icon {
-  display: none;
-  font-size: 30px;
-  color: white;
-  padding: 10px;
-  cursor: pointer;
-}
-
-/* Pro malé obrazovky (mobil) */
-@media screen and (max-width: 768px) {
-  .menu {
-    display: none;
-    flex-direction: column;
-    position: absolute;
-    top: 50px;
-    right: 0;
-    background-color: #333;
-    width: 100%;
-    padding: 0;
-  }
-
-  .menu li {
-    text-align: center;
-    width: 100%;
-  }
-
-  .menu a {
-    display: block;
-    padding: 15px;
-    border-bottom: 1px solid #444;
-  }
-
-  .menu-icon {
-    display: block;
-    position: absolute;
-    top: 10px;
-    right: 20px;
-  }
-
-  /* Zobrazení menu při zaškrtnutí checkboxu */
-  #menu-toggle:checked + .menu-icon + .menu {
-    display: flex;
-  }
-}
-
-
 
     </style>
 </head>
 
 <body id="body">
 
-	<header id="navigation">
-	<nav>
-  <input type="checkbox" id="menu-toggle">
-  <label for="menu-toggle" class="menu-icon">&#9875;</label>
-
-  <ul class="menu">
-    <li><a href="#porad-bohosluzeb">Pořad bohoslužeb</a></li>
-    <li class="has-submenu">
-      <a href="#farnosti">Farnosti</a>
-      <ul class="submenu">
-        <li><a href="#spravovane-farnosti">Spravované farnosti</a></li>
-        <li><a href="#kontakt">Kontakt</a></li>
-        <li><a href="#pastoracni-rada">Pastorační rada</a></li>
-        <li><a href="#duchovni-program">Duchovní program</a></li>
-      </ul>
-    </li>
-    <li><a href="#toufar-cihost">Toufar—Číhošť</a></li>
-  </ul>
-</nav>
-
-
+	<header id="navigation" class="navbar-fixed-top navbar">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" id="menuToggle">
+					<span class="sr-only">Toggle navigation</span>
+					<span style="font-size: 20px; color:rgb(242, 196, 90);"><img src="img/kotva-BW-min.svg" alt="&#9776;" style="height:20px; width:15px;" loading="lazy"></span>
+				</button>
+			</div>
+			<nav class="collapse navbar-collapse navbar-right" id="mainNavbar">
+				<ul id="nav" class="nav navbar-nav">
+					<li><a href="vespers/pesach-2025/2026-feminnejsi_hagada-2.html"><img src="img/apokalypsa.svg" alt="Hodinová apokalypsa" style="width: 1.5em;"></a></li>
+					<li>
+						<a href="#Bohosluzby">Pořad bohoslužeb</a>
+					</li>
+					<li class="dropdown" id="dropdownFarnosti">
+						<a href="#" class="dropdown-toggle">Farnosti <span class="caret"></span></a>
+						<ul class="dropdown-menu">
+							<li><a href="#Farnosti">Spravované farnosti</a></li>
+							<li><a href="#Kontakt">Kontakt</a></li>
+							<li><a href="prf.php">Pastorační rada farnosti</a></li>
+							<li><a href="#Duchovni">Duchovní program</a></li>	
+						</ul>
+					</li>
+					<li>
+						<a href="#Toufar">Toufar—Číhošť</a>
+					</li>
+				</ul>
+			</nav>
+		</div>
 	</header>
 
-<!-- dynamicky generované heslo dne .-->
-	<div id="jHD"><?php include('./HD-2025-02-kotva_nadeje.inc'); ?></div>
+	<div id="jHD"><?php include('./HD-2026-04-veli.inc'); ?></div>
 
-	<section id="Farnosti" class="features"  style="display:flex; min-height: 100vh;">
+	<section id="Farnosti" class="features" style="display:flex; min-height: 100vh;">
 		<div class="container" style="margin-top: auto; margin-bottom: auto;">
 			<div class="row">
-				<div class="sec-title text-center mb50">
+				<div class="sec-title text-center">
 					<h2>Společně spravované farnosti</h2>
 				</div>
+				<div class="col-md-3"></div>
 				<div class="col-md-6">
 					<div class="service-item">
 						<div class="service-icon">
@@ -195,12 +113,13 @@ nav {
 						</div>
 
 						<div class="service-desc">
-							<h3>Římskokatolická farnost – děkanství Světlá nad Sázavou</h3>
+							<h3>Římskokatolická farnost Světlá nad Sázavou</h3>
 							<p>IČO: 15060586<br>účet: 1120630319/0800</p>
 							<p>ID: hamajse</p>
 						</div>
 					</div>
 				</div>
+				<div class="col-md-3"></div>
 				<div class="col-md-6">
 					<div class="service-item">
 						<div class="service-icon">
@@ -284,7 +203,7 @@ nav {
 		</div>
 	</section>
 
-	<section id="Bohosluzby" class="features" style="background-color:white;">
+	<section id="Bohosluzby" class="features" style="background-color: white;">
 		<div class="container" style="margin-top: auto; margin-bottom: auto;">
 			<div class="row">
 				<div class="sec-title text-center mb50">
@@ -300,7 +219,7 @@ nav {
 			</div>	
 		</div>
 	</section>
-
+	
 	<section id="Kontakt" class="features">
 		<div class="container" style="margin-top: auto; margin-bottom: auto;">
 			<div class="row">
@@ -317,56 +236,11 @@ nav {
 							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" style="fill: #8C2318; width: 1em"><path d="M347.1 24.6c7.7-18.6 28-28.5 47.4-23.2l88 24C499.9 30.2 512 46 512 64c0 247.4-200.6 448-448 448c-18 0-33.8-12.1-38.6-29.5l-24-88c-5.3-19.4 4.6-39.7 23.2-47.4l96-40c16.3-6.8 35.2-2.1 46.3 11.6L207.3 368c70.4-33.3 127.4-90.3 160.7-160.7L318.7 167c-13.7-11.2-18.4-30-11.6-46.3l40-96z"/></svg>
 								&nbsp;&nbsp;776 215 841<br>
 							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" style="fill: #8C2318; width: 1em"><path d="M528 64H48C21.49 64 0 85.49 0 112v288c0 26.51 21.49 48 48 48h480c26.51 0 48-21.49 48-48V112c0-26.51-21.49-48-48-48zm8 336c0 4.411-3.589 8-8 8H48c-4.411 0-8-3.589-8-8V112c0-4.411 3.589-8 8-8h480c4.411 0 8 3.589 8 8v288zM170 270v-28c0-6.627-5.373-12-12-12h-28c-6.627 0-12 5.373-12 12v28c0 6.627 5.373 12 12 12h28c6.627 0 12-5.373 12-12zm96 0v-28c0-6.627-5.373-12-12-12h-28c-6.627 0-12 5.373-12 12v28c0 6.627 5.373 12 12 12h28c6.627 0 12-5.373 12-12zm96 0v-28c0-6.627-5.373-12-12-12h-28c-6.627 0-12 5.373-12 12v28c0 6.627 5.373 12 12 12h28c6.627 0 12-5.373 12-12zm96 0v-28c0-6.627-5.373-12-12-12h-28c-6.627 0-12 5.373-12 12v28c0 6.627 5.373 12 12 12h28c6.627 0 12-5.373 12-12zm-336 82v-28c0-6.627-5.373-12-12-12H82c-6.627 0-12 5.373-12 12v28c0 6.627 5.373 12 12 12h28c6.627 0 12-5.373 12-12zm384 0v-28c0-6.627-5.373-12-12-12h-28c-6.627 0-12 5.373-12 12v28c0 6.627 5.373 12 12 12h28c6.627 0 12-5.373 12-12zM122 188v-28c0-6.627-5.373-12-12-12H82c-6.627 0-12 5.373-12 12v28c0 6.627 5.373 12 12 12h28c6.627 0 12-5.373 12-12zm96 0v-28c0-6.627-5.373-12-12-12h-28c-6.627 0-12 5.373-12 12v28c0 6.627 5.373 12 12 12h28c6.627 0 12-5.373 12-12zm96 0v-28c0-6.627-5.373-12-12-12h-28c-6.627 0-12 5.373-12 12v28c0 6.627 5.373 12 12 12h28c6.627 0 12-5.373 12-12zm96 0v-28c0-6.627-5.373-12-12-12h-28c-6.627 0-12 5.373-12 12v28c0 6.627 5.373 12 12 12h28c6.627 0 12-5.373 12-12zm96 0v-28c0-6.627-5.373-12-12-12h-28c-6.627 0-12 5.373-12 12v28c0 6.627 5.373 12 12 12h28c6.627 0 12-5.373 12-12zm-98 158v-16c0-6.627-5.373-12-12-12H180c-6.627 0-12 5.373-12 12v16c0 6.627 5.373 12 12 12h216c6.627 0 12-5.373 12-12z"></path></svg>
-								&nbsp;&nbsp;rkf.svetlanadsazavou@dihk.cz
+								&nbsp;&nbsp;rkf.svetlanadsazavou&commat;dihk.cz
 					</p>
 				</div>
 			</div>
 		</div>
     </section>
-    
-	<div id="Svatyrok" class="features" style="background-color:white;">
-		<div class="container" style="margin-top: auto; margin-bottom: auto;">
-			<div class="row">
-				<div class="col-md-2"></div>
-				<div class="col-md-8">
-					<img src="img/svaty_rok-text.svg" style="width: 100%; margin-bottom: 1em; margin-top: 7em;" alt="Svatý rok 2025">
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-md-1"></div>
-				<div class="col-md-10" style="font-family: 'Open Sans'; font-weight: 300; line-height: normal; color: #5b646e;">
-					bula papeže Františka: <a href="pdf/2024_05_09-nadeje_neklame.pdf" style="color: black;">Naděje neklame</a> (Svatý rok 2025)
-					<p style="font-size: 3em; margin-top: 1em;">slovo naděje</p>
-					<p style="font-style: italic; margin-bottom: 1em; text-align: justify;"><b>čl. 1</b> Všichni doufáme. V&nbsp;srdci každého člověka se skrývá naděje jako touha po dobru a&nbsp; dobra, ač nevíme, co přinese druhý den. Nepředvídatelnost budoucnosti přece jen dává vzejít někdy protikladným pocitům: od důvěry po obavy, od vyrovnanosti po bezútěšnost, od jistoty po pochybnosti. Často se setkáváme s&nbsp;lidmi, kteří jsou skleslí, kteří do budoucnosti hledí skepticky a&nbsp;pesimisticky, jako kdyby jim nic nemohlo přinést štěstí. Kéž je Svatý rok pro všechny příležitostí k&nbsp;oživení naděje. <span style="color: #5E8C6A; font-weight: bolder;">Slovo Boží</span> nám pomáhá nalézt pro to odůvodnění. Nechme se vést tím, co apoštol Pavel píše právě křesťanům v&nbsp;Římě.</p>
-					<p>so 15. 3.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;setkání nad Písmem (Naděje)</p>
-					<p>so 29. 3.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;setkání nad Písmem (Pokání)</p>
-					<p>so 12. 4.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;bohoslužba pokání a&nbsp;naděje</p>
-					
-					<p style="font-size: 3em; margin-top: 1em;">cesta naděje</p>
-					<p style="font-style: italic; margin-bottom: 1em; text-align: justify;"><b>čl. 5</b> Není náhodou, že zásadním prvkem každého Svatého roku je pouť… <span style="color: #5E8C6A; font-weight: bolder;">Pěší pouť</span> velmi napomáhá ke znovuobjevení hodnoty ticha, námahy a&nbsp;toho, co je podstatné… Tím, že se poutníci budou přesouvat… od města k&nbsp;městu, a&nbsp;přitom budou rozjímat nad stvořením a&nbsp;uměleckými díly, uloží si do srdce poklad sestávající z&nbsp;nejrůznějších zkušeností a&nbsp;zážitků ze setkání s&nbsp;jinými kulturami… Kostely zapojené do oslav Svatého roku… budou duchovními oázami, kde se poutníci budou moci posílit na své cestě víry a&nbsp;napojit se u&nbsp;pramenů naděje, především když přistoupí ke svátosti smíření, která je nenahraditelným výchozím bodem na opravdové cestě obrácení.</p>
-					<p>so 17. 5.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;pouť na <a href="http://www.hradek.speaker.cz/" style="color: black;">Hrádek u&nbsp;Vlašimi</a></p>
-					
-					<p style="font-size: 3em; margin-top: 1em;">výzva k&nbsp;naději</p>
-					<p style="font-style: italic; margin-bottom: 1em; text-align: justify;"><b>čl. 17</b> (Letos to bude) 1700 let od okamžiku, kdy se slavil první velký ekumenický koncil, a&nbsp;to <span style="color: #5E8C6A; font-weight: bolder;">koncil Nicejský</span>… Měl za úkol uchovat jednotu, která byla vážně ohrožena popíráním božství Ježíše Krista a&nbsp;jeho rovnosti s&nbsp;Bohem Otcem… Nicejský koncil je milníkem v&nbsp;dějinách církve… Je také výzvou pro všechny církve a&nbsp;církevní společenství, aby pokračovaly na cestě k&nbsp;viditelné jednotě, aby neúnavně hledaly cesty vhodné k&nbsp;dosažení stavu, který bude plně odpovídat Ježíšově modlitbě: „Ať všichni jsou jedno. Jako ty, Otče, ve mně a&nbsp;já v&nbsp;tobě, tak i&nbsp;oni ať jsou v&nbsp;nás, aby svět uvěřil, že ty jsi mě poslal“ ( Jan 17, 21).</p>
-					<p>pá 20. 6.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;setkání nad 1700. výročím ekumenického <a href="https://cs.wikipedia.org/wiki/Nicejsk%C3%A9_vyzn%C3%A1n%C3%AD" style="color: black;">vyznání víry</a> v&nbsp;Nicei</p>
-					<p>so 21. 6.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;slavnostní vyznání víry</p>
-					
-					<p style="font-size: 3em; margin-top: 1em;">znamení naděje</p>
-					<p style="font-style: italic; margin-bottom: 1em; text-align: justify;"><b>čl. 7.11</b> Kromě toho, že čerpáme svou naději z milosti Boží, jsme vybízeni také k&nbsp;tomu, abychom ji odkrývali ve <span style="color: #5E8C6A; font-weight: bolder;">znameních doby</span>, která nám Pán dává… Kéž nechybí všestranná pozornost vůči těm, kteří čelí zvlášť obtížným životním podmínkám, když zakoušejí vlastní slabost, zejména pokud jsou stiženi takovými nemocemi nebo hendikepy, které velmi omezují jejich osobní nezávislost. Péče o&nbsp;ně je hymnem oslavujícím lidskou důstojnost, zpěvem naděje, který si žádá, aby se k&nbsp;němu jako sbor připojila celá společnost.</p>
-					<p>září/říjen&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;návštěva v&nbsp;sociálně-terapeutické dílně ve Světlé n.&nbsp;S.</p>
-					<p>so 18. 10.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;návštěva u&nbsp;SDH Světlá n.&nbsp;S.</p>
-					
-					<p style="font-size: 3em; margin-top: 1em;">kotva naděje</p>
-					<p style="font-style: italic; margin-bottom: 1em; text-align: justify;"><b>čl. 22</b> Pokud je správné, že jsme si velice dobře a&nbsp;s&nbsp;vážností vědomi okamžiku, při kterém bude sečten a&nbsp;podtržen náš život, je zároveň třeba to vždy činit v&nbsp;kontextu naděje, božské ctnosti, která je oporou životu a&nbsp;umožňuje nám, abychom nepropadli strachu. <span style="color: #5E8C6A; font-weight: bolder;">Soud Bohem</span>, který je láska (srov. 1&nbsp;Jan 4,&nbsp;8.16), nemůže nevycházet z&nbsp;lásky, zvláštním způsobem pak na tom, jak jsme ji více či méně uskutečňovali vůči nejpotřebnějším, ve kterých je přítomen Kristus, Soudce sám (srov. Mt 25,&nbsp;31–46).</p>
-					<p>pátek 14. 11.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;komponovaný program <a href="https://cs.wikipedia.org/wiki/Dies_irae" style="color: black; font-style: italic;">Boží soud</a></p>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-md-1"></div>
-				<img src="img/svaty_rok-col.svg" style="width: 7em; margin-top: 4em; margin-bottom: 4em;" alt="Poutníci naděje">
-			</div>
-		</div>
-	</div>
 </body>
-
 </html>

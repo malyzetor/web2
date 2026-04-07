@@ -1,0 +1,531 @@
+/*! 
+ * Očištěný Bootstrap v3.4.0 pro farnostsvetla.cz
+ * Ponechán pouze Grid, Navbar a základní Reset.
+ */
+
+/* Normalize & Base */
+html {
+  font-family: 'Barlow', 'Open Sans', sans-serif; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0; font-size: 14px; line-height: 1.42857143; color: #333; background-color: #fff; }
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block; }
+[hidden], template {
+  display: none; }
+a {
+  background-color: transparent; color: #337ab7; text-decoration: none; }
+a:hover, a:focus {
+  color: #23527c; text-decoration: underline; }
+b, strong {
+  font-weight: bold; }
+img {
+  border: 0; vertical-align: middle; }
+svg:not(:root) {
+  overflow: hidden; }
+
+/* Grid System */
+.container { padding-right: 15px; padding-left: 15px; margin-right: auto; margin-left: auto; }
+@media (min-width: 768px) {
+  .container { width: 750px; } }
+@media (min-width: 992px) {
+  .container { width: 970px; } }
+@media (min-width: 1200px) {
+  .container { width: 1170px; } }
+
+.row {
+  margin-right: -15px; margin-left: -15px; }
+.col-xs-12, .col-sm-6, .col-md-1, .col-md-2, .col-md-3, .col-md-5, .col-md-6, .col-md-8, .col-md-10 {
+  position: relative; min-height: 1px; padding-right: 15px; padding-left: 15px; }
+.col-xs-12 {
+  width: 100%; }
+
+@media (min-width: 768px) {
+  .col-sm-6 {
+    float: left; width: 50%; }
+}
+
+@media (min-width: 992px) {
+  .col-md-1, .col-md-2, .col-md-5, .col-md-6, .col-md-8, .col-md-10 { float: left; }
+  .col-md-10 { width: 83.33333333%; }
+  .col-md-8 { width: 66.66666667%; }
+  .col-md-6 { width: 50%; }
+  .col-md-5 { width: 41.66666667%; }
+  .col-md-3 { width: 25%; }
+  .col-md-2 { width: 16.66666667%; }
+  .col-md-1 { width: 8.33333333%; }
+  .col-md-offset-1 { margin-left: 8.33333333%; }
+}
+
+/* Nav & Navbar */
+.nav { padding-left: 0; margin-bottom: 0; list-style: none; }
+.nav > li { position: relative; display: block; }
+.nav > li > a { position: relative; display: block; padding: 10px 15px; }
+.nav > li > a:hover, .nav > li > a:focus { background-color: #eee; }
+
+.navbar { position: relative; min-height: 50px; margin-bottom: 20px; border: 1px solid transparent; }
+.navbar-header:after, .navbar-collapse:after, .container:after, .row:after { clear: both; content: " "; display: table; }
+.navbar-fixed-top { position: fixed; right: 0; left: 0; z-index: 1030; top: 0; border-width: 0 0 1px; }
+.navbar-toggle { display: none; position: relative; float: right; padding: 9px 10px; margin-right: 15px; background-color: transparent; border: 1px solid transparent; border-radius: 4px; }
+.navbar-nav { margin: 7.5px -15px; }
+
+@media (min-width: 768px) {
+  .navbar { border-radius: 4px; } }
+
+@media (min-width: 768px) {
+  .navbar-header { float: left; }
+  .navbar-collapse { width: auto; border-top: 0; box-shadow: none; display: block !important; height: auto !important; padding-bottom: 0; overflow: visible !important; }
+  .navbar-right { float: right !important; margin-right: -15px; }
+  .navbar-nav { float: left; margin: 0; }
+  .navbar-nav > li { float: left; }
+  .navbar-nav > li > a { padding-top: 15px; padding-bottom: 15px; }
+}
+
+/* Dropdown */
+.dropdown { position: relative; }
+.dropdown-menu { position: absolute; top: 100%; left: 0; z-index: 1000; display: none; float: left; min-width: 160px; padding: 5px 0; margin: 2px 0 0; font-size: 14px; background-color: #fff; border: 1px solid rgba(0,0,0,.15); border-radius: 4px; box-shadow: 0 6px 12px rgba(0,0,0,.175); }
+.open > .dropdown-menu { display: block; }
+.caret { display: inline-block; width: 0; height: 0; margin-left: 2px; vertical-align: middle; border-top: 4px dashed; border-right: 4px solid transparent; border-left: 4px solid transparent; }
+
+/* Utilities */
+.clearfix:before, .clearfix:after { display: table; content: " "; }
+.clearfix:after { clear: both; }
+.text-center { text-align: center; }
+.sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0,0,0,0); border: 0; }
+
+/* Collapse logic for mobile */
+.collapse { display: none; }
+.collapse.in { display: block; }
+
+/* Výchozí stav: tlačítko je skryté (pro desktop) */
+
+/* Mobilní zobrazení: pod 768px tlačítko ukážeme */
+@media (max-width: 767px) {
+    .navbar-toggle {
+        display: block;
+    }
+    /* Zajistí, že se menu na mobilu skryje, dokud se nerozbalí třídou .in */
+    .navbar-collapse.collapse {
+        display: none !important;
+    }
+    .navbar-collapse.collapse.in {
+        display: block !important;
+    }
+    /* Reset okrajů pro mobilní menu */
+    .navbar-nav {
+        margin: 7.5px -15px;
+    }
+}
+
+/* Desktop zobrazení: nad 768px menu vždy ukážeme a tlačítko skryjeme */
+@media (min-width: 768px) {
+    .navbar-collapse.collapse {
+        display: block !important;
+        height: auto !important;
+        padding-bottom: 0;
+        overflow: visible !important;
+    }
+    .navbar-toggle {
+        display: none !important;
+    }
+}
+
+
+
+
+
+
+
+
+/* =================================== */
+/*	Basic Style 
+/* =================================== */
+
+body {
+    background-color: #fff;
+    font-family: 'Barlow', 'Open Sans', sans-serif;
+    line-height: 21px;
+	  font-size: 15px;
+    color: #6a737b;
+}
+
+@font-face {
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: 300;
+  src: url('../fonts/barlow/Barlow-Light.woff2') format('woff2');
+  font-display: fallback;
+}
+@font-face {
+  font-family: 'Barlow';
+  font-style: italic;
+  font-weight: 300;
+  src: url('../fonts/barlow/Barlow-LightItalic.woff2') format('woff2');
+  font-display: fallback;
+}
+@font-face {
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/barlow/Barlow-Regular.woff2') format('woff2');
+  font-display: fallback;
+}
+@font-face {
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: 500;
+  src: url('../fonts/barlow/Barlow-Medium.woff2') format('woff2');
+  font-display: fallback;
+}
+@font-face {
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: 600;
+  src: url('../fonts/barlow/Barlow-SemiBold.woff2') format('woff2');
+  font-display: fallback;
+}
+@font-face {
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/barlow/Barlow-Bold.woff2') format('woff2');
+  font-display: fallback;
+}
+@font-face {
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: 800;
+  src: url('../fonts/barlow/Barlow-ExtraBold.woff2') format('woff2');
+  font-display: fallback;
+}
+
+@font-face {
+  font-family: 'Barlow Condensed';
+  font-style: normal;
+  font-weight: 300;
+  src: url('../fonts/barlow/BarlowCondensed-Light.woff2') format('woff2');
+  font-display: fallback;
+}
+@font-face {
+  font-family: 'Barlow Condensed';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/barlow/BarlowCondensed-Regular.woff2') format('woff2');
+  font-display: fallback;
+} 
+
+ol, ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+figure, p {
+    margin: 0;
+}
+
+a {
+  color: rgb(242,196,90);
+  transition: all .3s ease-in 0s;
+}
+
+a, a:focus, a:hover {
+    text-decoration: none;
+    outline: 0;
+}
+
+a:focus, a:hover {
+    color: #6CB670;
+}
+
+h1, h2, h3,
+h4, h5, h6 {
+	font-weight: normal;
+	margin: 0;
+}
+
+body > section,
+.footer {
+	padding: 70px 0;
+}
+
+.sec-title h2 {
+  color: #5E8C6A;
+  font-size: 3em;
+  line-height: 1em;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+.sec-sub-title {
+	margin: 35px 0 45px;
+}
+
+.sec-sub-title p {
+	font-weight: 400;
+	line-height: 24px;
+	font-size: 18px;
+	color: #5b646e;
+}
+
+.mb50 {
+	margin-bottom: 50px;
+}
+
+
+
+/*=========================================
+	Header
+==========================================*/
+
+#navigation {
+  background-color: rgba(16, 22, 16, .9);
+  border: 0 none;
+  margin: 0;
+}
+
+.navbar-toggle i {
+	color: #fff;
+}
+
+.navbar-nav li a {
+	border-top: 1px solid transparent;
+}
+
+.navbar-nav li a:focus,
+.navbar-nav li a:hover {
+	background-color: transparent;
+	color: rgb(255, 255, 255);
+}
+
+.dropdown-menu {
+  background-color: rgba(16, 22, 16, .9);
+  font-size: 15px;
+}
+
+.dropdown li a {
+  color: rgb(242,196,90);
+}
+
+.nav .open>a, .nav .open>a:focus, .nav .open>a:hover {
+  background-color: black;
+}
+
+.heslodne {
+  color: white;
+  text-align: center;
+}
+
+.heslodne h2 {
+  font-size: 62px;
+  font-weight: 300;
+}
+
+.heslodne h2 span {
+  font-weight: 400;
+}
+
+.heslodne p {
+  font-size: 18px;
+  font-weight: 300;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+.heslodne p:before {
+  right: 20px;
+}
+
+.heslodne p:after {
+  left: 20px;
+}
+
+.veliDen {
+  font-size: 2em;
+  font-weight: 300;
+  padding-top: 1em;
+  padding-bottom: 0.2em;
+}
+
+.veliMisto {
+  padding-left: 10px;
+  padding-bottom: 0.4em;
+  padding-top: 0.4em;
+  color: #8C2318;
+}
+
+.veliCas {
+  padding-left: 10px;
+  padding-bottom:0.5em;
+}
+
+.veliTime {
+  display: inline-block;
+  width: 85px;
+}
+
+
+
+
+/*=========================================
+	Features
+==========================================*/
+
+.features {
+  background-color: #f4f7f9;
+  display:flex;
+  min-height: 100vh;
+}
+
+.service-icon {
+ 
+  color: #8C2318;
+  float: left;
+  padding: 10px 13px;
+}
+
+.service-desc {
+  margin-left: 70px;
+  position: relative;
+  top: 5px;
+}
+
+.service-desc h3 {
+  color: #062033;
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 10px;
+  margin-bottom: 25px;
+}
+
+
+
+/*=========================================
+	media-queries
+==========================================*/
+
+/*============================================================
+	Tablet (Portrait) Design for a width of 768px
+==============================================================*/
+
+@media (min-width: 768px) and (max-width: 979px) {
+  
+  
+  /* slider */
+  
+  .heslodne h2 {
+    font-size: 55px;
+  }
+  
+  /* services */
+  
+  .service-item {
+    margin: 0 auto 30px;
+    text-align: center;
+    width: 325px;
+  }
+  
+  .service-icon {
+    float: none;
+    margin: 0 auto 15px;
+    text-align: center;
+    width: 50px;
+  }
+  
+  .service-desc {
+    margin-left: 0;
+    position: relative;
+    top: 0;
+  }
+  }
+  
+  
+  /*============================================================
+    Mobile (Portrait) Design for a width of 320px
+  ==============================================================*/
+  
+  @media only screen and (max-width: 767px) {
+  
+  .sec-sub-title p {
+    font-size: 14px;
+  }
+  
+  /* slider */
+  .heslodne h2 {
+    font-size: 35px;
+  }
+  
+  .heslodne p {
+    font-size: 14px;
+  }
+  
+  
+  
+  /* services */
+  
+  .service-item {
+    margin: 0 auto 30px;
+    text-align: center;
+    width: 280px;
+  }
+  
+  .service-icon {
+    float: none;
+    margin: 0 auto 15px;
+    text-align: center;
+    width: 50px;
+  }
+  
+  .service-desc {
+    margin-left: 0;
+    position: relative;
+    top: 0;
+  }
+  
+  }
+  
+  
+  /*============================================================
+    Mobile (Landscape) Design for a width of 480px
+  ==============================================================*/
+  
+  @media only screen and (min-width: 480px) and (max-width: 767px) {
+  
+  
+  /* services */
+  
+  .service-item {
+    margin: 0 auto 30px;
+    text-align: center;
+    width: 325px;
+  }
+  
+  .service-icon {
+    float: none;
+    margin: 0 auto 15px;
+    text-align: center;
+    width: 50px;
+  }
+  
+  .service-desc {
+    margin-left: 0;
+    position: relative;
+    top: 0;
+  }
+  }
+  
+  
+  @media (max-width: 767px) {
+  
+    .centerKontakt {
+      width: 160px;
+    }
+    
+    }
+  
+    @media (min-width: 768px) {
+      .centerKontakt {
+        width: 250px;
+      }
+    }
+
+  

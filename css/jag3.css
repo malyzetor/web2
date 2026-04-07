@@ -1,0 +1,480 @@
+/*
+ * jag3.css — bez Bootstrap; čisté vlastní CSS
+ */
+
+/* ── Reset ──────────────────────────────────────────────────── */
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-family: 'Barlow', sans-serif;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+[hidden], template {
+  display: none;
+}
+
+b, strong {
+  font-weight: 600;
+}
+
+img {
+  border: 0;
+  vertical-align: middle;
+}
+
+svg:not(:root) {
+  overflow: hidden;
+}
+
+button {
+  overflow: visible;
+  text-transform: none;
+  cursor: pointer;
+}
+
+/* ── Základní typografie ────────────────────────────────────── */
+
+body {
+  background-color: #fff;
+  font-size: 18px;
+  color: #6a737b;
+  margin: 0;
+  line-height: 1.3em;
+}
+
+h2, h3 {
+  line-height: 1em;
+  margin: 0;
+}
+
+h2 {
+  color: #5E8C6A;
+  font-size: 3em;
+  font-weight: 300;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+h3 {
+  color: #062033;
+  font-size: 1.4em;
+  font-weight: 600;
+  margin-top: 10px;
+  margin-bottom: 25px;
+}
+
+ol, ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  color: rgb(242,196,90);
+  text-decoration: none;
+  outline: 0;
+  transition: color .3s ease-in;
+}
+
+a:focus, a:hover {
+  color: #6CB670;
+  text-decoration: none;
+  outline: 0;
+}
+
+p {
+  color: #5b646e;
+  font-weight: 400;
+  margin: 0;
+}
+
+.mensi {
+  font-size: 0.8em;
+}
+
+/* ── Přístupnost ────────────────────────────────────────────── */
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0,0,0,0);
+  border: 0;
+}
+
+/* ── Utility ────────────────────────────────────────────────── */
+
+.text-center {
+  text-align: center;
+}
+
+/* ── Kontejner ──────────────────────────────────────────────── */
+
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+@media (min-width: 768px)  { .container { width: 750px;  } }
+@media (min-width: 992px)  { .container { width: 970px;  } }
+@media (min-width: 1200px) { .container { width: 1170px; } }
+
+/* ── Sekce — společné ──────────────────────────────────────── */
+
+body > section,
+.footer {
+  padding: 70px 0;
+}
+
+.sec-sub-title {
+  margin: 35px 0 45px;
+}
+
+/* ═══════════════════════════════════════════════════════════════
+   NAVIGACE
+   ═══════════════════════════════════════════════════════════════ */
+
+#navigation {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1030;
+  background-color: rgba(16, 22, 16, .9);
+  height: 50px;
+}
+
+#navigation .container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  position: relative;
+}
+
+/* ── Hamburger tlačítko ─────────────────────────────────────── */
+
+#nav-toggle {
+  display: none;           /* skryté na desktopu */
+  background: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  padding: 8px 10px;
+  cursor: pointer;
+  line-height: 0;
+}
+
+#nav-toggle:focus {
+  outline: 0;
+}
+
+#nav-toggle img {
+  display: block;
+  height: 20px;
+  width: 15px;
+  transition: opacity .2s ease;
+}
+
+#nav-toggle[aria-expanded="true"] img {
+  opacity: .6;
+}
+
+/* ── Nav seznam — desktop ───────────────────────────────────── */
+
+#mainNavbar {
+  display: flex;
+  align-items: center;
+}
+
+#mainNavbar > ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: 0;
+}
+
+#mainNavbar > ul > li > a {
+  display: block;
+  padding: 15px 12px;
+  color: rgb(242,196,90);
+  font-size: 15px;
+  white-space: nowrap;
+  line-height: 20px;
+}
+
+#mainNavbar > ul > li > a:hover,
+#mainNavbar > ul > li > a:focus {
+  color: #fff;
+}
+
+/* ── Dropdown ───────────────────────────────────────────────── */
+
+.dropdown {
+  position: relative;
+}
+
+.caret {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  margin-left: 3px;
+  vertical-align: middle;
+  border-top: 4px solid currentColor;
+  border-right: 4px solid transparent;
+  border-left: 4px solid transparent;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: calc(100% + 2px);
+  right: 0;
+  left: auto;
+  z-index: 1000;
+  display: none;
+  min-width: 200px;
+  padding: 5px 0;
+  list-style: none;
+  background-color: rgba(16, 22, 16, .95);
+  border: 1px solid rgba(255,255,255,.1);
+  border-radius: 4px;
+  box-shadow: 0 6px 16px rgba(0,0,0,.35);
+}
+
+.dropdown-menu li a {
+  display: block;
+  padding: 8px 20px;
+  font-size: 15px;
+  color: rgb(242,196,90);
+  white-space: nowrap;
+}
+
+.dropdown-menu li a:hover,
+.dropdown-menu li a:focus {
+  color: #fff;
+  background-color: rgba(255,255,255,.08);
+}
+
+/* Dropdown viditelný jen když má rodič třídu .open */
+.dropdown.open > .dropdown-menu {
+  display: block;
+}
+
+/* ── Mobilní navigace (≤ 767px) ─────────────────────────────── */
+
+@media (max-width: 767px) {
+
+  /* Zobrazit hamburger */
+  #nav-toggle {
+    display: block;
+  }
+
+  /* Nav se překryje přes celou šířku pod hlavičkou */
+  #mainNavbar {
+    display: none;
+    position: absolute;
+    top: 50px;           /* výška hlavičky */
+    left: 0;
+    right: 0;
+    background-color: rgba(16, 22, 16, .97);
+    flex-direction: column;
+    align-items: stretch;
+    padding-bottom: .5rem;
+  }
+
+  /* Otevřené menu */
+  #mainNavbar.open {
+    display: flex;
+  }
+
+  #mainNavbar > ul {
+    flex-direction: column;
+    align-items: stretch;
+    width: 100%;
+  }
+
+  #mainNavbar > ul > li > a {
+    padding: 10px 20px;
+    border-bottom: 1px solid rgba(255,255,255,.05);
+  }
+
+  /* Dropdown na mobilu — statický, odsazený */
+  .dropdown-menu {
+    position: static;
+    display: none;          /* stále řízeno .open */
+    box-shadow: none;
+    border: 0;
+    border-left: 2px solid rgb(242,196,90);
+    border-radius: 0;
+    margin-left: 1.5rem;
+    background-color: transparent;
+  }
+
+  .dropdown.open > .dropdown-menu {
+    display: block;
+  }
+
+  .dropdown-menu li a {
+    padding: 7px 16px;
+  }
+}
+
+/* ═══════════════════════════════════════════════════════════════
+   SEKCE
+   ═══════════════════════════════════════════════════════════════ */
+
+/* ── Úvodní panel (heslo dne) ───────────────────────────────── */
+
+.heslodne {
+  text-align: center;
+  background-color: rgba(255,255,255,.7);
+}
+
+.heslodne h2 {
+  font-size: 62px;
+  line-height: 1;
+  padding-top: .4em;
+  font-weight: 400;
+  text-transform: none;
+  color: black;
+}
+
+.heslodne p {
+  font-weight: 300;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  color: black;
+}
+
+.heslodne p:before { right: 20px; }
+.heslodne p:after  { left: 20px;  }
+
+/* ── .features ──────────────────────────────────────────────── */
+
+.features {
+  background-color: #f4f7f9;
+  display: flex;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* ── Flexboxové layouty (náhrada za Bootstrap .row/.col-md-*) ── */
+
+.col-halves,
+.col-offset,
+.col-wide,
+.col-pair {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.col-halves > .col,
+.col-offset > .col,
+.col-wide   > .col,
+.col-pair   > .col,
+.col-pair   > .spacer {
+  padding-right: 15px;
+  padding-left:  15px;
+  width: 100%;
+}
+
+@media (min-width: 992px) {
+  .col-halves > .col    { width: 50%; }
+  .col-offset > .col    { width: 66.66666667%; margin-left: 16.66666667%; }
+  .col-wide   > .col    { width: 83.33333333%; margin-left:  8.33333333%; }
+  .col-pair   > .col    { width: 41.66666667%; }
+  .col-pair   > .spacer { width:  8.33333333%; }
+}
+
+/* ── Service item ───────────────────────────────────────────── */
+
+.service-icon {
+  color: #8C2318;
+  float: none;
+  padding: 10px 13px;
+  margin: 0 auto 15px;
+  text-align: center;
+  width: 50px;
+}
+
+.service-desc {
+  margin-left: 0;
+  top: 0;
+}
+
+.cihost-casy {
+    margin-left: 2em;
+    display: inline-block;
+    width: 5em;
+}
+
+.kontakt-ikona {
+    fill:#8C2318;
+    width:1em;
+
+}
+
+/* ── Kontakt ────────────────────────────────────────────────── */
+
+@media (max-width: 767px)  { .centerKontakt { width: 160px; } }
+@media (min-width: 768px)  { .centerKontakt { width: 250px; } }
+
+/* ── Responzivní úpravy service-item ────────────────────────── */
+
+.service-item { margin: 0 auto 30px; text-align: center; }
+
+@media (min-width: 768px) and (max-width: 979px) {
+  .heslodne h2  { font-size: 55px; }
+  .service-item { width: 325px; }
+}
+
+@media only screen and (max-width: 767px) {
+  p             { font-size: 14px; }
+  .heslodne h2  { font-size: 35px; }
+  .service-item { width: 280px; }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  .service-item { width: 325px; }
+}
+
+/* ── Fonty ──────────────────────────────────────────────────── */
+
+@font-face {
+  font-family: 'Barlow'; font-style: normal; font-weight: 300;
+  src: url('../fonts/barlow/Barlow-Light.woff2') format('woff2');
+  font-display: fallback;
+}
+@font-face {
+  font-family: 'Barlow'; font-style: italic; font-weight: 300;
+  src: url('../fonts/barlow/Barlow-LightItalic.woff2') format('woff2');
+  font-display: fallback;
+}
+@font-face {
+  font-family: 'Barlow'; font-style: normal; font-weight: 400;
+  src: url('../fonts/barlow/Barlow-Regular.woff2') format('woff2');
+  font-display: fallback;
+}
+@font-face {
+  font-family: 'Barlow'; font-style: normal; font-weight: 600;
+  src: url('../fonts/barlow/Barlow-SemiBold.woff2') format('woff2');
+  font-display: fallback;
+}
+
+
