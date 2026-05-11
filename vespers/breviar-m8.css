@@ -1,0 +1,206 @@
+:root {
+	--zvyrazneni: #B30000;
+	--pozadi: white;
+	--text: black;
+	--hover-back: #C39482;
+	--hover-akt: gray;
+	--inv: 0;
+}
+
+[data-theme="dark"] {
+	--zvyrazneni: #FF5555;
+	--pozadi: black;
+	--text: #E0E0E0;
+	--hover-back: #8B5E50;
+	--hover-akt: #aaa;
+	--inv: 1;
+}
+
+/* ── Základní typografie ── */
+body, html {
+	font-size: 100%;
+	background-color: var(--pozadi);
+	color: var(--text);
+	font-family: 'Noto Serif', serif;
+	font-weight: bold;
+	line-height: 1.5;
+	margin: 0;
+	padding: 0 4px;
+	box-sizing: border-box;
+	transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* ── Lišta nástrojů ── */
+.toolbar {
+	display: flex;
+	gap: 20px;
+	align-items: center;
+	padding: 20px 0 10px;
+}
+
+.toolbar .btn {
+	cursor: pointer;
+	line-height: 0;
+}
+
+.toolbar svg {
+	width: 30px;
+	height: 30px;
+	fill: currentColor;
+	stroke: currentColor;
+}
+
+/* ── Nadpisy ── */
+h2 {
+	font-size: 150%;
+	text-align: center;
+}
+
+/* ── Červené prvky ── */
+.red {
+	color: var(--zvyrazneni);
+}
+
+.redsmall {
+	color: var(--zvyrazneni);
+	font-size: 85%;
+	font-weight: normal;
+}
+
+/* ── Výběr textu ── */
+::selection {
+	background: var(--hover-back);
+}
+
+/* ── Odkaz ── */
+a {
+	border-bottom: 1px dotted;
+	color: var(--text);
+	text-decoration: none;
+}
+
+a:hover {
+	background-color: var(--hover-back);
+	border: none;
+	color: var(--pozadi);
+}
+
+a:active {
+	color: var(--hover-akt);
+	text-decoration: underline;
+}
+
+/* ── Označení části modlitby ── */
+.castmodlitby {
+	text-align: center;
+	text-transform: uppercase;
+}
+
+/* ── Zdroj / poznámka ke zpěvu ── */
+.pisne {
+	font-weight: normal;
+	font-style: italic;
+	text-align: right;
+}
+
+/* ── Biblický odkaz ── */
+p.bibleref {
+	color: var(--zvyrazneni);
+	font-weight: normal;
+	text-align: right;
+}
+
+/* ── Normální barva textu (pro kurzívu uvnitř červených prvků) ── */
+.normal {
+	color: var(--text);
+}
+
+/* ── Verše a odpovědi ── */
+.respons p {
+	margin: 0;
+}
+
+.respons p.respV::before, .respV::before {
+	color: var(--zvyrazneni);
+	content: 'V. ';
+}
+
+.respons p.respO::before, .respO::before {
+	color: var(--zvyrazneni);
+	content: 'O. ';
+}
+
+/* ── Hymnus ── */
+.hymn p {
+	margin: 0;
+	padding-top: 1em;
+}
+
+.hymn p.last {
+	padding-bottom: 1em;
+}
+
+/* ── Žalm ── */
+.psalm .psalm-name {
+	color: var(--zvyrazneni);
+	padding-top: 1em;
+	text-align: center;
+}
+
+.psalm .psalm-subtitle {
+	color: var(--zvyrazneni);
+	font-weight: normal;
+	text-align: center;
+}
+
+.psalm .psalm-idea {
+	font-weight: normal;
+	padding-top: 1em;
+}
+
+.psalm p.verse {
+	margin: 0;
+	padding-left: 2.4em;
+	text-indent: -2.4em;
+}
+
+.psalm p.verse.cont {
+	text-indent: -1.2em;
+}
+
+.psalm p.first {
+	padding-top: 1em;
+}
+
+.psalm p.last {
+	padding-bottom: 1em;
+}
+
+.psalm p.last::after {
+	color: var(--zvyrazneni);
+	content: '\00a0\2014';
+	font-weight: normal;
+}
+
+/* ── SVG kontejner (noty) ── */
+.svg-container {
+	width: 100%;
+	height: auto;
+	padding: 1em 0;
+	font-weight: lighter;
+}
+
+/* ── Obrázky (invertovat v tmavém režimu) ── */
+img {
+	filter: invert(var(--inv));
+}
+
+/* ── Horní index (čísla veršů) ── */
+sup {
+	color: var(--zvyrazneni);
+	font-size: 0.5em;
+	font-weight: normal;
+	position: relative;
+	top: -0.8em;
+	vertical-align: baseline;
+}

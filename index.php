@@ -1,13 +1,9 @@
 <!DOCTYPE html>
 <html lang="cs">
 <head>
-	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-123153363-1"></script>
-	<script>
-		window.dataLayer = window.dataLayer || [];
-		function gtag(){dataLayer.push(arguments);}
-		gtag('js', new Date());
-		gtag('config', 'UA-123153363-1');
-	</script>
+	<meta charset="utf-8">
+	<script async src="https://scripts.simpleanalyticscdn.com/latest.js"></script>
+
 	<script>
 		document.addEventListener('DOMContentLoaded', function () {
 
@@ -45,13 +41,13 @@
 		});
 	</script>
 
-	<meta charset="utf-8">
+	
 	<title>Římskokatolické farnosti Světlá nad Sázavou a Číhošť</title>
 	<meta name="description" content="Římskokatolické farnosti Světlá nad Sázavou a Číhošť">
-	<meta name="keywords" content="parish, christian, catholic, church">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="icon" href="./favicon.ico" sizes="any">
-	<link rel="stylesheet" href="css/jag3.css?t=<?php echo filemtime('css/jag3.css'); ?>">
+	<link rel="stylesheet" href="css/jag4.css">
+	
 </head>
 
 <body id="body">
@@ -70,7 +66,7 @@
 			<nav id="mainNavbar" aria-label="Hlavní navigace">
 				<ul>
 					<li>
-						<a href="vespers/pesach-2025/2026-feminnejsi_hagada-2.html">
+						<a href="vespers/2026_04_10.html">
 							<img src="img/apokalypsa.svg" alt="Hodinová apokalypsa" style="width:1.5em;">
 						</a>
 					</li>
@@ -98,7 +94,7 @@
 	</header>
 
 	<!-- ÚVOD -->
-	<div id="jHD"><?php include('./HD-2026-04-veli-2.inc'); ?></div>
+	<div id="jHD"><?php include('./HD-2026-05-nockostelu.inc'); ?></div>
 
 	<!-- FARNOSTI -->
 	<section id="Farnosti" class="features">
@@ -161,7 +157,7 @@
 					Každou druhou sobotu v&nbsp;měsíci je <b>smírná pobožnost</b>.<br>
 					<span class="cihost-casy">8.45 hod.</span>— modlitba růžence<br>
 					<span class="cihost-casy">9.30 hod.</span>— mše svatá<br>
-					<span class="cihost-casy">10.00 hod.</span>— eucharistická adorace<br>
+					<span class="cihost-casy">10.00 hod.</span>— eucharistická adorace<br></p>
 				</div>
 			</div>
 			<div class="col-pair">
@@ -169,7 +165,7 @@
 				<div class="col">
 					<div class="service-item">
 						<div class="service-icon">
-							<a href="http://www.joseftoufar.cz"><img src="img/toufar-hlava.svg" style="height:4em;" alt="Josef Toufar (✝1950)"></a>
+							<a href="https://www.joseftoufar.cz"><img src="img/toufar-hlava.svg" style="height:4em;" alt="Josef Toufar (✝1950)"></a>
 						</div>
 						<div class="service-desc">
 							<h3>P. Josef Toufar (✝1950)</h3>
@@ -180,7 +176,7 @@
 				<div class="col">
 					<div class="service-item">
 						<div class="service-icon">
-							<a href="http://www.nfcihost.cz"><img src="img/nfcihost-krizek.svg" style="height:4em;" alt="Nadační fond Číhošť"></a>
+							<a href="https://www.nfcihost.cz"><img src="img/nfcihost-krizek.svg" style="height:4em;" alt="Nadační fond Číhošť"></a>
 						</div>
 						<div class="service-desc">
 							<h3>Nadační fond</h3>

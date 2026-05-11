@@ -1,68 +1,31 @@
 <!DOCTYPE html>
+
 <html lang="cs">
 <head>
-	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-123153363-1"></script>
-	<script>
-		window.dataLayer = window.dataLayer || [];
-		function gtag(){dataLayer.push(arguments);}
-		gtag('js', new Date());
-		gtag('config', 'UA-123153363-1');
-	</script>
-	<script>
-		document.addEventListener('DOMContentLoaded', function () {
-
-			var toggle  = document.getElementById('nav-toggle');
-			var navbar  = document.getElementById('mainNavbar');
-			var ddItem  = document.getElementById('dropdownFarnosti');
-
-			/* Hamburger — otevřít / zavřít hlavní menu */
-			toggle.addEventListener('click', function () {
-				var isOpen = navbar.classList.toggle('open');
-				toggle.setAttribute('aria-expanded', isOpen);
-			});
-
-			/* Dropdown — otevřít / zavřít podmenu */
-			ddItem.querySelector('.dropdown-toggle').addEventListener('click', function (e) {
-				e.preventDefault();
-				ddItem.classList.toggle('open');
-			});
-
-			/* Zavřít vše po kliknutí na odkaz (anchor, jiná stránka) */
-			navbar.querySelectorAll('a:not(.dropdown-toggle)').forEach(function (a) {
-				a.addEventListener('click', function () {
-					navbar.classList.remove('open');
-					toggle.setAttribute('aria-expanded', 'false');
-					ddItem.classList.remove('open');
-				});
-			});
-
-			/* Zavřít dropdown kliknutím mimo */
-			document.addEventListener('click', function (e) {
-				if (!ddItem.contains(e.target)) {
-					ddItem.classList.remove('open');
-				}
-			});
-		});
-	</script>
-
 	<meta charset="utf-8">
-	<title>Římskokatolické farnosti Světlá nad Sázavou a Číhošť</title>
-	<meta name="description" content="Římskokatolické farnosti Světlá nad Sázavou a Číhošť">
+	<script async src="https://scripts.simpleanalyticscdn.com/latest.js"></script>
+
+	
+	<title>Římskokatolická farnost Světlá nad Sázavou</title>
+	<meta name="description" content="Římskokatolická farnost Světlá nad Sázavou">
 	<meta name="keywords" content="parish, christian, catholic, church">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="icon" href="./favicon.ico" sizes="any">
-	<link rel="stylesheet" href="css/jag3.css?t=<?php echo time(); ?>">
+	<meta name=”robots” content="noindex, nofollow">
+	<link rel="stylesheet" href="css/jag4.css">
 </head>
 
 <body id="body">
 
-
-	<header id="navigation">
+		<header id="navigation">
 		<div class="container">
+
+			<!-- Hamburger (viditelný jen na mobilu) -->
 			<button id="nav-toggle" aria-controls="mainNavbar" aria-expanded="false" aria-label="Otevřít menu">
 				<span class="sr-only">Otevřít menu</span>
 				<img src="img/zelva-1.svg" alt="🐢" aria-hidden="true" style="height:20px; width:15px;">
 			</button>
+
+			<!-- Hlavní navigace -->
 			<nav id="mainNavbar" aria-label="Hlavní navigace">
 				<ul>
 					<li>
@@ -70,15 +33,22 @@
 					</li>
 				</ul>
 			</nav>
+
 		</div>
 	</header>
 
 
+
 	<section id="karantena" class="features" style="background-color:#fafaf2;">
-		<div class="container">
-			<h2>Pastorační rada farnosti</h2>
-			<div class="col-wide sec-sub-title">
-				<div class="col">
+		<div class="container" style="margin-top: auto; margin-bottom: auto;">
+			<div class="row">
+				<div class="sec-title text-center">
+					<h2>Pastorační rada farnosti</h2>
+				</div>
+				
+				<div class="sec-sub-title">
+				
+						<br />
 						<p>Každé společenství je povoláno vytvářet <b>Bohem ozářený prostor, v&nbsp;němž každý může zakoušet mystickou přítomnost zmrtvýchvstalého Pána</b>. Sdílení Slova a&nbsp;společné slavení eucharistie posiluje bratrskou lásku a&nbsp;proměňuje nás ve svaté a&nbsp;misijní společenství.</p>
                         <p style="font-size:.8em;text-align: right">Srov. František: Gaudete et exultate, čl.&nbsp;142; Jan Pavel&nbsp;II.: Vita consecrata, čl.&nbsp;42.</p>
                             
@@ -134,17 +104,15 @@
 							<span style="display:inline-block; width: 14em;">První setkání 8. 1. 2026</span> – <a href="PRF/2026_01_08-pozvanka.pdf">pozvánka</a>, <a href="PRF/2026_01_08-prilohy.pdf"><i>příloha</i></a>, <a href="PRF/2026_01_08-zapis.pdf">zápis</a><br />
 							<span style="display:inline-block; width: 14em;">Druhé setkání 5. 2. 2026</span> – <a href="PRF/2026_02_05-pozvanka.pdf">pozvánka</a>, <i>příloha</i>, <a href="PRF/2026_02_05-zapis.pdf">zápis</a><br />
 							<span style="display:inline-block; width: 14em;">Třetí setkání 5. 3. 2026</span> – <a href="PRF/2026_03_05-pozvanka.pdf">pozvánka</a>, <i>příloha</i>, <a href="PRF/2026_03_05-zapis.pdf">zápis</a><br />
-							<span style="display:inline-block; width: 14em;">Čtvrté setkání 9. 4. 2026</span> – <a href="PRF/2026_04_09-pozvanka.pdf">pozvánka</a>, <i>příloha</i>, zápis<br />
-							
+							<span style="display:inline-block; width: 14em;">Čtvrté setkání 9. 4. 2026</span> – <a href="PRF/2026_04_09-pozvanka.pdf">pozvánka</a>, <i>příloha</i>, <a href="PRF/2026_04_09-zapis.pdf">zápis</a><br />
+							<span style="display:inline-block; width: 14em;">Páté setkání 14. 5. 2026</span> – <a href="PRF/2026_05_14-pozvanka.pdf">pozvánka</a>, <a href="PRF/2026_05_14-priloha.pdf"><i>příloha</i></a>, zápis<br />
 						</p>
-                        
-
-
-				
+				</div>
 				</div>
 			</div>
 		</div>
 	</section>
+
 
 </body>
 
