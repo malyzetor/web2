@@ -3,7 +3,7 @@
 <html lang="cs">
 <head>
 	<meta charset="utf-8">
-	<script async src="https://scripts.simpleanalyticscdn.com/latest.js"></script>
+	<script defer src="https://cloud.umami.is/script.js" data-website-id="495c1db9-1130-4ebb-b0ef-edce72aea90d"></script>
 
 	
 	<title>Římskokatolická farnost Světlá nad Sázavou</title>
@@ -105,7 +105,8 @@
 							<span style="display:inline-block; width: 14em;">Druhé setkání 5. 2. 2026</span> – <a href="PRF/2026_02_05-pozvanka.pdf">pozvánka</a>, <i>příloha</i>, <a href="PRF/2026_02_05-zapis.pdf">zápis</a><br />
 							<span style="display:inline-block; width: 14em;">Třetí setkání 5. 3. 2026</span> – <a href="PRF/2026_03_05-pozvanka.pdf">pozvánka</a>, <i>příloha</i>, <a href="PRF/2026_03_05-zapis.pdf">zápis</a><br />
 							<span style="display:inline-block; width: 14em;">Čtvrté setkání 9. 4. 2026</span> – <a href="PRF/2026_04_09-pozvanka.pdf">pozvánka</a>, <i>příloha</i>, <a href="PRF/2026_04_09-zapis.pdf">zápis</a><br />
-							<span style="display:inline-block; width: 14em;">Páté setkání 14. 5. 2026</span> – <a href="PRF/2026_05_14-pozvanka.pdf">pozvánka</a>, <a href="PRF/2026_05_14-priloha.pdf"><i>příloha</i></a>, zápis<br />
+							<span style="display:inline-block; width: 14em;">Páté setkání 14. 5. 2026</span> – <a href="PRF/2026_05_14-pozvanka.pdf">pozvánka</a>, <a href="PRF/2026_05_14-priloha.pdf"><i>příloha</i></a>, <a href="PRF/2026_05_14-zapis.pdf">zápis</a><br />
+							<span style="display:inline-block; width: 14em;">Šesté setkání 4. 6. 2026</span> – <a href="PRF/2026_06_04-pozvanka.pdf">pozvánka</a>, <i>příloha</i>, zápis<br />
 						</p>
 				</div>
 				</div>

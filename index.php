@@ -2,7 +2,7 @@
 <html lang="cs">
 <head>
 	<meta charset="utf-8">
-	<script async src="https://scripts.simpleanalyticscdn.com/latest.js"></script>
+	<script defer src="https://cloud.umami.is/script.js" data-website-id="495c1db9-1130-4ebb-b0ef-edce72aea90d"></script>
 
 	<script>
 		document.addEventListener('DOMContentLoaded', function () {
