@@ -94,7 +94,7 @@
 	</header>
 
 	<!-- ÚVOD -->
-	<div id="jHD"><?php include('./HD-2026-05-nockostelu.inc'); ?></div>
+	<div id="jHD"><?php include('./HD-2026-06-mezi.inc'); ?></div>
 
 	<!-- FARNOSTI -->
 	<section id="Farnosti" class="features">
