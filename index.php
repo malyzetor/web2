@@ -94,7 +94,7 @@
 	</header>
 
 	<!-- ÚVOD -->
-	<div id="jHD"><?php include('./HD-2026-06-mezi.inc'); ?></div>
+	<div id="jHD"><?php $host = strtolower($_SERVER['HTTP_HOST'] ?? ''); if (str_contains($host, 'cihost.farnost.cz')) { include('./2026-Cihost.inc'); } else { include('./HD-2026-06-mezi.inc'); }  ?></div>
 
 	<!-- FARNOSTI -->
 	<section id="Farnosti" class="features">
@@ -152,7 +152,7 @@
 				<div class="col">
 					<p>Kostel Nanebevzetí Panny Marie v&nbsp;Číhošti je otevřený v&nbsp;době bohoslužeb nebo po předchozí domluvě.<br>Za podobných podmínek je přístupná i&nbsp;výstava o&nbsp;životě P.&nbsp;Josefa Toufara v&nbsp;budově místní fary.<br>
 					<br>
-					Za&nbsp;příznivého počasí během <b>července a srpna 2025</b> budou kostel i&nbsp;fara přístupné po celý den.<br>
+					Za&nbsp;příznivého počasí během <b>července a srpna 2026</b> budou kostel i&nbsp;fara přístupné po celý den.<br>
 					<br>
 					Každou druhou sobotu v&nbsp;měsíci je <b>smírná pobožnost</b>.<br>
 					<span class="cihost-casy">8.45 hod.</span>— modlitba růžence<br>
