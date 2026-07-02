@@ -11,7 +11,7 @@
 				nedokáže stvořit srdce, které se daruje,<br>
 				ani svědomí, které rozlišuje dobro od zla.<br>
 				<br>
-                <em style="font-size:.8em;text-align: right">srov. Lev XIV.: Magnifica humanitas (15. 5. 2026), čl. 233; H. Hollem: Brave New World (1942)</em><br><br> 
+                <em style="font-size:.8em">srov. Lev XIV.: Magnifica humanitas (15. 5. 2026), čl. 233; H. Hollem: Brave New World (1942)</em><br><br> 
             </p>
 		</div>
 	</div>

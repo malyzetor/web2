@@ -107,7 +107,7 @@
 							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" style="width: 2em; fill: #8C2318;"><path d="M281.71 320.3c-33.28 3.17-57.71 33.02-57.71 66.45V504c0 4.42 3.58 8 8 8h16c4.42 0 8-3.58 8-8V385.8c0-15.95 10.86-30.76 26.59-33.36C302.61 349.15 320 364.58 320 384v120c0 4.42 3.58 8 8 8h16c4.42 0 8-3.58 8-8V384c0-37.42-32.12-67.34-70.29-63.7zm276.86 35.69L448 303.26v-29.14c0-11.24-5.9-21.66-15.54-27.44L304 169.6V96h72c4.42 0 8-3.58 8-8V72c0-4.42-3.58-8-8-8h-72V8c0-4.42-3.58-8-8-8h-16c-4.42 0-8 3.58-8 8v56h-72c-4.42 0-8 3.58-8 8v16c0 4.42 3.58 8 8 8h72v73.6l-128.46 77.08A31.997 31.997 0 0 0 128 274.12v29.15L17.43 355.99C6.96 360.99 0 373.89 0 388.32V504c0 4.42 3.58 8 8 8h16c4.42 0 8-3.58 8-8V388.32c0-1.98.45-3.42.8-4.21l95.2-45.4V504c0 4.42 3.58 8 8 8h16c4.42 0 8-3.58 8-8V274.12l128-76.8 128 76.8V504c0 4.42 3.58 8 8 8h16c4.42 0 8-3.58 8-8V338.71l95.2 45.4c.35.78.8 2.22.8 4.21V504c0 4.42 3.58 8 8 8h16c4.42 0 8-3.58 8-8V388.32c0-14.43-6.96-27.33-17.43-32.33z"></path></svg>
 						</div>
 						<div class="service-desc">
-							<h3><?php $host = strtolower($_SERVER['HTTP_HOST'] ?? ''); echo $host; ?></h3>
+							<h3>Římskokatolická farnost Světlá nad Sázavou</h3>
 							<p>IČO: 15060586<br>účet: 1120630319/0800</p>
 							<p>ID: hamajse</p>
 						</div>
@@ -152,7 +152,7 @@
 				<div class="col">
 					<p>Kostel Nanebevzetí Panny Marie v&nbsp;Číhošti je otevřený v&nbsp;době bohoslužeb nebo po předchozí domluvě.<br>Za podobných podmínek je přístupná i&nbsp;výstava o&nbsp;životě P.&nbsp;Josefa Toufara v&nbsp;budově místní fary.<br>
 					<br>
-					Za&nbsp;příznivého počasí během <b>července a srpna 2025</b> budou kostel i&nbsp;fara přístupné po celý den.<br>
+					Za&nbsp;příznivého počasí během <b>července a srpna 2026</b> budou kostel i&nbsp;fara přístupné po celý den.<br>
 					<br>
 					Každou druhou sobotu v&nbsp;měsíci je <b>smírná pobožnost</b>.<br>
 					<span class="cihost-casy">8.45 hod.</span>— modlitba růžence<br>
@@ -194,9 +194,20 @@
 		<div class="container">
 			<h2>Pořad bohoslužeb</h2>
 			<div class="sec-sub-title text-center">
-				<p>Rozpis bohoslužeb a dalších sdělení pro aktuální týden vložen <span id="jDatumOhlasek" style="font-weight:600;"><?php include('./datum_ohlasek.inc'); ?></span>.<br>
-				<a href="./ohlasky.pdf?t=<?php echo filemtime('./ohlasky.pdf'); ?>">
-					<img src="./ohlasky.webp?t=<?php echo filemtime('./ohlasky.webp'); ?>" alt="Aktuální ohlášky" style="width:100%;">
+				<p>Rozpis bohoslužeb a dalších sdělení pro aktuální týden vložen <span id="jDatumOhlasek" style="font-weight:600;">
+					<?php 
+						/* Datum vložení ohlášek — automaticky podle poslední změny ohlasky.pdf */
+						$mesice = [1 => 'ledna', 'února', 'března', 'dubna', 'května', 'června', 'července', 'srpna', 'září', 'října', 'listopadu', 'prosince'];
+						$soubor = __DIR__ . '/ohlasky.pdf';
+						if (is_file($soubor)) {
+							$t = filemtime($soubor);
+							echo date('j.', $t) . '&nbsp;' . $mesice[(int) date('n', $t)] . '&nbsp;' . date('Y', $t);
+						} else {
+							echo 'nějak špatně';
+						}
+					?></span>.<br>
+				<a href="./ohlasky.pdf?t=<?php echo $t ?? 0; ?>">
+					<img src="./ohlasky.webp?t=<?php echo @filemtime(__DIR__ . '/ohlasky.webp') ?: 0; ?>" alt="Aktuální ohlášky" style="width:100%;">
 				</a>
 				</p>
 			</div>

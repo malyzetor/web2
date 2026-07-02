@@ -194,9 +194,20 @@
 		<div class="container">
 			<h2>Pořad bohoslužeb</h2>
 			<div class="sec-sub-title text-center">
-				<p>Rozpis bohoslužeb a dalších sdělení pro aktuální týden vložen <span id="jDatumOhlasek" style="font-weight:600;"><?php include('./datum_ohlasek.inc'); ?></span>.<br>
-				<a href="./ohlasky.pdf?t=<?php echo filemtime('./ohlasky.pdf'); ?>">
-					<img src="./ohlasky.webp?t=<?php echo filemtime('./ohlasky.webp'); ?>" alt="Aktuální ohlášky" style="width:100%;">
+				<p>Rozpis bohoslužeb a dalších sdělení pro aktuální týden vložen <span id="jDatumOhlasek" style="font-weight:600;">
+					<?php 
+						/* Datum vložení ohlášek — automaticky podle poslední změny ohlasky.pdf */
+						$mesice = [1 => 'ledna', 'února', 'března', 'dubna', 'května', 'června', 'července', 'srpna', 'září', 'října', 'listopadu', 'prosince'];
+						$soubor = __DIR__ . '/ohlasky.pdf';
+						if (is_file($soubor)) {
+							$t = filemtime($soubor);
+							echo date('j.', $t) . '&nbsp;' . $mesice[(int) date('n', $t)] . '&nbsp;' . date('Y', $t);
+						} else {
+							echo 'nějak špatně';
+						}
+					?></span>.<br>
+				<a href="./ohlasky.pdf?t=<?php echo $t ?? 0; ?>">
+					<img src="./ohlasky.webp?t=<?php echo @filemtime(__DIR__ . '/ohlasky.webp') ?: 0; ?>" alt="Aktuální ohlášky" style="width:100%;">
 				</a>
 				</p>
 			</div>

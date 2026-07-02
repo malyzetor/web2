@@ -10,22 +10,29 @@
 	<meta name="description" content="Římskokatolická farnost Světlá nad Sázavou">
 	<meta name="keywords" content="parish, christian, catholic, church">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name=”robots” content="noindex, nofollow">
+	<meta name="robots" content="noindex, nofollow">
 	<link rel="stylesheet" href="css/jag4.css">
+	<style>
+	/* Na této stránce je jen odkaz Zpět — menu zobrazit vždy */
+	@media (max-width: 767px) {
+		#nav-toggle { display: none; }
+		#mainNavbar {
+			display: flex;
+			position: static;
+			flex-direction: row;
+			background: none;
+			padding-bottom: 0;
+		}
+		#mainNavbar > ul { flex-direction: row; width: auto; }
+		#mainNavbar > ul > li > a { border-bottom: 0; }
+	}
+</style>
 </head>
 
 <body id="body">
 
 		<header id="navigation">
 		<div class="container">
-
-			<!-- Hamburger (viditelný jen na mobilu) -->
-			<button id="nav-toggle" aria-controls="mainNavbar" aria-expanded="false" aria-label="Otevřít menu">
-				<span class="sr-only">Otevřít menu</span>
-				<img src="img/zelva-1.svg" alt="🐢" aria-hidden="true" style="height:20px; width:15px;">
-			</button>
-
-			<!-- Hlavní navigace -->
 			<nav id="mainNavbar" aria-label="Hlavní navigace">
 				<ul>
 					<li>
@@ -33,11 +40,8 @@
 					</li>
 				</ul>
 			</nav>
-
 		</div>
 	</header>
-
-
 
 	<section id="karantena" class="features" style="background-color:#fafaf2;">
 		<div class="container" style="margin-top: auto; margin-bottom: auto;">
@@ -54,8 +58,8 @@
                             
 						<br />
 						<br />
-						<p>Členové PRF: <a href = "mailto: svetla@farnost.cz">Pavel&nbsp;Jäger</a>, <a href = "mailto: subela@seznam.cz">Květoslava&nbsp;Mühlfaitová</a>,
-						<a href = "mailto: kovandovaivana@seznam.cz">Ivana&nbsp;Kovandová</a>, <a href = "mailto: rabouchalova@centrum.cz">Radka&nbsp;Bouchalová</a>, <a href = "mailto: praskovm@seznam.cz">Marie&nbsp;Prášková&nbsp;(SnS)</a>, <a href = "mailto: prasek@pwb.cz">Václav&nbsp;Prášek</a></p>
+						<p>Členové PRF: <a href = "mailto:svetla&commat;farnost.cz">Pavel&nbsp;Jäger</a>, <a href = "mailto:subela&commat;seznam.cz">Květoslava&nbsp;Mühlfaitová</a>,
+						<a href = "mailto:kovandovaivana&commat;seznam.cz">Ivana&nbsp;Kovandová</a>, <a href = "mailto:rabouchalova&commat;centrum.cz">Radka&nbsp;Bouchalová</a>, <a href = "mailto:praskovm&commat;seznam.cz">Marie&nbsp;Prášková&nbsp;(SnS)</a>, <a href = "mailto:prasek&commat;pwb.cz">Václav&nbsp;Prášek</a></p>
 
 						<br />
 						<br />
@@ -96,7 +100,6 @@
 							<span style="display:inline-block; width: 14em;">Třinácté setkání 3. 4. 2025</span> – <a href="PRF/2025_04_03-pozvanka.pdf">pozvánka</a>, <i>příloha</i>, <a href="PRF/2025_04_03-zapis.pdf">zápis</a><br />
 							<span style="display:inline-block; width: 14em;">Čtrnácté setkání 7. 5. 2025</span> – <a href="PRF/2025_05_07-pozvanka.pdf">pozvánka</a>, <i>příloha</i>, <a href="PRF/2025_05_07-zapis.pdf">zápis</a><br />
 							<span style="display:inline-block; width: 14em;">Patnácté setkání 5. 6. 2025</span> – <a href="PRF/2025_06_05-pozvanka.pdf">pozvánka</a>, <i>příloha</i>, <a href="PRF/2025_06_05-zapis.pdf">zápis</a><br />
-							<span style="display:inline-block; width: 14em;">Šestnácté setkání 4. 9. 2025</span> – <a href="PRF/2025_09_04-pozvanka.pdf">pozvánka</a>, <i>příloha</i>, <a href="PRF/2025_09_04-zapis.pdf">zápis</a><br />
 							<span style="display:inline-block; width: 14em;">Šestnácté setkání 4. 9. 2025</span> – <a href="PRF/2025_09_04-pozvanka.pdf">pozvánka</a>, <i>příloha</i>, <a href="PRF/2025_09_04-zapis.pdf">zápis</a><br />
 							<span style="display:inline-block; width: 14em;">Sedmnácté setkání 2. 10. 2025</span> – <a href="PRF/2025_10_02-pozvanka.pdf">pozvánka</a>, <a href="PRF/2025_10_02-priloha.pdf"><i>příloha</i></a>, <a href="PRF/2025_10_02-zapis.pdf">zápis</a><br />
 							<span style="display:inline-block; width: 14em;">Osmnácté setkání 6. 11. 2025</span> – <a href="PRF/2025_11_06-pozvanka.pdf">pozvánka</a>, <a href="PRF/2025_11_06-priloha.pdf"><i>příloha</i></a>, <a href="PRF/2025_11_06-zapis.pdf">zápis</a><br />
