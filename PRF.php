@@ -110,6 +110,8 @@
 							<span style="display:inline-block; width: 14em;">Čtvrté setkání 9. 4. 2026</span> – <a href="PRF/2026_04_09-pozvanka.pdf">pozvánka</a>, <i>příloha</i>, <a href="PRF/2026_04_09-zapis.pdf">zápis</a><br />
 							<span style="display:inline-block; width: 14em;">Páté setkání 14. 5. 2026</span> – <a href="PRF/2026_05_14-pozvanka.pdf">pozvánka</a>, <a href="PRF/2026_05_14-priloha.pdf"><i>příloha</i></a>, <a href="PRF/2026_05_14-zapis.pdf">zápis</a><br />
 							<span style="display:inline-block; width: 14em;">Šesté setkání 4. 6. 2026</span> – <a href="PRF/2026_06_04-pozvanka.pdf">pozvánka</a>, <i>příloha</i>, <a href="PRF/2026_06_04-zapis.pdf">zápis</a><br />
+							<span style="display:inline-block; width: 14em;">Sedmé setkání 2. 9. 2026</span> – <a href="PRF/2026_09_02-pozvanka.pdf">pozvánka</a>, <i>příloha</i>, <a href="PRF/2026_09_02-zapis.pdf">zápis</a><br />
+							<span style="display:inline-block; width: 14em;">Osmé setkání 1. 10. 2026</span> – <a href="PRF/2026_10_01-pozvanka.pdf">pozvánka</a>, <i>příloha</i>, zápis<br />
 						</p>
 				</div>
 				</div>
