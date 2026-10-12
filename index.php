@@ -214,6 +214,13 @@
 		</div>
 	</section>
 
+	<section id="Plakaty" class="features">
+		<div class="container">
+			<img src="./img/2026_11_07-plakat.webp" alt="Setkání nad fotografiem" style="width:100%;">
+			<img src="./img/2026_11_17-plakat.webp" alt="Díky za svobodu" style="width:100%;">
+		</div>
+	</section>
+
 	<!-- KONTAKT -->
 	<section id="Kontakt" class="features">
 		<div class="container">
