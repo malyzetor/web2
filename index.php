@@ -47,7 +47,24 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="icon" href="./favicon.ico" sizes="any">
 	<link rel="stylesheet" href="css/jag4.css">
-	
+	<?php
+		$host = strtolower(explode(':', $_SERVER['HTTP_HOST'] ?? '', 2)[0]);
+		$jeCihost = $host === 'cihost.farnost.cz';
+	?>
+	<?php if ($jeCihost): ?>
+		<style>
+			@font-face {
+    			font-family: "Bricolage";
+    			src: url("fonts/BricolageGrotesque-Bold.woff2") format("woff2");
+    			font-display: swap;
+			}
+		</style>
+	<?php endif; ?>
+	<style>
+		@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@400;800&display=swap');
+		@media (width < 768px) { #Advent > .container {	width: 100%; padding-inline: 0; }
+}
+	</style>
 </head>
 
 <body id="body">
@@ -65,6 +82,7 @@
 			<!-- Hlavní navigace -->
 			<nav id="mainNavbar" aria-label="Hlavní navigace">
 				<ul>
+					<li><a href="#Advent">🕯 Advent</a></li>
 					<li>
 						<a href="vespers/2026_04_10.html">
 							<img src="img/apokalypsa.svg" alt="Hodinová apokalypsa" style="width:1.5em;">
@@ -94,8 +112,8 @@
 	</header>
 
 	<!-- ÚVOD -->
-	<div id="jHD"><?php $host = strtolower($_SERVER['HTTP_HOST'] ?? ''); if (str_contains($host, 'cihost.farnost.cz')) { include('./2026-Cihost.inc'); } else { include('./HD-2026-06-mezi.inc'); }  ?></div>
-
+	<div id="jHD"><?php if ($jeCihost) { include('./2026-Cihost-3.inc'); } else { include('./HD-2026-12-advent_vanoce.inc'); } ?></div>
+	
 	<!-- FARNOSTI -->
 	<section id="Farnosti" class="features">
 		<div class="container">
@@ -214,12 +232,11 @@
 		</div>
 	</section>
 
-	<section id="Plakaty" class="features">
-		<div class="container">
-			<img src="./img/2026_11_07-plakat.webp" alt="Setkání nad fotografiem" style="width:100%;">
-			<img src="./img/2026_11_17-plakat.webp" alt="Díky za svobodu" style="width:100%;">
-		</div>
-	</section>
+<section id="Advent" class="features">
+  <div class="container">
+    <?php include('./2026-12-advent_ve_Svetle.inc'); ?>
+  </div>
+</section>
 
 	<!-- KONTAKT -->
 	<section id="Kontakt" class="features">
