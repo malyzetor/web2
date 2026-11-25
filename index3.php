@@ -124,8 +124,7 @@
 	                </article>
 	                <article>
 	                    <h3>Římskokatolická farnost Číhošť</h3>
-	                    <p>IČO: 60127554<br>účet: 1473464379/0800</p>
-	                    <p>ID: 88dikqn</p>
+	                    <p>IČO: 60127554<br>účet: 1473464379/0800<br>ID: 88dikqn</p>
 	                </article>
 	            </div>
 	        </div>
