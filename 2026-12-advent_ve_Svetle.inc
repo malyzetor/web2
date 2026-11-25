@@ -92,7 +92,7 @@
           </p>
 
           <p style="margin: 0; font: inherit; color: inherit;">
-            <span style="display: block;box-sizing: border-box;width: 60cqw;padding: 0.2em 0 0.2em 1em;background-color: #fbc555;color: #3e7058ff;font-weight: 800;">Betlém</span>
+            <span style="display: block;box-sizing: border-box;width: 68cqw;padding: 0.2em 0 0.2em 1em;background-color: #fbc555;color: #3e7058ff;font-weight: 800;">Betlém</span>
             <span style="display: block; margin-top: 0.25em; padding-left: 1em;">
               24. prosince od 13 do 16 hodin<br>
               25., 26., 27., 31. prosince a&nbsp;1. ledna od 16 do 18 hodin

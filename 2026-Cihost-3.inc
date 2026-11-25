@@ -2,7 +2,7 @@
   <img src="img/2026-11-Cihost-horni.webp" alt="Krov kostela" style="display: block; width: 100%; height: auto;">
   <img src="img/2026-11-Cihost-obnova_strechy.svg" alt="Oprava střechy kostela číhošťského kostela" style="position: absolute; inset: 0; width: 100%; height: 100%; display: block; pointer-events: none;">
 </div>
-<div style="background-color: #000000; color: white; padding: 1em; display: grid; grid-template-columns: minmax(0, 7fr) minmax(0, 3fr); align-items: start; text-align: left; font-family: 'Bricolage'; font-size: 1.2em; line-height: 1.4em;">
+<div style="background-color: #000000; color: white; padding: 1em; display: grid; grid-template-columns: minmax(0, 7fr) minmax(0, 3fr); align-items: start; text-align: left; font-family: 'Bricolage Grotesque'; font-size: 1.2em; line-height: 1.4em;">
   <div style="padding-right: 1em; overflow-wrap: anywhere;">
     <div style="padding-bottom: 1em;">Je nutná výměna či doplnění <span style="color:red;">cca třetiny prvků</span>.</div>
     <div style="padding-bottom: 1em;">Středověký krov kostela Nanebevzetí Panny Marie v&nbsp;Číhošti je již na konci své životnosti. Gotický krov nad lodí je dendrochronologicky datován do roku 1460, nad presbytářem do roku 1411. Přečkal husitské nepokoje i&nbsp;další bouřlivá staletí a&nbsp;s&nbsp;drobnými opravami se zachoval až dodnes.</div>

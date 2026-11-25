@@ -1,0 +1,397 @@
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&display=swap');
+
+:root {
+    --nav-height: 50px;
+    --container-width: 100%;
+    --advent-padding: 0px;
+    --section-spacing: clamp(2.75rem, 6vw, 5.5rem);
+    --paper: #fff;
+    --pale: #f4f7f9;
+    --heading: #355545;
+    --gold: #f2c45a;
+    --text: #000;
+    --nav-background: 16 22 16;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: "Bricolage Grotesque", sans-serif;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    html { scroll-behavior: smooth; }
+}
+
+body {
+    margin: 0;
+    color: var(--text);
+    background: var(--paper);
+    font-size: 18px;
+    line-height: 1.3em;
+}
+
+main > [id] {
+    scroll-margin-block-start: var(--nav-height);
+}
+
+b, strong {
+    font-weight: 600;
+}
+
+p {
+    margin: 0;
+    font-weight: 400;
+}
+
+img {
+    border: 0;
+    vertical-align: middle;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+:focus-visible {
+    outline: 2px solid currentColor;
+    outline-offset: 3px;
+}
+
+/* Rozměry původního menu a adventního plakátu. */
+:is(#navigation, #Advent) > .container {
+    inline-size: var(--container-width);
+    margin-inline: auto;
+    padding-inline: 15px;
+}
+
+#Advent > .container {
+    padding-inline: var(--advent-padding);
+}
+
+@media (min-width: 768px) {
+    :root {
+        --container-width: 750px;
+        --advent-padding: 15px;
+    }
+}
+
+@media (min-width: 992px) {
+    :root { --container-width: 970px; }
+}
+
+@media (min-width: 1200px) {
+    :root { --container-width: 1170px; }
+}
+
+.hero-text, .section > .content {
+    inline-size: calc(var(--container-width) - 2 * var(--advent-padding));
+}
+
+/* Navigace */
+#navigation {
+    position: fixed;
+    inset: 0 0 auto;
+    z-index: 10;
+    block-size: var(--nav-height);
+    background: rgb(16 22 16 / .9);
+}
+
+#navigation > .container {
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    block-size: 100%;
+}
+
+#nav-toggle {
+    display: none;
+    padding: 8px 10px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    background: none;
+    color: var(--gold);
+    line-height: 0;
+    cursor: pointer;
+}
+
+#nav-toggle img {
+    display: block;
+    transition: opacity .2s ease;
+}
+
+#nav-toggle[aria-expanded='true'] img {
+    opacity: .6;
+}
+
+.sr-only {
+    position: absolute;
+    inline-size: 1px;
+    block-size: 1px;
+    margin: -1px;
+    overflow: hidden;
+    clip-path: inset(50%);
+}
+
+#mainNavbar ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#mainNavbar > ul {
+    display: flex;
+    align-items: center;
+}
+
+#mainNavbar a {
+    display: block;
+    color: var(--gold);
+    font-size: 15px;
+    white-space: nowrap;
+    transition: color .3s ease-in;
+}
+
+#mainNavbar a:is(:hover, :focus) {
+    color: var(--paper);
+}
+
+#mainNavbar > ul > li > a {
+    padding: 15px 12px;
+    line-height: 20px;
+}
+
+.dropdown {
+    position: relative;
+}
+
+.caret {
+    display: inline-block;
+    margin-inline-start: 3px;
+    border: 4px solid transparent;
+    border-block-start-color: currentColor;
+    border-block-end: 0;
+    vertical-align: middle;
+}
+
+#mainNavbar .dropdown-menu {
+    position: absolute;
+    inset-block-start: calc(100% + 2px);
+    inset-inline-end: 0;
+    display: none;
+    min-inline-size: 200px;
+    padding-block: 5px;
+    border: 1px solid rgb(255 255 255 / .1);
+    border-radius: 4px;
+    background: rgb(16 22 16 / .95);
+    box-shadow: 0 6px 16px rgb(0 0 0 / .35);
+}
+
+#mainNavbar .dropdown.open > .dropdown-menu {
+    display: block;
+}
+
+.dropdown-menu a {
+    padding: 8px 20px;
+}
+
+.dropdown-menu a:is(:hover, :focus) {
+    background: rgb(255 255 255 / .08);
+}
+
+@media (width < 768px) {
+    #nav-toggle { display: block; }
+
+    #mainNavbar {
+        position: absolute;
+        inset: var(--nav-height) 0 auto;
+        display: none;
+        padding-block-end: .5rem;
+        background: rgb(16 22 16 / .97);
+    }
+
+    #mainNavbar.open { display: block; }
+
+    #mainNavbar > ul { display: block; }
+
+    #mainNavbar > ul > li > a {
+        padding: 10px 20px;
+        border-block-end: 1px solid rgb(255 255 255 / .05);
+    }
+
+    #mainNavbar .dropdown-menu {
+        position: static;
+        margin-inline-start: 1.5rem;
+        border: 0;
+        border-inline-start: 2px solid var(--gold);
+        border-radius: 0;
+        box-shadow: none;
+        background: none;
+    }
+
+    .dropdown-menu a { padding: 7px 16px; }
+}
+
+/* Úvodní obraz a heslo */
+.hero {
+    --shade: linear-gradient(to top, rgb(24 15 10 / .94), rgb(24 15 10 / .7) 34%, transparent 75%);
+    display: grid;
+    place-items: end center;
+    min-block-size: 100vh;
+    min-block-size: 100svh;
+    padding-block: calc(var(--nav-height) + 2rem) clamp(2rem, 6vh, 5rem);
+    background-color: #281a12;
+    background-image: var(--shade), url('../img/HD-2026-12-advent_vanoce.webp');
+    background-position: center top;
+    background-size: cover;
+    color: #fffaf2;
+    text-align: start;
+}
+
+.hero-text {
+    line-height: 1.42;
+    text-shadow: 0 1px 3px rgb(16 9 5 / .65);
+}
+
+.hero h1 {
+    margin: 0 0 .7rem;
+    font-size: clamp(2.25rem, 5vw, 4.1rem);
+    font-weight: 400;
+    line-height: 1.04;
+}
+
+.hero p {
+    max-inline-size: 59ch;
+    color: inherit;
+    font-size: clamp(1rem, 1.55vw, 1.2rem);
+}
+
+.hero .hero-source {
+    margin-block-start: .65rem;
+    font-size: .9rem;
+}
+
+@media (width < 40rem) {
+    .hero {
+        --shade: linear-gradient(to top, rgb(24 15 10 / .96), rgb(24 15 10 / .76) 35%, transparent 80%);
+    }
+
+    .hero-text br { display: none; }
+}
+
+/* Textové sekce */
+.section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-block-size: 100vh;
+    min-block-size: 100svh;
+    padding-block: var(--section-spacing);
+    background: var(--pale);
+    color: var(--text);
+    line-height: 1.55;
+    text-align: start;
+}
+
+:is(#Duchovni, #Bohosluzby, #Kontakt) {
+    background: var(--paper);
+}
+
+.section h2 {
+    margin: 0 0 5rem;
+    color: var(--heading);
+    font-size: clamp(2rem, 4vw, 5rem);
+    font-weight: 900;
+    line-height: 1.12;
+}
+
+.section h3 {
+    margin: 0 0 .4rem;
+    font-size: clamp(1.15rem, 2.35vw, 1.45rem);
+    font-weight: 600;
+    line-height: 1.22;
+}
+
+.section p {
+    color: inherit;
+}
+
+.section p + p {
+    margin-block-start: .75rem;
+}
+
+.parish-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 26rem), 1fr));
+    gap: 1.75rem clamp(1.5rem, 4vw, 3rem);
+}
+
+.times {
+    margin: .5rem 0 0;
+    font-variant-numeric: tabular-nums;
+}
+
+.times > div {
+    display: grid;
+    grid-template-columns: 7rem 1fr;
+    gap: .4rem;
+}
+
+.times dd {
+    margin: 0;
+}
+
+.toufar-links {
+    display: grid;
+    gap: 1.35rem;
+    margin-block-start: 1.55rem;
+}
+
+.linked-note {
+    display: flex;
+    gap: .9rem;
+    align-items: start;
+}
+
+.linked-note > a {
+    display: block;
+    flex: 0 0 3.35rem;
+    color: var(--heading);
+}
+
+.linked-note img {
+    max-inline-size: 100%;
+    block-size: 3rem;
+    object-fit: contain;
+    object-position: left center;
+}
+
+.notices {
+    display: block;
+    margin-block-start: .9rem;
+    color: var(--heading);
+}
+
+.notices img {
+    display: block;
+    inline-size: 100%;
+    block-size: auto;
+}
+
+.section address {
+    font-style: normal;
+    overflow-wrap: anywhere;
+}
+
+/* Původní rozvržení Adventu. */
+#Advent {
+    display: flex;
+    align-items: center;
+    min-block-size: 100vh;
+    padding-block: 70px;
+    background: var(--pale);
+}
