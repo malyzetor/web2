@@ -39,12 +39,12 @@
             </tr>
             <tr>
               <td style="padding: 0 0.8cqw 0.7cqw 0;">18:00</td>
-              <td style="padding: 0 0 0.7cqw;">Adventní koncert (Roháči) <a style="color: var(--gold);" href="https://www.kyticesvetla.cz/akce/49407">🖻</a></td>
+              <td style="padding: 0 0 0.7cqw;"><a href="https://www.kyticesvetla.cz/akce/49407">Adventní koncert (Roháči) <span style="color: var(--gold);">🖻</span></a></td>
             </tr>
             <tr>
               <td style="padding: 0 0.8cqw 0.7cqw 0;font-weight: 800;">sobota 12.&nbsp;prosince</td>
               <td style="padding: 0 0.8cqw 0.7cqw 0;">18:00</td>
-              <td style="padding: 0 0 0.7cqw;">Koncert Rorate cæli (Stanislav Mühlfait) <a style="color: var(--gold);" href="https://www.kyticesvetla.cz/akce/45762">🖻</a></td>
+              <td style="padding: 0 0 0.7cqw;"><a href="https://www.kyticesvetla.cz/akce/45762">Koncert Rorate cæli (Stanislav Mühlfait) <span style="color: var(--gold);">🖻</span></a></td>
             </tr>
             <tr>
               <td style="padding: 0 0.8cqw 0.7cqw 0;font-weight: 800;">neděle 13.&nbsp;prosince</td>
@@ -54,8 +54,7 @@
             <tr>
               <td style="padding: 0 0.8cqw 0.7cqw 0;font-weight: 800;">sobota 19.&nbsp;prosince</td>
               <td style="padding: 0 0.8cqw 0.7cqw 0;">18:00</td>
-              <td style="padding: 0 0 0.7cqw;">
-                Duchovní zamyšlení u&nbsp;adventního věnce <a style="color: var(--gold);" href="pdf/2026_12_19-adventni_zamysleni-2.pdf">🖻</a>
+              <td style="padding: 0 0 0.7cqw;"><a href="pdf/2026_12_19-adventni_zamysleni-2.pdf">Duchovní zamyšlení u&nbsp;adventního věnce <span style="color: var(--gold);">🖻</span></a>
                 <span style="display: block; font-style: italic;">
                   Čtyři zastavení na cestě k&nbsp;Betlému
                 </span>
@@ -64,7 +63,7 @@
             <tr>
               <td style="padding: 0 0.8cqw 0.7cqw 0;font-weight: 800;">neděle 20.&nbsp;prosince</td>
               <td style="padding: 0 0.8cqw 0.7cqw 0;">18:00</td>
-              <td style="padding: 0 0 0.7cqw;">Adventní koncert (Aneta Prášková) <a style="color: var(--gold);" href="https://www.kyticesvetla.cz/akce/50606">🖻</a></td>
+              <td style="padding: 0 0 0.7cqw;"><a href="https://www.kyticesvetla.cz/akce/50606">Adventní koncert (Aneta Prášková) <span style="color: var(--gold);">🖻</span></a></td>
             </tr>
             <tr>
               <td style="padding: 0 0.8cqw 0.7cqw 0;font-weight: 800;">neděle 27.&nbsp;prosince</td>
@@ -74,11 +73,11 @@
             <tr>
               <td rowspan="2" style="padding: 0 0.8cqw 0 0;font-weight: 800;">pondělí 28.&nbsp;prosince</td>
               <td style="padding: 0 0.8cqw 0.25cqw 0; white-space: nowrap;">16 a 17</td>
-              <td style="padding: 0 0 0.25cqw;">Živý betlém <a style="color: var(--gold);" href="https://turistika.kyticesvetla.cz/akce/54412">🖻</a></td>
+              <td style="padding: 0 0 0.25cqw;"><a href="https://turistika.kyticesvetla.cz/akce/54412">Živý betlém <span style="color: var(--gold);">🖻</span></a></td>
             </tr>
             <tr>
               <td style="padding: 0 0.8cqw 0 0;">18:00</td>
-              <td style="padding: 0;">Vánoční zpívání s&nbsp;kapelou NaPrášky <a style="color: var(--gold);" href="https://turistika.kyticesvetla.cz/akce/54412">🖻</a></td>
+              <td style="padding: 0;"><a href="https://turistika.kyticesvetla.cz/akce/54412">Vánoční zpívání s&nbsp;kapelou NaPrášky <span style="color: var(--gold);">🖻</span></a></td>
             </tr>
           </tbody>
         </table>

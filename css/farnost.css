@@ -91,6 +91,12 @@ a {
     inline-size: calc(var(--container-width) - 2 * var(--advent-padding));
 }
 
+@media (width < 768px) {
+    .section > .content {
+        padding-inline: 12px;
+    }
+}
+
 /* Navigace */
 #navigation {
     position: fixed;
